@@ -3,6 +3,8 @@
 **Zameranie:** zloženie a nutričné parametre pre mačku s citlivým žalúdkom, bez zubov, rizikom bezoárov a potrebou podpory trávenia — plus nutričné hodnotenie a odporúčania pre dve konkrétne mačky (jedna má priberať, druhá chudnúť).
 **Benchmark:** Sheba Fresh & Fine 50 g · **Dátum:** júl 2026 · **v3 (prepracované)**
 
+> **⚠️ Čo toto je a čo nie je.** Ide o **osobný trhový/nutričný prieskum vytvorený a priebežne overovaný s pomocou AI (Claude, Anthropic)** — dáta boli sťahované zo stránok výrobcov, e-shopov a niekoľkých vedeckých/regulačných zdrojov (zoznam v [časti 13](#13)), analyzované a niekoľkokrát opravené počas tvorby (opravy sú v texte transparentne vyznačené, nič sa neschovávalo). **Nie je to:** veterinárne ani odborné výživové odporúčanie, nezávislý laboratórny test, ani sponzorovaný/platený obsah — autor nemá väzbu na žiadnu spomínanú značku. Nutričná známka A–E v [časti 10](#10) je **vlastný, neoficiálny hodnotiaci rámec** (pre krmivo pre zvieratá žiadny oficiálny "Nutri-Score" neexistuje). Ceny, akcie a zloženia zodpovedajú stavu **k júlu 2026** a menia sa — pred nákupom si ich overte priamo u predajcu/výrobcu. Pri zdravotných problémoch (vracanie, bezoáre, chudnutie/priberanie) sa vždy poraďte s veterinárom. Interaktívne (zoraditeľné) verzie hlavných tabuliek sú v [`index.html`](./index.html).
+
 ---
 
 ## Obsah
@@ -274,7 +276,7 @@ Priamo z mojacalibra.sk (záložka "Zloženie" na každej produktovej podstránk
 
 *Poznámka:* Calibra Premium Kitten Salmon (100 g, [4.12](#4)) je **iná, samostatná línia** ("Premium Line", nie "Life") s odlišným zložením — vyššia vláknina (1 % vs 0,4 %), nižší taurín (450 vs 520 mg), bez škrobu. Aktuálna cena priamo z mojacalibra.sk: **7,00 €/kg** (predtým zaznamenaných 7,16 € — cena osciluje podľa aktuálnej akcie).
 
-### 4.17 Dein Bestes Sensitive s kuracím mäsom v želé (dm, 100 g) — ⭐ nová, cielená na presne váš prípad
+### 4.16 Dein Bestes Sensitive s kuracím mäsom v želé (dm, 100 g) — ⭐ nová, cielená na presne váš prípad
 
 Dein Bestes je vlastná značka drogérie **dm** (dostupná aj na mojadm.sk), vyrábaná zmluvne pre dm. Väčšina radu je bežná budget kvalita (podľa nezávislých nemeckých testov má mäsový podiel len 35–65 % vrát. vývaru a niektoré príchute obsahujú obilniny), no rad **"Sensitive"** je iný — priamo cielený na trávenie a hmotnosť, vyvinutý so spoluprácou veterinárov.
 
@@ -290,9 +292,9 @@ Dein Bestes je vlastná značka drogérie **dm** (dostupná aj na mojadm.sk), vy
 
 *Poznámka:* ostatné príchute Dein Bestes (napr. multipack "Huhn, Lachs, Kalb, Rind in Sauce" 12×100 g za 3,65 €, t.j. **3,05 €/kg** — najlacnejšia kapsička v celom prieskume) neboli plnohodnotne overené (stránka dm.de sa nedala priamo fetchnúť, je klientsky vykresľovaná) a podľa nezávislých nemeckých recenzií môžu obsahovať obilniny a majú nešpecifikovaný podiel svalového mäsa — preto ich neuvádzame ako odporúčanie, len ako kontext ceny.
 
-### 4.16 "Shelma Cat Mousse" — ⚠️ nepotvrdené v aktuálnom oficiálnom sortimente
+### 4.17 "Shelma Cat Mousse" — ⚠️ nepotvrdené v aktuálnom oficiálnom sortimente
 - V predchádzajúcej verzii tohto dokumentu bol uvedený samostatný produkt "Shelma Cat Mousse" s odlišnými analytickými hodnotami (bielkoviny 10,5 % · tuk 6,5 % · popol 3,0 % · vláknina 0,1 %) prevzatými z menšieho e-shopu (pethouse.sk).
-- Po priamej kontrole oficiálnej stránky výrobcu [shelma.eu/cz/kapsicky](https://www.shelma.eu/cz/kapsicky) sa **tento produkt v aktuálnom sortimente nenachádza** — Shelma aktuálne ponúka kapsičky výhradne v líniách "v omáčce" a "v želé" (dusené filetky, pozri [4.13](#4-13)), nie mousse. Môže ísť o starší/vyradený produkt alebo o nepresné označenie na e-shope.
+- Po priamej kontrole oficiálnej stránky výrobcu [shelma.eu/cz/kapsicky](https://www.shelma.eu/cz/kapsicky) sa **tento produkt v aktuálnom sortimente nenachádza** — Shelma aktuálne ponúka kapsičky výhradne v líniách "v omáčce" a "v želé" (dusené filetky, pozri [4.13](#4)), nie mousse. Môže ísť o starší/vyradený produkt alebo o nepresné označenie na e-shope.
 - **Odporúčanie:** tieto dáta nepoužívať na porovnanie, kým sa nepotvrdia priamo od výrobcu; v tabuľkách nižšie je preto tento riadok označený ako neoverený.
 
 ### 4.18 Royal Canin Hairball Care Gravy (36×85 g) — ⚠️ meno sľubuje viac než zloženie
@@ -593,7 +595,7 @@ Percentá sú prepočítané **na sušinu (DM)**: `hodnota na sušinu (%) = hodn
 Hľadajte kapsičky s **vyššou kalorickou denzitou a vyšším tukom**, ideálne s dobrou nutričnou známkou:
 - **Animonda Carny Adult** (B, ~100 kcal/100g, tuk 6,5 %) – najvyššia kalorická denzita medzi kvalitne hodnotenými produktmi, čisto mäsité.
 - **Catz Finefood Mousse** (B, 95–101 kcal/100g, tuk 5,9–6,5 %).
-- **Calibra Cat Premium Kitten** (A, odhad 85–95 kcal/100g) – kitten receptúry sú spravidla energeticky bohatšie; keďže táto mačka nie je mačiatko, sledujte celkovú dennú dávku.
+- **Calibra Cat Premium Kitten** (B, odhad 85–95 kcal/100g) – kitten receptúry sú spravidla energeticky bohatšie; keďže táto mačka nie je mačiatko, sledujte celkovú dennú dávku. *(Pozn.: pôvodne uvedené ako A — po korekcii vlákninového kritéria v [časti 10](#10) ide správne o B; ak hľadáte najvyššiu známku, Calibra Cat Life má rovnakú cenovú kategóriu a vyššiu známku A.)*
 - Vyhýbajte sa Whiskas a Fine Cat – vysoká vlhkosť/nízka energia zasýti objemom bez dostatku energie na priberanie.
 
 ### Mačka #2 (5,5–6 kg, potrebuje schudnúť)
@@ -612,7 +614,7 @@ Keďže je **prevažne na granuliach**, najväčší vplyv na jej hmotnosť bude
 
 **Najlepší pomer cena/výkon s reálnym funkčným prínosom:**
 1. **Calibra Cat Life** (celý sortiment, 8 príchutí) – po oprave bodovania a overení zloženia priamo z výrobných listov ide o najlepší pomer kvalita/cena v prieskume: známka **A** (11/12), potvrdený inulín 0,4 % vo všetkých príchutiach, multipack 9,58 €/kg.
-2. **Calibra Cat Premium Line** (6 príchutí) – známka B (vyššia vláknina 1 %, ale bez pomenovaného prebiotika pri Kitten/Adult variantoch; Sterilised varianty majú explicitný inulín), o niečo drahšie (7,00 €/kg).
+2. **Calibra Cat Premium Line** (8 príchutí: 2× Kitten, 4× Adult, 2× Sterilised) – známka B (vyššia vláknina 1 %, ale bez pomenovaného prebiotika pri Kitten/Adult variantoch; Sterilised varianty majú explicitný inulín), o niečo drahšie (7,00 €/kg).
 3. **Purina Gourmet Gold Mousse** – najlacnejšia skutočná mousse (7,8–9,4 €/kg), ale bez vlákniny.
 4. **Shelma bezobilné dušené filetky** – najlacnejšia funkčná bezobilninová voľba (5,26 €/kg) s inulínom.
 5. **Dein Bestes Sensitive** (dm) – najlacnejšia cielene formulovaná voľba (4,50 €/kg), vyvinutá s veterinármi na trávenie a hmotnosť, aj keď bez deklarovanej prebiotickej vlákniny a s nízkym podielom pomenovaného mäsa (15 %).
@@ -629,7 +631,7 @@ Keďže je **prevažne na granuliach**, najväčší vplyv na jej hmotnosť bude
 Odporúčame zavádzať zmenu krmiva postupne (7–10 dní, podľa AAHA guidelines u mačiek pokojne aj dlhšie) a pri pretrvávajúcom vracaní, zápche alebo podozrení na bezoár konzultovať veterinára — tento dokument je trhový/nutričný prieskum, nie veterinárne odporúčanie na mieru.
 
 **Doplňujúci pohľad z odborno-komerčných zdrojov (Tier 2 — berte ako orientačné, nie nezávislé):**
-- **PetMD** (redakčný obsah kontrolovaný veterinármi) vo svojom prehľade najlepších mokrých krmív opakovane zdôrazňuje rovnaké dva faktory, ktoré vyšli aj z tohto prieskumu: vysoký podiel skutočného mäsa/ryby na prvom mieste zloženia a absenciu pridaného cukru — v súlade s tým, prečo produkty ako Animonda Carny a Calibra Premium Kitten skórovali v [časti 10](#10) najlepšie.
+- **PetMD** (redakčný obsah kontrolovaný veterinármi) vo svojom prehľade najlepších mokrých krmív opakovane zdôrazňuje rovnaké dva faktory, ktoré vyšli aj z tohto prieskumu: vysoký podiel skutočného mäsa/ryby na prvom mieste zloženia a absenciu pridaného cukru — v súlade s tým, prečo produkty ako Animonda Carny a Calibra Premium Kitten skórovali v [časti 10](#10) veľmi dobre (B) — hoci nie najlepšie: tam vedie Calibra Cat Life a Shelma so známkou A.
 - **Dr.Max Vetklub** pri mačkách s citlivým trávením odporúča prechod na krmivo postupne (7–10 dní) a uprednostnenie menších, častejších porcií pred jedným veľkým jedlom — relevantné najmä pre vašu mačku s podozrením na bezoáre/pomalší priechod.
 - **catinfo.org (Dr. Lisa Pierson, DVM)** dlhodobo presadzuje, že mokré krmivo je pre mačky vhodnejšie než granule najmä kvôli vyššiemu obsahu vody (mačky majú prirodzene nízky smäd) — relevantné pre vašu mačku #2, ktorá je aktuálne prevažne na granuliach a potrebuje schudnúť: presun aspoň časti jej príjmu na kapsičky (napr. Felix Tasty Shreds pre nízky tuk) môže popri diétnych granuliach pomôcť so sýtosťou pri nižšom kalorickom príjme. Ide však o názor jednej veterinárky na osobnom webe, nie o recenzovaný konsenzus — berte ako jeden hlas v diskusii, nie ako definitívne odporúčanie.
 
