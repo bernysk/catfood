@@ -453,57 +453,59 @@ Tri značky sme si overili priamo, keďže mohli byť relevantné pre citlivé t
 <a id="9"></a>
 ## 9. Porovnávacia tabuľka (všetky produkty, zoradené podľa ceny/kg)
 
-| Produkt | Balenie | Textúra | Bielk./Tuk/Vlák./Popol/Vlhk. (%) | Vláknina/prebiotiká | Cena/ks | **Cena/kg** | Kompletné? | Dostupnosť |
-|---|---|---|---|---|---|---|---|---|
-| Kitekat | 100 g | JK+obilniny | n/a | nie | n/a | ~3,5–4,5 € ⚠️ | áno | Zoohit |
-| **Fine Cat Kitten** *(kúpené)* | 100 g | JK, bez obilnín | 7,5/4,5/0,3/2/80 | nie | 0,377 € | **3,77 €** | áno | Alza ✅ |
-| Whiskas Classic | 85 g | JK+obilniny | 7,3/–/0,25/1,6/84,5 | nie | 0,33–0,55 € | ~3,9–6,5 € ⚠️ | áno | Zoohit, Alza |
-| **Dein Bestes Sensitive** | 100 g | JK/želé | 8/3/0,5/1,5/83 | žiadna | 0,45 € | **4,50 €** | áno | mojadm.sk ✅ |
-| Shelma dušené filetky | 85 g | JK/filety | 10/3,5/0,4/2,5/81 | inulín 0,4 % | 0,45 € | **5,26 €** | áno | Alza ✅ |
-| Concept for Life Kitten | 85 g | JK jemné | n/a | inulín | 0,43–0,51 € | 5,1–6,0 € | áno | Zoohit |
-| Sheba Fresh & Fine (benchmark) | 50 g | JK | 7,9–8/4,4–5/0,3/1,4–1,9/83–84 | nie | 0,208 € (akcia) | 4,17 € (akcia)/~6–7 € | áno | Zoohit |
-| Purina Gourmet Gold Mousse | 85 g | MO | 10,5/6,5/0,05/3,0/77,5 | nie | 0,66–0,74 € | 7,8–9,4 € | áno | Zoohit |
-| **Calibra Premium Kitten Salmon** *(kúpené)* | 100 g | JK, bez obilnín | 9,5/5/1,0/2,5/81 | vláknina 1 % (zdroj nemenovaný) | 0,716 € | **7,16 €** (aktuálne 7,00 €) | áno | Alza ✅, mojacalibra.sk ✅ |
-| Calibra Premium Kitten Turkey & Chicken | 100 g | JK | 9,5/5/1,0/2,5/81 | vláknina 1 % (nemenovaný) | 0,70 € | 7,00 € | áno | mojacalibra.sk ✅ |
-| Calibra Premium Adult Chicken & Beef | 100 g | JK | 9/4,5/1,0/3/82 | vláknina 1 % (nemenovaný) | 0,70 € | 7,00 € | áno | mojacalibra.sk ✅ |
-| Calibra Premium Adult Trout & Salmon | 100 g | JK | 9/4,5/1,0/3/82 | vláknina 1 % (nemenovaný) | 0,70 € | 7,00 € | áno | mojacalibra.sk ✅ |
-| Calibra Premium Adult Duck & Chicken | 100 g | JK | 9/4,5/1,0/3/82 | vláknina 1 % (nemenovaný) | 0,70 € | 7,00 € | áno | mojacalibra.sk ✅ |
-| Calibra Premium Adult Lamb & Poultry | 100 g | JK | 9/4,5/1,0/3/82 | vláknina 1 % (nemenovaný) | 0,70 € | 7,00 € | áno | mojacalibra.sk ✅ |
-| Calibra Premium Sterilised Liver | 100 g | JK | 8,5/3/1,0/2,5/82 | **inulín 0,4 %** | 0,70 € | 7,00 € | áno | mojacalibra.sk ✅ |
-| Calibra Premium Sterilised Salmon | 100 g | JK | 8,5/3/1,0/2,5/82 | **inulín 0,4 %** | 0,70 € | 7,00 € | áno | mojacalibra.sk ✅ |
-| *(Premium Kitten/Adult/Sterilised, multipack 12×100 g — rovnaká cena pre všetky 3)* | 1 200 g | JK | ako vyššie | – | 7,98 € | **6,65 €** | áno | mojacalibra.sk ✅ |
-| Calibra Cat Life Adult Turkey | 85 g | JK | 10/3,5/0,4/2,5/81 | inulín 0,4 % | 0,86 € | 10,12 € | áno | mojacalibra.sk ✅ |
-| Calibra Cat Life Adult Duck | 85 g | JK | 10/3,5/0,4/2,5/81 | inulín 0,4 % | 0,86 € | 10,12 € | áno | mojacalibra.sk ✅ |
-| Calibra Cat Life Adult Beef | 85 g | JK | 10/3,5/0,4/2,5/81 | inulín 0,4 % | 0,86 € | 10,12 € | áno | mojacalibra.sk ✅ |
-| Calibra Cat Life Adult Veal | 85 g | JK | 10/3,5/0,4/2,5/81 | inulín 0,4 % | 0,86 € | 10,12 € | áno | mojacalibra.sk ✅ |
-| Calibra Cat Life Sterilised Duck | 85 g | JK | 10/3,5/0,4/2,5/81 | inulín 0,4 % | 0,86 € | 10,12 € | áno | mojacalibra.sk ✅ |
-| Calibra Cat Life Sterilised Salmon | 85 g | JK | 10/3,5/0,4/2,5/81 | inulín 0,4 % | 0,86 € | 10,12 € | áno | mojacalibra.sk ✅ |
-| Calibra Cat Life Kitten Turkey | 85 g | JK | 10/5/0,3/2/80 | inulín 0,4 % | 0,86 € | 10,12 € | áno | mojacalibra.sk ✅ |
-| Calibra Cat Life Kitten Salmon | 85 g | JK | 10/5/0,3/2/80 | inulín 0,4 % | 0,86 € | 10,12 € | áno | mojacalibra.sk ✅ |
-| *(všetkých 8 vyššie, kúpené ako multipack 12×85 g)* | 1 020 g | JK | ako vyššie | inulín 0,4 % | – | **9,58 €** | áno | mojacalibra.sk ✅ |
-| Felix Tasty Shreds | 80 g | JK trhané | 13,5/2,6/0,05/2,6/78 | nie | 0,74 € | 9,26 € | áno | Alza ✅ |
-| Purina Pro Plan Delicate | 85 g | JK jemné | 12,6/3,8/0,3/2,3/78 | FOS | 0,79–0,84 € | 9,3–9,9 € | áno | Zoohit, Alza |
-| Specific FIW *(vet, konzerva)* | 100 g | JK | n/a | psyllium+MOS | 0,98–1,11 € | 9,8–11,1 € | áno | vet. lekárne |
-| Stuzzy Cat Shreds (Kitten/Sterilised) | 85 g | JK trhané | 8/4,5/0,4/2/82 | inulín 0,4 % | 1,10–1,18 € | **12,9–13,2 €** | áno | vlastný e-shop stuzzy.it |
-| Royal Canin Indoor Sterilised In Gravy | 85 g | JK/plátky | 9,7/3,3/0,9/1,8/80,8 | žiadna | 1,23–1,32 € | 14,5–14,8 € | áno | ABC-ZOO, Zoohit |
-| Royal Canin Sterilised Gravy | 85 g | JK/plátky | 9/2,6/1,8/1,3/81 | žiadna | 1,31–1,41 € | 15,4–15,7 € | áno | ABC-ZOO, Zoohit |
-| **Kattovit Gastro** *(vet.)* | 85 g | JK | 8/5/0,5/2/80 | žiadna | 1,12 € | **13,14 €** | áno (diet.) | ABC-ZOO ✅ |
-| Royal Canin Hairball Care Gravy | 85 g | JK/plátky | 7/2,7/1/1,6/82 | žiadna (napriek názvu) | 1,31–1,41 € | 15,4–16,7 € | áno | ABC-ZOO, Zoohit |
-| Purina Gourmet Perle | 85 g | JK filetky | 14/2,5/0,5/2,2/79 | žiadna | 0,74–0,78 € | 9,1–9,3 € | áno | ABC-ZOO |
-| Sheba Delikatesse | 85 g | JK/želé | n/a (+cukor) | žiadna | 0,77 € | ~9,0–9,2 € | áno | Zoohit |
-| Hill's Science Plan Kitten | 85 g | JK | 9,7/5,7/0,67/1,9/78 | čiastočne | 0,9–1,1 € | 10,6–12,9 € | áno | Zoohit |
-| Royal Canin Digestive Care | 85 g | PT/JK* | 9,5/3,5/0,7/–/80 | psyllium | 1,1–1,4 € | 12,9–16,5 € | áno | Zoohit, ABC-ZOO |
-| Animonda Carny Adult | 85 g | PT | 11,5/6,5/0,5/1,8/– | nie | 1,3–1,6 € | 15,3–18,8 € | áno | Zoohit, Fera |
-| RC VD Gastro Intestinal *(vet)* | 85 g | JK/PT* | 7,6/5,6/0,8/1,6/80 | vlákninový blend | 1,30 € | 15,3–15,8 € | áno (vet.) | Alza ✅ |
-| Hill's Prescription i/d *(vet)* | 85 g | JK | n/a | FOS+psyllium | ~1,3–1,4 € | ~15–16 € | áno (vet.) | Zoohit, vet. |
-| Feringa Menu Mousse | 85 g | MO | n/a (odhad) | nie | 1,3–1,7 €* | 15,3–20 € | áno | Zoohit |
-| Almo Nature Anti Hairball | 70 g | JK jemné | 9,5/4/0,8/2/82 | inulín | 1,13 € | 16,1 € | áno | Zoohit, ABC-ZOO |
-| Catz Finefood Mousse | 85 g | MO | 10,8–11/5,9–6,5/0,3–0,5/1,8–2,2/80 | nie | 1,6–2,6 € | 18,8–30,6 € | áno | Zoohit |
-| Schesir Kitten Mousse | 70 g | MO | 9/5/0,1/2/82 | nie | 1,4–1,67 € | 20–23,9 € | áno | Zoohit, Anipet |
-| Applaws Pâté | 70 g | PT | n/a | nie | 1,6–1,8 € | 22,9–25,7 € | **NIE (doplnk.)** ⚠️ | Zoohit, Alza |
-| ~~Shelma Cat Mousse~~ ⚠️ neoverené | 85 g | MO | 10,5/6,5/0,1/3,0/77,5 | nie | n/a | n/a | ? | nenájdené na shelma.eu |
+Stĺpec **Známka** je len skrátený odkaz na plné hodnotenie v [časti 10](#10) (kde je aj rozpis podľa 6 kritérií) — nie náhrada, len rýchly prehľad cena↔kvalita v jednej tabuľke. "—" = pre daný riadok nebolo hodnotenie počítané (chýbajúce/neúplné dáta alebo len variant balenia).
 
-\* Royal Canin Digestive Care a VD Gastro Intestinal: existujú varianty Loaf/paté (PT) aj Chunks (JK) — overiť pri objednávke.
+| Produkt | Balenie | Textúra | Bielk./Tuk/Vlák./Popol/Vlhk. (%) | Vláknina/prebiotiká | Cena/ks | **Cena/kg** | **Známka** | Kompletné? | Dostupnosť |
+|---|---|---|---|---|---|---|---|---|---|
+| Kitekat | 100 g | JK+obilniny | n/a | nie | n/a | ~3,5–4,5 € ⚠️ | — | áno | Zoohit |
+| **Fine Cat Kitten** *(kúpené)* | 100 g | JK, bez obilnín | 7,5/4,5/0,3/2/80 | nie | 0,377 € | **3,77 €** | D | áno | Alza ✅ |
+| Whiskas Classic | 85 g | JK+obilniny | 7,3/–/0,25/1,6/84,5 | nie | 0,33–0,55 € | ~3,9–6,5 € ⚠️ | C | áno | Zoohit, Alza |
+| **Dein Bestes Sensitive** | 100 g | JK/želé | 8/3/0,5/1,5/83 | žiadna | 0,45 € | **4,50 €** | C | áno | mojadm.sk ✅ |
+| Shelma dušené filetky | 85 g | JK/filety | 10/3,5/0,4/2,5/81 | inulín 0,4 % | 0,45 € | **5,26 €** | **A** | áno | Alza ✅ |
+| Concept for Life Kitten | 85 g | JK jemné | n/a | inulín | 0,43–0,51 € | 5,1–6,0 € | C *(odhad)* | áno | Zoohit |
+| Sheba Fresh & Fine (benchmark) | 50 g | JK | 7,9–8/4,4–5/0,3/1,4–1,9/83–84 | nie | 0,208 € (akcia) | 4,17 € (akcia)/~6–7 € | C | áno | Zoohit |
+| Purina Gourmet Gold Mousse | 85 g | MO | 10,5/6,5/0,05/3,0/77,5 | nie | 0,66–0,74 € | 7,8–9,4 € | C | áno | Zoohit |
+| **Calibra Premium Kitten Salmon** *(kúpené)* | 100 g | JK, bez obilnín | 9,5/5/1,0/2,5/81 | vláknina 1 % (zdroj nemenovaný) | 0,716 € | **7,16 €** (aktuálne 7,00 €) | B | áno | Alza ✅, mojacalibra.sk ✅ |
+| Calibra Premium Kitten Turkey & Chicken | 100 g | JK | 9,5/5/1,0/2,5/81 | vláknina 1 % (nemenovaný) | 0,70 € | 7,00 € | B | áno | mojacalibra.sk ✅ |
+| Calibra Premium Adult Chicken & Beef | 100 g | JK | 9/4,5/1,0/3/82 | vláknina 1 % (nemenovaný) | 0,70 € | 7,00 € | B | áno | mojacalibra.sk ✅ |
+| Calibra Premium Adult Trout & Salmon | 100 g | JK | 9/4,5/1,0/3/82 | vláknina 1 % (nemenovaný) | 0,70 € | 7,00 € | B | áno | mojacalibra.sk ✅ |
+| Calibra Premium Adult Duck & Chicken | 100 g | JK | 9/4,5/1,0/3/82 | vláknina 1 % (nemenovaný) | 0,70 € | 7,00 € | B | áno | mojacalibra.sk ✅ |
+| Calibra Premium Adult Lamb & Poultry | 100 g | JK | 9/4,5/1,0/3/82 | vláknina 1 % (nemenovaný) | 0,70 € | 7,00 € | B | áno | mojacalibra.sk ✅ |
+| Calibra Premium Sterilised Liver | 100 g | JK | 8,5/3/1,0/2,5/82 | **inulín 0,4 %** | 0,70 € | 7,00 € | B | áno | mojacalibra.sk ✅ |
+| Calibra Premium Sterilised Salmon | 100 g | JK | 8,5/3/1,0/2,5/82 | **inulín 0,4 %** | 0,70 € | 7,00 € | B | áno | mojacalibra.sk ✅ |
+| *(Premium Kitten/Adult/Sterilised, multipack 12×100 g — rovnaká cena pre všetky 3)* | 1 200 g | JK | ako vyššie | – | 7,98 € | **6,65 €** | B | áno | mojacalibra.sk ✅ |
+| Calibra Cat Life Adult Turkey | 85 g | JK | 10/3,5/0,4/2,5/81 | inulín 0,4 % | 0,86 € | 10,12 € | **A** | áno | mojacalibra.sk ✅ |
+| Calibra Cat Life Adult Duck | 85 g | JK | 10/3,5/0,4/2,5/81 | inulín 0,4 % | 0,86 € | 10,12 € | **A** | áno | mojacalibra.sk ✅ |
+| Calibra Cat Life Adult Beef | 85 g | JK | 10/3,5/0,4/2,5/81 | inulín 0,4 % | 0,86 € | 10,12 € | **A** | áno | mojacalibra.sk ✅ |
+| Calibra Cat Life Adult Veal | 85 g | JK | 10/3,5/0,4/2,5/81 | inulín 0,4 % | 0,86 € | 10,12 € | **A** | áno | mojacalibra.sk ✅ |
+| Calibra Cat Life Sterilised Duck | 85 g | JK | 10/3,5/0,4/2,5/81 | inulín 0,4 % | 0,86 € | 10,12 € | **A** | áno | mojacalibra.sk ✅ |
+| Calibra Cat Life Sterilised Salmon | 85 g | JK | 10/3,5/0,4/2,5/81 | inulín 0,4 % | 0,86 € | 10,12 € | **A** | áno | mojacalibra.sk ✅ |
+| Calibra Cat Life Kitten Turkey | 85 g | JK | 10/5/0,3/2/80 | inulín 0,4 % | 0,86 € | 10,12 € | **A** | áno | mojacalibra.sk ✅ |
+| Calibra Cat Life Kitten Salmon | 85 g | JK | 10/5/0,3/2/80 | inulín 0,4 % | 0,86 € | 10,12 € | **A** | áno | mojacalibra.sk ✅ |
+| *(všetkých 8 vyššie, kúpené ako multipack 12×85 g)* | 1 020 g | JK | ako vyššie | inulín 0,4 % | – | **9,58 €** | **A** | áno | mojacalibra.sk ✅ |
+| Felix Tasty Shreds | 80 g | JK trhané | 13,5/2,6/0,05/2,6/78 | nie | 0,74 € | 9,26 € | C | áno | Alza ✅ |
+| Purina Pro Plan Delicate | 85 g | JK jemné | 12,6/3,8/0,3/2,3/78 | FOS | 0,79–0,84 € | 9,3–9,9 € | B | áno | Zoohit, Alza |
+| Specific FIW *(vet, konzerva)* | 100 g | JK | n/a | psyllium+MOS | 0,98–1,11 € | 9,8–11,1 € | B *(odhad)* | áno | vet. lekárne |
+| Stuzzy Cat Shreds (Kitten/Sterilised) | 85 g | JK trhané | 8/4,5/0,4/2/82 | inulín 0,4 % | 1,10–1,18 € | **12,9–13,2 €** | B | áno | vlastný e-shop stuzzy.it |
+| Royal Canin Indoor Sterilised In Gravy | 85 g | JK/plátky | 9,7/3,3/0,9/1,8/80,8 | žiadna | 1,23–1,32 € | 14,5–14,8 € | C | áno | ABC-ZOO, Zoohit |
+| Royal Canin Sterilised Gravy | 85 g | JK/plátky | 9/2,6/1,8/1,3/81 | žiadna | 1,31–1,41 € | 15,4–15,7 € | C | áno | ABC-ZOO, Zoohit |
+| **Kattovit Gastro** *(vet.)* | 85 g | JK | 8/5/0,5/2/80 | žiadna | 1,12 € | **13,14 €** | D | áno (diet.) | ABC-ZOO ✅ |
+| Royal Canin Hairball Care Gravy | 85 g | JK/plátky | 7/2,7/1/1,6/82 | žiadna (napriek názvu) | 1,31–1,41 € | 15,4–16,7 € | D | áno | ABC-ZOO, Zoohit |
+| Purina Gourmet Perle | 85 g | JK filetky | 14/2,5/0,5/2,2/79 | žiadna | 0,74–0,78 € | 9,1–9,3 € | C | áno | ABC-ZOO |
+| Sheba Delikatesse | 85 g | JK/želé | n/a (+cukor) | žiadna | 0,77 € | ~9,0–9,2 € | — | áno | Zoohit |
+| Hill's Science Plan Kitten | 85 g | JK | 9,7/5,7/0,67/1,9/78 | čiastočne | 0,9–1,1 € | 10,6–12,9 € | C | áno | Zoohit |
+| Royal Canin Digestive Care | 85 g | PT/JK* | 9,5/3,5/0,7/–/80 | psyllium | 1,1–1,4 € | 12,9–16,5 € | B | áno | Zoohit, ABC-ZOO |
+| Animonda Carny Adult | 85 g | PT | 11,5/6,5/0,5/1,8/– | nie | 1,3–1,6 € | 15,3–18,8 € | B | áno | Zoohit, Fera |
+| RC VD Gastro Intestinal *(vet)* | 85 g | JK/PT* | 7,6/5,6/0,8/1,6/80 | vlákninový blend | 1,30 € | 15,3–15,8 € | C | áno (vet.) | Alza ✅ |
+| Hill's Prescription i/d *(vet)* | 85 g | JK | n/a | FOS+psyllium | ~1,3–1,4 € | ~15–16 € | C *(odhad)* | áno (vet.) | Zoohit, vet. |
+| Feringa Menu Mousse | 85 g | MO | n/a (odhad) | nie | 1,3–1,7 €* | 15,3–20 € | — | áno | Zoohit |
+| Almo Nature Anti Hairball | 70 g | JK jemné | 9,5/4/0,8/2/82 | inulín | 1,13 € | 16,1 € | B | áno | Zoohit, ABC-ZOO |
+| Catz Finefood Mousse | 85 g | MO | 10,8–11/5,9–6,5/0,3–0,5/1,8–2,2/80 | nie | 1,6–2,6 € | 18,8–30,6 € | B | áno | Zoohit |
+| Schesir Kitten Mousse | 70 g | MO | 9/5/0,1/2/82 | nie | 1,4–1,67 € | 20–23,9 € | B | áno | Zoohit, Anipet |
+| Applaws Pâté | 70 g | PT | n/a | nie | 1,6–1,8 € | 22,9–25,7 € | C** ⚠️ | **NIE (doplnk.)** ⚠️ | Zoohit, Alza |
+| ~~Shelma Cat Mousse~~ ⚠️ neoverené | 85 g | MO | 10,5/6,5/0,1/3,0/77,5 | nie | n/a | n/a | — | ? | nenájdené na shelma.eu |
+
+\* Royal Canin Digestive Care a VD Gastro Intestinal: existujú varianty Loaf/paté (PT) aj Chunks (JK) — overiť pri objednávke. \*\* Applaws: známka C je z hodnotenia, ktoré diskvalifikačné kritérium "doplnkové, nie kompletné" už zohľadňuje — pozri poznámku v [časti 10](#10).
 
 ---
 
@@ -607,6 +609,7 @@ Hľadajte kapsičky s **vyššou kalorickou denzitou a vyšším tukom**, ideál
 - **Animonda Carny Adult** (B, ~100 kcal/100g, tuk 6,5 %) – najvyššia kalorická denzita medzi kvalitne hodnotenými produktmi, čisto mäsité.
 - **Catz Finefood Mousse** (B, 95–101 kcal/100g, tuk 5,9–6,5 %).
 - **Calibra Cat Premium Kitten** (B, odhad 85–95 kcal/100g) – kitten receptúry sú spravidla energeticky bohatšie; keďže táto mačka nie je mačiatko, sledujte celkovú dennú dávku. *(Pozn.: pôvodne uvedené ako A — po korekcii vlákninového kritéria v [časti 10](#10) ide správne o B; ak hľadáte najvyššiu známku, Calibra Cat Life má rovnakú cenovú kategóriu a vyššiu známku A.)*
+- **Calibra Cat Life Kitten (Turkey/Salmon)** (A, 93 kcal/100g, tuk 5 %) – ⭐ ak prechádzate na Calibra Cat Life kvôli najvyššej známke, pre túto mačku (potrebuje priberať) voľte **práve Kitten príchute**, nie Adult/Sterilised: tie majú **rovnakú kalorickú denzitu ako benchmark Sheba (80 kcal/100g) a dokonca nižší tuk (3,5 % vs. 4,4–5 %)** — samotný prechod na Adult Life teda kalorický príjem nezvýši, len zlepší kvalitu zloženia (named mäso, žiadny cukor, 0,4 % inulín). Kitten varianty dávajú oboje naraz: vyššiu energiu aj najlepšiu známku.
 - Vyhýbajte sa Whiskas a Fine Cat – vysoká vlhkosť/nízka energia zasýti objemom bez dostatku energie na priberanie.
 
 ### Mačka #2 (5,5–6 kg, potrebuje schudnúť)
