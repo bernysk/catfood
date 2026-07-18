@@ -153,6 +153,7 @@
             <th data-key="vlaknina" data-type="text">Vláknina/prebiotiká</th>
             <th data-key="cenaKs" data-type="text">Cena/ks</th>
             <th data-key="cenaKg" data-type="num">Cena/kg (€)</th>
+            <th data-key="znamkaRank" data-type="num">Známka</th>
             <th data-key="kompletne" data-type="text">Kompletné?</th>
             <th data-key="dostupnost" data-type="text">Dostupnosť</th>
           </tr>
@@ -169,6 +170,7 @@
         <thead>
           <tr>
             <th data-key="produkt" data-type="text">Produkt</th>
+            <th data-key="cenaKg" data-type="num">Cena/kg (€)</th>
             <th data-key="bielkDM" data-type="num">Bielk. DM%</th>
             <th data-key="sacharidyDM" data-type="num">Sacharidy DM%</th>
             <th data-key="kompletne" data-type="text">Kompletné?</th>
@@ -192,94 +194,99 @@
 <script>
 // ---------- DATA: Porovnávacia tabuľka (sekcia 9 dokumentu) ----------
 const cmpData = [
-  {produkt:"Kitekat", balenie:"100 g", textura:"JK+obilniny", analytika:"n/a", vlaknina:"nie", cenaKs:"n/a", cenaKg:3.5, cenaKgText:"~3,5–4,5 € ⚠️", kompletne:"áno", dostupnost:"Zoohit"},
-  {produkt:"Fine Cat Kitten (kúpené)", balenie:"100 g", textura:"JK, bez obilnín", analytika:"7,5/4,5/0,3/2/80", vlaknina:"nie", cenaKs:"0,377 €", cenaKg:3.77, cenaKgText:"3,77 €", kompletne:"áno", dostupnost:"Alza ✅"},
-  {produkt:"Whiskas Classic", balenie:"85 g", textura:"JK+obilniny", analytika:"7,3/–/0,25/1,6/84,5", vlaknina:"nie", cenaKs:"0,33–0,55 €", cenaKg:3.9, cenaKgText:"~3,9–6,5 € ⚠️", kompletne:"áno", dostupnost:"Zoohit, Alza"},
-  {produkt:"Dein Bestes Sensitive", balenie:"100 g", textura:"JK/želé", analytika:"8/3/0,5/1,5/83", vlaknina:"žiadna", cenaKs:"0,45 €", cenaKg:4.50, cenaKgText:"4,50 €", kompletne:"áno", dostupnost:"mojadm.sk ✅"},
-  {produkt:"Shelma dušené filetky", balenie:"85 g", textura:"JK/filety", analytika:"10/3,5/0,4/2,5/81", vlaknina:"inulín 0,4 %", cenaKs:"0,45 €", cenaKg:5.26, cenaKgText:"5,26 €", kompletne:"áno", dostupnost:"Alza ✅"},
-  {produkt:"Concept for Life Kitten", balenie:"85 g", textura:"JK jemné", analytika:"n/a", vlaknina:"inulín", cenaKs:"0,43–0,51 €", cenaKg:5.1, cenaKgText:"5,1–6,0 €", kompletne:"áno", dostupnost:"Zoohit"},
-  {produkt:"Sheba Fresh & Fine (benchmark)", balenie:"50 g", textura:"JK", analytika:"7,9–8/4,4–5/0,3/1,4–1,9/83–84", vlaknina:"nie", cenaKs:"0,208 € (akcia)", cenaKg:4.17, cenaKgText:"4,17 € (akcia) / ~6–7 €", kompletne:"áno", dostupnost:"Zoohit"},
-  {produkt:"Purina Gourmet Gold Mousse", balenie:"85 g", textura:"MO", analytika:"10,5/6,5/0,05/3,0/77,5", vlaknina:"nie", cenaKs:"0,66–0,74 €", cenaKg:7.8, cenaKgText:"7,8–9,4 €", kompletne:"áno", dostupnost:"Zoohit"},
-  {produkt:"Calibra Premium Kitten Salmon (kúpené)", balenie:"100 g", textura:"JK, bez obilnín", analytika:"9,5/5/1,0/2,5/81", vlaknina:"vláknina 1 % (nemenovaný)", cenaKs:"0,716 €", cenaKg:7.00, cenaKgText:"7,16 € (aktuálne 7,00 €)", kompletne:"áno", dostupnost:"Alza ✅, mojacalibra.sk ✅"},
-  {produkt:"Calibra Premium Kitten Turkey & Chicken", balenie:"100 g", textura:"JK", analytika:"9,5/5/1,0/2,5/81", vlaknina:"vláknina 1 % (nemenovaný)", cenaKs:"0,70 €", cenaKg:7.00, cenaKgText:"7,00 €", kompletne:"áno", dostupnost:"mojacalibra.sk ✅"},
-  {produkt:"Calibra Premium Adult Chicken & Beef", balenie:"100 g", textura:"JK", analytika:"9/4,5/1,0/3/82", vlaknina:"vláknina 1 % (nemenovaný)", cenaKs:"0,70 €", cenaKg:7.00, cenaKgText:"7,00 €", kompletne:"áno", dostupnost:"mojacalibra.sk ✅"},
-  {produkt:"Calibra Premium Adult Trout & Salmon", balenie:"100 g", textura:"JK", analytika:"9/4,5/1,0/3/82", vlaknina:"vláknina 1 % (nemenovaný)", cenaKs:"0,70 €", cenaKg:7.00, cenaKgText:"7,00 €", kompletne:"áno", dostupnost:"mojacalibra.sk ✅"},
-  {produkt:"Calibra Premium Adult Duck & Chicken", balenie:"100 g", textura:"JK", analytika:"9/4,5/1,0/3/82", vlaknina:"vláknina 1 % (nemenovaný)", cenaKs:"0,70 €", cenaKg:7.00, cenaKgText:"7,00 €", kompletne:"áno", dostupnost:"mojacalibra.sk ✅"},
-  {produkt:"Calibra Premium Adult Lamb & Poultry", balenie:"100 g", textura:"JK", analytika:"9/4,5/1,0/3/82", vlaknina:"vláknina 1 % (nemenovaný)", cenaKs:"0,70 €", cenaKg:7.00, cenaKgText:"7,00 €", kompletne:"áno", dostupnost:"mojacalibra.sk ✅"},
-  {produkt:"Calibra Premium Sterilised Liver", balenie:"100 g", textura:"JK", analytika:"8,5/3/1,0/2,5/82", vlaknina:"inulín 0,4 %", cenaKs:"0,70 €", cenaKg:7.00, cenaKgText:"7,00 €", kompletne:"áno", dostupnost:"mojacalibra.sk ✅"},
-  {produkt:"Calibra Premium Sterilised Salmon", balenie:"100 g", textura:"JK", analytika:"8,5/3/1,0/2,5/82", vlaknina:"inulín 0,4 %", cenaKs:"0,70 €", cenaKg:7.00, cenaKgText:"7,00 €", kompletne:"áno", dostupnost:"mojacalibra.sk ✅"},
-  {produkt:"Calibra Premium multipack 12×100 g", balenie:"1200 g", textura:"JK", analytika:"ako vyššie", vlaknina:"–", cenaKs:"–", cenaKg:6.65, cenaKgText:"6,65 €", kompletne:"áno", dostupnost:"mojacalibra.sk ✅"},
-  {produkt:"Calibra Cat Life Adult Turkey", balenie:"85 g", textura:"JK", analytika:"10/3,5/0,4/2,5/81", vlaknina:"inulín 0,4 %", cenaKs:"0,86 €", cenaKg:10.12, cenaKgText:"10,12 €", kompletne:"áno", dostupnost:"mojacalibra.sk ✅"},
-  {produkt:"Calibra Cat Life Adult Duck", balenie:"85 g", textura:"JK", analytika:"10/3,5/0,4/2,5/81", vlaknina:"inulín 0,4 %", cenaKs:"0,86 €", cenaKg:10.12, cenaKgText:"10,12 €", kompletne:"áno", dostupnost:"mojacalibra.sk ✅"},
-  {produkt:"Calibra Cat Life Adult Beef", balenie:"85 g", textura:"JK", analytika:"10/3,5/0,4/2,5/81", vlaknina:"inulín 0,4 %", cenaKs:"0,86 €", cenaKg:10.12, cenaKgText:"10,12 €", kompletne:"áno", dostupnost:"mojacalibra.sk ✅"},
-  {produkt:"Calibra Cat Life Adult Veal", balenie:"85 g", textura:"JK", analytika:"10/3,5/0,4/2,5/81", vlaknina:"inulín 0,4 %", cenaKs:"0,86 €", cenaKg:10.12, cenaKgText:"10,12 €", kompletne:"áno", dostupnost:"mojacalibra.sk ✅"},
-  {produkt:"Calibra Cat Life Sterilised Duck", balenie:"85 g", textura:"JK", analytika:"10/3,5/0,4/2,5/81", vlaknina:"inulín 0,4 %", cenaKs:"0,86 €", cenaKg:10.12, cenaKgText:"10,12 €", kompletne:"áno", dostupnost:"mojacalibra.sk ✅"},
-  {produkt:"Calibra Cat Life Sterilised Salmon", balenie:"85 g", textura:"JK", analytika:"10/3,5/0,4/2,5/81", vlaknina:"inulín 0,4 %", cenaKs:"0,86 €", cenaKg:10.12, cenaKgText:"10,12 €", kompletne:"áno", dostupnost:"mojacalibra.sk ✅"},
-  {produkt:"Calibra Cat Life Kitten Turkey", balenie:"85 g", textura:"JK", analytika:"10/5/0,3/2/80", vlaknina:"inulín 0,4 %", cenaKs:"0,86 €", cenaKg:10.12, cenaKgText:"10,12 €", kompletne:"áno", dostupnost:"mojacalibra.sk ✅"},
-  {produkt:"Calibra Cat Life Kitten Salmon", balenie:"85 g", textura:"JK", analytika:"10/5/0,3/2/80", vlaknina:"inulín 0,4 %", cenaKs:"0,86 €", cenaKg:10.12, cenaKgText:"10,12 €", kompletne:"áno", dostupnost:"mojacalibra.sk ✅"},
-  {produkt:"Calibra Life multipack (8 príchutí, 12×85 g)", balenie:"1020 g", textura:"JK", analytika:"ako vyššie", vlaknina:"inulín 0,4 %", cenaKs:"–", cenaKg:9.58, cenaKgText:"9,58 €", kompletne:"áno", dostupnost:"mojacalibra.sk ✅"},
-  {produkt:"Felix Tasty Shreds", balenie:"80 g", textura:"JK trhané", analytika:"13,5/2,6/0,05/2,6/78", vlaknina:"nie", cenaKs:"0,74 €", cenaKg:9.26, cenaKgText:"9,26 €", kompletne:"áno", dostupnost:"Alza ✅"},
-  {produkt:"Purina Pro Plan Delicate", balenie:"85 g", textura:"JK jemné", analytika:"12,6/3,8/0,3/2,3/78", vlaknina:"FOS", cenaKs:"0,79–0,84 €", cenaKg:9.3, cenaKgText:"9,3–9,9 €", kompletne:"áno", dostupnost:"Zoohit, Alza"},
-  {produkt:"Specific FIW (vet, konzerva)", balenie:"100 g", textura:"JK", analytika:"n/a", vlaknina:"psyllium+MOS", cenaKs:"0,98–1,11 €", cenaKg:9.8, cenaKgText:"9,8–11,1 €", kompletne:"áno", dostupnost:"vet. lekárne"},
-  {produkt:"Stuzzy Cat Shreds (Kitten/Sterilised)", balenie:"85 g", textura:"JK trhané", analytika:"8/4,5/0,4/2/82", vlaknina:"inulín 0,4 %", cenaKs:"1,10–1,18 €", cenaKg:12.9, cenaKgText:"12,9–13,2 €", kompletne:"áno", dostupnost:"stuzzy.it"},
-  {produkt:"Royal Canin Indoor Sterilised In Gravy", balenie:"85 g", textura:"JK/plátky", analytika:"9,7/3,3/0,9/1,8/80,8", vlaknina:"žiadna", cenaKs:"1,23–1,32 €", cenaKg:14.5, cenaKgText:"14,5–14,8 €", kompletne:"áno", dostupnost:"ABC-ZOO, Zoohit"},
-  {produkt:"Royal Canin Sterilised Gravy", balenie:"85 g", textura:"JK/plátky", analytika:"9/2,6/1,8/1,3/81", vlaknina:"žiadna", cenaKs:"1,31–1,41 €", cenaKg:15.4, cenaKgText:"15,4–15,7 €", kompletne:"áno", dostupnost:"ABC-ZOO, Zoohit"},
-  {produkt:"Kattovit Gastro (vet.)", balenie:"85 g", textura:"JK", analytika:"8/5/0,5/2/80", vlaknina:"žiadna", cenaKs:"1,12 €", cenaKg:13.14, cenaKgText:"13,14 €", kompletne:"áno (diet.)", dostupnost:"ABC-ZOO ✅"},
-  {produkt:"Royal Canin Hairball Care Gravy", balenie:"85 g", textura:"JK/plátky", analytika:"7/2,7/1/1,6/82", vlaknina:"žiadna (napriek názvu) ⚠️", cenaKs:"1,31–1,41 €", cenaKg:15.4, cenaKgText:"15,4–16,7 €", kompletne:"áno", dostupnost:"ABC-ZOO, Zoohit"},
-  {produkt:"Purina Gourmet Perle", balenie:"85 g", textura:"JK filetky", analytika:"14/2,5/0,5/2,2/79", vlaknina:"žiadna", cenaKs:"0,74–0,78 €", cenaKg:9.1, cenaKgText:"9,1–9,3 €", kompletne:"áno", dostupnost:"ABC-ZOO"},
-  {produkt:"Sheba Delikatesse", balenie:"85 g", textura:"JK/želé", analytika:"n/a (+cukor)", vlaknina:"žiadna", cenaKs:"0,77 €", cenaKg:9.0, cenaKgText:"~9,0–9,2 €", kompletne:"áno", dostupnost:"Zoohit"},
-  {produkt:"Hill's Science Plan Kitten", balenie:"85 g", textura:"JK", analytika:"9,7/5,7/0,67/1,9/78", vlaknina:"čiastočne", cenaKs:"0,9–1,1 €", cenaKg:10.6, cenaKgText:"10,6–12,9 €", kompletne:"áno", dostupnost:"Zoohit"},
-  {produkt:"Royal Canin Digestive Care", balenie:"85 g", textura:"PT/JK*", analytika:"9,5/3,5/0,7/–/80", vlaknina:"psyllium", cenaKs:"1,1–1,4 €", cenaKg:12.9, cenaKgText:"12,9–16,5 €", kompletne:"áno", dostupnost:"Zoohit, ABC-ZOO"},
-  {produkt:"Animonda Carny Adult", balenie:"85 g", textura:"PT", analytika:"11,5/6,5/0,5/1,8/–", vlaknina:"nie", cenaKs:"1,3–1,6 €", cenaKg:15.3, cenaKgText:"15,3–18,8 €", kompletne:"áno", dostupnost:"Zoohit, Fera"},
-  {produkt:"RC VD Gastro Intestinal (vet)", balenie:"85 g", textura:"JK/PT*", analytika:"7,6/5,6/0,8/1,6/80", vlaknina:"vlákninový blend", cenaKs:"1,30 €", cenaKg:15.3, cenaKgText:"15,3–15,8 €", kompletne:"áno (vet.)", dostupnost:"Alza ✅"},
-  {produkt:"Hill's Prescription i/d (vet)", balenie:"85 g", textura:"JK", analytika:"n/a", vlaknina:"FOS+psyllium", cenaKs:"~1,3–1,4 €", cenaKg:15, cenaKgText:"~15–16 €", kompletne:"áno (vet.)", dostupnost:"Zoohit, vet."},
-  {produkt:"Feringa Menu Mousse", balenie:"85 g", textura:"MO", analytika:"n/a (odhad)", vlaknina:"nie", cenaKs:"1,3–1,7 €*", cenaKg:15.3, cenaKgText:"15,3–20 €", kompletne:"áno", dostupnost:"Zoohit"},
-  {produkt:"Almo Nature Anti Hairball", balenie:"70 g", textura:"JK jemné", analytika:"9,5/4/0,8/2/82", vlaknina:"inulín", cenaKs:"1,13 €", cenaKg:16.1, cenaKgText:"16,1 €", kompletne:"áno", dostupnost:"Zoohit, ABC-ZOO"},
-  {produkt:"Catz Finefood Mousse", balenie:"85 g", textura:"MO", analytika:"10,8–11/5,9–6,5/0,3–0,5/1,8–2,2/80", vlaknina:"nie", cenaKs:"1,6–2,6 €", cenaKg:18.8, cenaKgText:"18,8–30,6 €", kompletne:"áno", dostupnost:"Zoohit"},
-  {produkt:"Schesir Kitten Mousse", balenie:"70 g", textura:"MO", analytika:"9/5/0,1/2/82", vlaknina:"nie", cenaKs:"1,4–1,67 €", cenaKg:20, cenaKgText:"20–23,9 €", kompletne:"áno", dostupnost:"Zoohit, Anipet"},
-  {produkt:"Applaws Pâté", balenie:"70 g", textura:"PT", analytika:"n/a", vlaknina:"nie", cenaKs:"1,6–1,8 €", cenaKg:22.9, cenaKgText:"22,9–25,7 €", kompletne:"NIE (doplnk.) ⚠️", dostupnost:"Zoohit, Alza"},
-  {produkt:"Shelma Cat Mousse ⚠️ (neoverené)", balenie:"85 g", textura:"MO", analytika:"10,5/6,5/0,1/3,0/77,5", vlaknina:"nie", cenaKs:"n/a", cenaKg:null, cenaKgText:"n/a", kompletne:"?", dostupnost:"nenájdené na shelma.eu"},
+  {produkt:"Kitekat", balenie:"100 g", textura:"JK+obilniny", analytika:"n/a", vlaknina:"nie", cenaKs:"n/a", cenaKg:3.5, cenaKgText:"~3,5–4,5 € ⚠️", kompletne:"áno", znamka:"—", dostupnost:"Zoohit"},
+  {produkt:"Fine Cat Kitten (kúpené)", balenie:"100 g", textura:"JK, bez obilnín", analytika:"7,5/4,5/0,3/2/80", vlaknina:"nie", cenaKs:"0,377 €", cenaKg:3.77, cenaKgText:"3,77 €", kompletne:"áno", znamka:"D", dostupnost:"Alza ✅"},
+  {produkt:"Whiskas Classic", balenie:"85 g", textura:"JK+obilniny", analytika:"7,3/–/0,25/1,6/84,5", vlaknina:"nie", cenaKs:"0,33–0,55 €", cenaKg:3.9, cenaKgText:"~3,9–6,5 € ⚠️", kompletne:"áno", znamka:"C", dostupnost:"Zoohit, Alza"},
+  {produkt:"Dein Bestes Sensitive", balenie:"100 g", textura:"JK/želé", analytika:"8/3/0,5/1,5/83", vlaknina:"žiadna", cenaKs:"0,45 €", cenaKg:4.50, cenaKgText:"4,50 €", kompletne:"áno", znamka:"C", dostupnost:"mojadm.sk ✅"},
+  {produkt:"Shelma dušené filetky", balenie:"85 g", textura:"JK/filety", analytika:"10/3,5/0,4/2,5/81", vlaknina:"inulín 0,4 %", cenaKs:"0,45 €", cenaKg:5.26, cenaKgText:"5,26 €", kompletne:"áno", znamka:"A", dostupnost:"Alza ✅"},
+  {produkt:"Concept for Life Kitten", balenie:"85 g", textura:"JK jemné", analytika:"n/a", vlaknina:"inulín", cenaKs:"0,43–0,51 €", cenaKg:5.1, cenaKgText:"5,1–6,0 €", kompletne:"áno", znamka:"C", dostupnost:"Zoohit"},
+  {produkt:"Sheba Fresh & Fine (benchmark)", balenie:"50 g", textura:"JK", analytika:"7,9–8/4,4–5/0,3/1,4–1,9/83–84", vlaknina:"nie", cenaKs:"0,208 € (akcia)", cenaKg:4.17, cenaKgText:"4,17 € (akcia) / ~6–7 €", kompletne:"áno", znamka:"C", dostupnost:"Zoohit"},
+  {produkt:"Purina Gourmet Gold Mousse", balenie:"85 g", textura:"MO", analytika:"10,5/6,5/0,05/3,0/77,5", vlaknina:"nie", cenaKs:"0,66–0,74 €", cenaKg:7.8, cenaKgText:"7,8–9,4 €", kompletne:"áno", znamka:"C", dostupnost:"Zoohit"},
+  {produkt:"Calibra Premium Kitten Salmon (kúpené)", balenie:"100 g", textura:"JK, bez obilnín", analytika:"9,5/5/1,0/2,5/81", vlaknina:"vláknina 1 % (nemenovaný)", cenaKs:"0,716 €", cenaKg:7.00, cenaKgText:"7,16 € (aktuálne 7,00 €)", kompletne:"áno", znamka:"B", dostupnost:"Alza ✅, mojacalibra.sk ✅"},
+  {produkt:"Calibra Premium Kitten Turkey & Chicken", balenie:"100 g", textura:"JK", analytika:"9,5/5/1,0/2,5/81", vlaknina:"vláknina 1 % (nemenovaný)", cenaKs:"0,70 €", cenaKg:7.00, cenaKgText:"7,00 €", kompletne:"áno", znamka:"B", dostupnost:"mojacalibra.sk ✅"},
+  {produkt:"Calibra Premium Adult Chicken & Beef", balenie:"100 g", textura:"JK", analytika:"9/4,5/1,0/3/82", vlaknina:"vláknina 1 % (nemenovaný)", cenaKs:"0,70 €", cenaKg:7.00, cenaKgText:"7,00 €", kompletne:"áno", znamka:"B", dostupnost:"mojacalibra.sk ✅"},
+  {produkt:"Calibra Premium Adult Trout & Salmon", balenie:"100 g", textura:"JK", analytika:"9/4,5/1,0/3/82", vlaknina:"vláknina 1 % (nemenovaný)", cenaKs:"0,70 €", cenaKg:7.00, cenaKgText:"7,00 €", kompletne:"áno", znamka:"B", dostupnost:"mojacalibra.sk ✅"},
+  {produkt:"Calibra Premium Adult Duck & Chicken", balenie:"100 g", textura:"JK", analytika:"9/4,5/1,0/3/82", vlaknina:"vláknina 1 % (nemenovaný)", cenaKs:"0,70 €", cenaKg:7.00, cenaKgText:"7,00 €", kompletne:"áno", znamka:"B", dostupnost:"mojacalibra.sk ✅"},
+  {produkt:"Calibra Premium Adult Lamb & Poultry", balenie:"100 g", textura:"JK", analytika:"9/4,5/1,0/3/82", vlaknina:"vláknina 1 % (nemenovaný)", cenaKs:"0,70 €", cenaKg:7.00, cenaKgText:"7,00 €", kompletne:"áno", znamka:"B", dostupnost:"mojacalibra.sk ✅"},
+  {produkt:"Calibra Premium Sterilised Liver", balenie:"100 g", textura:"JK", analytika:"8,5/3/1,0/2,5/82", vlaknina:"inulín 0,4 %", cenaKs:"0,70 €", cenaKg:7.00, cenaKgText:"7,00 €", kompletne:"áno", znamka:"B", dostupnost:"mojacalibra.sk ✅"},
+  {produkt:"Calibra Premium Sterilised Salmon", balenie:"100 g", textura:"JK", analytika:"8,5/3/1,0/2,5/82", vlaknina:"inulín 0,4 %", cenaKs:"0,70 €", cenaKg:7.00, cenaKgText:"7,00 €", kompletne:"áno", znamka:"B", dostupnost:"mojacalibra.sk ✅"},
+  {produkt:"Calibra Premium multipack 12×100 g", balenie:"1200 g", textura:"JK", analytika:"ako vyššie", vlaknina:"–", cenaKs:"–", cenaKg:6.65, cenaKgText:"6,65 €", kompletne:"áno", znamka:"B", dostupnost:"mojacalibra.sk ✅"},
+  {produkt:"Calibra Cat Life Adult Turkey", balenie:"85 g", textura:"JK", analytika:"10/3,5/0,4/2,5/81", vlaknina:"inulín 0,4 %", cenaKs:"0,86 €", cenaKg:10.12, cenaKgText:"10,12 €", kompletne:"áno", znamka:"A", dostupnost:"mojacalibra.sk ✅"},
+  {produkt:"Calibra Cat Life Adult Duck", balenie:"85 g", textura:"JK", analytika:"10/3,5/0,4/2,5/81", vlaknina:"inulín 0,4 %", cenaKs:"0,86 €", cenaKg:10.12, cenaKgText:"10,12 €", kompletne:"áno", znamka:"A", dostupnost:"mojacalibra.sk ✅"},
+  {produkt:"Calibra Cat Life Adult Beef", balenie:"85 g", textura:"JK", analytika:"10/3,5/0,4/2,5/81", vlaknina:"inulín 0,4 %", cenaKs:"0,86 €", cenaKg:10.12, cenaKgText:"10,12 €", kompletne:"áno", znamka:"A", dostupnost:"mojacalibra.sk ✅"},
+  {produkt:"Calibra Cat Life Adult Veal", balenie:"85 g", textura:"JK", analytika:"10/3,5/0,4/2,5/81", vlaknina:"inulín 0,4 %", cenaKs:"0,86 €", cenaKg:10.12, cenaKgText:"10,12 €", kompletne:"áno", znamka:"A", dostupnost:"mojacalibra.sk ✅"},
+  {produkt:"Calibra Cat Life Sterilised Duck", balenie:"85 g", textura:"JK", analytika:"10/3,5/0,4/2,5/81", vlaknina:"inulín 0,4 %", cenaKs:"0,86 €", cenaKg:10.12, cenaKgText:"10,12 €", kompletne:"áno", znamka:"A", dostupnost:"mojacalibra.sk ✅"},
+  {produkt:"Calibra Cat Life Sterilised Salmon", balenie:"85 g", textura:"JK", analytika:"10/3,5/0,4/2,5/81", vlaknina:"inulín 0,4 %", cenaKs:"0,86 €", cenaKg:10.12, cenaKgText:"10,12 €", kompletne:"áno", znamka:"A", dostupnost:"mojacalibra.sk ✅"},
+  {produkt:"Calibra Cat Life Kitten Turkey", balenie:"85 g", textura:"JK", analytika:"10/5/0,3/2/80", vlaknina:"inulín 0,4 %", cenaKs:"0,86 €", cenaKg:10.12, cenaKgText:"10,12 €", kompletne:"áno", znamka:"A", dostupnost:"mojacalibra.sk ✅"},
+  {produkt:"Calibra Cat Life Kitten Salmon", balenie:"85 g", textura:"JK", analytika:"10/5/0,3/2/80", vlaknina:"inulín 0,4 %", cenaKs:"0,86 €", cenaKg:10.12, cenaKgText:"10,12 €", kompletne:"áno", znamka:"A", dostupnost:"mojacalibra.sk ✅"},
+  {produkt:"Calibra Life multipack (8 príchutí, 12×85 g)", balenie:"1020 g", textura:"JK", analytika:"ako vyššie", vlaknina:"inulín 0,4 %", cenaKs:"–", cenaKg:9.58, cenaKgText:"9,58 €", kompletne:"áno", znamka:"A", dostupnost:"mojacalibra.sk ✅"},
+  {produkt:"Felix Tasty Shreds", balenie:"80 g", textura:"JK trhané", analytika:"13,5/2,6/0,05/2,6/78", vlaknina:"nie", cenaKs:"0,74 €", cenaKg:9.26, cenaKgText:"9,26 €", kompletne:"áno", znamka:"C", dostupnost:"Alza ✅"},
+  {produkt:"Purina Pro Plan Delicate", balenie:"85 g", textura:"JK jemné", analytika:"12,6/3,8/0,3/2,3/78", vlaknina:"FOS", cenaKs:"0,79–0,84 €", cenaKg:9.3, cenaKgText:"9,3–9,9 €", kompletne:"áno", znamka:"B", dostupnost:"Zoohit, Alza"},
+  {produkt:"Specific FIW (vet, konzerva)", balenie:"100 g", textura:"JK", analytika:"n/a", vlaknina:"psyllium+MOS", cenaKs:"0,98–1,11 €", cenaKg:9.8, cenaKgText:"9,8–11,1 €", kompletne:"áno", znamka:"B", dostupnost:"vet. lekárne"},
+  {produkt:"Stuzzy Cat Shreds (Kitten/Sterilised)", balenie:"85 g", textura:"JK trhané", analytika:"8/4,5/0,4/2/82", vlaknina:"inulín 0,4 %", cenaKs:"1,10–1,18 €", cenaKg:12.9, cenaKgText:"12,9–13,2 €", kompletne:"áno", znamka:"B", dostupnost:"stuzzy.it"},
+  {produkt:"Royal Canin Indoor Sterilised In Gravy", balenie:"85 g", textura:"JK/plátky", analytika:"9,7/3,3/0,9/1,8/80,8", vlaknina:"žiadna", cenaKs:"1,23–1,32 €", cenaKg:14.5, cenaKgText:"14,5–14,8 €", kompletne:"áno", znamka:"C", dostupnost:"ABC-ZOO, Zoohit"},
+  {produkt:"Royal Canin Sterilised Gravy", balenie:"85 g", textura:"JK/plátky", analytika:"9/2,6/1,8/1,3/81", vlaknina:"žiadna", cenaKs:"1,31–1,41 €", cenaKg:15.4, cenaKgText:"15,4–15,7 €", kompletne:"áno", znamka:"C", dostupnost:"ABC-ZOO, Zoohit"},
+  {produkt:"Kattovit Gastro (vet.)", balenie:"85 g", textura:"JK", analytika:"8/5/0,5/2/80", vlaknina:"žiadna", cenaKs:"1,12 €", cenaKg:13.14, cenaKgText:"13,14 €", kompletne:"áno (diet.)", znamka:"D", dostupnost:"ABC-ZOO ✅"},
+  {produkt:"Royal Canin Hairball Care Gravy", balenie:"85 g", textura:"JK/plátky", analytika:"7/2,7/1/1,6/82", vlaknina:"žiadna (napriek názvu) ⚠️", cenaKs:"1,31–1,41 €", cenaKg:15.4, cenaKgText:"15,4–16,7 €", kompletne:"áno", znamka:"D", dostupnost:"ABC-ZOO, Zoohit"},
+  {produkt:"Purina Gourmet Perle", balenie:"85 g", textura:"JK filetky", analytika:"14/2,5/0,5/2,2/79", vlaknina:"žiadna", cenaKs:"0,74–0,78 €", cenaKg:9.1, cenaKgText:"9,1–9,3 €", kompletne:"áno", znamka:"C", dostupnost:"ABC-ZOO"},
+  {produkt:"Sheba Delikatesse", balenie:"85 g", textura:"JK/želé", analytika:"n/a (+cukor)", vlaknina:"žiadna", cenaKs:"0,77 €", cenaKg:9.0, cenaKgText:"~9,0–9,2 €", kompletne:"áno", znamka:"—", dostupnost:"Zoohit"},
+  {produkt:"Hill's Science Plan Kitten", balenie:"85 g", textura:"JK", analytika:"9,7/5,7/0,67/1,9/78", vlaknina:"čiastočne", cenaKs:"0,9–1,1 €", cenaKg:10.6, cenaKgText:"10,6–12,9 €", kompletne:"áno", znamka:"C", dostupnost:"Zoohit"},
+  {produkt:"Royal Canin Digestive Care", balenie:"85 g", textura:"PT/JK*", analytika:"9,5/3,5/0,7/–/80", vlaknina:"psyllium", cenaKs:"1,1–1,4 €", cenaKg:12.9, cenaKgText:"12,9–16,5 €", kompletne:"áno", znamka:"B", dostupnost:"Zoohit, ABC-ZOO"},
+  {produkt:"Animonda Carny Adult", balenie:"85 g", textura:"PT", analytika:"11,5/6,5/0,5/1,8/–", vlaknina:"nie", cenaKs:"1,3–1,6 €", cenaKg:15.3, cenaKgText:"15,3–18,8 €", kompletne:"áno", znamka:"B", dostupnost:"Zoohit, Fera"},
+  {produkt:"RC VD Gastro Intestinal (vet)", balenie:"85 g", textura:"JK/PT*", analytika:"7,6/5,6/0,8/1,6/80", vlaknina:"vlákninový blend", cenaKs:"1,30 €", cenaKg:15.3, cenaKgText:"15,3–15,8 €", kompletne:"áno (vet.)", znamka:"C", dostupnost:"Alza ✅"},
+  {produkt:"Hill's Prescription i/d (vet)", balenie:"85 g", textura:"JK", analytika:"n/a", vlaknina:"FOS+psyllium", cenaKs:"~1,3–1,4 €", cenaKg:15, cenaKgText:"~15–16 €", kompletne:"áno (vet.)", znamka:"C", dostupnost:"Zoohit, vet."},
+  {produkt:"Feringa Menu Mousse", balenie:"85 g", textura:"MO", analytika:"n/a (odhad)", vlaknina:"nie", cenaKs:"1,3–1,7 €*", cenaKg:15.3, cenaKgText:"15,3–20 €", kompletne:"áno", znamka:"—", dostupnost:"Zoohit"},
+  {produkt:"Almo Nature Anti Hairball", balenie:"70 g", textura:"JK jemné", analytika:"9,5/4/0,8/2/82", vlaknina:"inulín", cenaKs:"1,13 €", cenaKg:16.1, cenaKgText:"16,1 €", kompletne:"áno", znamka:"B", dostupnost:"Zoohit, ABC-ZOO"},
+  {produkt:"Catz Finefood Mousse", balenie:"85 g", textura:"MO", analytika:"10,8–11/5,9–6,5/0,3–0,5/1,8–2,2/80", vlaknina:"nie", cenaKs:"1,6–2,6 €", cenaKg:18.8, cenaKgText:"18,8–30,6 €", kompletne:"áno", znamka:"B", dostupnost:"Zoohit"},
+  {produkt:"Schesir Kitten Mousse", balenie:"70 g", textura:"MO", analytika:"9/5/0,1/2/82", vlaknina:"nie", cenaKs:"1,4–1,67 €", cenaKg:20, cenaKgText:"20–23,9 €", kompletne:"áno", znamka:"B", dostupnost:"Zoohit, Anipet"},
+  {produkt:"Applaws Pâté", balenie:"70 g", textura:"PT", analytika:"n/a", vlaknina:"nie", cenaKs:"1,6–1,8 €", cenaKg:22.9, cenaKgText:"22,9–25,7 €", kompletne:"NIE (doplnk.) ⚠️", znamka:"C", dostupnost:"Zoohit, Alza"},
+  {produkt:"Shelma Cat Mousse ⚠️ (neoverené)", balenie:"85 g", textura:"MO", analytika:"10,5/6,5/0,1/3,0/77,5", vlaknina:"nie", cenaKs:"n/a", cenaKg:null, cenaKgText:"n/a", kompletne:"?", znamka:"—", dostupnost:"nenájdené na shelma.eu"},
 ];
 
 // ---------- DATA: Nutričné hodnotenie A–E (sekcia 10 dokumentu) ----------
 const gradeRank = {A:5,B:4,C:3,D:2,E:1};
 const gradeData = [
-  {produkt:"Calibra Premium Kitten Salmon / Turkey&Chicken", bielkDM:50.0, sacharidyDM:5.3, kompletne:"áno", vlaknina:"vláknina 1 %, zdroj nemenovaný", zdroj:"named, bez plnív", popolDM:13.2, body:10, znamka:"B"},
-  {produkt:"Calibra Premium Adult (4 príchute)", bielkDM:50.0, sacharidyDM:2.8, kompletne:"áno", vlaknina:"vláknina 1 %, nemenovaný", zdroj:"named, bez plnív", popolDM:16.7, body:9, znamka:"B"},
-  {produkt:"Calibra Premium Sterilised Liver / Salmon", bielkDM:47.2, sacharidyDM:16.7, kompletne:"áno", vlaknina:"inulín 0,4 %", zdroj:"named, bez plnív", popolDM:13.9, body:9, znamka:"B"},
-  {produkt:"Animonda Carny Adult", bielkDM:56.7, sacharidyDM:0, kompletne:"áno", vlaknina:"žiadna", zdroj:"named, bez plnív", popolDM:8.9, body:10, znamka:"B"},
-  {produkt:"Almo Nature Anti Hairball", bielkDM:52.8, sacharidyDM:9.4, kompletne:"áno", vlaknina:"inulín", zdroj:"obilniny prítomné", popolDM:11.1, body:10, znamka:"B"},
-  {produkt:"Shelma dušené filetky", bielkDM:52.6, sacharidyDM:13.7, kompletne:"áno", vlaknina:"inulín 0,4 %", zdroj:"named, bez obilnín", popolDM:13.2, body:11, znamka:"A"},
-  {produkt:"Purina Pro Plan Delicate", bielkDM:57.3, sacharidyDM:13.6, kompletne:"áno", vlaknina:"FOS", zdroj:"generické, bez cukru", popolDM:10.5, body:10, znamka:"B"},
-  {produkt:"Catz Finefood Mousse", bielkDM:55.0, sacharidyDM:2, kompletne:"áno", vlaknina:"žiadna", zdroj:"named, 98 % mäso", popolDM:10.0, body:9, znamka:"B"},
-  {produkt:"Specific FIW (odhad)", bielkDM:45, sacharidyDM:15, kompletne:"áno", vlaknina:"psyllium+MOS", zdroj:"named+ryža", popolDM:10, body:9, znamka:"B"},
-  {produkt:"Sheba Fresh & Fine", bielkDM:47.1, sacharidyDM:10.6, kompletne:"áno", vlaknina:"žiadna", zdroj:"generické+cukor", popolDM:11.2, body:7, znamka:"C"},
-  {produkt:"Royal Canin Digestive Care", bielkDM:47.5, sacharidyDM:21.5, kompletne:"áno", vlaknina:"psyllium", zdroj:"obilniny+generické", popolDM:10.0, body:9, znamka:"B"},
-  {produkt:"Schesir Kitten Mousse", bielkDM:50.0, sacharidyDM:10.6, kompletne:"áno", vlaknina:"žiadna", zdroj:"named, taurín/DHA", popolDM:11.1, body:9, znamka:"B"},
-  {produkt:"Hill's Science Plan Kitten", bielkDM:44.1, sacharidyDM:18.3, kompletne:"áno", vlaknina:"čiastočne", zdroj:"obilniny+cukry", popolDM:8.6, body:7, znamka:"C"},
-  {produkt:"Calibra Cat Life Adult (Turkey/Duck/Beef/Veal/Sterilised Duck)", bielkDM:52.6, sacharidyDM:13.7, kompletne:"áno", vlaknina:"inulín 0,4 %", zdroj:"named, bez obilnín", popolDM:13.2, body:11, znamka:"A"},
-  {produkt:"Calibra Cat Life Sterilised Salmon", bielkDM:52.6, sacharidyDM:13.7, kompletne:"áno", vlaknina:"inulín 0,4 %", zdroj:"named+ryba, bez obilnín", popolDM:13.2, body:11, znamka:"A"},
-  {produkt:"Calibra Cat Life Kitten (Turkey/Salmon)", bielkDM:50.0, sacharidyDM:13.5, kompletne:"áno", vlaknina:"inulín 0,4 %", zdroj:"named, bez obilnín", popolDM:10.0, body:11, znamka:"A"},
-  {produkt:"RC VD Gastro Intestinal (vet.)", bielkDM:38.0, sacharidyDM:22.0, kompletne:"áno", vlaknina:"vlákninový blend", zdroj:"obilniny+generické", popolDM:8.0, body:8, znamka:"C"},
-  {produkt:"Kattovit Gastro (vet.)", bielkDM:40.0, sacharidyDM:22.5, kompletne:"áno", vlaknina:"žiadna, len bežná vláknina", zdroj:"obilniny (ryža)+generické", popolDM:10.0, body:4, znamka:"D"},
-  {produkt:"Applaws Pâté", bielkDM:80, sacharidyDM:2, kompletne:"NIE", vlaknina:"žiadna", zdroj:"named, výborné", popolDM:9, body:7, znamka:"C"},
-  {produkt:"Felix Tasty Shreds", bielkDM:61.4, sacharidyDM:14.8, kompletne:"áno", vlaknina:"žiadna", zdroj:"generické", popolDM:11.8, body:8, znamka:"C"},
-  {produkt:"Purina Gourmet Gold Mousse", bielkDM:46.7, sacharidyDM:10.9, kompletne:"áno", vlaknina:"žiadna", zdroj:"generické+cukor", popolDM:13.3, body:7, znamka:"C"},
-  {produkt:"Whiskas Classic", bielkDM:47.1, sacharidyDM:15.2, kompletne:"áno", vlaknina:"žiadna", zdroj:"obilniny+cukor", popolDM:10.3, body:6, znamka:"C"},
-  {produkt:"Concept for Life Kitten (odhad)", bielkDM:40, sacharidyDM:15, kompletne:"áno", vlaknina:"inulín", zdroj:"generické", popolDM:10, body:8, znamka:"C"},
-  {produkt:"Purina Pro Plan Vet EN GI (odhad)", bielkDM:36.4, sacharidyDM:25.5, kompletne:"áno", vlaknina:"inulín+pea fibre", zdroj:"obilniny+vajcia", popolDM:9.1, body:7, znamka:"C"},
-  {produkt:"Hill's Prescription i/d (odhad)", bielkDM:42.5, sacharidyDM:16.0, kompletne:"áno", vlaknina:"FOS+psyllium", zdroj:"škrob+generické", popolDM:9.0, body:8, znamka:"C"},
-  {produkt:"Fine Cat Grain-Free Kitten", bielkDM:37.5, sacharidyDM:28.5, kompletne:"áno", vlaknina:"žiadna", zdroj:"generické+cukor", popolDM:10.0, body:4, znamka:"D"},
-  {produkt:"Dein Bestes Sensitive", bielkDM:47.1, sacharidyDM:23.5, kompletne:"áno", vlaknina:"žiadna", zdroj:"bez obilnín/cukru, len 15 % named", popolDM:8.8, body:7, znamka:"C"},
-  {produkt:"Stuzzy Cat Shreds (Kitten/Sterilised)", bielkDM:44.4, sacharidyDM:17.2, kompletne:"áno", vlaknina:"inulín 0,4 %", zdroj:"named, bez obilnín/cukru", popolDM:11.1, body:9, znamka:"B"},
-  {produkt:"Royal Canin Indoor Sterilised In Gravy", bielkDM:50.5, sacharidyDM:18.2, kompletne:"áno", vlaknina:"žiadna", zdroj:"obilniny+generické", popolDM:9.4, body:7, znamka:"C"},
-  {produkt:"Royal Canin Sterilised Gravy", bielkDM:47.4, sacharidyDM:22.6, kompletne:"áno", vlaknina:"žiadna", zdroj:"obilniny+cukry+generické", popolDM:6.8, body:6, znamka:"C"},
-  {produkt:"Royal Canin Hairball Care Gravy", bielkDM:38.9, sacharidyDM:31.7, kompletne:"áno", vlaknina:"žiadna, napriek názvu", zdroj:"obilniny+cukry+RBK+generické", popolDM:8.9, body:5, znamka:"D"},
-  {produkt:"Purina Gourmet Perle", bielkDM:66.7, sacharidyDM:8.6, kompletne:"áno", vlaknina:"žiadna", zdroj:"len 4 % named, RBK+cukor", popolDM:10.5, body:7, znamka:"C"},
+  {produkt:"Calibra Premium Kitten Salmon / Turkey&Chicken", cenaKg:7, bielkDM:50.0, sacharidyDM:5.3, kompletne:"áno", vlaknina:"vláknina 1 %, zdroj nemenovaný", zdroj:"named, bez plnív", popolDM:13.2, body:10, znamka:"B"},
+  {produkt:"Calibra Premium Adult (4 príchute)", cenaKg:7, bielkDM:50.0, sacharidyDM:2.8, kompletne:"áno", vlaknina:"vláknina 1 %, nemenovaný", zdroj:"named, bez plnív", popolDM:16.7, body:9, znamka:"B"},
+  {produkt:"Calibra Premium Sterilised Liver / Salmon", cenaKg:7, bielkDM:47.2, sacharidyDM:16.7, kompletne:"áno", vlaknina:"inulín 0,4 %", zdroj:"named, bez plnív", popolDM:13.9, body:9, znamka:"B"},
+  {produkt:"Animonda Carny Adult", cenaKg:15.3, bielkDM:56.7, sacharidyDM:0, kompletne:"áno", vlaknina:"žiadna", zdroj:"named, bez plnív", popolDM:8.9, body:10, znamka:"B"},
+  {produkt:"Almo Nature Anti Hairball", cenaKg:16.1, bielkDM:52.8, sacharidyDM:9.4, kompletne:"áno", vlaknina:"inulín", zdroj:"obilniny prítomné", popolDM:11.1, body:10, znamka:"B"},
+  {produkt:"Shelma dušené filetky", cenaKg:5.26, bielkDM:52.6, sacharidyDM:13.7, kompletne:"áno", vlaknina:"inulín 0,4 %", zdroj:"named, bez obilnín", popolDM:13.2, body:11, znamka:"A"},
+  {produkt:"Purina Pro Plan Delicate", cenaKg:9.3, bielkDM:57.3, sacharidyDM:13.6, kompletne:"áno", vlaknina:"FOS", zdroj:"generické, bez cukru", popolDM:10.5, body:10, znamka:"B"},
+  {produkt:"Catz Finefood Mousse", cenaKg:18.8, bielkDM:55.0, sacharidyDM:2, kompletne:"áno", vlaknina:"žiadna", zdroj:"named, 98 % mäso", popolDM:10.0, body:9, znamka:"B"},
+  {produkt:"Specific FIW (odhad)", cenaKg:9.8, bielkDM:45, sacharidyDM:15, kompletne:"áno", vlaknina:"psyllium+MOS", zdroj:"named+ryža", popolDM:10, body:9, znamka:"B"},
+  {produkt:"Sheba Fresh & Fine", cenaKg:4.17, bielkDM:47.1, sacharidyDM:10.6, kompletne:"áno", vlaknina:"žiadna", zdroj:"generické+cukor", popolDM:11.2, body:7, znamka:"C"},
+  {produkt:"Royal Canin Digestive Care", cenaKg:12.9, bielkDM:47.5, sacharidyDM:21.5, kompletne:"áno", vlaknina:"psyllium", zdroj:"obilniny+generické", popolDM:10.0, body:9, znamka:"B"},
+  {produkt:"Schesir Kitten Mousse", cenaKg:20, bielkDM:50.0, sacharidyDM:10.6, kompletne:"áno", vlaknina:"žiadna", zdroj:"named, taurín/DHA", popolDM:11.1, body:9, znamka:"B"},
+  {produkt:"Hill's Science Plan Kitten", cenaKg:10.6, bielkDM:44.1, sacharidyDM:18.3, kompletne:"áno", vlaknina:"čiastočne", zdroj:"obilniny+cukry", popolDM:8.6, body:7, znamka:"C"},
+  {produkt:"Calibra Cat Life Adult (Turkey/Duck/Beef/Veal/Sterilised Duck)", cenaKg:10.12, bielkDM:52.6, sacharidyDM:13.7, kompletne:"áno", vlaknina:"inulín 0,4 %", zdroj:"named, bez obilnín", popolDM:13.2, body:11, znamka:"A"},
+  {produkt:"Calibra Cat Life Sterilised Salmon", cenaKg:10.12, bielkDM:52.6, sacharidyDM:13.7, kompletne:"áno", vlaknina:"inulín 0,4 %", zdroj:"named+ryba, bez obilnín", popolDM:13.2, body:11, znamka:"A"},
+  {produkt:"Calibra Cat Life Kitten (Turkey/Salmon)", cenaKg:10.12, bielkDM:50.0, sacharidyDM:13.5, kompletne:"áno", vlaknina:"inulín 0,4 %", zdroj:"named, bez obilnín", popolDM:10.0, body:11, znamka:"A"},
+  {produkt:"RC VD Gastro Intestinal (vet.)", cenaKg:15.3, bielkDM:38.0, sacharidyDM:22.0, kompletne:"áno", vlaknina:"vlákninový blend", zdroj:"obilniny+generické", popolDM:8.0, body:8, znamka:"C"},
+  {produkt:"Kattovit Gastro (vet.)", cenaKg:13.14, bielkDM:40.0, sacharidyDM:22.5, kompletne:"áno", vlaknina:"žiadna, len bežná vláknina", zdroj:"obilniny (ryža)+generické", popolDM:10.0, body:4, znamka:"D"},
+  {produkt:"Applaws Pâté", cenaKg:22.9, bielkDM:80, sacharidyDM:2, kompletne:"NIE", vlaknina:"žiadna", zdroj:"named, výborné", popolDM:9, body:7, znamka:"C"},
+  {produkt:"Felix Tasty Shreds", cenaKg:9.26, bielkDM:61.4, sacharidyDM:14.8, kompletne:"áno", vlaknina:"žiadna", zdroj:"generické", popolDM:11.8, body:8, znamka:"C"},
+  {produkt:"Purina Gourmet Gold Mousse", cenaKg:7.8, bielkDM:46.7, sacharidyDM:10.9, kompletne:"áno", vlaknina:"žiadna", zdroj:"generické+cukor", popolDM:13.3, body:7, znamka:"C"},
+  {produkt:"Whiskas Classic", cenaKg:3.9, bielkDM:47.1, sacharidyDM:15.2, kompletne:"áno", vlaknina:"žiadna", zdroj:"obilniny+cukor", popolDM:10.3, body:6, znamka:"C"},
+  {produkt:"Concept for Life Kitten (odhad)", cenaKg:5.1, bielkDM:40, sacharidyDM:15, kompletne:"áno", vlaknina:"inulín", zdroj:"generické", popolDM:10, body:8, znamka:"C"},
+  {produkt:"Purina Pro Plan Vet EN GI (odhad)", cenaKg:null, bielkDM:36.4, sacharidyDM:25.5, kompletne:"áno", vlaknina:"inulín+pea fibre", zdroj:"obilniny+vajcia", popolDM:9.1, body:7, znamka:"C"},
+  {produkt:"Hill's Prescription i/d (odhad)", cenaKg:15, bielkDM:42.5, sacharidyDM:16.0, kompletne:"áno", vlaknina:"FOS+psyllium", zdroj:"škrob+generické", popolDM:9.0, body:8, znamka:"C"},
+  {produkt:"Fine Cat Grain-Free Kitten", cenaKg:3.77, bielkDM:37.5, sacharidyDM:28.5, kompletne:"áno", vlaknina:"žiadna", zdroj:"generické+cukor", popolDM:10.0, body:4, znamka:"D"},
+  {produkt:"Dein Bestes Sensitive", cenaKg:4.5, bielkDM:47.1, sacharidyDM:23.5, kompletne:"áno", vlaknina:"žiadna", zdroj:"bez obilnín/cukru, len 15 % named", popolDM:8.8, body:7, znamka:"C"},
+  {produkt:"Stuzzy Cat Shreds (Kitten/Sterilised)", cenaKg:12.9, bielkDM:44.4, sacharidyDM:17.2, kompletne:"áno", vlaknina:"inulín 0,4 %", zdroj:"named, bez obilnín/cukru", popolDM:11.1, body:9, znamka:"B"},
+  {produkt:"Royal Canin Indoor Sterilised In Gravy", cenaKg:14.5, bielkDM:50.5, sacharidyDM:18.2, kompletne:"áno", vlaknina:"žiadna", zdroj:"obilniny+generické", popolDM:9.4, body:7, znamka:"C"},
+  {produkt:"Royal Canin Sterilised Gravy", cenaKg:15.4, bielkDM:47.4, sacharidyDM:22.6, kompletne:"áno", vlaknina:"žiadna", zdroj:"obilniny+cukry+generické", popolDM:6.8, body:6, znamka:"C"},
+  {produkt:"Royal Canin Hairball Care Gravy", cenaKg:15.4, bielkDM:38.9, sacharidyDM:31.7, kompletne:"áno", vlaknina:"žiadna, napriek názvu", zdroj:"obilniny+cukry+RBK+generické", popolDM:8.9, body:5, znamka:"D"},
+  {produkt:"Purina Gourmet Perle", cenaKg:9.1, bielkDM:66.7, sacharidyDM:8.6, kompletne:"áno", vlaknina:"žiadna", zdroj:"len 4 % named, RBK+cukor", popolDM:10.5, body:7, znamka:"C"},
 ];
 
 // ---------- Render helpers ----------
 function fmt(v){ return (v===null||v===undefined||Number.isNaN(v)) ? "n/a" : v; }
+
+function znamkaBadge(z){
+  if (!z || z === "—") return '<span class="muted">—</span>';
+  return `<span class="badge ${z}">${z}</span>`;
+}
 
 function renderCmp(rows){
   const tbody = document.querySelector("#cmp-table tbody");
@@ -294,6 +301,7 @@ function renderCmp(rows){
       <td>${r.vlaknina}</td>
       <td>${r.cenaKs}</td>
       <td class="price">${r.cenaKgText}</td>
+      <td>${znamkaBadge(r.znamka)}</td>
       <td>${r.kompletne}</td>
       <td>${r.dostupnost}</td>
     `;
@@ -309,6 +317,7 @@ function renderGrade(rows){
     const tr = document.createElement("tr");
     tr.innerHTML = `
       <td>${r.produkt}</td>
+      <td class="price">${r.cenaKg===null||r.cenaKg===undefined ? '<span class="muted">n/a</span>' : r.cenaKg + " €"}</td>
       <td>${fmt(r.bielkDM)}</td>
       <td>${fmt(r.sacharidyDM)}</td>
       <td>${r.kompletne}</td>
@@ -331,7 +340,8 @@ function sortAndRenderCmp(){
   const key = cmpSort.key, dir = cmpSort.dir;
   const rows = [...cmpData].sort((a,b)=>{
     let av = a[key], bv = b[key];
-    if (key === "cenaKg") { av = av===null?Infinity:av; bv = bv===null?Infinity:bv; return (av-bv)*dir; }
+    if (key === "cenaKg") { av = (av===null||av===undefined)?Infinity:av; bv = (bv===null||bv===undefined)?Infinity:bv; return (av-bv)*dir; }
+    if (key === "znamkaRank") { av = gradeRank[a.znamka] || 0; bv = gradeRank[b.znamka] || 0; return (av-bv)*dir; }
     av = (av===undefined||av===null) ? "" : String(av).toLowerCase();
     bv = (bv===undefined||bv===null) ? "" : String(bv).toLowerCase();
     return av.localeCompare(bv, 'sk') * dir;
@@ -346,6 +356,7 @@ function sortAndRenderGrade(){
   const rows = [...gradeData].sort((a,b)=>{
     let av, bv;
     if (key === "znamkaRank") { av = gradeRank[a.znamka]; bv = gradeRank[b.znamka]; return (av-bv)*dir; }
+    if (key === "cenaKg") { av = (a.cenaKg===null||a.cenaKg===undefined)?Infinity:a.cenaKg; bv = (b.cenaKg===null||b.cenaKg===undefined)?Infinity:b.cenaKg; return (av-bv)*dir; }
     av = a[key]; bv = b[key];
     if (typeof av === "number" || typeof bv === "number") {
       av = (av===undefined||av===null||Number.isNaN(av)) ? -Infinity : av;
