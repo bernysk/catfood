@@ -107,7 +107,18 @@ Sheba je globálna značka Mars, no **receptúra na SK/CZ trhu sa mierne líši 
 
 Vo všetkých variantoch ide o **jemne nakrájané tenké plátky/kúsky (43 % hmotnosti)** v tekutej zložke (67 %) — nie o čisté paté/mousse, ale o veľmi malé, mäkké kúsky dobre nasiaknuté omáčkou alebo želé. Vysoký podiel vlhkosti (83–85 %) v kombinácii s malými kúskami je pravdepodobný dôvod, prečo produkt dobre znáša citlivá a bezzubá mačka.
 
-### 3.5 Cena a dostupnosť
+### 3.5 Riziká dlhodobého kŕmenia výhradne Shebou Fresh & Fine
+
+Keďže Sheba je referenčný produkt v tomto prieskume, stojí za samostatné zhrnutie, či dlhodobé kŕmenie len ňou môže mačke niečo spôsobiť:
+
+- **Oficiálny recall:** žiadny v histórii značky. Online sa dajú nájsť anekdotické sťažnosti zákazníkov (podráždenie papule, zvracanie, plesne/kontaminácia) na SEO/recenzných weboch — tieto sú **neoverené, bez laboratórneho potvrdenia** a podobné ojedinelé sťažnosti existujú pri prakticky každej masovej značke; nepovažujeme ich za dôveryhodný dôkaz systémového problému (Tier 3, len pre úplnosť).
+- **Chýbajúca funkčná vláknina/prebiotikum (0 b. v [časti 10](#10)):** podľa Weber a kol. 2015 ([časť 2](#2)) práve primeraná vláknina pomáha chlpy prepraviť cez tráviaci trakt. Dlhodobé kŕmenie výhradne Shebou teda neposkytuje podporu, ktorú mačka s rizikom bezoárov potrebuje — nejde o škodlivosť, skôr o chýbajúci benefit oproti napr. Calibra Cat Life alebo Shelme (obe s named inulínom).
+- **Pridaný cukor + generický zdroj bielkovín (len 4 % pomenovaného mäsa):** nie akútne škodlivé, ale nutrične priemerná receptúra (0 b. za kritérium "zdroj bielkovín"). Všeobecná odborná obava (napr. catinfo.org) sa týka vyššieho podielu sacharidov v strave v súvislosti s rizikom cukrovky, najmä pri obéznych mačkách — no na sušinu má Sheba Fresh & Fine len **10,6 % sacharidov/NFE**, čo je v "dobrom" pásme (<15 %) a nižšie než napr. RC Hairball Care Gravy (31,7 %) alebo Fine Cat Grain-Free Kitten (28,5 %) v tomto istom prieskume — pri tomto konkrétnom produkte teda nejde o extrémny sacharidový problém.
+- **Dátová medzera:** obsah horčíka/fosforu nebol pre Shebu dohľadaný, preto sa nedá posúdiť riziko močových kryštálov (struvit) — hodnotené je len to, čo je verejne zmerané.
+
+**Záver:** dlhodobo výhradne na Shebe nejde o nebezpečnú stravu, ale ani o optimálnu voľbu pre mačku s rizikom bezoárov — presne preto vychádzajú v [časti 12](#12) lepšie Calibra Cat Life alebo Shelma dušené filetky.
+
+### 3.6 Cena a dostupnosť
 
 Referenčná cena: Zoohit, 72 × 50 g za 15 € v akcii → **0,208 €/ks, 4,17 €/kg**. Bežná (neakciová) cena je vyššia, orientačne 6–7 €/kg. Trvalo dostupné na Zoohit.sk/cz, bežne aj ABC-ZOO a v drogériách (Rossmann, Teta).
 
