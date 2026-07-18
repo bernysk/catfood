@@ -239,28 +239,36 @@ Podobne ako pri Life línii sa priamym overením ("Zloženie" tab na mojacalibra
 
 Overené priamo na oficiálnej stránke výrobcu [shelma.eu/cz/kapsicky](https://www.shelma.eu/cz/kapsicky) (jednotlivé produktové stránky cez "Zjistit více"). Shelma ponúka kapsičky v **dvoch textúrnych líniách — "v omáčce" a "v želé"** — spolu v 16 príchutiach (8+8), všetky bezobilninové, bez pridaného cukru, umelých dochucovadiel, konzervantov a farbív.
 
-**Línia "v omáčce" — dospelé mačky (4 príchute: hovädzie+rajčiny+bylinky, kuracie+rajčiny+bylinky, kačacie+brusnice, morčacie+rakytník):**
-- Zloženie: mäso a výrobky živočíšneho pôvodu **88 % vo filetkách** (z toho 40,6 % pomenovaného mäsa), zelenina/ovocie podľa príchute (rajčiny, brusnice), minerálne látky, **0,4 % inulín** (vedľajšie výrobky rastlinného pôvodu), bylinky (tymián, rozmarín, petržlen podľa príchute). Dusené filetky tvoria **34,5 % produktu**.
-- Analytické zložky: bielkoviny **10 %** · tuk **3,5 %** · popol **2,5 %** · vláknina **0,4 %** · vlhkosť **81 %**.
-- Doplnkové látky/kg: vitamín D₃ 160 IU, vitamín E 100 mg, zinok 10 mg, mangán 2 mg, meď 1,2 mg, jód 0,2 mg, **taurín 520 mg**, biotín 100 μg.
+**Línia "v omáčce" — 8 samostatne kúpiteľných produktov (85 g), overené priamo na jednotlivých produktových stránkach:**
 
-**Línia "v omáčce" — rybie príchute (2 príchute: losos+spirulina, treska+spirulina):**
-- Zloženie: mäso a výrobky živočíšneho pôvodu 74 % + ryby a výrobky z rýb 14 % vo filetkách, minerálne látky, 0,4 % inulín, 0,05 % spirulina.
-- Analytické zložky: **identické** ako mäsová línia (bielkoviny 10 %, tuk 3,5 %, popol 2,5 %, vláknina 0,4 %, vlhkosť 81 %), rovnaké doplnkové látky.
+| Príchuť | Pomenované mäso/ryba | Ostatné prísady | Bielk./Tuk/Popol/Vlák./Vlhk. |
+|---|---|---|---|
+| Hovädzie + rajčiny + bylinky | 88 % vo filetách, z toho 40,6 % hovädzie | 0,45 % sušené rajčatá (= 4 % čerstvých), 0,4 % inulín, bylinky 0,05 % (rozmarín+tymian) | 10/3,5/2,5/0,4/81 |
+| Kuracie + rajčiny + bylinky | 88 %, z toho 40,6 % kuracie | rajčatá rovnako, 0,4 % inulín, bylinky 0,05 % (tymian+petržlen) | 10/3,5/2,5/0,4/81 |
+| Kačacie + brusnice | 88 %, z toho 40,6 % kačacie | 0,1 % sušené brusnice (= 1 % čerstvých), 0,4 % inulín | 10/3,5/2,5/0,4/81 |
+| Morčacie + rakytník | 88 %, z toho 40,6 % morčacie | **0,5 % ľanový olej**, rakytník 0,05 %, 0,4 % inulín | 10/3,5/2,5/0,4/81 |
+| Losos + spirulina | 74 % mäso + 14 % losos vo filetách | spirulina 0,05 %, 0,4 % inulín | 10/3,5/2,5/0,4/81 |
+| Treska + spirulina | 74 % + 14 % treska | spirulina 0,05 %, 0,4 % inulín | 10/3,5/2,5/0,4/81 |
+| **Kitten** losos + rakytník | 73,5 % mäso + 14,5 % losos | ⚠️ **1 % ľanový olej** (nie lososový!), rakytník 0,1 %, 0,4 % inulín | 10/**5**/2/0,3/80, vápnik 0,27 % |
+| **Kitten** morčacie + brusnice | 88 %, z toho 40,6 % morčacie | ⚠️ **1 % lososový olej** (nie ľanový!), brusnice 0,1 % (=1 %), 0,4 % inulín | 10/**5**/2/0,3/80, vápnik 0,27 % |
 
-**Línia "v omáčce" — koťata/mačiatka (2 príchute: losos+rakytník, morčacie+brusnice):**
-- Zloženie: 73,5–88 % mäsa/rýb vo filetkách, minerálne látky, **1 % lososový/ľanový olej** (zdroj omega-3), 0,4 % inulín, rakytník alebo brusnice.
-- Analytické zložky: bielkoviny 10 % · **tuk 5 %** (vyšší než dospelá línia) · popol **2 %** · vláknina **0,3 %** · vlhkosť **80 %** · vápnik 0,27 %. Rovnaké doplnkové látky + omega-3 z rybieho/ľanového oleja.
+⚠️ **Nezrovnalosť v zdroji oleja:** pri oboch kitten príchutiach je zdroj omega-3 oleja opačne, než by naznačoval názov príchute — losos + rakytník obsahuje *ľanový* olej, zatiaľ čo morčacie + brusnice obsahuje *lososový* olej. Overené priamo na oboch produktových stránkach výrobcu, nejde o preklep pri prepise — buď je to zámerné (vyváženie tukového profilu), alebo chyba na strane výrobcu pri popise produktu. Nutrične to nie je problém (obe sú zdrojom omega-3), len upozornenie, že marketingový názov nezodpovedá presne zloženiu.
 
-**Línia "v želé" (8 príchutí: rovnaké mäsové ako v omáčke + losos+spirulina, treska+spirulina, pstruh+špenát, tuňák+špenát):**
-- Na rozdiel od Sheby (kde sa želé/omáčka platformy analytický líšia), pri Shelme majú **obe textúry identické analytické zloženie**: bielkoviny 10 % · tuk 3,5 % · popol 2,5 % · vláknina 0,4 % · vlhkosť 81 %. Mäsové varianty 88 % vo filetkách, rybie varianty 76 % mäso + 11,6 % ryba vo filetkách. Rovnaké doplnkové látky (rybie varianty bez pridaného vitamínu D₃, podobne ako pri Shebe).
+Doplnkové látky/kg (rovnaké pre všetky "v omáčce" príchute): vitamín D₃ 160 IU (u dospelých variantov), vitamín E 100 mg, zinok 10 mg, mangán 2 mg, meď 1,2 mg, jód 0,2 mg, **taurín 520 mg**, biotín 100 μg. Filety (34,5 % produktu) doplnené omáčkou/vývarom do 100 %.
+
+**Línia "v želé" — predáva sa ako 2 viacpríchuťové multipacky (nie 8 samostatných SKU!):**
+
+Zistenie oproti predchádzajúcej verzii dokumentu: "v želé" nie sú samostatne kúpiteľné jednotlivé príchute, ale **dva multipacky** kombinujúce 4 príchute každý (podobne ako pri Sheba "variácie" multipackoch):
+
+- **Mäsový multipack (4 príchute):** hovädzie+rajčiny+bylinky, kuracie+brusnice, morčacie+rajčiny+bylinky, kačacie+brusnice — všetky 88 % vo filetách (40,6 % pomenovaného mäsa), 0,4 % inulín. Analytika 10/3,5/2,5/0,4/81, s vitamínom D₃ 160 IU/kg.
+- **Rybí multipack (4 príchute):** losos+spirulina, treska+spirulina, pstruh+špenát, tuňák+špenát — všetky **76 % mäso + 11,6 % ryba** vo filetách (spolu 87,6 % — mierne inak než 74+14=88 % pri "v omáčce" rybích príchutiach, pravdepodobne len iná receptúrna dávka pre túto textúru), 0,4 % inulín. Analytika rovnaká, **bez pridaného vitamínu D₃** (ryba ho má prirodzene, rovnaký vzor ako pri Sheba rybích variantoch).
 
 **Textúra:** JK/filety — dusené kúsky (34,5 % produktu) v omáčke alebo želé; mäkšie než klasické kúsky, ale nie čisté paté/mousse.
 **Kompletnosť:** všetky varianty deklarované ako **kompletné krmivo**.
 **Cena** (potvrdené na Alza.sk, kuracie v omáčke): 40×85 g za 17,90 € → **0,45 €/ks, 5,26 €/kg** — najlacnejšia bezobilninová kapsička s reálnym prebiotikom v prieskume.
 **Dostupnosť:** **Alza.sk (potvrdené)**, Rohlík.cz, Košík.cz.
 
-> **Zdroje (Tier 1):** [shelma.eu/cz/kapsicky – prehľad](https://www.shelma.eu/cz/kapsicky) · [Dušené filetky hovězí v omáčce](https://www.shelma.eu/cz/kapsicky/dusene-filetky-bohate-na-hovezi-s-rajcaty-a-bylinkami-v-omacce/) · [Dušené filetky losos+spirulina v omáčce](https://www.shelma.eu/cz/kapsicky/dusene-filetky-s-lososem-a-spirulinou-v-omacce/) · [Dušené filetky pre koťata losos+rakytník](https://www.shelma.eu/cz/kapsicky/dusene-filetky-pro-kotata-s-lososem-a-rakytnikem-v-omacce/) · [v želé – mäsové varianty](https://www.shelma.eu/cz/kapsicky/dusene-filetky-bohate-na-hovezi-a-kruti-s-rajcaty-a-bylinkami,-kachni-a-kureci-s-brusinkami-v--zele/) · [v želé – rybie varianty](https://www.shelma.eu/cz/kapsicky/dusene-filetky-s-lososem-a-treskou-se-spirulinou,-s-tunakem-a-pstruhem-se-spenatem-v--zele/)
+> **Zdroje (Tier 1, každá príchuť overená na vlastnej produktovej stránke):** [prehľad v omáčce](https://www.shelma.eu/cz/v-omacce) · [prehľad v želé](https://www.shelma.eu/cz/v-zele) · [Hovädzie v omáčce](https://www.shelma.eu/cz/kapsicky/dusene-filetky-bohate-na-hovezi-s-rajcaty-a-bylinkami-v-omacce/) · [Kuracie v omáčce](https://www.shelma.eu/cz/kapsicky/dusene-filetky-bohate-na-kureci-s-rajcaty-a-bylinkami-v-omacce/) · [Kačacie v omáčce](https://www.shelma.eu/cz/kapsicky/dusene-filetky-bohate-na-kachni-s-brusinkami-v-omacce/) · [Morčacie v omáčce](https://www.shelma.eu/cz/kapsicky/dusene-filetky-bohate-na-kruti-s-rakytnikem-v-omacce/) · [Losos v omáčce](https://www.shelma.eu/cz/kapsicky/dusene-filetky-s-lososem-a-spirulinou-v-omacce/) · [Treska v omáčce](https://www.shelma.eu/cz/kapsicky/dusene-filetky-s-treskou-a-spirulinou-v-omacce/) · [Kitten losos v omáčce](https://www.shelma.eu/cz/kapsicky/dusene-filetky-pro-kotata-s-lososem-a-rakytnikem-v-omacce/) · [Kitten morčacie v omáčce](https://www.shelma.eu/cz/kapsicky/dusene-filetky-pro-kotata-bohate-na-kruti-s-brusinkami-v-omacce/) · [Mäsový multipack v želé](https://www.shelma.eu/cz/kapsicky/dusene-filetky-bohate-na-hovezi-a-kruti-s-rajcaty-a-bylinkami,-kachni-a-kureci-s-brusinkami-v--zele/) · [Rybí multipack v želé](https://www.shelma.eu/cz/kapsicky/dusene-filetky-s-lososem-a-treskou-se-spirulinou,-s-tunakem-a-pstruhem-se-spenatem-v--zele/)
 
 ### 4.14 Felix Tasty Shreds (80 g)
 - Analytické zložky: bielkoviny 13,5 % (najvyššie v prieskume) · **tuk len 2,6 %** (najnižší v prieskume) · popol 2,6 % · vláknina 0,05 % · vlhkosť 78 %. Kalorická hodnota: **~95 kcal/100 g** (potvrdené, purina.co.uk).
@@ -283,6 +291,8 @@ Priamo z mojacalibra.sk (záložka "Zloženie" na každej produktovej podstránk
 - Textúra: JK, mäsové kúsky v omáčke. Kompletné krmivo.
 - **Cena — priamo z mojacalibra.sk:** jednotlivé kapsičky (85 g, -10 % akcia) **10,12 €/kg** (bežná cena ~11,3 €/kg); multipack (12×85 g, -10 %) **9,58 €/kg** — lacnejšie ako jednotlivé kusy.
 - Dostupnosť: mojacalibra.sk (priamo potvrdené), Alza.sk, Zoohit.sk.
+
+**⭐ Zistenie — Calibra Cat Life a Shelma dušené filetky ([4.13](#4)) majú prakticky identické analytické zloženie:** bielkoviny 10 %, tuk 3,5 %, popol 2,5 %, vláknina 0,4 %, vlhkosť 81 %, 88 % mäsa vo filetách (z toho 40,6 % pomenovaného), filety tvoria 34,5 % produktu, inulín 0,4 %, taurín 520 mg/kg, D₃ 160 IU, E 100 mg, zinok 10 mg, mangán 2 mg, meď 1,2 mg, jód 0,2 mg, biotín 100 μg — **zhoda na desatinu percenta vo všetkých meraných hodnotách**. Jediný rozdiel na štítku: Calibra menuje aj 0,4 % škrobu popri inulíne/vláknine, Shelma to takto nerozpisuje — matematicky (rovnaký zvyšok/NFE) to ale vyzerá skôr ako rozdielna miera detailu na štítku než iná receptúra. Vzhľadom na to, že obe značky vyrába ten istý zmluvný závod (Partner in Pet Food CZ, CZ843 — pozri [časť 1](#1)), ide pravdepodobne o **rovnaký základný recept predávaný pod dvoma značkami** — Calibra Life ale stojí 10,12 €/kg, Shelma len 5,26 €/kg. Ak je zhoda skutočne receptúrová (nie len náhodná zhoda deklarovaných rozsahov), Shelma vychádza za približne polovicu ceny pri rovnakej nutričnej kvalite. Nepotvrdené priamo výrobcom — len pozorovanie zo zverejnených dát.
 - Zdroj (Tier 1): [Calibra Cat Life kapsička Adult Veal, mojacalibra.sk](https://www.mojacalibra.sk/calibra-cat-life-kapsicka-adult-veal-in-gravy-85g) · [Adult Beef](https://www.mojacalibra.sk/calibra-cat-life-kapsicka-adult-beef-in-gravy-85g) · [Adult Duck](https://www.mojacalibra.sk/calibra-cat-life-kapsicka-adult-duck-in-gravy-85g) · [Adult Turkey](https://www.mojacalibra.sk/calibra-cat-life-kapsa-adult-turkey-in-gravy-85g) · [Sterilised Duck](https://www.mojacalibra.sk/calibra-cat-life-kapsicka-sterilised-duck-in-gravy-85g) · [Sterilised Salmon](https://www.mojacalibra.sk/calibra-cat-life-kapsicka-sterilised-salmon-in-gravy-85g) · [Kitten Turkey](https://www.mojacalibra.sk/calibra-cat-life-kapsicka-kitten-turkey-in-gravy-85g) · [Kitten Salmon](https://www.mojacalibra.sk/calibra-cat-life-kapsicka-kitten-salmon-in-gravy-85g)
 
 *Poznámka:* Calibra Premium Kitten Salmon (100 g, [4.12](#4)) je **iná, samostatná línia** ("Premium Line", nie "Life") s odlišným zložením — vyššia vláknina (1 % vs 0,4 %), nižší taurín (450 vs 520 mg), bez škrobu. Aktuálna cena priamo z mojacalibra.sk: **7,00 €/kg** (predtým zaznamenaných 7,16 € — cena osciluje podľa aktuálnej akcie).
@@ -461,7 +471,16 @@ Stĺpec **Známka** je len skrátený odkaz na plné hodnotenie v [časti 10](#1
 | **Fine Cat Kitten** *(kúpené)* | 100 g | JK, bez obilnín | 7,5/4,5/0,3/2/80 | nie | 0,377 € | **3,77 €** | D | áno | Alza ✅ |
 | Whiskas Classic | 85 g | JK+obilniny | 7,3/–/0,25/1,6/84,5 | nie | 0,33–0,55 € | ~3,9–6,5 € ⚠️ | C | áno | Zoohit, Alza |
 | **Dein Bestes Sensitive** | 100 g | JK/želé | 8/3/0,5/1,5/83 | žiadna | 0,45 € | **4,50 €** | C | áno | mojadm.sk ✅ |
-| Shelma dušené filetky | 85 g | JK/filety | 10/3,5/0,4/2,5/81 | inulín 0,4 % | 0,45 € | **5,26 €** | **A** | áno | Alza ✅ |
+| Shelma v omáčce – Hovädzie + rajčiny + bylinky | 85 g | JK/filety | 10/3,5/2,5/0,4/81 | inulín 0,4 % | 0,45 € | **5,26 €** | **A** | áno | Alza ✅ |
+| Shelma v omáčce – Kuracie + rajčiny + bylinky | 85 g | JK/filety | 10/3,5/2,5/0,4/81 | inulín 0,4 % | 0,45 €* | 5,26 €* | **A** | áno | Alza (predpoklad rovnaká cena v línii) |
+| Shelma v omáčce – Kačacie + brusnice | 85 g | JK/filety | 10/3,5/2,5/0,4/81 | inulín 0,4 % | 0,45 €* | 5,26 €* | **A** | áno | Alza (predpoklad) |
+| Shelma v omáčce – Morčacie + rakytník (+ľanový olej) | 85 g | JK/filety | 10/3,5/2,5/0,4/81 | inulín 0,4 % | 0,45 €* | 5,26 €* | **A** | áno | Alza (predpoklad) |
+| Shelma v omáčce – Losos + spirulina (74 %+14 % ryba) | 85 g | JK/filety | 10/3,5/2,5/0,4/81 | inulín 0,4 % | 0,45 €* | 5,26 €* | **A** | áno | Alza (predpoklad) |
+| Shelma v omáčce – Treska + spirulina (74 %+14 % ryba) | 85 g | JK/filety | 10/3,5/2,5/0,4/81 | inulín 0,4 % | 0,45 €* | 5,26 €* | **A** | áno | Alza (predpoklad) |
+| Shelma v omáčce – Kitten losos + rakytník ⚠️ ľanový olej | 85 g | JK/filety | 10/5/2/0,3/80 | inulín 0,4 % | 0,45 €* | 5,26 €* | **A** | áno | Alza (predpoklad) |
+| Shelma v omáčce – Kitten morčacie + brusnice ⚠️ lososový olej | 85 g | JK/filety | 10/5/2/0,3/80 | inulín 0,4 % | 0,45 €* | 5,26 €* | **A** | áno | Alza (predpoklad) |
+| Shelma v želé – mäsový multipack (hovädzie/kuracie/morčacie/kačacie) | 85 g | JK/filety/želé | 10/3,5/2,5/0,4/81 | inulín 0,4 % | 0,45 €* | 5,26 €* | **A** | áno | Alza (predpoklad) |
+| Shelma v želé – rybí multipack (losos/treska/pstruh/tuňák, 76 %+11,6 % ryba) | 85 g | JK/filety/želé | 10/3,5/2,5/0,4/81 | inulín 0,4 % | 0,45 €* | 5,26 €* | **A** | áno | Alza (predpoklad) |
 | Concept for Life Kitten | 85 g | JK jemné | n/a | inulín | 0,43–0,51 € | 5,1–6,0 € | C *(odhad)* | áno | Zoohit |
 | Sheba Fresh & Fine (benchmark) | 50 g | JK | 7,9–8/4,4–5/0,3/1,4–1,9/83–84 | nie | 0,208 € (akcia) | 4,17 € (akcia)/~6–7 € | C | áno | Zoohit |
 | Purina Gourmet Gold Mousse | 85 g | MO | 10,5/6,5/0,05/3,0/77,5 | nie | 0,66–0,74 € | 7,8–9,4 € | C | áno | Zoohit |
@@ -505,7 +524,7 @@ Stĺpec **Známka** je len skrátený odkaz na plné hodnotenie v [časti 10](#1
 | Applaws Pâté | 70 g | PT | n/a | nie | 1,6–1,8 € | 22,9–25,7 € | C** ⚠️ | **NIE (doplnk.)** ⚠️ | Zoohit, Alza |
 | ~~Shelma Cat Mousse~~ ⚠️ neoverené | 85 g | MO | 10,5/6,5/0,1/3,0/77,5 | nie | n/a | n/a | — | ? | nenájdené na shelma.eu |
 
-\* Royal Canin Digestive Care a VD Gastro Intestinal: existujú varianty Loaf/paté (PT) aj Chunks (JK) — overiť pri objednávke. \*\* Applaws: známka C je z hodnotenia, ktoré diskvalifikačné kritérium "doplnkové, nie kompletné" už zohľadňuje — pozri poznámku v [časti 10](#10).
+\* Royal Canin Digestive Care a VD Gastro Intestinal: existujú varianty Loaf/paté (PT) aj Chunks (JK) — overiť pri objednávke. \*\* Applaws: známka C je z hodnotenia, ktoré diskvalifikačné kritérium "doplnkové, nie kompletné" už zohľadňuje — pozri poznámku v [časti 10](#10). Pri riadkoch Shelma označených „€\*" bola priamo cenovo overená len príchuť kuracie v omáčce (Alza.sk); ostatné príchute rovnakej línie/balenia (85 g) predpokladáme za rovnakú cenu, keďže ide o rovnaký formát balenia tej istej značky — nie je to jednotlivo priamo overené.
 
 ---
 
@@ -538,7 +557,16 @@ Percentá sú prepočítané **na sušinu (DM)**: `hodnota na sušinu (%) = hodn
 | Calibra Premium Sterilised Liver / Salmon | 47,2 (2) | 16,7 (1) | áno (2) | **inulín 0,4 % (2)** | named, bez plnív (2) | 13,9 (0) | 9/12 | **B** |
 | Animonda Carny Adult | 56,7 (2) | ~0 (2) | áno (2) | žiadna (0) | named, bez plnív (2) | 8,9 (2) | 10/12 | **B** |
 | Almo Nature Anti Hairball | 52,8 (2) | 9,4 (2) | áno (2) | inulín (2) | obilniny prítomné (1) | 11,1 (1) | 10/12 | **B** |
-| Shelma dušené filetky | 52,6 (2) | 13,7 (2) | áno (2) | inulín 0,4 % (2) | named, bez obilnín (2) | 13,2 (1) | 11/12 | **A** |
+| Shelma v omáčce – Hovädzie + rajčiny + bylinky | 52,6 (2) | 13,7 (2) | áno (2) | inulín 0,4 % (2) | named, bez obilnín (2) | 13,2 (1) | 11/12 | **A** |
+| Shelma v omáčce – Kuracie + rajčiny + bylinky | 52,6 (2) | 13,7 (2) | áno (2) | inulín 0,4 % (2) | named, bez obilnín (2) | 13,2 (1) | 11/12 | **A** |
+| Shelma v omáčce – Kačacie + brusnice | 52,6 (2) | 13,7 (2) | áno (2) | inulín 0,4 % (2) | named, bez obilnín (2) | 13,2 (1) | 11/12 | **A** |
+| Shelma v omáčce – Morčacie + rakytník | 52,6 (2) | 13,7 (2) | áno (2) | inulín 0,4 % (2) | named, bez obilnín (2) | 13,2 (1) | 11/12 | **A** |
+| Shelma v omáčce – Losos + spirulina | 52,6 (2) | 13,7 (2) | áno (2) | inulín 0,4 % (2) | named (74 %+14 % ryba), bez obilnín (2) | 13,2 (1) | 11/12 | **A** |
+| Shelma v omáčce – Treska + spirulina | 52,6 (2) | 13,7 (2) | áno (2) | inulín 0,4 % (2) | named (74 %+14 % ryba), bez obilnín (2) | 13,2 (1) | 11/12 | **A** |
+| Shelma v omáčce – Kitten losos + rakytník | 50,0 (2) | 13,5 (2) | áno (2) | inulín 0,4 % (2) | named, bez obilnín (2) | 10,0 (1) | 11/12 | **A** |
+| Shelma v omáčce – Kitten morčacie + brusnice | 50,0 (2) | 13,5 (2) | áno (2) | inulín 0,4 % (2) | named, bez obilnín (2) | 10,0 (1) | 11/12 | **A** |
+| Shelma v želé – mäsový multipack (4 príchute) | 52,6 (2) | 13,7 (2) | áno (2) | inulín 0,4 % (2) | named, bez obilnín (2) | 13,2 (1) | 11/12 | **A** |
+| Shelma v želé – rybí multipack (4 príchute) | 52,6 (2) | 13,7 (2) | áno (2) | inulín 0,4 % (2) | named (76 %+11,6 % ryba), bez obilnín (2) | 13,2 (1) | 11/12 | **A** |
 | Purina Pro Plan Delicate | 57,3 (2) | 13,6 (2) | áno (2) | FOS (2) | generické, bez cukru (1) | 10,5 (1) | 10/12 | **B** |
 | Catz Finefood Mousse | 55,0 (2) | ~2 (2) | áno (2) | žiadna (0) | named, 98 % mäso (2) | 10,0 (1) | 9/12 | **B** |
 | Specific FIW *(odhad)* | ~45 (2) | ~15 (1) | áno (2) | psyllium+MOS (2) | named+ryža (1) | ~10 (1) | 9/12 | **B** |
