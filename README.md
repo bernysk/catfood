@@ -496,33 +496,33 @@ Stĺpec **Známka** je len skrátený odkaz na plné hodnotenie v [časti 10](#1
 | Shelma v omáčce – Kuracie + rajčiny + bylinky | 85 g | JK/filety | 10/3,5/2,5/0,4/81 | inulín 0,4 % | 0,45 €* | 5,26 €* | **A** | áno | Alza (predpoklad rovnaká cena v línii) |
 | Shelma v omáčce – Kačacie + brusnice | 85 g | JK/filety | 10/3,5/2,5/0,4/81 | inulín 0,4 % | 0,45 €* | 5,26 €* | **A** | áno | Alza (predpoklad) |
 | Shelma v omáčce – Morčacie + rakytník (+ľanový olej) | 85 g | JK/filety | 10/3,5/2,5/0,4/81 | inulín 0,4 % | 0,45 €* | 5,26 €* | **A** | áno | Alza (predpoklad) |
-| Shelma v omáčce – Losos + spirulina (74 %+14 % ryba) | 85 g | JK/filety | 10/3,5/2,5/0,4/81 | inulín 0,4 % | 0,45 €* | 5,26 €* | **A** | áno | Alza (predpoklad) |
-| Shelma v omáčce – Treska + spirulina (74 %+14 % ryba) | 85 g | JK/filety | 10/3,5/2,5/0,4/81 | inulín 0,4 % | 0,45 €* | 5,26 €* | **A** | áno | Alza (predpoklad) |
-| Shelma v omáčce – Kitten losos + rakytník ⚠️ ľanový olej | 85 g | JK/filety | 10/5/2/0,3/80 | inulín 0,4 % | 0,45 €* | 5,26 €* | **A** | áno | Alza (predpoklad) |
+| Shelma v omáčce – Losos + spirulina (74 %+14 % ryba) ⚠️ | 85 g | JK/filety | 10/3,5/2,5/0,4/81 | inulín 0,4 % | 0,45 €* | 5,26 €* | **B** | áno | Alza (predpoklad) |
+| Shelma v omáčce – Treska + spirulina (74 %+14 % ryba) ⚠️ | 85 g | JK/filety | 10/3,5/2,5/0,4/81 | inulín 0,4 % | 0,45 €* | 5,26 €* | **B** | áno | Alza (predpoklad) |
+| Shelma v omáčce – Kitten losos + rakytník ⚠️ ľanový olej, len 14,5 % ryby | 85 g | JK/filety | 10/5/2/0,3/80 | inulín 0,4 % | 0,45 €* | 5,26 €* | **B** | áno | Alza (predpoklad) |
 | Shelma v omáčce – Kitten morčacie + brusnice ⚠️ lososový olej | 85 g | JK/filety | 10/5/2/0,3/80 | inulín 0,4 % | 0,45 €* | 5,26 €* | **A** | áno | Alza (predpoklad) |
 | Shelma v želé – mäsový multipack (hovädzie/kuracie/morčacie/kačacie) | 85 g | JK/filety/želé | 10/3,5/2,5/0,4/81 | inulín 0,4 % | 0,45 €* | 5,26 €* | **A** | áno | Alza (predpoklad) |
-| Shelma v želé – rybí multipack (losos/treska/pstruh/tuňák, 76 %+11,6 % ryba) | 85 g | JK/filety/želé | 10/3,5/2,5/0,4/81 | inulín 0,4 % | 0,45 €* | 5,26 €* | **A** | áno | Alza (predpoklad) |
+| Shelma v želé – rybí multipack (losos/treska/pstruh/tuňák, 76 %+11,6 % ryba) ⚠️ | 85 g | JK/filety/želé | 10/3,5/2,5/0,4/81 | inulín 0,4 % | 0,45 €* | 5,26 €* | **B** | áno | Alza (predpoklad) |
 | Concept for Life Kitten | 85 g | JK jemné | n/a | inulín | 0,43–0,51 € | 5,1–6,0 € | C *(odhad)* | áno | Zoohit |
 | Sheba Fresh & Fine (benchmark) | 50 g | JK | 7,9–8/4,4–5/0,3/1,4–1,9/83–84 | nie | 0,208 € (akcia) | 4,17 € (akcia)/~6–7 € | C | áno | Zoohit |
 | Purina Gourmet Gold Mousse | 85 g | MO | 10,5/6,5/0,05/3,0/77,5 | nie | 0,66–0,74 € | 7,8–9,4 € | C | áno | Zoohit |
 | **Calibra Premium Kitten Salmon** *(kúpené)* | 100 g | JK, bez obilnín | 9,5/5/1,0/2,5/81 | vláknina 1 % (zdroj nemenovaný) | 0,716 € | **7,16 €** (aktuálne 7,00 €) | B | áno | Alza ✅, mojacalibra.sk ✅ |
 | Calibra Premium Kitten Turkey & Chicken | 100 g | JK | 9,5/5/1,0/2,5/81 | vláknina 1 % (nemenovaný) | 0,70 € | 7,00 € | B | áno | mojacalibra.sk ✅ |
-| Calibra Premium Adult Chicken & Beef | 100 g | JK | 9/4,5/1,0/3/82 | vláknina 1 % (nemenovaný) | 0,70 € | 7,00 € | B | áno | mojacalibra.sk ✅ |
-| Calibra Premium Adult Trout & Salmon | 100 g | JK | 9/4,5/1,0/3/82 | vláknina 1 % (nemenovaný) | 0,70 € | 7,00 € | B | áno | mojacalibra.sk ✅ |
-| Calibra Premium Adult Duck & Chicken | 100 g | JK | 9/4,5/1,0/3/82 | vláknina 1 % (nemenovaný) | 0,70 € | 7,00 € | B | áno | mojacalibra.sk ✅ |
-| Calibra Premium Adult Lamb & Poultry | 100 g | JK | 9/4,5/1,0/3/82 | vláknina 1 % (nemenovaný) | 0,70 € | 7,00 € | B | áno | mojacalibra.sk ✅ |
-| Calibra Premium Sterilised Liver | 100 g | JK | 8,5/3/1,0/2,5/82 | **inulín 0,4 %** | 0,70 € | 7,00 € | B | áno | mojacalibra.sk ✅ |
-| Calibra Premium Sterilised Salmon | 100 g | JK | 8,5/3/1,0/2,5/82 | **inulín 0,4 %** | 0,70 € | 7,00 € | B | áno | mojacalibra.sk ✅ |
-| *(Premium Kitten/Adult/Sterilised, multipack 12×100 g — rovnaká cena pre všetky 3)* | 1 200 g | JK | ako vyššie | – | 7,98 € | **6,65 €** | B | áno | mojacalibra.sk ✅ |
+| Calibra Premium Adult Chicken & Beef | 100 g | JK | 9/4,5/1,0/3/82 | vláknina 1 % (nemenovaný) | 0,70 € | 7,00 € | C | áno | mojacalibra.sk ✅ |
+| Calibra Premium Adult Trout & Salmon | 100 g | JK | 9/4,5/1,0/3/82 | vláknina 1 % (nemenovaný) | 0,70 € | 7,00 € | C | áno | mojacalibra.sk ✅ |
+| Calibra Premium Adult Duck & Chicken | 100 g | JK | 9/4,5/1,0/3/82 | vláknina 1 % (nemenovaný) | 0,70 € | 7,00 € | C | áno | mojacalibra.sk ✅ |
+| Calibra Premium Adult Lamb & Poultry | 100 g | JK | 9/4,5/1,0/3/82 | vláknina 1 % (nemenovaný) | 0,70 € | 7,00 € | C | áno | mojacalibra.sk ✅ |
+| Calibra Premium Sterilised Liver | 100 g | JK | 8,5/3/1,0/2,5/82 | **inulín 0,4 %** | 0,70 € | 7,00 € | C | áno | mojacalibra.sk ✅ |
+| Calibra Premium Sterilised Salmon | 100 g | JK | 8,5/3/1,0/2,5/82 | **inulín 0,4 %** | 0,70 € | 7,00 € | C | áno | mojacalibra.sk ✅ |
+| *(Premium Kitten/Adult/Sterilised, multipack 12×100 g — rovnaká cena pre všetky 3)* | 1 200 g | JK | ako vyššie | – | 7,98 € | **6,65 €** | B/C* | áno | mojacalibra.sk ✅ |
 | Calibra Cat Life Adult Turkey | 85 g | JK | 10/3,5/0,4/2,5/81 | inulín 0,4 % | 0,86 € | 10,12 € | **A** | áno | mojacalibra.sk ✅ |
 | Calibra Cat Life Adult Duck | 85 g | JK | 10/3,5/0,4/2,5/81 | inulín 0,4 % | 0,86 € | 10,12 € | **A** | áno | mojacalibra.sk ✅ |
 | Calibra Cat Life Adult Beef | 85 g | JK | 10/3,5/0,4/2,5/81 | inulín 0,4 % | 0,86 € | 10,12 € | **A** | áno | mojacalibra.sk ✅ |
 | Calibra Cat Life Adult Veal | 85 g | JK | 10/3,5/0,4/2,5/81 | inulín 0,4 % | 0,86 € | 10,12 € | **A** | áno | mojacalibra.sk ✅ |
 | Calibra Cat Life Sterilised Duck | 85 g | JK | 10/3,5/0,4/2,5/81 | inulín 0,4 % | 0,86 € | 10,12 € | **A** | áno | mojacalibra.sk ✅ |
-| Calibra Cat Life Sterilised Salmon | 85 g | JK | 10/3,5/0,4/2,5/81 | inulín 0,4 % | 0,86 € | 10,12 € | **A** | áno | mojacalibra.sk ✅ |
+| Calibra Cat Life Sterilised Salmon ⚠️ | 85 g | JK | 10/3,5/0,4/2,5/81 | inulín 0,4 % | 0,86 € | 10,12 € | **B** | áno | mojacalibra.sk ✅ |
 | Calibra Cat Life Kitten Turkey | 85 g | JK | 10/5/0,3/2/80 | inulín 0,4 % | 0,86 € | 10,12 € | **A** | áno | mojacalibra.sk ✅ |
-| Calibra Cat Life Kitten Salmon | 85 g | JK | 10/5/0,3/2/80 | inulín 0,4 % | 0,86 € | 10,12 € | **A** | áno | mojacalibra.sk ✅ |
-| *(všetkých 8 vyššie, kúpené ako multipack 12×85 g)* | 1 020 g | JK | ako vyššie | inulín 0,4 % | – | **9,58 €** | **A** | áno | mojacalibra.sk ✅ |
+| Calibra Cat Life Kitten Salmon ⚠️ | 85 g | JK | 10/5/0,3/2/80 | inulín 0,4 % | 0,86 € | 10,12 € | **B** | áno | mojacalibra.sk ✅ |
+| *(všetkých 8 vyššie, kúpené ako multipack 12×85 g)* | 1 020 g | JK | ako vyššie | inulín 0,4 % | – | **9,58 €** | **A/B*** | áno | mojacalibra.sk ✅ |
 | Felix Tasty Shreds | 80 g | JK trhané | 13,5/2,6/0,05/2,6/78 | nie | 0,74 € | 9,26 € | C | áno | Alza ✅ |
 | Purina Pro Plan Delicate | 85 g | JK jemné | 12,6/3,8/0,3/2,3/78 | FOS | 0,79–0,84 € | 9,3–9,9 € | B | áno | Zoohit, Alza |
 | Specific FIW *(vet, konzerva)* | 100 g | JK | n/a | psyllium+MOS | 0,98–1,11 € | 9,8–11,1 € | B *(odhad)* | áno | vet. lekárne |
@@ -554,7 +554,7 @@ Stĺpec **Známka** je len skrátený odkaz na plné hodnotenie v [časti 10](#1
 | Applaws Pâté | 70 g | PT | n/a | nie | 1,6–1,8 € | 22,9–25,7 € | C** ⚠️ | **NIE (doplnk.)** ⚠️ | Zoohit, Alza |
 | ~~Shelma Cat Mousse~~ ⚠️ neoverené | 85 g | MO | 10,5/6,5/0,1/3,0/77,5 | nie | n/a | n/a | — | ? | nenájdené na shelma.eu |
 
-\* Royal Canin Digestive Care a VD Gastro Intestinal: existujú varianty Loaf/paté (PT) aj Chunks (JK) — overiť pri objednávke. \*\* Applaws: známka C je z hodnotenia, ktoré diskvalifikačné kritérium "doplnkové, nie kompletné" už zohľadňuje — pozri poznámku v [časti 10](#10). Pri riadkoch Shelma označených „€\*" bola priamo cenovo overená len príchuť kuracie v omáčce (Alza.sk); ostatné príchute rovnakej línie/balenia (85 g) predpokladáme za rovnakú cenu, keďže ide o rovnaký formát balenia tej istej značky — nie je to jednotlivo priamo overené. Pri riadkoch CarniLove označených "áno\*" nebolo na produktovej stránke nájdené explicitné slovo "kompletné" — hodnotené ako kompletné na základe kŕmnej tabuľky (rovnaký vzor ako pri ostatných kompletných kapsičkách), odporúčame overiť na obale.
+\* Royal Canin Digestive Care a VD Gastro Intestinal: existujú varianty Loaf/paté (PT) aj Chunks (JK) — overiť pri objednávke. \*\* Applaws: známka C je z hodnotenia, ktoré diskvalifikačné kritérium "doplnkové, nie kompletné" už zohľadňuje — pozri poznámku v [časti 10](#10). Pri riadkoch Shelma označených „€\*" bola priamo cenovo overená len príchuť kuracie v omáčce (Alza.sk); ostatné príchute rovnakej línie/balenia (85 g) predpokladáme za rovnakú cenu, keďže ide o rovnaký formát balenia tej istej značky — nie je to jednotlivo priamo overené. Pri riadkoch CarniLove označených "áno\*" nebolo na produktovej stránke nájdené explicitné slovo "kompletné" — hodnotené ako kompletné na základe kŕmnej tabuľky (rovnaký vzor ako pri ostatných kompletných kapsičkách), odporúčame overiť na obale. Riadky označené ⚠️ majú v [časti 10](#10) nižšiu známku, než by sa čakalo pri danej línii — dôvod je nízky podiel skutočne pomenovanej ryby/mäsa v produkte (pozri spresnenie metodiky v [časti 10](#10)). "B/C\*" pri multipacku Calibra Premium znamená, že Kitten varianty v balení skórujú B, Adult a Sterilised varianty v tom istom balení skórujú C. "A/B\*" pri multipacku Calibra Life znamená, že 6 mäsových príchutí skóruje A a 2 rybie/lososové príchute (Sterilised Salmon, Kitten Salmon) skórujú B.
 
 ---
 
@@ -571,7 +571,7 @@ Percentá sú prepočítané **na sušinu (DM)**: `hodnota na sušinu (%) = hodn
 2. **Sacharidy/NFE (DM %)**, dopočítané ako zvyšok – <15 % = 2 b., 15–22 % = 1 b., >22 % = 0 b.
 3. **Kompletnosť (FEDIAF/AAFCO)** – kompletné = 2 b., doplnkové = **0 b.** (diskvalifikačné kritérium).
 4. **Funkčná vláknina/prebiotiká** – jasne deklarované = 2 b., čiastočne = 1 b., žiadne = 0 b.
-5. **Kvalita zdroja bielkovín a prísad** – pomenované mäso/ryba vo vysokom podiele, bez cukru/obilnín = 2 b.; čiastočne = 1 b.; generické + cukor/obilniny = 0 b.
+5. **Kvalita zdroja bielkovín a prísad** – pomenované mäso/ryba vo vysokom podiele, bez cukru/obilnín = 2 b.; čiastočne = 1 b.; generické + cukor/obilniny = 0 b. *(Spresnené v júli 2026 — pozri poznámku nižšie: "vysoký podiel" = pomenovaný druh tvorí ≥ 35 % celého produktu, "čiastočne" = 10–35 %, pod 10 % sa posudzuje ako čiastočné, pokiaľ receptúra zároveň neobsahuje aj obilniny/cukor, vtedy padá na 0 b.)*
 6. **Popol (DM %)** – <10 % = 2 b., 10–13 % = 1 b., >13 % = 0 b.
 
 **Známka:** A = 11–12 b. · B = 9–10 b. · C = 6–8 b. · D = 4–5 b. · E = 0–3 b.
@@ -582,21 +582,21 @@ Percentá sú prepočítané **na sušinu (DM)**: `hodnota na sušinu (%) = hodn
 
 | Produkt | Bielk. DM% | Sacharidy DM% | Kompletné? | Vláknina/prebiotiká | Zdroj bielk./prísady | Popol DM% | Body | **Známka** |
 |---|---|---|---|---|---|---|---|---|
-| Calibra Premium Kitten Salmon / Turkey&Chicken | 50,0 (2) | 5,3 (2) | áno (2) | vláknina 1 %, zdroj nemenovaný (1) | named, bez plnív (2) | 13,2 (1) | 10/12 | **B** |
-| Calibra Premium Adult (4 príchute: Chicken&Beef, Trout&Salmon, Duck&Chicken, Lamb&Poultry) | 50,0 (2) | 2,8 (2) | áno (2) | vláknina 1 %, zdroj nemenovaný (1) | named, bez plnív (2) | 16,7 (0) | 9/12 | **B** |
-| Calibra Premium Sterilised Liver / Salmon | 47,2 (2) | 16,7 (1) | áno (2) | **inulín 0,4 % (2)** | named, bez plnív (2) | 13,9 (0) | 9/12 | **B** |
-| Animonda Carny Adult | 56,7 (2) | ~0 (2) | áno (2) | žiadna (0) | named, bez plnív (2) | 8,9 (2) | 10/12 | **B** |
-| Almo Nature Anti Hairball | 52,8 (2) | 9,4 (2) | áno (2) | inulín (2) | obilniny prítomné (1) | 11,1 (1) | 10/12 | **B** |
-| Shelma v omáčce – Hovädzie + rajčiny + bylinky | 52,6 (2) | 13,7 (2) | áno (2) | inulín 0,4 % (2) | named, bez obilnín (2) | 13,2 (1) | 11/12 | **A** |
-| Shelma v omáčce – Kuracie + rajčiny + bylinky | 52,6 (2) | 13,7 (2) | áno (2) | inulín 0,4 % (2) | named, bez obilnín (2) | 13,2 (1) | 11/12 | **A** |
-| Shelma v omáčce – Kačacie + brusnice | 52,6 (2) | 13,7 (2) | áno (2) | inulín 0,4 % (2) | named, bez obilnín (2) | 13,2 (1) | 11/12 | **A** |
-| Shelma v omáčce – Morčacie + rakytník | 52,6 (2) | 13,7 (2) | áno (2) | inulín 0,4 % (2) | named, bez obilnín (2) | 13,2 (1) | 11/12 | **A** |
-| Shelma v omáčce – Losos + spirulina | 52,6 (2) | 13,7 (2) | áno (2) | inulín 0,4 % (2) | named (74 %+14 % ryba), bez obilnín (2) | 13,2 (1) | 11/12 | **A** |
-| Shelma v omáčce – Treska + spirulina | 52,6 (2) | 13,7 (2) | áno (2) | inulín 0,4 % (2) | named (74 %+14 % ryba), bez obilnín (2) | 13,2 (1) | 11/12 | **A** |
-| Shelma v omáčce – Kitten losos + rakytník | 50,0 (2) | 13,5 (2) | áno (2) | inulín 0,4 % (2) | named, bez obilnín (2) | 10,0 (1) | 11/12 | **A** |
-| Shelma v omáčce – Kitten morčacie + brusnice | 50,0 (2) | 13,5 (2) | áno (2) | inulín 0,4 % (2) | named, bez obilnín (2) | 10,0 (1) | 11/12 | **A** |
-| Shelma v želé – mäsový multipack (4 príchute) | 52,6 (2) | 13,7 (2) | áno (2) | inulín 0,4 % (2) | named, bez obilnín (2) | 13,2 (1) | 11/12 | **A** |
-| Shelma v želé – rybí multipack (4 príchute) | 52,6 (2) | 13,7 (2) | áno (2) | inulín 0,4 % (2) | named (76 %+11,6 % ryba), bez obilnín (2) | 13,2 (1) | 11/12 | **A** |
+| Calibra Premium Kitten Salmon / Turkey&Chicken | 50,0 (2) | 5,3 (2) | áno (2) | vláknina 1 %, zdroj nemenovaný (1) | named, ale len 9–20 % z produktu (1) | 13,2 (1) | 9/12 | **B** |
+| Calibra Premium Adult (4 príchute: Chicken&Beef, Trout&Salmon, Duck&Chicken, Lamb&Poultry) | 50,0 (2) | 2,8 (2) | áno (2) | vláknina 1 %, zdroj nemenovaný (1) | named, ale len 10–20 % z produktu (1) | 16,7 (0) | 8/12 | **C** |
+| Calibra Premium Sterilised Liver / Salmon | 47,2 (2) | 16,7 (1) | áno (2) | **inulín 0,4 % (2)** | named, ale len 9–10 % z produktu (1) | 13,9 (0) | 8/12 | **C** |
+| Animonda Carny Adult | 56,7 (2) | ~0 (2) | áno (2) | žiadna (0) | named, 68 % z produktu (2) | 8,9 (2) | 10/12 | **B** |
+| Almo Nature Anti Hairball | 52,8 (2) | 9,4 (2) | áno (2) | inulín (2) | len 4 % named + obilniny (0) | 11,1 (1) | 9/12 | **B** |
+| Shelma v omáčce – Hovädzie + rajčiny + bylinky | 52,6 (2) | 13,7 (2) | áno (2) | inulín 0,4 % (2) | named, 40,6 % z produktu, bez obilnín (2) | 13,2 (1) | 11/12 | **A** |
+| Shelma v omáčce – Kuracie + rajčiny + bylinky | 52,6 (2) | 13,7 (2) | áno (2) | inulín 0,4 % (2) | named, 40,6 % z produktu, bez obilnín (2) | 13,2 (1) | 11/12 | **A** |
+| Shelma v omáčce – Kačacie + brusnice | 52,6 (2) | 13,7 (2) | áno (2) | inulín 0,4 % (2) | named, 40,6 % z produktu, bez obilnín (2) | 13,2 (1) | 11/12 | **A** |
+| Shelma v omáčce – Morčacie + rakytník | 52,6 (2) | 13,7 (2) | áno (2) | inulín 0,4 % (2) | named, 40,6 % z produktu, bez obilnín (2) | 13,2 (1) | 11/12 | **A** |
+| Shelma v omáčce – Losos + spirulina ⚠️ | 52,6 (2) | 13,7 (2) | áno (2) | inulín 0,4 % (2) | named ryba, ale len 14 % z produktu (74 % je nemenované "mäso") (1) | 13,2 (1) | 10/12 | **B** |
+| Shelma v omáčce – Treska + spirulina ⚠️ | 52,6 (2) | 13,7 (2) | áno (2) | inulín 0,4 % (2) | named ryba, ale len 14 % z produktu (74 % je nemenované "mäso") (1) | 13,2 (1) | 10/12 | **B** |
+| Shelma v omáčce – Kitten losos + rakytník ⚠️ | 50,0 (2) | 13,5 (2) | áno (2) | inulín 0,4 % (2) | named ryba, ale len 14,5 % z produktu (73,5 % nemenované) (1) | 10,0 (1) | 10/12 | **B** |
+| Shelma v omáčce – Kitten morčacie + brusnice | 50,0 (2) | 13,5 (2) | áno (2) | inulín 0,4 % (2) | named, 40,6 % z produktu, bez obilnín (2) | 10,0 (1) | 11/12 | **A** |
+| Shelma v želé – mäsový multipack (4 príchute) | 52,6 (2) | 13,7 (2) | áno (2) | inulín 0,4 % (2) | named, 40,6 % z produktu, bez obilnín (2) | 13,2 (1) | 11/12 | **A** |
+| Shelma v želé – rybí multipack (4 príchute) ⚠️ | 52,6 (2) | 13,7 (2) | áno (2) | inulín 0,4 % (2) | named ryba, ale len 11,6 % z produktu (76 % nemenované) (1) | 13,2 (1) | 10/12 | **B** |
 | Purina Pro Plan Delicate | 57,3 (2) | 13,6 (2) | áno (2) | FOS (2) | generické, bez cukru (1) | 10,5 (1) | 10/12 | **B** |
 | Catz Finefood Mousse | 55,0 (2) | ~2 (2) | áno (2) | žiadna (0) | named, 98 % mäso (2) | 10,0 (1) | 9/12 | **B** |
 | Specific FIW *(odhad)* | ~45 (2) | ~15 (1) | áno (2) | psyllium+MOS (2) | named+ryža (1) | ~10 (1) | 9/12 | **B** |
@@ -604,9 +604,10 @@ Percentá sú prepočítané **na sušinu (DM)**: `hodnota na sušinu (%) = hodn
 | Royal Canin Digestive Care | 47,5 (2) | 21,5 (1) | áno (2) | psyllium (2) | obilniny+generické (1) | 10,0 (1) | 9/12 | **B** |
 | Schesir Kitten Mousse | 50,0 (2) | 10,6 (2) | áno (2) | žiadna (0) | named, taurín/DHA (2) | 11,1 (1) | 9/12 | **B** |
 | Hill's Science Plan Kitten | 44,1 (1) | 18,3 (1) | áno (2) | čiastočne (1) | obilniny+cukry (0) | 8,6 (2) | 7/12 | **C** |
-| Calibra Cat Life Adult Turkey/Duck/Beef/Veal/Sterilised Duck (5 príchutí) | 52,6 (2) | 13,7 (2) | áno (2) | inulín 0,4 % (2) | named, bez obilnín (2) | 13,2 (1) | 11/12 | **A** |
-| Calibra Cat Life Sterilised Salmon | 52,6 (2) | 13,7 (2) | áno (2) | inulín 0,4 % (2) | named+ryba, bez obilnín (2) | 13,2 (1) | 11/12 | **A** |
-| Calibra Cat Life Kitten Turkey/Salmon (2 príchute) | 50,0 (2) | 13,5 (2) | áno (2) | inulín 0,4 % (2) | named, bez obilnín (2) | 10,0 (1) | 11/12 | **A** |
+| Calibra Cat Life Adult Turkey/Duck/Beef/Veal/Sterilised Duck (5 príchutí) | 52,6 (2) | 13,7 (2) | áno (2) | inulín 0,4 % (2) | named, 40,6 % z produktu, bez obilnín (2) | 13,2 (1) | 11/12 | **A** |
+| Calibra Cat Life Sterilised Salmon ⚠️ | 52,6 (2) | 13,7 (2) | áno (2) | inulín 0,4 % (2) | named ryba, ale len 11,6 % z produktu (76 % nemenované) (1) | 13,2 (1) | 10/12 | **B** |
+| Calibra Cat Life Kitten Turkey | 50,0 (2) | 13,5 (2) | áno (2) | inulín 0,4 % (2) | named, 40,6 % z produktu, bez obilnín (2) | 10,0 (1) | 11/12 | **A** |
+| Calibra Cat Life Kitten Salmon ⚠️ | 50,0 (2) | 13,5 (2) | áno (2) | inulín 0,4 % (2) | named ryba, ale len ~14 % z produktu (1) | 10,0 (1) | 10/12 | **B** |
 | RC VD Gastro Intestinal *(vet.)* | 38,0 (1) | 22,0 (1) | áno (2) | vlákninový blend (2) | obilniny+generické (0) | 8,0 (2) | 8/12 | **C** |
 | Kattovit Gastro *(vet.)* | 40,0 (1) | 22,5 (0) | áno (2) | žiadna, len bežná vláknina (0) | obilniny (ryža)+generické (0) | 10,0 (1) | 4/12 | **D** |
 | Applaws Pâté | ~80 (2)** | nízke (2) | **NIE (0)** | žiadna (0) | named, výborné (2) | odhad (1) | 7/12** | **C**\*\* |
@@ -616,7 +617,7 @@ Percentá sú prepočítané **na sušinu (DM)**: `hodnota na sušinu (%) = hodn
 | Concept for Life Kitten *(odhad)* | ~40 (1) | ~15 (1) | áno (2) | inulín (2) | generické (1) | ~10 (1) | 8/12 | **C** |
 | Purina Pro Plan Vet EN GI *(odhad)* | 36,4 (1) | 25,5 (0) | áno (2) | inulín+pea fibre (2) | obilniny+vajcia (0) | 9,1 (2) | 7/12 | **C** |
 | Hill's Prescription i/d *(odhad)* | 42,5 (1) | 16,0 (1) | áno (2) | FOS+psyllium (2) | škrob+generické (0) | 9,0 (2) | 8/12 | **C** |
-| Fine Cat Grain-Free Kitten | 37,5 (1) | 28,5 (0) | áno (2) | žiadna (0) | generické+cukor (0) | 10,0 (1) | 4/12 | **D** |
+| Fine Cat Grain-Free Kitten | 37,5 (1) | 28,5 (0) | áno (2) | žiadna (0) | named (39 % z 40 % kuracie), ale s cukrom (1) | 10,0 (1) | 5/12 | **D** |
 | Dein Bestes Sensitive | 47,1 (2) | 23,5 (0) | áno (2) | žiadna (0) | bez obilnín/cukru, ale len 15 % named (1) | 8,8 (2) | 7/12 | **C** |
 | Stuzzy Cat Shreds (Kitten/Sterilised) | 44,4 (1) | 17,2 (1) | áno (2) | inulín 0,4 % (2) | named, bez obilnín/cukru (2) | 11,1 (1) | 9/12 | **B** |
 | Royal Canin Indoor Sterilised In Gravy | 50,5 (2) | 18,2 (1) | áno (2) | žiadna (0) | obilniny+generické (0) | 9,4 (2) | 7/12 | **C** |
@@ -637,7 +638,11 @@ Percentá sú prepočítané **na sušinu (DM)**: `hodnota na sušinu (%) = hodn
 
 > **Oprava (júl 2026):** pri prepracovaní tabuľky pre jednotlivé príchute Calibra Cat Life sa odhalila nekonzistencia v bodovaní kritéria "Sacharidy/NFE" — časť riadkov nebola v súlade s vlastným písaným pravidlom (<15 % DM = 2 b., 15–22 % = 1 b., >22 % = 0 b.). Opravené boli: Shelma, Purina Pro Plan Delicate, Sheba Fresh & Fine, Royal Canin Digestive Care, Schesir Kitten Mousse, Calibra Cat Life, RC VD Gastro Intestinal, Felix Tasty Shreds a Purina Gourmet Gold Mousse. U štyroch produktov sa zmenila aj výsledná známka: **Royal Canin Digestive Care C→B**, **Schesir Kitten Mousse C→B**, **Shelma dušené filetky B→A**, **Calibra Cat Life B→A**. Ostatné opravy zmenili len súčet bodov, nie písmeno. Za chybu v pôvodnej verzii sa ospravedlňujeme — ide o vlastný neoficiálny rámec, nie chybu vo faktických nutričných dátach.
 
-**Zhrnutie (po oprave):** Fine Cat Grain-Free Kitten (D) napriek "grain-free" marketingu zaostáva nutrične za lacnejšími aj drahšími konkurentmi (nízke bielkoviny na sušinu, vysoký zvyškový podiel cukrov). Po overení zloženia priamo z výrobných listov sa ukázalo, že **Calibra Premium Line** (Kitten/Adult varianty) má síce vysokú vlákninu (1 %), ale bez pomenovaného prebiotického zdroja — preto skóruje B (9–10/12), nie A, ako sa pôvodne predpokladalo. Najvyššie skóre (A, 11/12) tak patrí len dvom líniám s **explicitne deklarovaným inulínom vo všetkých príchutiach**: **Calibra Cat Life** (8 príchutí) a **Shelma dušené filetky** — obe bezobilninové, s named mäsom. Animonda Carny Adult zostáva na B a potvrdzuje povesť jednej z nutrične najčistejších bežne dostupných značiek.
+> **Spresnenie (júl 2026, #2) — kritérium "zdroj bielkovín" podľa % skutočne pomenovaného mäsa:** pri porovnávaní CarniLove a Shelma sa ukázalo, že pôvodné binárne bodovanie ("pomenované vs. generické") bolo nefér — nerozlišovalo, **koľko percent produktu je skutočne pomenovaného druhu**, len či je aspoň jeden druh vôbec uvedený. Napr. Shelma/Calibra Life "Losos" obsahuje len 14 % skutočného lososa (zvyšných 74 % je nešpecifikované "mäso a výrobky živočíšneho pôvodu"), zatiaľ čo CarniLove menuje 100 % svojej mäsovej zložky (66 % morka + 14 % príchuťové mäso + 10 % pečeň). Kritérium 5 je teraz bodované podľa reálneho podielu pomenovaného druhu na celom produkte (≥35 % = 2 b., 10–35 % = 1 b., pod 10 % v kombinácii s obilninami/cukrom = 0 b.) — nie podľa toho, či je vôbec niečo pomenované.
+>
+> **Dôsledok — zmenené známky:** rybie/lososové príchute v líniách Shelma a Calibra Cat Life (kde je "hlavné" mäso v skutočnosti len 11,6–14,5 % produktu, zvyšok generický) klesli z **A na B**: Shelma Losos, Shelma Treska, Shelma Kitten losos, Shelma želé rybí multipack, Calibra Cat Life Sterilised Salmon, Calibra Cat Life Kitten Salmon. Mäsové príchute týchto istých línií (kde je hlavné mäso 40,6 % produktu) zostávajú na **A** bez zmeny. Calibra Premium Adult a Sterilised (10–20 % named z produktu) klesli z **B na C**. Almo Nature Anti Hairball (len 4 % named + obilniny) a Calibra Premium Kitten zostávajú na B, len s nižším súčtom bodov. Fine Cat Grain-Free Kitten sa naopak mierne zlepšil (4→5 b., stále D) — má prekvapivo vysoký podiel named kuracieho mäsa (39 z 40 %), len ho kazí pridaný cukor.
+
+**Zhrnutie (po oprave):** Fine Cat Grain-Free Kitten (D) napriek "grain-free" marketingu zaostáva nutrične za lacnejšími aj drahšími konkurentmi (nízke bielkoviny na sušinu, vysoký zvyškový podiel cukrov). Po overení zloženia priamo z výrobných listov sa ukázalo, že **Calibra Premium Line** má síce vysokú vlákninu (1 %), ale bez pomenovaného prebiotického zdroja a s nízkym podielom skutočne pomenovaného mäsa — preto skóruje B až C, nie A. Najvyššie skóre (A, 11/12) patrí len **mäsovým príchutiam** (nie rybím/lososovým) línií s explicitne deklarovaným inulínom a vysokým podielom pomenovaného mäsa: **Calibra Cat Life** (6 z 8 príchutí) a **Shelma dušené filetky** (6 z 10 riadkov) — rybie varianty týchto istých línií sú síce stále dobré (B), ale nie najlepšie možné, keďže väčšinu ich mäsovej zložky tvorí nešpecifikované "mäso", nie samotná ryba. **CarniLove** je paradoxne jediná línia v tomto prieskume, ktorá menuje 100 % svojej mäsovej zložky — napriek tomu skóruje len B/C, lebo namiesto inulínu používa čisto objemovú lignocelulózu. Animonda Carny Adult zostáva na B a potvrdzuje povesť jednej z nutrične najčistejších bežne dostupných značiek.
 
 ---
 
@@ -676,7 +681,7 @@ Hľadajte kapsičky s **vyššou kalorickou denzitou a vyšším tukom**, ideál
 - **Animonda Carny Adult** (B, ~100 kcal/100g, tuk 6,5 %) – najvyššia kalorická denzita medzi kvalitne hodnotenými produktmi, čisto mäsité.
 - **Catz Finefood Mousse** (B, 95–101 kcal/100g, tuk 5,9–6,5 %).
 - **Calibra Cat Premium Kitten** (B, odhad 85–95 kcal/100g) – kitten receptúry sú spravidla energeticky bohatšie; keďže táto mačka nie je mačiatko, sledujte celkovú dennú dávku. *(Pozn.: pôvodne uvedené ako A — po korekcii vlákninového kritéria v [časti 10](#10) ide správne o B; ak hľadáte najvyššiu známku, Calibra Cat Life má rovnakú cenovú kategóriu a vyššiu známku A.)*
-- **Calibra Cat Life Kitten (Turkey/Salmon)** (A, 93 kcal/100g, tuk 5 %) – ⭐ ak prechádzate na Calibra Cat Life kvôli najvyššej známke, pre túto mačku (potrebuje priberať) voľte **práve Kitten príchute**, nie Adult/Sterilised: tie majú **rovnakú kalorickú denzitu ako benchmark Sheba (80 kcal/100g) a dokonca nižší tuk (3,5 % vs. 4,4–5 %)** — samotný prechod na Adult Life teda kalorický príjem nezvýši, len zlepší kvalitu zloženia (named mäso, žiadny cukor, 0,4 % inulín). Kitten varianty dávajú oboje naraz: vyššiu energiu aj najlepšiu známku.
+- **Calibra Cat Life Kitten Turkey** (A, 93 kcal/100g, tuk 5 %) – ⭐ ak prechádzate na Calibra Cat Life kvôli najvyššej známke, pre túto mačku (potrebuje priberať) voľte **práve Kitten Turkey**, nie Adult/Sterilised: tie majú **rovnakú kalorickú denzitu ako benchmark Sheba (80 kcal/100g) a dokonca nižší tuk (3,5 % vs. 4,4–5 %)** — samotný prechod na Adult Life teda kalorický príjem nezvýši, len zlepší kvalitu zloženia (named mäso, žiadny cukor, 0,4 % inulín). Kitten Turkey dáva oboje naraz: vyššiu energiu aj najlepšiu známku. *(Pozn.: Kitten Salmon má rovnaké kalórie/tuk, ale po spresnení metodiky v [časti 10](#10) skóruje len B — losos tvorí len ~14 % produktu, zvyšok je nešpecifikované mäso.)*
 - Vyhýbajte sa Whiskas a Fine Cat – vysoká vlhkosť/nízka energia zasýti objemom bez dostatku energie na priberanie.
 
 ### Mačka #2 (5,5–6 kg, potrebuje schudnúť)
