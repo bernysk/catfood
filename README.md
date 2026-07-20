@@ -30,8 +30,8 @@ jednotným rámcom A–E.
 | CarniLove | 12 | 74,9 | – | 8 | 4 | – | – |
 | Brit Care | 31 | 71,2 | 2 | 20 | 7 | 2 | – |
 | Stuzzy | 3 | 69,0 | – | 2 | 1 | – | – |
+| Ontario | 9 | 68,8 | – | 2 | 7 | – | – |
 | Royal Canin | 5 | 61,4 | – | 1 | 4 | – | – |
-| Ontario | 9 | 60,0 | – | – | 9 | – | – |
 | Kattovit | 1 | 57,0 | – | – | 1 | – | – |
 | Almo Nature | 1 | 57,0 | – | – | 1 | – | – |
 | Purina Pro Plan | 16 | 55,8 | – | 1 | 12 | 2 | 1 |
@@ -48,8 +48,9 @@ Prieskum_mokre_krmivo_macky.md   celý dokument prieskumu
 index.html                       interaktívna tabuľka (dáta vložené priamo v súbore)
 
 raw_data/*.json                  surové dáta — doslovný text etikiet zo stránok výrobcov
-curated.json                     klasifikácia kompletnosti čítaná s porozumením
+curated.json                     klasifikácia kompletnosti + zoznam nahradených záznamov
 dataset.json                     normalizovaný výstup so skóre
+KontrolaLM.md                    revízia metodiky NotebookLM analýz
 
 build_dataset.py                 raw_data → dataset.json + vloženie dát do index.html
 audit_parse.py                   nezávislá kontrola parsovania (iná metóda, hlási nezhody)

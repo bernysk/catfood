@@ -1,0 +1,144 @@
+{
+  "brand": "Bozita",
+  "source_site": "bozita.com/cz (official Bozita CZ site)",
+  "fetched_at": "2026-07-19",
+  "note": "Bozita is part of the same contract-manufacturing group (Partner in Pet Food) already identified in the main survey as also producing Calibra, Shelma, Propesko, Prevital, Polaris, Italian Way — see Prieskum_mokre_krmivo_macky.md section 1. Each of the 4 URLs below is a single SKU sold as a 12x85g multibox bundling 4 flavours (3 pouches each); analytical constituents and additives are shared across all 4 flavours within a multibox, but composition/named-meat percentage differs per flavour.",
+  "products": [
+    {
+      "name": "BOZITA MEAT MENU – CHUNKS IN SAUCE (multibox)",
+      "product_line": "Meat Menu",
+      "texture": "v omáčce (sauce)",
+      "pack_size": "12 x 85 g (3x hovězí, 3x krůtí, 3x kuřecí, 3x sobí)",
+      "language": "cs",
+      "url": "https://bozita.com/cz/products/masove-menu-bozita-kousky-v-omacce/",
+      "flavours": [
+        {
+          "flavour": "Krůtí (Turkey)",
+          "composition_raw": "Maso a výrobky živočišného původu* 50 % (krůtí 8 %), minerální látky, inulin z čekanky (FOS 0,1 %). *Švédské přírodní ingredience."
+        },
+        {
+          "flavour": "Sobí (Reindeer) — note: initial general-page summary referred to this as \"jelení\" (deer), but the flavour-specific fetch confirms \"sobí\" (reindeer) is the correct term used in the composition text",
+          "composition_raw": "Maso a výrobky živočišného původu* 50 % (sobí 8 %), minerální látky, inulin z čekanky (FOS 0,1 %). *Švédské přírodní ingredience."
+        },
+        {
+          "flavour": "Hovězí (Beef)",
+          "composition_raw": "Maso a výrobky živočišného původu* 50 % (hovězí 8 %), minerální látky, inulin z čekanky (FOS 0,1 %). *Švédské přírodní ingredience."
+        },
+        {
+          "flavour": "Kuřecí (Chicken)",
+          "composition_raw": "Maso a výrobky živočišného původu* 50 % (kuřecí 14 %), minerální látky, inulin z čekanky (FOS 0,1 %). *Švédské přírodní ingredience."
+        }
+      ],
+      "analytical_constituents_raw": "hrubý protein 8,5 %, hrubý tuk 4,5 %, hrubá vláknina 0,5 %, hrubý popel 2 %, vlhkost 82 %",
+      "additives_per_kg_raw": "vitamín D3 200 j.m., vitamín E 12 mg, taurin 700 mg, měď 2 mg, mangan 1,4 mg, zinek 14 mg, jód 0,1 mg",
+      "energy_value_raw": "Not stated on page",
+      "feeding_guidelines_raw": "Dávkování podle váhy: 2 kg → 2 kapsičky; 4 kg → 3; 6 kg → 4; 8 kg → 5 denně.",
+      "description_raw": "Kompletní krmivo bez obilovin s vyšším obsahem masa a přírodním probiotikem (FOS), vyrobeno ze švédských zdrojů.",
+      "completeness_statement_raw": "Kompletní krmivo (complete food)",
+      "fetch_status": "ok",
+      "fetch_notes": "Chicken flavour has notably higher named-meat content (14%) than the other three flavours in this multibox (8% each) despite sharing the same 50% total meat block and identical analytical constituents."
+    },
+    {
+      "name": "BOZITA MEAT AND FISH MENU – CHUNKS IN JELLY (multibox)",
+      "product_line": "Meat and Fish Menu",
+      "texture": "v želé (jelly)",
+      "pack_size": "12 x 85 g (chicken liver, beef, salmon, perch — 3 pouches each)",
+      "language": "cs",
+      "url": "https://bozita.com/cz/products/bozita-masove-a-rybi-menu-kousky-v-zele/",
+      "flavours": [
+        {
+          "flavour": "Kuřecí játra (Chicken liver)",
+          "composition_raw": "Maso a produkty živočišného původu* 45 % (kuřecí játra 8 %), minerální látky, inulin z čekanky (FOS 0,1 %). *Švédské přírodní ingredience."
+        },
+        {
+          "flavour": "Hovězí (Beef)",
+          "composition_raw": "Maso a produkty živočišného původu* 45 % (hovězí 8 %), minerální látky, inulin z čekanky (FOS 0,1 %). *Švédské přírodní ingredience."
+        },
+        {
+          "flavour": "Losos (Salmon)",
+          "composition_raw": "Maso a produkty živočišného původu* 37 %, losos* (8 %), minerální látky, inulin z čekanky (FOS 0,1 %). *Švédské přírodní ingredience."
+        },
+        {
+          "flavour": "Okoun (Perch)",
+          "composition_raw": "Maso a produkty živočišného původu* 37 %, okoun* (8 %), minerální látky, inulin z čekanky (FOS 0,1 %). *Švédské přírodní ingredience."
+        }
+      ],
+      "analytical_constituents_raw": "hrubý protein 8,5 %, hrubý tuk 4,5 %, hrubá vláknina 0,5 %, hrubý popel 2 %, vlhkost 82 %",
+      "additives_per_kg_raw": "vitamín D3 200 m.j., vitamín E 12 mg, taurin 700 mg, měď 2 mg, mangan 1,4 mg, zinek 14 mg, jód 0,1 mg",
+      "energy_value_raw": "Not stated on page",
+      "feeding_guidelines_raw": "Tabulka: 2-5 porcí denně podle hmotnosti kočky (2-8 kg).",
+      "description_raw": "Not fully captured in this fetch.",
+      "completeness_statement_raw": "Not fully captured in this fetch (analogous Meat Menu products state \"kompletní krmivo\").",
+      "fetch_status": "ok",
+      "fetch_notes": "Fish flavours (Salmon, Perch) use a lower base meat/animal-product percentage (37%) plus a separately-listed fish %, vs. the land-meat flavours' single combined 45% figure — same pattern seen in the Sauce version of this line and in Meat Menu."
+    },
+    {
+      "name": "BOZITA MEAT MENU – CHUNKS IN JELLY (multibox)",
+      "product_line": "Meat Menu",
+      "texture": "v želé (jelly)",
+      "pack_size": "12 x 85 g (chicken liver, reindeer, beef, elk — 3 pouches each)",
+      "language": "cs",
+      "url": "https://bozita.com/cz/products/bozita-masove-menu-kousky-v-zele/",
+      "flavours": [
+        {
+          "flavour": "Kuřecí játra (Chicken liver)",
+          "composition_raw": "Maso a produkty živočišného původu* 45 % (kuřecí játra 8 %), minerální látky, inulin z čekanky (FOS 0,1 %). *Švédské přírodní ingredience."
+        },
+        {
+          "flavour": "Sobí (Reindeer)",
+          "composition_raw": "Maso a produkty živočišného původu* 45 % (sobí 8 %), minerální látky, inulin z čekanky (FOS 0,1 %). *Švédské přírodní ingredience."
+        },
+        {
+          "flavour": "Hovězí (Beef)",
+          "composition_raw": "Maso a produkty živočišného původu* 45 % (hovězí 8 %), minerální látky, inulin z čekanky (FOS 0,1 %). *Švédské přírodní ingredience."
+        },
+        {
+          "flavour": "Losí (Elk)",
+          "composition_raw": "Maso a produkty živočišného původu* 45 % (losí 8 %), minerální látky, inulin z čekanky (FOS 0,1 %). *Švédské přírodní ingredience."
+        }
+      ],
+      "analytical_constituents_raw": "hrubý protein 8,5 %, hrubý tuk 4,5 %, hrubá vláknina 0,5 %, hrubý popel 2 %, vlhkost 82 %",
+      "additives_per_kg_raw": "vitamín D3 200 m.j., vitamín E 12 mg, taurin 700 mg, měď 2 mg, mangan 1,4 mg, zinek 14 mg, jód 0,1 mg",
+      "energy_value_raw": "Not stated on page",
+      "feeding_guidelines_raw": "Tabulka: 2-5 porcí denně podle hmotnosti kočky (2-8 kg). \"Potřeby kočky jsou velmi individuální.\" Podávat při pokojové teplotě; po otevření uchovávat v lednici 2 dny.",
+      "description_raw": "Kompletní bezobilné krmivo pro kočky ze švédských surovin s vysokým obsahem masa a přírodním probiotikem (FOS).",
+      "completeness_statement_raw": "Complete grain-free cat food",
+      "fetch_status": "ok",
+      "fetch_notes": "Additives confirmed via a targeted re-fetch — identical to all three other Bozita multiboxes (D3 200 m.j., E 12mg, taurine 700mg, Cu 2mg, Mn 1.4mg, Zn 14mg, I 0.1mg). Also note: this multibox uses \"sobí\" (reindeer) as one flavour name where the first general-page pass mistakenly reported \"jelení\" (deer) — reindeer is the confirmed term across all three multiboxes that include it."
+    },
+    {
+      "name": "BOZITA MEAT AND FISH MENU – CHUNKS IN SAUCE (multibox)",
+      "product_line": "Meat and Fish Menu",
+      "texture": "v omáčce (sauce)",
+      "pack_size": "12 x 85 g (chicken, elk/reindeer, salmon, herring — 3 pouches each)",
+      "language": "cs",
+      "url": "https://bozita.com/cz/products/bozita-masove-a-rybi-menu-kousky-v-omacce/",
+      "flavours": [
+        {
+          "flavour": "Kuřecí (Chicken)",
+          "composition_raw": "Maso a výrobky živočišného původu* 50 % (kuřecí 14 %), minerální látky, inulin z čekanky (FOS 0,1 %). *Švédské přírodní ingredience."
+        },
+        {
+          "flavour": "Sobí (Reindeer/Elk) — labelled \"elk\" in the generic first-pass summary, but the flavour-specific text uses \"sobí\" (reindeer), matching the other three multiboxes",
+          "composition_raw": "Maso a výrobky živočišného původu* 50 % (sobí 8 %), minerální látky, inulin z čekanky (FOS 0,1 %). *Švédské přírodní ingredience."
+        },
+        {
+          "flavour": "Losos (Salmon)",
+          "composition_raw": "Maso a výrobky živočišného původu* 42 %, losos* (8 %), minerální látky, inulin z čekanky (FOS 0,1 %). *Švédské přírodní ingredience."
+        },
+        {
+          "flavour": "Sleď (Herring)",
+          "composition_raw": "Maso a výrobky živočišného původu* 42 %, sleď* (8 %), minerální látky, inulin z čekanky (FOS 0,1 %). *Švédské přírodní ingredience."
+        }
+      ],
+      "analytical_constituents_raw": "hrubý protein 8,5 %, hrubý tuk 4,5 %, hrubá vláknina 0,5 %, hrubý popel 2 %, vlhkost 82 %",
+      "additives_per_kg_raw": "vitamín D3 200 IU, vitamín E 12 mg, taurin 700 mg, měď 2 mg, mangan 1,4 mg, zinek 14 mg, jód 0,1 mg",
+      "energy_value_raw": "Not specified on page",
+      "feeding_guidelines_raw": "Tabulka: dávkování podle hmotnosti kočky, 2 porce (2 kg) až 5 porcí (8 kg) denně.",
+      "description_raw": "Not fully captured in this fetch.",
+      "completeness_statement_raw": "Not fully captured in this fetch.",
+      "fetch_status": "ok",
+      "fetch_notes": "Across all 4 Bozita multiboxes fetched, the pattern is consistent: land-meat flavours use a single combined 'meat and animal products' percentage (45% Jelly / 50% Sauce) with the named meat as a sub-fraction, while fish flavours split it into a lower base meat % (37% Jelly / 42% Sauce) plus a separately listed fish %. Chicken consistently has the highest named-meat percentage (14%) of any flavour across all 4 multiboxes; every other flavour (beef, turkey, reindeer, elk, chicken liver, salmon, perch, herring) sits at 8%."
+    }
+  ]
+}

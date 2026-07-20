@@ -1,6 +1,6 @@
 {
  "generated": "2026-07-19",
- "count": 163,
+ "count": 172,
  "products": [
   {
    "source_file": "bozita.json",
@@ -52,6 +52,7 @@
    },
    "score_pct": 93,
    "grade": "A",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -104,6 +105,7 @@
    },
    "score_pct": 86,
    "grade": "A",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -156,6 +158,7 @@
    },
    "score_pct": 93,
    "grade": "A",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -208,6 +211,7 @@
    },
    "score_pct": 86,
    "grade": "A",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -260,6 +264,7 @@
    },
    "score_pct": 71,
    "grade": "B",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -312,6 +317,7 @@
    },
    "score_pct": 71,
    "grade": "B",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -364,6 +370,7 @@
    },
    "score_pct": 71,
    "grade": "B",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -416,6 +423,7 @@
    },
    "score_pct": 71,
    "grade": "B",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -468,6 +476,7 @@
    },
    "score_pct": 71,
    "grade": "B",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -520,6 +529,7 @@
    },
    "score_pct": 67,
    "grade": "C",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -572,6 +582,7 @@
    },
    "score_pct": 79,
    "grade": "B",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -624,6 +635,7 @@
    },
    "score_pct": 79,
    "grade": "B",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -676,6 +688,7 @@
    },
    "score_pct": 83,
    "grade": "B",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -728,6 +741,7 @@
    },
    "score_pct": 71,
    "grade": "B",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -780,6 +794,7 @@
    },
    "score_pct": 71,
    "grade": "B",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -832,6 +847,7 @@
    },
    "score_pct": 71,
    "grade": "B",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -884,6 +900,7 @@
    },
    "score_pct": 71,
    "grade": "B",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -936,6 +953,7 @@
    },
    "score_pct": 71,
    "grade": "B",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -988,6 +1006,7 @@
    },
    "score_pct": 83,
    "grade": "B",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -1040,6 +1059,7 @@
    },
    "score_pct": 79,
    "grade": "B",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -1092,6 +1112,7 @@
    },
    "score_pct": 83,
    "grade": "B",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -1144,6 +1165,7 @@
    },
    "score_pct": 71,
    "grade": "B",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -1196,6 +1218,7 @@
    },
    "score_pct": 93,
    "grade": "A",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -1248,6 +1271,7 @@
    },
    "score_pct": 67,
    "grade": "C",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -1300,6 +1324,7 @@
    },
    "score_pct": 83,
    "grade": "B",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -1352,6 +1377,7 @@
    },
    "score_pct": 50,
    "grade": "C",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -1404,6 +1430,7 @@
    },
    "score_pct": 79,
    "grade": "B",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -1456,6 +1483,7 @@
    },
    "score_pct": 42,
    "grade": "D",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -1508,6 +1536,7 @@
    },
    "score_pct": 58,
    "grade": "C",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -1560,6 +1589,7 @@
    },
    "score_pct": 42,
    "grade": "D",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -1612,6 +1642,7 @@
    },
    "score_pct": 58,
    "grade": "C",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -1664,6 +1695,7 @@
    },
    "score_pct": 79,
    "grade": "B",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -1716,6 +1748,7 @@
    },
    "score_pct": 58,
    "grade": "C",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -1768,6 +1801,7 @@
    },
    "score_pct": 75,
    "grade": "B",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -1820,6 +1854,7 @@
    },
    "score_pct": 50,
    "grade": "C",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -1872,6 +1907,7 @@
    },
    "score_pct": 79,
    "grade": "B",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -1924,6 +1960,7 @@
    },
    "score_pct": 93,
    "grade": "A",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -1976,6 +2013,7 @@
    },
    "score_pct": 75,
    "grade": "B",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -2028,6 +2066,7 @@
    },
    "score_pct": 75,
    "grade": "B",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -2080,6 +2119,7 @@
    },
    "score_pct": 93,
    "grade": "A",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -2132,6 +2172,7 @@
    },
    "score_pct": 83,
    "grade": "B",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -2184,6 +2225,7 @@
    },
    "score_pct": 93,
    "grade": "A",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -2236,6 +2278,7 @@
    },
    "score_pct": 86,
    "grade": "A",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -2288,6 +2331,7 @@
    },
    "score_pct": 100,
    "grade": "A",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -2340,6 +2384,7 @@
    },
    "score_pct": 86,
    "grade": "A",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -2392,6 +2437,7 @@
    },
    "score_pct": 83,
    "grade": "B",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -2444,6 +2490,7 @@
    },
    "score_pct": 86,
    "grade": "A",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -2496,6 +2543,7 @@
    },
    "score_pct": 86,
    "grade": "A",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -2548,6 +2596,7 @@
    },
    "score_pct": 83,
    "grade": "B",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -2600,6 +2649,7 @@
    },
    "score_pct": 64,
    "grade": "C",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -2652,6 +2702,7 @@
    },
    "score_pct": 57,
    "grade": "C",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -2704,6 +2755,7 @@
    },
    "score_pct": 71,
    "grade": "B",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -2756,6 +2808,7 @@
    },
    "score_pct": 71,
    "grade": "B",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -2808,6 +2861,7 @@
    },
    "score_pct": 64,
    "grade": "C",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -2860,6 +2914,7 @@
    },
    "score_pct": 71,
    "grade": "B",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -2912,6 +2967,7 @@
    },
    "score_pct": 71,
    "grade": "B",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -2964,6 +3020,7 @@
    },
    "score_pct": 75,
    "grade": "B",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -3016,6 +3073,7 @@
    },
    "score_pct": 57,
    "grade": "C",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -3068,6 +3126,7 @@
    },
    "score_pct": 64,
    "grade": "C",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -3120,6 +3179,7 @@
    },
    "score_pct": 64,
    "grade": "C",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -3172,6 +3232,7 @@
    },
    "score_pct": 71,
    "grade": "B",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -3224,6 +3285,7 @@
    },
    "score_pct": 64,
    "grade": "C",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -3276,6 +3338,7 @@
    },
    "score_pct": 71,
    "grade": "B",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -3328,6 +3391,7 @@
    },
    "score_pct": 71,
    "grade": "B",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -3380,6 +3444,7 @@
    },
    "score_pct": 79,
    "grade": "B",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -3432,6 +3497,7 @@
    },
    "score_pct": 79,
    "grade": "B",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -3484,6 +3550,7 @@
    },
    "score_pct": 86,
    "grade": "A",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -3536,6 +3603,7 @@
    },
    "score_pct": 93,
    "grade": "A",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -3588,6 +3656,7 @@
    },
    "score_pct": 93,
    "grade": "A",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -3640,6 +3709,7 @@
    },
    "score_pct": 93,
    "grade": "A",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -3692,6 +3762,7 @@
    },
    "score_pct": 93,
    "grade": "A",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -3744,6 +3815,7 @@
    },
    "score_pct": 93,
    "grade": "A",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -3796,6 +3868,7 @@
    },
    "score_pct": 93,
    "grade": "A",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -3848,6 +3921,7 @@
    },
    "score_pct": 93,
    "grade": "A",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -3887,6 +3961,7 @@
    },
    "score_pct": 50,
    "grade": "C",
+   "superseded_by": null,
    "is_product": false
   },
   {
@@ -3939,6 +4014,7 @@
    },
    "score_pct": 58,
    "grade": "C",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -3991,6 +4067,7 @@
    },
    "score_pct": 67,
    "grade": "C",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -4043,6 +4120,7 @@
    },
    "score_pct": 83,
    "grade": "B",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -4095,6 +4173,7 @@
    },
    "score_pct": 83,
    "grade": "B",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -4147,6 +4226,7 @@
    },
    "score_pct": 83,
    "grade": "B",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -4199,6 +4279,7 @@
    },
    "score_pct": 75,
    "grade": "B",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -4251,6 +4332,7 @@
    },
    "score_pct": 83,
    "grade": "B",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -4303,6 +4385,7 @@
    },
    "score_pct": 83,
    "grade": "B",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -4355,6 +4438,7 @@
    },
    "score_pct": 75,
    "grade": "B",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -4407,6 +4491,7 @@
    },
    "score_pct": 75,
    "grade": "B",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -4459,6 +4544,7 @@
    },
    "score_pct": 67,
    "grade": "C",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -4511,6 +4597,7 @@
    },
    "score_pct": 67,
    "grade": "C",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -4563,6 +4650,7 @@
    },
    "score_pct": 79,
    "grade": "B",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -4615,6 +4703,7 @@
    },
    "score_pct": 79,
    "grade": "B",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -4667,6 +4756,7 @@
    },
    "score_pct": 79,
    "grade": "B",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -4719,6 +4809,7 @@
    },
    "score_pct": 79,
    "grade": "B",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -4771,7 +4862,8 @@
    },
    "score_pct": 67,
    "grade": "C",
-   "is_product": true
+   "superseded_by": "Duplicita — CZ verzia menuje druh ryby presnejšie a uvádza súhrnné % mäsového bloku.",
+   "is_product": false
   },
   {
    "source_file": "ontario.json",
@@ -4823,7 +4915,8 @@
    },
    "score_pct": 58,
    "grade": "C",
-   "is_product": true
+   "superseded_by": "Duplicita — SK zloženie bolo zachytené len čiastočne, CZ verzia je kompletná.",
+   "is_product": false
   },
   {
    "source_file": "ontario.json",
@@ -4875,7 +4968,8 @@
    },
    "score_pct": 67,
    "grade": "C",
-   "is_product": true
+   "superseded_by": "Duplicita — ten istý produkt je v ontario_cz.json.",
+   "is_product": false
   },
   {
    "source_file": "ontario.json",
@@ -4927,7 +5021,8 @@
    },
    "score_pct": 58,
    "grade": "C",
-   "is_product": true
+   "superseded_by": "Duplicita — ten istý produkt je v ontario_cz.json.",
+   "is_product": false
   },
   {
    "source_file": "ontario.json",
@@ -4979,7 +5074,8 @@
    },
    "score_pct": 58,
    "grade": "C",
-   "is_product": true
+   "superseded_by": "Duplicita — ten istý produkt je v ontario_cz.json.",
+   "is_product": false
   },
   {
    "source_file": "ontario.json",
@@ -5031,7 +5127,8 @@
    },
    "score_pct": 58,
    "grade": "C",
-   "is_product": true
+   "superseded_by": "Duplicita — SK názov chybne uvádza 'pre mačiatka', hoci ide o krmivo pre dospelé mačky; CZ názov je správny.",
+   "is_product": false
   },
   {
    "source_file": "ontario.json",
@@ -5083,7 +5180,8 @@
    },
    "score_pct": 58,
    "grade": "C",
-   "is_product": true
+   "superseded_by": "Duplicita — ten istý produkt je v ontario_cz.json.",
+   "is_product": false
   },
   {
    "source_file": "ontario.json",
@@ -5135,7 +5233,8 @@
    },
    "score_pct": 58,
    "grade": "C",
-   "is_product": true
+   "superseded_by": "SK stránka zobrazuje zloženie a analytiku kačacieho produktu, nie krevetového — nahradené CZ verziou (ontario_cz.json), ktorá uvádza skutočnú receptúru s 8 % kreviet.",
+   "is_product": false
   },
   {
    "source_file": "ontario.json",
@@ -5187,6 +5286,484 @@
    },
    "score_pct": 58,
    "grade": "C",
+   "superseded_by": "Duplicita — ten istý produkt je v ontario_cz.json.",
+   "is_product": false
+  },
+  {
+   "source_file": "ontario_cz.json",
+   "brand": "Ontario",
+   "name": "Kapsička Ontario kuře a krevety v omáčce",
+   "url": "https://ontario.pet/krmivo-pro-kocku/kapsicka-ontario-kure-a-krevety-v-omacce/",
+   "market": "CZ",
+   "texture": "v omáčce (gravy)",
+   "lifestage": "Adult",
+   "fetch_status": "ok",
+   "composition_raw": "Kuřecí 45 %, voda 40,8 %, krevety 8 %, zelený hrášek 3 %, rýže 1 %, rýžová mouka 1 %, bramborový škrob 0,8 %, guarová guma 0,3 %, rozmarýn 0,1 %",
+   "analytics_raw": "Hrubý protein 10 %, hrubý tuk 0,2 %, hrubá vláknina 0,3 %, hrubý popel 1,5 %, vlhkost 88 %",
+   "additives_raw": "",
+   "analytics": {
+    "protein": 10.0,
+    "fat": 0.2,
+    "fiber": 0.3,
+    "ash": 1.5,
+    "moisture": 88.0
+   },
+   "derived": {
+    "dm": 12.0,
+    "protein_dm": 83.3,
+    "fat_dm": 1.7,
+    "carbs_nfe_dm": 0.0,
+    "ash_dm": 12.5,
+    "dm_unreliable": true
+   },
+   "energy_kcal_100g": null,
+   "taurine_mg_kg": null,
+   "taurine_mg_kg_dm": null,
+   "prebiotic": "žiadne deklarované",
+   "named_meat_max_pct": 45.0,
+   "flags": {
+    "sugar": false,
+    "grain": true
+   },
+   "completeness": "neuvedené",
+   "completeness_source": "Doplňkové krmivo pro dospělé kočky (complementary food for adult cats)",
+   "notes": "RIEŠI CHYBU NA SK STRÁNKE. Slovenská verzia tohto produktu (ontario.json) zobrazovala zloženie 'kuracie mäso 51 %, voda 41,8 %, kačica 4 %...' — teda receptúru kačacieho produktu, bez akejkoľvek zmienky o krevetách, a k tomu analytické zložky kačacieho variantu (proteín 10,5 %, tuk 0,5 %, vláknina 0,5 %, popol 2 %, vlhkosť 86 %). Česká stránka uvádza úplne inú a vnútorne konzistentnú receptúru: krevety 8 %, zelený hrášok 3 %, nižší kuracie 45 % namiesto 51 %, a odlišnú analytiku (tuk len 0,2 %, vlhkosť 88 %). Toto je teda skutočné zloženie produktu; SK stránka mala chybu v CMS.",
+   "scores": {
+    "protein": 2,
+    "carbs": 2,
+    "prebiotic": 0,
+    "meat": 2,
+    "taurine": null,
+    "complete": 1,
+    "clean": 1
+   },
+   "score_pct": 67,
+   "grade": "C",
+   "superseded_by": null,
+   "is_product": true
+  },
+  {
+   "source_file": "ontario_cz.json",
+   "brand": "Ontario",
+   "name": "Kapsička Ontario kuře a kachna v omáčce",
+   "url": "https://ontario.pet/krmivo-pro-kocku/kapsicka-ontario-kure-a-kachna-v-omacce/",
+   "market": "CZ",
+   "texture": "v omáčce (gravy)",
+   "lifestage": "Adult",
+   "fetch_status": "ok",
+   "composition_raw": "Kuřecí 51 %, voda 41,8 %, kachní 4 %, rýže 1 %, rýžová mouka 1 %, bramborový škrob 0,8 %, guarová guma 0,3 %, rozmarýn 0,1 %",
+   "analytics_raw": "Hrubý protein 10,5 %, hrubý tuk 0,5 %, hrubá vláknina 0,5 %, hrubý popel 2 %, vlhkost 86 %",
+   "additives_raw": "",
+   "analytics": {
+    "protein": 10.5,
+    "fat": 0.5,
+    "fiber": 0.5,
+    "ash": 2.0,
+    "moisture": 86.0
+   },
+   "derived": {
+    "dm": 14.0,
+    "protein_dm": 75.0,
+    "fat_dm": 3.6,
+    "carbs_nfe_dm": 3.6,
+    "ash_dm": 14.3,
+    "dm_unreliable": true
+   },
+   "energy_kcal_100g": null,
+   "taurine_mg_kg": null,
+   "taurine_mg_kg_dm": null,
+   "prebiotic": "žiadne deklarované",
+   "named_meat_max_pct": 51.0,
+   "flags": {
+    "sugar": false,
+    "grain": true
+   },
+   "completeness": "neuvedené",
+   "completeness_source": "Doplňkové krmivo (complementary feed)",
+   "notes": "Zhoduje sa so slovenskou verziou úplne. Potvrdzuje, že SK stránka pri krevetovom produkte zobrazovala práve toto zloženie.",
+   "scores": {
+    "protein": 2,
+    "carbs": 2,
+    "prebiotic": 0,
+    "meat": 2,
+    "taurine": null,
+    "complete": 1,
+    "clean": 1
+   },
+   "score_pct": 67,
+   "grade": "C",
+   "superseded_by": null,
+   "is_product": true
+  },
+  {
+   "source_file": "ontario_cz.json",
+   "brand": "Ontario",
+   "name": "Kapsička Ontario kuře a treska ve vývaru",
+   "url": "https://ontario.pet/krmivo-pro-kocku/kapsicka-ontario-kure-a-treska-ve-vyvaru/",
+   "market": "CZ",
+   "texture": "ve vývaru (broth)",
+   "lifestage": "Adult (vhodné pro koťata od 4 měsíců)",
+   "fetch_status": "ok",
+   "composition_raw": "Maso a výrobky živočišného původu, ryby a výrobky z ryb 57,56 % (kuřecí maso 45,48 %, treska polak 11,73 %, ryba bonito 0,35 %), kuřecí vývar 41,06 %, karagenan 0,9 %, škrob 0,39 %, taurin 0,078 %, extrakt z čaje 0,008 %, vitaminy (A, B2, B3, B5, D3, E, polydextróza) 0,004 %",
+   "analytics_raw": "Hrubý protein 9 %, hrubé oleje a tuky 0,1 %, hrubá vláknina 0,5 %, hrubý popel 1,5 %, vlhkost 89 %",
+   "additives_raw": "",
+   "analytics": {
+    "protein": 9.0,
+    "fat": 0.1,
+    "fiber": 0.5,
+    "ash": 1.5,
+    "moisture": 89.0
+   },
+   "derived": {
+    "dm": 11.0,
+    "protein_dm": 81.8,
+    "fat_dm": 0.9,
+    "carbs_nfe_dm": 0.0,
+    "ash_dm": 13.6,
+    "dm_unreliable": true
+   },
+   "energy_kcal_100g": null,
+   "taurine_mg_kg": null,
+   "taurine_mg_kg_dm": null,
+   "prebiotic": "žiadne deklarované",
+   "named_meat_max_pct": 45.48,
+   "flags": {
+    "sugar": false,
+    "grain": false
+   },
+   "completeness": "neuvedené",
+   "completeness_source": "Doplňkové krmivo (complementary feed)",
+   "notes": "CZ verzia menuje druh ryby presnejšie — \"treska polak\" (treska tmavá / saithe) a uvádza súhrnné % mäsového bloku (57,56 %), ktoré SK verzia neuvádzala. Analytické hodnoty identické so SK. Názov na SK je \"kuracie a biela ryba\", na CZ \"kuře a treska\" — ide o ten istý produkt.",
+   "scores": {
+    "protein": 2,
+    "carbs": 2,
+    "prebiotic": 0,
+    "meat": 2,
+    "taurine": null,
+    "complete": 1,
+    "clean": 2
+   },
+   "score_pct": 75,
+   "grade": "B",
+   "superseded_by": null,
+   "is_product": true
+  },
+  {
+   "source_file": "ontario_cz.json",
+   "brand": "Ontario",
+   "name": "Kapsička Ontario kuře a krab ve vývaru",
+   "url": "https://ontario.pet/krmivo-pro-kocku/kapsicka-ontario-kure-a-krab-ve-vyvaru/",
+   "market": "CZ",
+   "texture": "ve vývaru (broth)",
+   "lifestage": "Adult (vhodné pro koťata od 4 měsíců)",
+   "fetch_status": "ok",
+   "composition_raw": "Maso a výrobky živočišného původu, ryby a výrobky z ryb 56,09 % (kuřecí maso 47,92 %, krab 7,8 %, ryba bonito 0,37 %), kuřecí vývar 42,468 %, karagenan 0,94 %, škrob 0,41 %, taurin 0,08 %, extrakt z čaje 0,008 %, vitaminy (A, B2, B3, B5, D3, E, polydextróza) 0,004 %",
+   "analytics_raw": "Hrubý protein 8 %, hrubé oleje a tuky 0,1 %, hrubá vláknina 0,5 %, hrubý popel 1,5 %, vlhkost 88 %",
+   "additives_raw": "",
+   "analytics": {
+    "protein": 8.0,
+    "fat": 0.1,
+    "fiber": 0.5,
+    "ash": 1.5,
+    "moisture": 88.0
+   },
+   "derived": {
+    "dm": 12.0,
+    "protein_dm": 66.7,
+    "fat_dm": 0.8,
+    "carbs_nfe_dm": 15.8,
+    "ash_dm": 12.5,
+    "dm_unreliable": true
+   },
+   "energy_kcal_100g": null,
+   "taurine_mg_kg": null,
+   "taurine_mg_kg_dm": null,
+   "prebiotic": "žiadne deklarované",
+   "named_meat_max_pct": 47.92,
+   "flags": {
+    "sugar": false,
+    "grain": false
+   },
+   "completeness": "neuvedené",
+   "completeness_source": "Doplňkové krmivo pro kočky (complementary food for cats)",
+   "notes": "CZ verzia poskytuje kompletné zloženie vrátane taurínu a vitamínov; SK verzia bola pri tomto produkte zachytená len čiastočne (končila pri \"kurací vývar 42,468 %\"). Doplňuje teda medzeru v SK dátach.",
+   "scores": {
+    "protein": 2,
+    "carbs": 1,
+    "prebiotic": 0,
+    "meat": 2,
+    "taurine": null,
+    "complete": 1,
+    "clean": 2
+   },
+   "score_pct": 67,
+   "grade": "C",
+   "superseded_by": null,
+   "is_product": true
+  },
+  {
+   "source_file": "ontario_cz.json",
+   "brand": "Ontario",
+   "name": "Kapsička Ontario tuňák ve vývaru",
+   "url": "https://ontario.pet/krmivo-pro-kocku/kapsicka-ontario-tunak-ve-vyvaru/",
+   "market": "CZ",
+   "texture": "ve vývaru (broth)",
+   "lifestage": "Adult (vhodné pro koťata od 4 měsíců)",
+   "fetch_status": "ok",
+   "composition_raw": "Maso a výrobky živočišného původu, ryby a výrobky z ryb 71,33 % (tuňák 41,06 %, kuřecí maso 30,27 %), kuřecí vývar 27,482 %, karagenan 0,7 %, sůl 0,4 %, taurin 0,08 %, extrakt z čaje 0,005 %, vitaminy (A, B2, B3, B5, D3, E, polydextróza) 0,003 %",
+   "analytics_raw": "Hrubý protein 10 %, hrubé oleje a tuky 0,5 %, hrubá vláknina 0,5 %, hrubý popel 1,5 %, vlhkost 87 %",
+   "additives_raw": "",
+   "analytics": {
+    "protein": 10.0,
+    "fat": 0.5,
+    "fiber": 0.5,
+    "ash": 1.5,
+    "moisture": 87.0
+   },
+   "derived": {
+    "dm": 13.0,
+    "protein_dm": 76.9,
+    "fat_dm": 3.8,
+    "carbs_nfe_dm": 3.8,
+    "ash_dm": 11.5,
+    "dm_unreliable": true
+   },
+   "energy_kcal_100g": null,
+   "taurine_mg_kg": null,
+   "taurine_mg_kg_dm": null,
+   "prebiotic": "žiadne deklarované",
+   "named_meat_max_pct": 41.06,
+   "flags": {
+    "sugar": false,
+    "grain": false
+   },
+   "completeness": "neuvedené",
+   "completeness_source": "Doplňkové krmivo (complementary feed)",
+   "notes": "Zloženie aj analytika identické so SK verziou. Extrakcia upozornila, že stránka obsahuje aj zloženie suchého krmiva, ktoré k tomuto produktu nepatrí — pri prípadnom opätovnom sťahovaní treba dať pozor, aby sa nezamiešalo.",
+   "scores": {
+    "protein": 2,
+    "carbs": 2,
+    "prebiotic": 0,
+    "meat": 2,
+    "taurine": null,
+    "complete": 1,
+    "clean": 2
+   },
+   "score_pct": 75,
+   "grade": "B",
+   "superseded_by": null,
+   "is_product": true
+  },
+  {
+   "source_file": "ontario_cz.json",
+   "brand": "Ontario",
+   "name": "Kapsička Ontario tuňák a losos ve vývaru",
+   "url": "https://ontario.pet/krmivo-pro-kocku/kapsicka-ontario-tunak-a-losos-ve-vyvaru/",
+   "market": "CZ",
+   "texture": "ve vývaru (broth)",
+   "lifestage": "Adult (vhodné pro koťata od 4 měsíců)",
+   "fetch_status": "ok",
+   "composition_raw": "Maso a výrobky živočišného původu, ryby a výrobky z ryb 72,44 % (tuňák 39,76 %, kuřecí maso 30,28 %, losos 2,4 %), kuřecí vývar 25,712 %, karagenan 0,78 %, sůl 0,4 %, pšeničná mouka 0,24 %, škrob 0,22 %, glycerin 0,12 %, taurin 0,08 %, extrakt z čaje 0,005 %, vitaminy (A, B2, B3, B5, D3, E, polydextróza) 0,003 %",
+   "analytics_raw": "Hrubý protein 12 %, hrubé oleje a tuky 0,5 %, hrubá vláknina 0,5 %, hrubý popel 1,5 %, vlhkost 87 %",
+   "additives_raw": "",
+   "analytics": {
+    "protein": 12.0,
+    "fat": 0.5,
+    "fiber": 0.5,
+    "ash": 1.5,
+    "moisture": 87.0
+   },
+   "derived": {
+    "dm": 13.0,
+    "protein_dm": 92.3,
+    "fat_dm": 3.8,
+    "carbs_nfe_dm": 0.0,
+    "ash_dm": 11.5,
+    "dm_unreliable": true
+   },
+   "energy_kcal_100g": null,
+   "taurine_mg_kg": null,
+   "taurine_mg_kg_dm": null,
+   "prebiotic": "žiadne deklarované",
+   "named_meat_max_pct": 39.76,
+   "flags": {
+    "sugar": false,
+    "grain": true
+   },
+   "completeness": "neuvedené",
+   "completeness_source": "Doplňkové krmivo (complementary feed)",
+   "notes": "Identické so SK verziou vrátane pšeničnej múky 0,24 % — jediný produkt v rade, ktorý obsahuje obilninu. Pozor pri interpretácii proteínu na sušinu: pri vlhkosti 87 % je sušina len 13 %, takže 12 % proteínu vychádza na 92 % v sušine, čo je artefakt malého menovateľa, nie znak výnimočnej kvality.",
+   "scores": {
+    "protein": 2,
+    "carbs": 2,
+    "prebiotic": 0,
+    "meat": 2,
+    "taurine": null,
+    "complete": 1,
+    "clean": 1
+   },
+   "score_pct": 67,
+   "grade": "C",
+   "superseded_by": null,
+   "is_product": true
+  },
+  {
+   "source_file": "ontario_cz.json",
+   "brand": "Ontario",
+   "name": "Kapsička Ontario Kitten kuře s játry v omáčce",
+   "url": "https://ontario.pet/krmivo-pro-kocku/kapsicka-ontario-kitten-kure-s-jatry-v-omacce/",
+   "market": "CZ",
+   "texture": "v omáčce (gravy)",
+   "lifestage": "Kitten (od 1 měsíce)",
+   "fetch_status": "ok",
+   "composition_raw": "Kuřecí 42 %, voda 41,1 %, kuřecí játra 5 %, kuřecí kůže 5 %, sladké brambory 2 %, brusinky 1,2 %, rýže 1 %, rýžová mouka 1 %, bramborový škrob 0,8 %, kuřecí vývar 0,5 %, guarová guma 0,3 %, rozmarýn 0,1 %",
+   "analytics_raw": "Hrubý protein 9,5 %, hrubý tuk 1 %, hrubá vláknina 0,5 %, hrubý popel 2 %, vlhkost 86 %",
+   "additives_raw": "",
+   "analytics": {
+    "protein": 9.5,
+    "fat": 1.0,
+    "fiber": 0.5,
+    "ash": 2.0,
+    "moisture": 86.0
+   },
+   "derived": {
+    "dm": 14.0,
+    "protein_dm": 67.9,
+    "fat_dm": 7.1,
+    "carbs_nfe_dm": 7.1,
+    "ash_dm": 14.3,
+    "dm_unreliable": true
+   },
+   "energy_kcal_100g": null,
+   "taurine_mg_kg": null,
+   "taurine_mg_kg_dm": null,
+   "prebiotic": "žiadne deklarované",
+   "named_meat_max_pct": 42.0,
+   "flags": {
+    "sugar": false,
+    "grain": true
+   },
+   "completeness": "neuvedené",
+   "completeness_source": "Doplňkové krmivo pro koťata od 1 měsíce (complementary feed for kittens from 1 month)",
+   "notes": "Zhoduje sa so SK verziou. CZ názov obsahuje \"Kitten\" a klasifikácia to potvrdzuje — na rozdiel od šunkového produktu nižšie, kde bol na SK rozpor.",
+   "scores": {
+    "protein": 2,
+    "carbs": 2,
+    "prebiotic": 0,
+    "meat": 2,
+    "taurine": null,
+    "complete": 1,
+    "clean": 1
+   },
+   "score_pct": 67,
+   "grade": "C",
+   "superseded_by": null,
+   "is_product": true
+  },
+  {
+   "source_file": "ontario_cz.json",
+   "brand": "Ontario",
+   "name": "Kapsička Ontario kuře se šunkou v omáčce",
+   "url": "https://ontario.pet/krmivo-pro-kocku/kapsicka-ontario-kure-se-sunkou-v-omacce/",
+   "market": "CZ",
+   "texture": "v omáčce (gravy)",
+   "lifestage": "Adult",
+   "fetch_status": "ok",
+   "composition_raw": "Kuřecí maso 51 %, voda 38,8 %, šunka 7 %, rýže 1 %, rýžová mouka 1 %, bramborový škrob 0,8 %, guarová guma 0,3 %, rozmarýn 0,1 %",
+   "analytics_raw": "Hrubý protein 10,5 %, hrubý tuk 0,5 %, hrubá vláknina 0,5 %, hrubý popel 2 %, vlhkost 86 %",
+   "additives_raw": "",
+   "analytics": {
+    "protein": 10.5,
+    "fat": 0.5,
+    "fiber": 0.5,
+    "ash": 2.0,
+    "moisture": 86.0
+   },
+   "derived": {
+    "dm": 14.0,
+    "protein_dm": 75.0,
+    "fat_dm": 3.6,
+    "carbs_nfe_dm": 3.6,
+    "ash_dm": 14.3,
+    "dm_unreliable": true
+   },
+   "energy_kcal_100g": null,
+   "taurine_mg_kg": null,
+   "taurine_mg_kg_dm": null,
+   "prebiotic": "žiadne deklarované",
+   "named_meat_max_pct": 51.0,
+   "flags": {
+    "sugar": false,
+    "grain": true
+   },
+   "completeness": "neuvedené",
+   "completeness_source": "Doplňkové krmivo pro dospělé kočky (complementary food for adult cats)",
+   "notes": "RIEŠI ROZPOR NA SK STRÁNKE. Slovenský názov znie \"Ontario kapsička pre mačiatka kuracie so šunkou v omáčke\" (pre mačiatka), zatiaľ čo klasifikácia na tej istej SK stránke hovorila \"pre dospelé mačky\". Česká verzia nemá v názve žiadnu zmienku o mačiatkach a klasifikuje produkt ako doplnkové krmivo pre dospelé mačky. Chyba je teda v slovenskom NÁZVE produktu, nie v označení typu krmiva. Zloženie aj analytika sú v oboch mutáciách zhodné.",
+   "scores": {
+    "protein": 2,
+    "carbs": 2,
+    "prebiotic": 0,
+    "meat": 2,
+    "taurine": null,
+    "complete": 1,
+    "clean": 1
+   },
+   "score_pct": 67,
+   "grade": "C",
+   "superseded_by": null,
+   "is_product": true
+  },
+  {
+   "source_file": "ontario_cz.json",
+   "brand": "Ontario",
+   "name": "Kapsička Ontario kuře a makrela v omáčce",
+   "url": "https://ontario.pet/krmivo-pro-kocku/kapsicka-ontario-kure-a-makrela-v-omacce/",
+   "market": "CZ",
+   "texture": "v omáčce (gravy)",
+   "lifestage": "Adult",
+   "fetch_status": "ok",
+   "composition_raw": "Kuřecí 51 %, voda 41,8 %, makrela 4 %, rýže 1 %, rýžová mouka 1 %, bramborový škrob 0,8 %, guarová guma 0,3 %, rozmarýn 0,1 %",
+   "analytics_raw": "Hrubý protein 10,5 %, hrubý tuk 0,5 %, hrubá vláknina 0,3 %, hrubý popel 1,5 %, vlhkost 87 %",
+   "additives_raw": "",
+   "analytics": {
+    "protein": 10.5,
+    "fat": 0.5,
+    "fiber": 0.3,
+    "ash": 1.5,
+    "moisture": 87.0
+   },
+   "derived": {
+    "dm": 13.0,
+    "protein_dm": 80.8,
+    "fat_dm": 3.8,
+    "carbs_nfe_dm": 1.5,
+    "ash_dm": 11.5,
+    "dm_unreliable": true
+   },
+   "energy_kcal_100g": null,
+   "taurine_mg_kg": null,
+   "taurine_mg_kg_dm": null,
+   "prebiotic": "žiadne deklarované",
+   "named_meat_max_pct": 51.0,
+   "flags": {
+    "sugar": false,
+    "grain": true
+   },
+   "completeness": "neuvedené",
+   "completeness_source": "Doplňkové krmivo pro dospělé kočky (complementary feed for adult cats)",
+   "notes": "Zhoduje sa so SK verziou vrátane odlišnej vlákniny (0,3 %) a popola (1,5 %) oproti ostatným omáčkovým príchutiam.",
+   "scores": {
+    "protein": 2,
+    "carbs": 2,
+    "prebiotic": 0,
+    "meat": 2,
+    "taurine": null,
+    "complete": 1,
+    "clean": 1
+   },
+   "score_pct": 67,
+   "grade": "C",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -5239,6 +5816,7 @@
    },
    "score_pct": 64,
    "grade": "C",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -5291,6 +5869,7 @@
    },
    "score_pct": 70,
    "grade": "B",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -5343,6 +5922,7 @@
    },
    "score_pct": 60,
    "grade": "C",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -5395,6 +5975,7 @@
    },
    "score_pct": 60,
    "grade": "C",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -5439,6 +6020,7 @@
    },
    "score_pct": 67,
    "grade": "C",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -5478,6 +6060,7 @@
    },
    "score_pct": 50,
    "grade": "C",
+   "superseded_by": null,
    "is_product": false
   },
   {
@@ -5522,6 +6105,7 @@
    },
    "score_pct": 83,
    "grade": "B",
+   "superseded_by": null,
    "is_product": false
   },
   {
@@ -5574,6 +6158,7 @@
    },
    "score_pct": 50,
    "grade": "C",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -5613,6 +6198,7 @@
    },
    "score_pct": 50,
    "grade": "C",
+   "superseded_by": null,
    "is_product": false
   },
   {
@@ -5652,6 +6238,7 @@
    },
    "score_pct": 50,
    "grade": "C",
+   "superseded_by": null,
    "is_product": false
   },
   {
@@ -5691,6 +6278,7 @@
    },
    "score_pct": 50,
    "grade": "C",
+   "superseded_by": null,
    "is_product": false
   },
   {
@@ -5743,6 +6331,7 @@
    },
    "score_pct": 57,
    "grade": "C",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -5795,6 +6384,7 @@
    },
    "score_pct": 92,
    "grade": "A",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -5847,6 +6437,7 @@
    },
    "score_pct": 86,
    "grade": "A",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -5899,6 +6490,7 @@
    },
    "score_pct": 57,
    "grade": "C",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -5951,6 +6543,7 @@
    },
    "score_pct": 71,
    "grade": "B",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -6003,6 +6596,7 @@
    },
    "score_pct": 79,
    "grade": "B",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -6055,6 +6649,7 @@
    },
    "score_pct": 57,
    "grade": "C",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -6107,6 +6702,7 @@
    },
    "score_pct": 57,
    "grade": "C",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -6159,6 +6755,7 @@
    },
    "score_pct": 57,
    "grade": "C",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -6211,6 +6808,7 @@
    },
    "score_pct": 57,
    "grade": "C",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -6263,6 +6861,7 @@
    },
    "score_pct": 64,
    "grade": "C",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -6315,6 +6914,7 @@
    },
    "score_pct": 57,
    "grade": "C",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -6367,6 +6967,7 @@
    },
    "score_pct": 64,
    "grade": "C",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -6410,6 +7011,7 @@
    },
    "score_pct": 25,
    "grade": "E",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -6462,6 +7064,7 @@
    },
    "score_pct": 43,
    "grade": "D",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -6514,6 +7117,7 @@
    },
    "score_pct": 71,
    "grade": "B",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -6566,6 +7170,7 @@
    },
    "score_pct": 57,
    "grade": "C",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -6618,6 +7223,7 @@
    },
    "score_pct": 57,
    "grade": "C",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -6670,6 +7276,7 @@
    },
    "score_pct": 57,
    "grade": "C",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -6722,6 +7329,7 @@
    },
    "score_pct": 67,
    "grade": "C",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -6774,6 +7382,7 @@
    },
    "score_pct": 57,
    "grade": "C",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -6813,6 +7422,7 @@
    },
    "score_pct": 38,
    "grade": "D",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -6852,6 +7462,7 @@
    },
    "score_pct": 50,
    "grade": "C",
+   "superseded_by": null,
    "is_product": false
   },
   {
@@ -6904,6 +7515,7 @@
    },
    "score_pct": 67,
    "grade": "C",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -6956,6 +7568,7 @@
    },
    "score_pct": 57,
    "grade": "C",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -7008,6 +7621,7 @@
    },
    "score_pct": 57,
    "grade": "C",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -7060,6 +7674,7 @@
    },
    "score_pct": 67,
    "grade": "C",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -7112,6 +7727,7 @@
    },
    "score_pct": 57,
    "grade": "C",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -7164,6 +7780,7 @@
    },
    "score_pct": 57,
    "grade": "C",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -7216,6 +7833,7 @@
    },
    "score_pct": 57,
    "grade": "C",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -7268,6 +7886,7 @@
    },
    "score_pct": 57,
    "grade": "C",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -7320,6 +7939,7 @@
    },
    "score_pct": 50,
    "grade": "C",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -7372,6 +7992,7 @@
    },
    "score_pct": 50,
    "grade": "C",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -7424,6 +8045,7 @@
    },
    "score_pct": 50,
    "grade": "C",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -7476,6 +8098,7 @@
    },
    "score_pct": 50,
    "grade": "C",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -7528,6 +8151,7 @@
    },
    "score_pct": 50,
    "grade": "C",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -7580,6 +8204,7 @@
    },
    "score_pct": 50,
    "grade": "C",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -7619,6 +8244,7 @@
    },
    "score_pct": 50,
    "grade": "C",
+   "superseded_by": null,
    "is_product": false
   },
   {
@@ -7658,6 +8284,7 @@
    },
    "score_pct": 50,
    "grade": "C",
+   "superseded_by": null,
    "is_product": false
   },
   {
@@ -7697,6 +8324,7 @@
    },
    "score_pct": 50,
    "grade": "C",
+   "superseded_by": null,
    "is_product": false
   },
   {
@@ -7736,6 +8364,7 @@
    },
    "score_pct": 50,
    "grade": "C",
+   "superseded_by": null,
    "is_product": false
   },
   {
@@ -7775,6 +8404,7 @@
    },
    "score_pct": 50,
    "grade": "C",
+   "superseded_by": null,
    "is_product": false
   },
   {
@@ -7827,6 +8457,7 @@
    },
    "score_pct": 93,
    "grade": "A",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -7879,6 +8510,7 @@
    },
    "score_pct": 93,
    "grade": "A",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -7931,6 +8563,7 @@
    },
    "score_pct": 93,
    "grade": "A",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -7983,6 +8616,7 @@
    },
    "score_pct": 93,
    "grade": "A",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -8035,6 +8669,7 @@
    },
    "score_pct": 86,
    "grade": "A",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -8087,6 +8722,7 @@
    },
    "score_pct": 86,
    "grade": "A",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -8139,6 +8775,7 @@
    },
    "score_pct": 86,
    "grade": "A",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -8191,6 +8828,7 @@
    },
    "score_pct": 93,
    "grade": "A",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -8243,6 +8881,7 @@
    },
    "score_pct": 93,
    "grade": "A",
+   "superseded_by": null,
    "is_product": true
   },
   {
@@ -8295,6 +8934,7 @@
    },
    "score_pct": 86,
    "grade": "A",
+   "superseded_by": null,
    "is_product": true
   }
  ]

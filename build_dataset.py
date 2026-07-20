@@ -110,8 +110,10 @@ def max_named_meat_pct(comp):
 # words at once, where keyword matching inverts the meaning. The verdicts live in
 # curated.json, keyed by the verbatim label text; anything unseen is reported
 # rather than guessed.
-CURATED = json.load(open(os.path.join(os.path.dirname(__file__), "curated.json"),
-                         encoding="utf-8"))["completeness"]
+_CUR = json.load(open(os.path.join(os.path.dirname(__file__), "curated.json"),
+                      encoding="utf-8"))
+CURATED = _CUR["completeness"]
+SUPERSEDED = _CUR.get("superseded", {})
 UNKNOWN_COMPLETENESS = set()
 
 def completeness(statement):
@@ -247,7 +249,11 @@ for r in rows:
     r["scores"] = sub
     r["score_pct"] = pct
     r["grade"] = grade
-    r["is_product"] = not (NONPRODUCT.search(r["name"]) or r["fetch_status"] == "failed")
+    sup = SUPERSEDED.get(r["url"])
+    r["superseded_by"] = sup
+    r["is_product"] = not (NONPRODUCT.search(r["name"])
+                           or r["fetch_status"] == "failed"
+                           or sup)
 
 payload = {"generated": "2026-07-19", "count": len(rows), "products": rows}
 with open(OUT, "w", encoding="utf-8") as f:

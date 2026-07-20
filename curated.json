@@ -2,6 +2,19 @@
   "_comment": "Klasifikácia kompletnosti čítaná s porozumením, nie keywordmi. Kľúč je doslovné znenie poľa completeness_statement_raw z raw_data/. Regex tu zlyhával na negáciách ('not explicitly labeled complementary' = KOMPLETNÉ) a na vetách, kde sa obe slová vyskytujú naraz. Neznáme formulácie build_dataset.py nahlási na doplnenie namiesto hádania.",
   "_values": ["kompletné", "doplnkové", "neuvedené"],
 
+  "_superseded_comment": "URL, ktoré sa nemajú počítať do štatistík, lebo ten istý produkt je v datasete z lepšieho zdroja. Riadky zostávajú v raw_data/ ako archív — vyradia sa až tu, s uvedeným dôvodom.",
+  "superseded": {
+    "https://ontario.pet/sk/krmivo-pre-macky/ontario-kapsicka-kuracie-a-krevety-v-omacke/": "SK stránka zobrazuje zloženie a analytiku kačacieho produktu, nie krevetového — nahradené CZ verziou (ontario_cz.json), ktorá uvádza skutočnú receptúru s 8 % kreviet.",
+    "https://ontario.pet/sk/krmivo-pre-macky/ontario-kapsicka-kuracie-a-kacacie-v-omacke/": "Duplicita — ten istý produkt je v ontario_cz.json.",
+    "https://ontario.pet/sk/krmivo-pre-macky/ontario-kapsicka-kuracie-a-biela-ryba-vo-vyvare/": "Duplicita — CZ verzia menuje druh ryby presnejšie a uvádza súhrnné % mäsového bloku.",
+    "https://ontario.pet/sk/krmivo-pre-macky/ontario-kapsicka-kuracie-a-krab-vo-vyvare/": "Duplicita — SK zloženie bolo zachytené len čiastočne, CZ verzia je kompletná.",
+    "https://ontario.pet/sk/krmivo-pre-macky/ontario-kapsicka-tuniak-vo-vyvare/": "Duplicita — ten istý produkt je v ontario_cz.json.",
+    "https://ontario.pet/sk/krmivo-pre-macky/ontario-kapsicka-tuniak-a-losos-vo-vyvare/": "Duplicita — ten istý produkt je v ontario_cz.json.",
+    "https://ontario.pet/sk/krmivo-pre-macky/ontario-kapsicka-pre-maciatka-kuracie-s-pecenou-v-omacke/": "Duplicita — ten istý produkt je v ontario_cz.json.",
+    "https://ontario.pet/sk/krmivo-pre-macky/ontario-kapsicka-pre-maciatka-kuracie-so-sunkou-v-omacke/": "Duplicita — SK názov chybne uvádza 'pre mačiatka', hoci ide o krmivo pre dospelé mačky; CZ názov je správny.",
+    "https://ontario.pet/sk/krmivo-pre-macky/ontario-kapsicka-kuracie-a-makrela-v-omacke/": "Duplicita — ten istý produkt je v ontario_cz.json."
+  },
+
   "completeness": {
     "": "neuvedené",
     "Not explicitly stated on the page (per WebFetch extraction).": "neuvedené",

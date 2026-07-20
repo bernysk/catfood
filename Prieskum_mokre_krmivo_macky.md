@@ -201,14 +201,14 @@ Priemerné skóre a rozloženie známok. **Pozor:** počet produktov sa výrazne
 | CarniLove | 12 | 74,9 | – | 8 | 4 | – | – |
 | Brit Care | 31 | 71,2 | 2 | 20 | 7 | 2 | – |
 | Stuzzy | 3 | 69,0 | – | 2 | 1 | – | – |
+| Ontario | 9 | 68,8 | – | 2 | 7 | – | – |
 | Royal Canin | 5 | 61,4 | – | 1 | 4 | – | – |
-| Ontario | 9 | 60,0 | – | – | 9 | – | – |
 | Kattovit | 1 | 57,0 | – | – | 1 | – | – |
 | Almo Nature | 1 | 57,0 | – | – | 1 | – | – |
 | Purina Pro Plan | 16 | 55,8 | – | 1 | 12 | 2 | 1 |
 | Sheba | 14 | 55,4 | – | – | 14 | – | – |
 
-**Celkové rozloženie:** 33× A · 53× B · 60× C · 4× D · 1× E
+**Celkové rozloženie:** 33× A · 55× B · 58× C · 4× D · 1× E
 
 ### Ako to čítať férovo
 
@@ -283,8 +283,8 @@ Nejde o porušenie predpisov — pomenovaná zložka je vždy prítomná. Ale ak
 
 Pri sťahovaní sa objavili tri nezrovnalosti, ktoré som **neopravil, ale zaznamenal** — sú v `fetch_notes` príslušných JSON súborov:
 
-- **Ontario „kuracie a krevety"** — zloženie na stránke uvádza **kačicu 4 %, žiadne krevety**, a je identické s produktom „kuracie a kačacie". Marketingový text tej istej stránky si protirečí (raz spomína kačacie kúsky, raz krevety). Overené dvakrát nezávisle vrátane priameho náhľadu stránky. Skutočný obsah kreviet nie je z webu zistiteľný.
-- **Ontario „pre mačiatka so šunkou"** — názov hovorí „pre mačiatka", klasifikácia na tej istej stránke „pre dospelé mačky".
+- **Ontario „kuracie a krevety" — chyba potvrdená a vyriešená.** Slovenská stránka uvádzala pri tejto príchuti **kačicu 4 % a žiadne krevety**, so zložením aj analytikou identickou s kačacím produktom. Stiahnutie **českej mutácie** ([`ontario_cz.json`](raw_data/ontario_cz.json)) ukázalo skutočnú receptúru: **krevety 8 %, zelený hrášok 3 %, kuracie 45 %** a odlišnú analytiku (tuk 0,2 %, vlhkosť 88 %). Šlo teda o chybu v CMS na slovenskej verzii; české dáta sú v prieskume použité ako kanonické a slovenský riadok je odložený ako záznam o chybe.
+- **Ontario „pre mačiatka so šunkou"** — slovenský názov hovorí „pre mačiatka", klasifikácia na tej istej stránke „pre dospelé mačky". Česká verzia má v názve len „kuře se šunkou" a klasifikuje ho ako krmivo pre dospelé mačky — **chyba je teda v slovenskom názve**, nie v označení typu krmiva.
 - **Shelma „v želé" multipacky** — produktová stránka ich popisuje ako krmivo „pro koťata" (pre mačiatka), prehľadová stránka ako „pro dospělé kočky". Overené trojnásobným načítaním.
 - **Shelma kitten olej** — príchuť „losos a rakytník" obsahuje **ľanový** olej, zatiaľ čo „morčacie a brusnice" obsahuje **lososový** olej. Zámena oproti tomu, čo naznačujú názvy.
 - **Purina** — URL s „obezita" vracia produkt **Diabetes Management**; URL s „kote" (mačiatko) vracia dospelý produkt Delicate Digestion.
@@ -400,10 +400,13 @@ Všetky produktové dáta pochádzajú výhradne odtiaľto a sú uložené v [`r
 | `brit_care_fillets.json` | Brit Care / Premium | krmivo-brit.cz | 18 |
 | `brit_care_mousse.json` | Brit Care | krmivo-brit.cz | 17 |
 | `purina_proplan.json` | Purina Pro Plan | purina.cz | 15 |
-| `ontario.json` | Ontario | ontario.pet/sk | 9 |
+| `ontario.json` | Ontario | ontario.pet/sk | 9* |
+| `ontario_cz.json` | Ontario | ontario.pet (CZ) | 9 |
 | `bozita.json` | Bozita | bozita.com/cz | 4 |
 | `meowing_heads.json` | Meowing Heads | barkingheads.co.uk | 4 |
 | `other_brands.json` | RC, Animonda, Almo Nature, Dein Bestes, Stuzzy, Kattovit, Purina | rôzne | 20 |
+
+\* Slovenské riadky Ontaria sú v archíve zachované, ale **do štatistík sa nepočítajú** — ide o tie isté produkty ako v českej mutácii, ktorá je presnejšia (opravené krevety, úplnejšie zloženie kraba, správny názov pri šunkovej príchuti). Zoznam vyradených URL aj s dôvodom je v [`curated.json`](./curated.json) v sekcii `superseded`; skript ich neodstraňuje zo surových dát, len ich vynechá pri výpočte.
 
 ### Nezaradené (a prečo)
 
