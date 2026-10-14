@@ -5,3 +5,6 @@ Thumbs.db
 
 # reanalysis.py output
 reanalysis_out.json
+
+# lokálne kópie literatúry, ktoré sa nedali/nemajú dať na GitHub
+literatura/lokalne/

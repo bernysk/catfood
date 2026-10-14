@@ -53,6 +53,7 @@ dataset.json                     normalizovaný výstup so skóre
 KontrolaLM.md                    revízia metodiky NotebookLM analýz
 REVIEW_2026-10.md                nezávislá revízia v4 (EN): chyby, stabilita známok, bielkoviny a obličky
 reanalysis.py                    skript k revízii (tolerancie EÚ, prepočet na 1000 kcal, FEDIAF 2025)
+literatura/                      citované práce s otvorenou licenciou (PDF) + zoznam odkazov
 
 build_dataset.py                 raw_data → dataset.json + vloženie dát do index.html
 audit_parse.py                   nezávislá kontrola parsovania (iná metóda, hlási nezhody)
