@@ -86,6 +86,16 @@
     "Doplňkové krmivo pro dospělé kočky (complementary food for adult cats)": "doplnkové",
     "Doplňkové krmivo pro kočky (complementary food for cats)": "doplnkové",
     "Doplňkové krmivo pro koťata od 1 měsíce (complementary feed for kittens from 1 month)": "doplnkové",
+    "Kompletné superprémiové vlhké krmivo je určené na dlhodobé kŕmenie.": "kompletné",
+    "Rad kapsičiek pre mačky Calibra Cat Premium Line s kompletným a vyváženým zložením zahŕňa kapsičky pre mačiatka, pre dospelé mačky i pre mačky kastrované.": "kompletné",
+    "kompletní krmivo s recepturou bez obilovin": "kompletné",
+    "kompletní krmivo pro koťata s recepturou bez obilovin": "kompletné",
+    "Použití: Kompletní krmivo pro kočky": "kompletné",
+    "Kompletní superprémiové bezobilné krmivo pro dospělé kastrované kočky ve formě filetek ve šťávě s dietním králíkem": "kompletné",
+    "Kompletní prémiová kapsička s hovězím a hráškem v omáčce pro dospělé kočky všech plemen": "kompletné",
+    "Kompletní vlhké krmivo ve formě masových filetek s kachnou v lahodné šťávě pro sterilizované kočky.": "kompletné",
+    "Vysoce kvalitní krmivo, které poskytuje kompletní výživu pro vašeho kočičího společníka": "kompletné",
+    "100% complete and balanced everyday meal for your feline companion": "kompletné",
     "\"Doplnkové krmivo pre dospelé mačky\" — MISMATCH: product name says 'pre mačiatka' (for kittens) but the food-type label on the same page says 'pre dospelé mačky' (for adult cats).": "doplnkové",
 
     "Complementary food (implied, not explicitly stated)": "neuvedené",
@@ -97,6 +107,9 @@
     "Complete food for adult cats (not explicitly labeled complementary)": "Negácia — veta hovorí, že produkt NIE JE označený ako doplnkový. Regex tu videl slovo 'complementary' a otočil význam.",
     "Complementary food (implied, not explicitly stated)": "Purina Senior Sterilised. Slovo 'implied' znamená, že to bola domnienka extrakcie, nie údaj zo stránky — preto neuvedené, nie doplnkové.",
     "Not fully captured in this fetch (analogous Meat Menu products state \"kompletní krmivo\").": "Bozita — usudzovanie z analógie so súrodeneckým produktom nie je údaj z tejto stránky.",
-    "Complementary pet food (wet food for adult sterilized cats) — this fetch described it as complementary, unlike most sibling entries described as complete; see also duplicate URL entry below with different stock status.": "Brit Care Rabbit — tá istá SKU cez dve URL vrátila raz 'complementary', raz 'complete'. Rozpor na strane e-shopu; ponechané ako neuvedené."
+    "Complementary pet food (wet food for adult sterilized cats) — this fetch described it as complementary, unlike most sibling entries described as complete; see also duplicate URL entry below with different stock status.": "Brit Care Rabbit — tá istá SKU cez dve URL vrátila raz 'complementary', raz 'complete'. Rozpor na strane e-shopu; ponechané ako neuvedené.",
+    "Rad kapsičiek pre mačky Calibra Cat Premium Line s kompletným a vyváženým zložením zahŕňa kapsičky pre mačiatka, pre dospelé mačky i pre mačky kastrované.": "Calibra Premium (2026-10-14) — veta je na stránke samotného produktu, ale hovorí o celom rade, ktorý výslovne zahŕňa mačiatka, dospelé aj kastrované. Hraničný prípad: ak by sa mala vyžadovať veta o konkrétnom produkte, zmeniť na neuvedené (8 produktov).",
+    "Vysoce kvalitní krmivo, které poskytuje kompletní výživu pro vašeho kočičího společníka": "Sheba CZ (2026-10-14) — popis produktu deklaruje kompletnú výživu; doplnkové látky CZ web neuvádza vôbec (overené v prehliadači).",
+    "100% complete and balanced everyday meal for your feline companion": "Sheba UK (2026-10-14) — pôvodné sťahovanie vetu nezachytilo (je v bloku výhod produktu vykreslenom JavaScriptom)."
   }
 }

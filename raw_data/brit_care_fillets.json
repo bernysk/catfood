@@ -88,10 +88,10 @@
       "energy_value_raw": "770 kcal/kg",
       "feeding_guidelines_raw": "3 kg kočka: 2 kapsičky denně; 4-6 kg: 3-4 kapsičky; 6-8 kg: 4-6 kapsiček",
       "description_raw": "Not fully captured in this fetch.",
-      "completeness_statement_raw": "Complementary pet food (wet food for adult sterilized cats) — this fetch described it as complementary, unlike most sibling entries described as complete; see also duplicate URL entry below with different stock status.",
+      "completeness_statement_raw": "Kompletní superprémiové bezobilné krmivo pro dospělé kastrované kočky ve formě filetek ve šťávě s dietním králíkem",
       "price_raw": "85 g kapsička; 20 Kč (sleva z 25 Kč, -20 %)",
       "fetch_status": "ok",
-      "fetch_notes": "DUPLICATE CHECK: this appears to be the same SKU as 'Brit Care Cat Sterilized Fillets in Gravy with Healthy Rabbit 85 g' fetched via a different URL path (krmivo-brit.cz/pro-kocky/brit-care-cat-sterilized-fillets-in-gravy-with-healthy-rabbit-85-g.html, see below) — composition/analytics/additives/energy match exactly, but this fetch shows in-stock with feeding guidelines and 'complementary' framing, while the other URL shows 'Nedostupné' (unavailable) and no feeding guidelines returned. Likely the same product page cached/rendered differently, or two listings for the same SKU — not resolved, flagged for verification."
+      "fetch_notes": "DUPLICATE CHECK: this appears to be the same SKU as 'Brit Care Cat Sterilized Fillets in Gravy with Healthy Rabbit 85 g' fetched via a different URL path (krmivo-brit.cz/pro-kocky/brit-care-cat-sterilized-fillets-in-gravy-with-healthy-rabbit-85-g.html, see below) — composition/analytics/additives/energy match exactly, but this fetch shows in-stock with feeding guidelines and 'complementary' framing, while the other URL shows 'Nedostupné' (unavailable) and no feeding guidelines returned. Likely the same product page cached/rendered differently, or two listings for the same SKU — not resolved, flagged for verification. | [2026-10-14 prehliadač] Kompletnosť doplnená z produktovej stránky (predtým: 'Complementary pet food (wet food for adult sterilized cats) — this fetch described it as complementary, unlike most sibling entries described as complete; see also duplicate URL entry below with different stock status.')."
     },
     {
       "name": "Brit Care Cat Fillets in Gravy with Savory Salmon 85 g",
@@ -102,14 +102,14 @@
       "url": "https://www.krmivo-brit.cz/pro-kocky/krmivo/kapsicky/brit-care-cat-fillets-in-gravy-with-savory-salmon-85-g.html",
       "composition_raw": "85 % masa ve filetech (62 % kuře, 15 % játra, 8 % losos), vývar, 1 % rakytník, 0,5 % lichořeřišnice, minerály, hrachový škrob.",
       "analytical_constituents_raw": "hrubý protein 8,0 %, hrubý tuk 4,0 %, hrubá vláknina 0,5 %, hrubý popel 2,0 %, vlhkost 82,0 %, vápník 0,25 %, fosfor 0,2 %, sodík 0,3 %",
-      "additives_per_kg_raw": "vitamin D3, vitamin E, biotin, zinek, mangan, železo, měď, jód, taurin, L-methionin, přírodní antioxidanty (tokoferoly, palmitát askorbylu, extrakt z rozmarýnu)",
+      "additives_per_kg_raw": "vitamin D3, vitamin E, biotin, zinek, mangan, železo, měď, jód, taurin, L-methionin, přírodní antioxidanty (tokoferoly, palmitát askorbylu, extrakt z rozmarýnu); taurin (3a370) 500 mg",
       "energy_value_raw": "810 kcal/kg",
       "feeding_guidelines_raw": "3 kg kočka: 2 kapsičky denně; 4-6 kg: 3-4 kapsičky; 6-8 kg: 4-6 kapsiček",
       "description_raw": "Not fully captured in this fetch.",
       "completeness_statement_raw": "Complete wet food for adult cats",
       "price_raw": "85 g kapsička; 24 kapsiček v kartonu; 20 Kč (sleva z 25 Kč, -20 %)",
       "fetch_status": "ok",
-      "fetch_notes": ""
+      "fetch_notes": "[2026-10-14 prehliadač] Doplnené z produktovej stránky: taurin (3a370) 500 mg."
     },
     {
       "name": "BCC Kitten Fillets in Gravy w/Tender Turkey 85 g",
@@ -253,7 +253,7 @@
       "completeness_statement_raw": "Not stated in this fetch.",
       "price_raw": "85 g kapsička (24 v kartonu); 20 Kč (sleva z 25 Kč)",
       "fetch_status": "partial",
-      "fetch_notes": "DUPLICATE of 'BCC Sterilized Fillets in Gravy w/Healthy Rabbit 85 g' (see above) reached via a different URL path. Composition/analytics identical, but this URL shows status 'Nedostupné' (unavailable), a higher energy value (840 vs 770 kcal/kg), and no feeding guidelines — while the other URL shows in-stock, 770 kcal/kg, and full feeding guidelines. Not resolved; both kept for the record."
+      "fetch_notes": "DUPLICATE of 'BCC Sterilized Fillets in Gravy w/Healthy Rabbit 85 g' (see above) reached via a different URL path. Composition/analytics identical, but this URL shows status 'Nedostupné' (unavailable), a higher energy value (840 vs 770 kcal/kg), and no feeding guidelines — while the other URL shows in-stock, 770 kcal/kg, and full feeding guidelines. Not resolved; both kept for the record. | [2026-10-14 prehliadač] URL presmeruje na úvodnú stránku brit.pet — produkt (táto URL) už neexistuje."
     },
     {
       "name": "Brit Care Cat Kitten Fillets in Gravy with Tender Turkey 85 g",

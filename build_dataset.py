@@ -37,13 +37,23 @@ def parse_analytics(text):
             out[key] = num(m.group(1))
     return out
 
+# EU labels often put the additive code between name and amount
+# ("taurín (3a370) 1 400 mg"); its digits must not stop the search.
+TAURINE = r"taur[íi]n[eu]?\s*(?:\([^)]{0,12}\))?\D{0,25}?"
+
 def parse_taurine(*texts):
+    """Return taurine in mg/kg as fed. Accepts 'mg' (per kg) or '%' of composition."""
     for t in texts:
         if not t:
             continue
-        m = re.search(r"taur[íi]n[eu]?\D{0,25}?(\d[\d\s]*[.,]?\d*)\s*mg", t, re.IGNORECASE)
+        m = re.search(TAURINE + r"(\d[\d ]*[.,]?\d*)\s*mg", t, re.IGNORECASE)
         if m:
             return num(m.group(1).replace(" ", ""))
+        # Ontario declares it inside the composition: "taurin 0,08 %" = 800 mg/kg
+        # (number must follow directly, or a neighbouring ingredient's % is read)
+        m = re.search(r"taur[íi]n\w*\s+(\d+[.,]\d+)\s*%", t, re.IGNORECASE)
+        if m:
+            return round(num(m.group(1)) * 10000)
     return None
 
 def parse_energy(text):

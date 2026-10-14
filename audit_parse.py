@@ -76,3 +76,18 @@ for p in P:
             bad += 1
             print(f"  {key}={v} not literally in raw | {p['brand']} {p['name'][:40]}")
 print(f"values not found literally in source text: {bad}")
+
+# taurine: independent fragment read. Every product whose label text mentions
+# taurine together with a number must end up with a parsed value. (The main
+# parser once missed "taurín (3a370) 1 400 mg" on 18 products — nothing here
+# checked taurine, so it went unnoticed.)
+print("\n--- taurine check ---")
+tbad = 0
+for p in P:
+    for frag in re.split(r"[,;]|\.\s", (p.get("additives_raw") or "") + "; " + (p.get("composition_raw") or "")):
+        if re.search(r"taur", frag, re.I) and re.search(r"\d", re.sub(r"\([^)]*\)", "", frag)):
+            if p["taurine_mg_kg"] is None:
+                tbad += 1
+                print(f"  MISSED  {p['brand']:14} | {p['name'][:44]} | {frag.strip()[:60]}")
+            break
+print(f"taurine mentioned with a number but not parsed: {tbad}")

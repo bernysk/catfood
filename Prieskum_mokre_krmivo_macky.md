@@ -1,6 +1,6 @@
 # Mokré krmivo pre mačky (kapsičky): dátový prieskum trhu
 
-**Verzia 4.1 · október 2026** (v4: júl 2026, prepracované od základu; zmeny v4.1 v [časti 1](#1))
+**Verzia 4.2 · október 2026** (v4: júl 2026, prepracované od základu; zmeny v4.1 a v4.2 v [časti 1](#1))
 **151 produktov · 15 značiek · všetky údaje priamo zo stránok výrobcov**
 
 > **Čo toto je.** Osobný nutričný prieskum kapsičkového mokrého krmiva, zostavený s pomocou AI (Claude, Anthropic). Na rozdiel od predchádzajúcich verzií je **celý postavený výhradne na surových dátach stiahnutých priamo zo stránok výrobcov** — uložených v [`raw_data/`](raw_data/) ako JSON, s doslovným znením etikiet. Žiadne číslo v tomto dokumente nepochádza z e-shopu, blogu ani z pamäte modelu; každé sa dá spätne dohľadať v surovom súbore.
@@ -38,6 +38,15 @@ Podstatné zmeny oproti v3:
 - **Vetvené nutričné údaje.** Namiesto jedného čísla za produkt sa každý parameter člení na *deklarovanú hodnotu* → *prepočet na sušinu* → *čiastkové skóre*. Dá sa filtrovať a triediť podľa ktorejkoľvek vetvy ([`index.html`](https://bernysk.github.io/catfood/)).
 - **Nové štúdie (2024–2026)** vrátane dvoch prác o psylliu, ktoré v predošlej verzii chýbali — a jedna práca, ktorá **spochybňuje** sacharidovú paniku ([časť 3](#3)).
 - **Priznaná neistota.** 19 produktov má vlhkosť ≥ 85 %, kde je prepočet na sušinu matematicky správny, ale krehký. Sú označené a v tabuľkách sa dajú odfiltrovať.
+
+### Zmeny vo v4.2 (14. október 2026)
+
+Dve veci, ktoré **menia skóre a poradie** — obe sa našli pri opätovnom overení medzier v dátach:
+
+- **Chyba v parseri taurínu.** Keď je medzi slovom a číslom kód doplnkovej látky EÚ („taurín **(3a370)** 1 400 mg"), `build_dataset.py` taurín vôbec nenačítal; Ontario ho navyše uvádza v zložení v percentách („taurin 0,08 %"). Týkalo sa to **22 produktov** (celý CarniLove, 6 Brit, 4 Ontario) — taurín na etikete mali, ale kritérium sa im vynechávalo. `audit_parse.py` taurín nekontroloval; odteraz kontroluje.
+- **Opätovné načítanie stránok v skutočnom prehliadači.** Pôvodné sťahovanie (WebFetch) nevidí text vykreslený JavaScriptom ani obsah skrytých záložiek. Pri overení **45 produktov** „neuvedené" sa ukázalo, že kompletnosť na stránke **je** deklarovaná (Calibra 16, Sheba 14, Shelma 10, Bozita 2, Brit 3). Do `raw_data/` sa zapísalo len doslovné znenie zo stránky samotného produktu s dátumovou poznámkou vo `fetch_notes` ([`refetch_2026_10.py`](./refetch_2026_10.py)). Hraničný prípad je Calibra Premium — veta hovorí o celom rade „s kompletným a vyváženým zložením", nie o konkrétnej kapsičke; zdôvodnenie je v `curated.json`.
+- **Potvrdené medzery u výrobcov (nie chyba sťahovania):** Sheba CZ nezverejňuje doplnkové látky ani taurín, Royal Canin Sterilised neuvádza taurín, Purina Indoor analytické zložky a Purina NF Renal popol; CarniLove, Meowing Heads, Stuzzy, Kattovit a Purina Senior kompletnosť nedeklarujú.
+- **Výsledok:** 45× A · 52× B · 49× C · 4× D · 1× E (predtým 33 · 53 · 60 · 4 · 1). „Neuvedené" kleslo zo 67 na 22 produktov. Najväčšie posuny: Sheba 55,4 → 63,0, Calibra 81,2 → 88,4, CarniLove 74,9 → 78,7, Shelma 90,2 → 97,2.
 
 ### Zmeny vo v4.1 (október 2026)
 
@@ -204,9 +213,9 @@ Sedem kritérií, každé **0–2 body**. Skóre je **percento z dosiahnuteľný
 
 ### Známe slabiny rámca
 
-**Kritérium 3 (prebiotiká) má najväčší vplyv na poradie, hoci dôkazy pre dávky v kapsičkách sú najslabšie.** Ak sa kritérium vynechá, zmení sa známka **71 zo 151** produktov (Spearmanova korelácia poradia 0,86); pri vynechaní bielkovín len 34. Samotná prítomnosť inulínu/čakanky v dávke 0,1–0,4 % tak váži rovnako ako celé kritérium bielkovín, hoci štúdie v [časti 3](#3) pracovali so 6 % psyllia alebo 11–15 % vlákniny. Navyše psyllium je v časti 3.2 opísané ako nízko fermentovateľné, ale hodnotí sa v triede „fermentovateľné". Ak sa dva produkty líšia len týmto kritériom, rozdiel v známke je skôr vlastnosťou rámca než krmiva.
+**Kritérium 3 (prebiotiká) má najväčší vplyv na poradie, hoci dôkazy pre dávky v kapsičkách sú najslabšie.** Ak sa kritérium vynechá, zmení sa známka **67 zo 151** produktov (Spearmanova korelácia poradia 0,88); pri vynechaní bielkovín len 29. Samotná prítomnosť inulínu/čakanky v dávke 0,1–0,4 % tak váži rovnako ako celé kritérium bielkovín, hoci štúdie v [časti 3](#3) pracovali so 6 % psyllia alebo 11–15 % vlákniny. Navyše psyllium je v časti 3.2 opísané ako nízko fermentovateľné, ale hodnotí sa v triede „fermentovateľné". Ak sa dva produkty líšia len týmto kritériom, rozdiel v známke je skôr vlastnosťou rámca než krmiva.
 
-**Kritérium 5 (taurín) hodnotí pridaný taurín a plné body dáva pod minimom pre kastrované mačky.** Pole doplnkových látok uvádza **doplnený** taurín; mäso, srdce a ryby obsahujú ďalší, ktorý etiketa neukazuje — nízke číslo teda znamená „málo doplnené", nie „nedostatok". FEDIAF 2025 (tab. III-4a) udáva pre konzervované krmivo minimum 2 000 mg/kg sušiny pre aktívne dospelé mačky, 2 500 pre rast a **2 700 pre kastrované/domáce dospelé mačky**. Rámec dáva 2/2 od 2 500, takže **15 produktov** v pásme 2 500–2 699 dostáva plný počet bodov, hoci sú pod východiskovou hodnotou pre typickú kastrovanú mačku.
+**Kritérium 5 (taurín) hodnotí pridaný taurín a plné body dáva pod minimom pre kastrované mačky.** Pole doplnkových látok uvádza **doplnený** taurín; mäso, srdce a ryby obsahujú ďalší, ktorý etiketa neukazuje — nízke číslo teda znamená „málo doplnené", nie „nedostatok". FEDIAF 2025 (tab. III-4a) udáva pre konzervované krmivo minimum 2 000 mg/kg sušiny pre aktívne dospelé mačky, 2 500 pre rast a **2 700 pre kastrované/domáce dospelé mačky**. Rámec dáva 2/2 od 2 500, takže **16 produktov** v pásme 2 500–2 699 dostáva plný počet bodov, hoci sú pod východiskovou hodnotou pre typickú kastrovanú mačku.
 
 Kritérium 4 (pomenované mäso) sa parsuje automaticky z textu zloženia a **nie je dokonalé**. Ak výrobca uvedie blokové „85 % mäsa vo filetách (62 % kuře, 15 % játra, 8 % kachna)", algoritmus berie najvyššie pomenované číslo pod 70 %, teda 62 %. To je rozumné, ale pri neobvykle formulovaných etiketách môže minúť. Pri každom produkte je preto pôvodný text zloženia zobrazený v [`index.html`](https://bernysk.github.io/catfood/) na kontrolu.
 
@@ -219,27 +228,27 @@ Priemerné skóre a rozloženie známok. **Pozor:** počet produktov sa výrazne
 
 | Značka | n | Priem. | A | B | C | D | E |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| **Shelma** | 10 | **90,2** | 10 | – | – | – | – |
-| **Bozita** | 4 | **89,5** | 4 | – | – | – | – |
+| **Shelma** | 10 | **97,2** | 10 | – | – | – | – |
+| **Bozita** | 4 | **93,0** | 4 | – | – | – | – |
 | **Dein Bestes** | 2 | **89,0** | 2 | – | – | – | – |
-| **Calibra** | 16 | **81,2** | 8 | 5 | 3 | – | – |
+| **Calibra** | 16 | **88,4** | 10 | 6 | – | – | – |
 | Meowing Heads | 4 | 79,0 | – | 4 | – | – | – |
-| Brit Premium | 23 | 76,7 | 7 | 12 | 4 | – | – |
-| CarniLove | 12 | 74,9 | – | 8 | 4 | – | – |
-| Brit Care | 31 | 71,2 | 2 | 20 | 7 | 2 | – |
+| CarniLove | 12 | 78,7 | 5 | 6 | 1 | – | – |
+| Brit Premium | 23 | 77,4 | 9 | 10 | 4 | – | – |
+| Brit Care | 31 | 71,8 | 5 | 18 | 6 | 2 | – |
 | Stuzzy | 3 | 69,0 | – | 2 | 1 | – | – |
+| Sheba | 14 | 63,0 | – | 2 | 12 | – | – |
+| Ontario | 9 | 62,2 | – | 2 | 7 | – | – |
 | Royal Canin | 5 | 61,4 | – | 1 | 4 | – | – |
-| Ontario | 9 | 60,0 | – | – | 9 | – | – |
-| Kattovit | 1 | 57,0 | – | – | 1 | – | – |
 | Almo Nature | 1 | 57,0 | – | – | 1 | – | – |
+| Kattovit | 1 | 57,0 | – | – | 1 | – | – |
 | Purina Pro Plan | 16 | 55,8 | – | 1 | 12 | 2 | 1 |
-| Sheba | 14 | 55,4 | – | – | 14 | – | – |
 
-**Celkové rozloženie:** 33× A · 53× B · 60× C · 4× D · 1× E
+**Celkové rozloženie:** 45× A · 52× B · 49× C · 4× D · 1× E
 
 ### Ako to čítať férovo
 
-**Susedné známky nie sú spoľahlivo odlíšiteľné.** Deklarované hodnoty majú zákonnú toleranciu (pri krmive pre zvieratá nechované na potravu napr. bielkoviny ±2 percentuálne body), takže kapsička s deklarovanými 8 % bielkovín pri 80 % vlhkosti môže mať 30–50 % na sušine — celý rozsah kritéria 1. Simulácia (2 000 náhodných odchýlok na produkt, `reanalysis.py`) ukazuje, že pri bežnom rozptyle šarží si mediánový produkt udrží známku v 94 % prípadov, ale pri plnom využití zákonných tolerancií len v **73 %** a **55 zo 148** produktov v menej ako 60 %. Najmenej stabilné sú položky blízko hraníc pásiem (najmä Brit Premium a Brit Care). Rozdiel A vs. B alebo B vs. C medzi dvoma produktmi je preto orientačný; rozdiel A vs. C už spravidla náhodou nie je.
+**Susedné známky nie sú spoľahlivo odlíšiteľné.** Deklarované hodnoty majú zákonnú toleranciu (pri krmive pre zvieratá nechované na potravu napr. bielkoviny ±2 percentuálne body), takže kapsička s deklarovanými 8 % bielkovín pri 80 % vlhkosti môže mať 30–50 % na sušine — celý rozsah kritéria 1. Simulácia (2 000 náhodných odchýlok na produkt, `reanalysis.py`) ukazuje, že pri bežnom rozptyle šarží si mediánový produkt udrží známku v 94 % prípadov, ale pri plnom využití zákonných tolerancií len v **76 %** a **52 zo 148** produktov v menej ako 60 %. Najmenej stabilné sú položky blízko hraníc pásiem (najmä Brit Premium a Brit Care). Rozdiel A vs. B alebo B vs. C medzi dvoma produktmi je preto orientačný; rozdiel A vs. C už spravidla náhodou nie je.
 
 **Bozita, Dein Bestes a Almo Nature/Kattovit majú príliš málo položiek** na to, aby sa z priemeru dali robiť závery o značke. Bozita skončila druhá, ale sú to 4 multiboxy s jedinou zdieľanou receptúrnou platformou — v skutočnosti hodnotíme jednu receptúru, nie sortiment. To isté platí pre **Shelmu na prvom mieste**: 10 produktov, ktoré zdieľajú jednu analytickú platformu (bielkoviny 10 %, tuk 3,5 %, popol 2,5 %, vláknina 0,4 %, vlhkosť 81 %) a líšia sa hlavne druhom mäsa. Desať A-čiek teda neznamená desať nezávislých dôkazov kvality — je to jedna dobre postavená receptúra v desiatich príchutiach.
 
@@ -247,7 +256,7 @@ Priemerné skóre a rozloženie známok. **Pozor:** počet produktov sa výrazne
 
 **Brit Care má široký rozptyl** (A až D), pretože zahŕňa dve úplne odlišné kategórie: kompletné filetové kapsičky a **doplnkové mousse/loaf pamlsky**, ktoré automaticky strácajú 2 body za kompletnosť. To je korektné — nie sú to plnohodnotné krmivo — ale skresľuje priemer značky.
 
-**Sheba skončila nižšie, než by sa od benchmarku čakalo** (55,4; všetkých 14 produktov je C). Dôvod nie je jeden zlý parameter, ale kombinácia: len 4 % pomenovaného mäsa, pridané cukry a **žiadna deklarovaná vláknina či prebiotikum**. Bielkoviny na sušinu má pritom slušné (47–49 %). Nie je to zlé krmivo — je to priemerne formulované krmivo, ktoré mačke nič nepokazí, ale ani neponúka nič navyše.
+**Sheba skončila nižšie, než by sa od benchmarku čakalo** (63,0; 12 zo 14 produktov je C, 2 sú B). Dôvod nie je jeden zlý parameter, ale kombinácia: len 4 % pomenovaného mäsa, pridané cukry a **žiadna deklarovaná vláknina či prebiotikum**. Bielkoviny na sušinu má pritom slušné (47–49 %). Nie je to zlé krmivo — je to priemerne formulované krmivo, ktoré mačke nič nepokazí, ale ani neponúka nič navyše.
 
 ---
 
@@ -287,7 +296,7 @@ Potvrdené priamym stiahnutím oboch trhov:
 | Popol | 1,4 % | 1,9 % |
 | Vlhkosť | 84 % | 83 % |
 | Pomenované mäso v zložení | neuvádza | **uvádza (45 % / 40 %)** |
-| Doplnkové látky na kg | **uvádza** (D3, taurín, stopové prvky) | na stiahnutých stránkach neuvedené |
+| Doplnkové látky na kg | **uvádza** (D3, taurín, stopové prvky) | neuvedené (overené aj v prehliadači) |
 
 Na sušinu: UK 49,4 % bielkovín / 12,5 % NFE, CZ 47,1 % / 10,6 %. Rozdiel je malý, ale **„Sheba Fresh & Fine" nie je jedna univerzálna receptúra naprieč trhmi** — a britská stránka poskytuje viac údajov o doplnkových látkach než česká.
 
@@ -336,7 +345,7 @@ Pripomínam ale [časť 3.1](#3): aj tie „lepšie" produkty majú vlákninu r�
 
 **21 produktov (14 %) je len doplnkových** — nesmú tvoriť podstatnú časť stravy. Patrí sem takmer celá mousse/loaf rada Brit Care a celá rada Ontario. Pri Ontariu je to podstatné, lebo produkty pôsobia ako plnohodnotné kapsičky, ale sú deklarované ako doplnkové krmivo.
 
-**63 produktov (42 %) je deklarovaných ako kompletné** a pri **67 (44 %) to stránka výrobcu neuvádza vôbec** — čo treba overiť priamo na obale. Toto vysoké číslo je dôsledok prísnejšieho prístupu: ak stránka kompletnosť nedeklaruje, prieskum ju **nedomýšľa** z názvu ani z analógie so súrodeneckým produktom. Rozhodnutia pri sporných formuláciách sú zdokumentované v [`curated.json`](./curated.json).
+**108 produktov (72 %) je deklarovaných ako kompletné** a pri **22 (15 %) to stránka výrobcu neuvádza vôbec** (overené aj v prehliadači, v4.2) — čo treba overiť priamo na obale. Toto vysoké číslo je dôsledok prísnejšieho prístupu: ak stránka kompletnosť nedeklaruje, prieskum ju **nedomýšľa** z názvu ani z analógie so súrodeneckým produktom. Rozhodnutia pri sporných formuláciách sú zdokumentované v [`curated.json`](./curated.json).
 
 ---
 
@@ -371,9 +380,9 @@ Z kompletných: **Calibra Cat Life Kitten** (93 kcal/100 g) alebo kitten rady v�
 
 ### Najlepší pomer kvality naprieč sortimentom
 
-**Shelma** (10 produktov, 10× A, priemer 90,2) a **Calibra Cat Life** (8× A) — obe s pomenovaným inulínom, bez cukru, bez obilnín, vysoké bielkoviny na sušinu, taurín bezpečne nad FEDIAF minimom. Keďže ide pravdepodobne o rovnakú receptúru ([časť 7.2](#7)), je rozumné vybrať tú, ktorá je práve dostupnejšia alebo lacnejšia.
+**Shelma** (10 produktov, 10× A, priemer 97,2) a **Calibra Cat Life** (8× A) — obe s pomenovaným inulínom, bez cukru, bez obilnín, vysoké bielkoviny na sušinu, taurín bezpečne nad FEDIAF minimom. Keďže ide pravdepodobne o rovnakú receptúru ([časť 7.2](#7)), je rozumné vybrať tú, ktorá je práve dostupnejšia alebo lacnejšia.
 
-Prekvapením je **Brit Premium** (7× A, priemer 76,7) — v predošlej verzii prieskumu úplne chýbal. Rada 100 g kapsičiek má 0,4 % inulínu, bez cukru a bez obilnín, s pomenovaným mäsom až 40 % (Chicken & Turkey). Je to najširší A-hodnotený sortiment v prieskume.
+Prekvapením je **Brit Premium** (9× A, priemer 77,4) — v predošlej verzii prieskumu úplne chýbal. Rada 100 g kapsičiek má 0,4 % inulínu, bez cukru a bez obilnín, s pomenovaným mäsom až 40 % (Chicken & Turkey). Je to najširší A-hodnotený sortiment v prieskume.
 
 ### Čo obísť
 
@@ -396,7 +405,7 @@ Poctivý zoznam toho, čo tieto dáta **nedokážu** povedať:
 6. **Chýbajúce údaje = vynechané kritérium**, čo môže mierne zvýhodniť značky, ktoré deklarujú menej. Napríklad Calibra Premium neuvádza energetickú hodnotu a väčšina bežných značiek neuvádza horčík/fosfor.
 7. **Veterinárne diéty sú v tomto rámci systémovo znevýhodnené** — pozri [časť 5](#5).
 8. **Parsovanie je automatické.** Pri neobvykle formulovaných etiketách môže algoritmus minúť pomenované mäso alebo prebiotikum. Preto je pri každom produkte zobrazený pôvodný text.
-9. **Známka nie je presnejšia než vstupné dáta.** Pri zákonných toleranciách deklarovaných hodnôt si mediánový produkt udrží známku len v 73 % simulácií (detail v [časti 5](#5)). Poradie v rámci jednej známky ani medzi susednými známkami nie je štatisticky podložené.
+9. **Známka nie je presnejšia než vstupné dáta.** Pri zákonných toleranciách deklarovaných hodnôt si mediánový produkt udrží známku len v 76 % simulácií (detail v [časti 5](#5)). Poradie v rámci jednej známky ani medzi susednými známkami nie je štatisticky podložené.
 
 ---
 

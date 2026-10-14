@@ -29,7 +29,8 @@
       "description_raw": "Keep your feline friend interested time after time with delicately sliced pieces, served in a silky gravy... 100% complete and balanced everyday meal",
       "pack_sizes_raw": "6x50g 15x50g 50x50g",
       "fetch_status": "ok",
-      "fetch_notes": ""
+      "fetch_notes": "[2026-10-14 prehliadač] Kompletnosť doplnená z produktovej stránky (predtým: 'prázdne').",
+      "completeness_statement_raw": "100% complete and balanced everyday meal for your feline companion"
     },
     {
       "name": "SHEBA Fresh & Fine Adult Wet Cat Food Chicken & Turkey Gravy 6x50g Pouches",
@@ -43,7 +44,8 @@
       "description_raw": "Keep your feline friend interested time after time with delicately sliced pieces, served in a silky gravy. | 100% complete and balanced everyday meal for your feline companion",
       "pack_sizes_raw": "6x50g",
       "fetch_status": "ok",
-      "fetch_notes": ""
+      "fetch_notes": "[2026-10-14 prehliadač] Kompletnosť doplnená z produktovej stránky (predtým: 'prázdne').",
+      "completeness_statement_raw": "100% complete and balanced everyday meal for your feline companion"
     },
     {
       "name": "SHEBA Fresh & Fine Adult Wet Cat Food Beef & Chicken Gravy 6 x 50g Pouches",
@@ -57,7 +59,8 @@
       "description_raw": "Keep your feline friend interested time after time with delicately sliced pieces, served in a silky gravy.",
       "pack_sizes_raw": "6 x 50g Pouches",
       "fetch_status": "ok",
-      "fetch_notes": ""
+      "fetch_notes": "[2026-10-14 prehliadač] Kompletnosť doplnená z produktovej stránky (predtým: 'prázdne').",
+      "completeness_statement_raw": "100% complete and balanced everyday meal for your feline companion"
     },
     {
       "name": "SHEBA Fresh & Fine Adult Wet Cat Food Fish In Gravy Pouches 50x50g,15x50g",
@@ -71,7 +74,8 @@
       "description_raw": "Keep your feline friend interested time after time with delicately sliced pieces, served in a silky gravy.",
       "pack_sizes_raw": "15x50g, 50x50g",
       "fetch_status": "ok",
-      "fetch_notes": ""
+      "fetch_notes": "[2026-10-14 prehliadač] Kompletnosť doplnená z produktovej stránky (predtým: 'prázdne').",
+      "completeness_statement_raw": "100% complete and balanced everyday meal for your feline companion"
     },
     {
       "name": "SHEBA Fresh & Fine Adult Wet Cat Food Tuna & Salmon in Jelly 6x50g Pouches",
@@ -85,7 +89,8 @@
       "description_raw": "Keep your feline friend interested time after time with delicately sliced pieces, served in a tender jelly.",
       "pack_sizes_raw": "6x50g",
       "fetch_status": "ok",
-      "fetch_notes": ""
+      "fetch_notes": "[2026-10-14 prehliadač] Kompletnosť doplnená z produktovej stránky (predtým: 'prázdne').",
+      "completeness_statement_raw": "100% complete and balanced everyday meal for your feline companion"
     },
     {
       "name": "SHEBA Fresh & Fine Adult Wet Cat Food Salmon & Tuna in Gravy 6x50g Pouches",
@@ -99,7 +104,8 @@
       "description_raw": "Keep your feline friend interested time after time with delicately sliced pieces, served in a silky gravy. Served in handy cat food pouches.",
       "pack_sizes_raw": "6x50g Pouches",
       "fetch_status": "ok",
-      "fetch_notes": "This page was linked from the overview page under the label 'Salmon, Tuna & Trout in Gravy' but the fetched page content only describes Salmon and Tuna variants (no Trout variant found in composition text)."
+      "fetch_notes": "This page was linked from the overview page under the label 'Salmon, Tuna & Trout in Gravy' but the fetched page content only describes Salmon and Tuna variants (no Trout variant found in composition text). | [2026-10-14 prehliadač] Kompletnosť doplnená z produktovej stránky (predtým: 'prázdne').",
+      "completeness_statement_raw": "100% complete and balanced everyday meal for your feline companion"
     },
     {
       "name": "SHEBA Fresh & Fine Adult Wet Cat Food Tuna and Cod in Gravy 6x50g Pouches",
@@ -113,7 +119,8 @@
       "description_raw": "Keep your feline friend interested time after time with delicately sliced pieces, served in a silky gravy. Served in handy cat food pouches.",
       "pack_sizes_raw": "6x50g Pouches",
       "fetch_status": "ok",
-      "fetch_notes": "Discovered via UK overview page link, fetched as a bonus beyond the required minimum list."
+      "fetch_notes": "Discovered via UK overview page link, fetched as a bonus beyond the required minimum list. | [2026-10-14 prehliadač] Kompletnosť doplnená z produktovej stránky (predtým: 'prázdne').",
+      "completeness_statement_raw": "100% complete and balanced everyday meal for your feline companion"
     },
     {
       "name": "SHEBA Fresh & Fine Adult Wet Cat Food Meaty Pieces In Gravy Pouches 50x50g,15x50g",
@@ -127,7 +134,8 @@
       "description_raw": "Keep your feline friend interested time after time with delicately sliced pieces, served in a silky gravy.",
       "pack_sizes_raw": "15x50g, 50x50g",
       "fetch_status": "ok",
-      "fetch_notes": "Discovered via UK overview page link, fetched as a bonus beyond the required minimum list."
+      "fetch_notes": "Discovered via UK overview page link, fetched as a bonus beyond the required minimum list. | [2026-10-14 prehliadač] Kompletnosť doplnená z produktovej stránky (predtým: 'prázdne').",
+      "completeness_statement_raw": "100% complete and balanced everyday meal for your feline companion"
     },
     {
       "name": "SHEBA Fresh & Fine kapsičky pro dospělé kočky Drůbeží výběr (Poultry selection)",
@@ -141,7 +149,8 @@
       "description_raw": "Vysoce kvalitní krmivo, které poskytuje kompletní výživu pro vašeho kočičího společníka. Jemně nakrájené kousky podávané ve šťávě.",
       "pack_sizes_raw": "15 x 50 g kapsička",
       "fetch_status": "ok",
-      "fetch_notes": "Required URL. Note CZ composition includes explicit meat% (45%) not present on UK pages; analytical constituents differ from UK (Protein 8 vs 7.9-7.5, Fat 5 vs 4.4-4.5, Moisture 83 vs 84-85) - preserving known UK/CZ recipe divergence."
+      "fetch_notes": "Required URL. Note CZ composition includes explicit meat% (45%) not present on UK pages; analytical constituents differ from UK (Protein 8 vs 7.9-7.5, Fat 5 vs 4.4-4.5, Moisture 83 vs 84-85) - preserving known UK/CZ recipe divergence. | [2026-10-14 prehliadač] Kompletnosť doplnená z produktovej stránky (predtým: 'prázdne'). | [2026-10-14 prehliadač] Doplnkové látky (vrátane taurínu) ani v prehliadači stránka neuvádza — nejde o chybu sťahovania, CZ web ich nezverejňuje.",
+      "completeness_statement_raw": "Vysoce kvalitní krmivo, které poskytuje kompletní výživu pro vašeho kočičího společníka"
     },
     {
       "name": "SHEBA Fresh & Fine kapsičky pro dospělé kočky Kuřecí a Krůtí (Chicken and Turkey)",
@@ -155,7 +164,8 @@
       "description_raw": "Vysoce kvalitní krmivo, které poskytuje kompletní výživu pro vašeho kočičího společníka. Jemně nakrájené kousky podávané ve šťávě.",
       "pack_sizes_raw": "6 x 50 g kapsička",
       "fetch_status": "ok",
-      "fetch_notes": "Discovered via sitemap.xml, fetched as a bonus beyond the required minimum list."
+      "fetch_notes": "Discovered via sitemap.xml, fetched as a bonus beyond the required minimum list. | [2026-10-14 prehliadač] Kompletnosť doplnená z produktovej stránky (predtým: 'prázdne'). | [2026-10-14 prehliadač] Doplnkové látky (vrátane taurínu) ani v prehliadači stránka neuvádza — nejde o chybu sťahovania, CZ web ich nezverejňuje.",
+      "completeness_statement_raw": "Vysoce kvalitní krmivo, které poskytuje kompletní výživu pro vašeho kočičího společníka"
     },
     {
       "name": "SHEBA Fresh & Fine kapsičky pro dospělé kočky Hovězí a Kuřecí (Beef and Chicken)",
@@ -169,7 +179,8 @@
       "description_raw": "Vysoce kvalitní krmivo, které poskytuje kompletní výživu pro vašeho kočičího společníka. Jemně nakrájené kousky podávané ve šťávě.",
       "pack_sizes_raw": "6 x 50 g kapsička",
       "fetch_status": "ok",
-      "fetch_notes": "Discovered via sitemap.xml, fetched as a bonus beyond the required minimum list."
+      "fetch_notes": "Discovered via sitemap.xml, fetched as a bonus beyond the required minimum list. | [2026-10-14 prehliadač] Kompletnosť doplnená z produktovej stránky (predtým: 'prázdne'). | [2026-10-14 prehliadač] Doplnkové látky (vrátane taurínu) ani v prehliadači stránka neuvádza — nejde o chybu sťahovania, CZ web ich nezverejňuje.",
+      "completeness_statement_raw": "Vysoce kvalitní krmivo, které poskytuje kompletní výživu pro vašeho kočičího společníka"
     },
     {
       "name": "SHEBA Fresh & Fine kapsičky pro dospělé kočky Losos a Tuňák (Salmon and Tuna)",
@@ -183,7 +194,8 @@
       "description_raw": "Vysoce kvalitní krmivo, které poskytuje kompletní výživu pro vašeho kočičího společníka.",
       "pack_sizes_raw": "6 x 50 g kapsička",
       "fetch_status": "ok",
-      "fetch_notes": "Discovered via sitemap.xml, fetched as a bonus beyond the required minimum list."
+      "fetch_notes": "Discovered via sitemap.xml, fetched as a bonus beyond the required minimum list. | [2026-10-14 prehliadač] Kompletnosť doplnená z produktovej stránky (predtým: 'prázdne'). | [2026-10-14 prehliadač] Doplnkové látky (vrátane taurínu) ani v prehliadači stránka neuvádza — nejde o chybu sťahovania, CZ web ich nezverejňuje.",
+      "completeness_statement_raw": "Vysoce kvalitní krmivo, které poskytuje kompletní výživu pro vašeho kočičího společníka"
     },
     {
       "name": "SHEBA Fresh & Fine kapsičky pro dospělé kočky Kuřecí a Losos (Chicken and Salmon)",
@@ -197,7 +209,8 @@
       "description_raw": "Vysoce kvalitní krmivo, které poskytuje kompletní výživu pro vašeho kočičího společníka.",
       "pack_sizes_raw": "6 x 50 g kapsička",
       "fetch_status": "ok",
-      "fetch_notes": "Discovered via sitemap.xml, fetched as a bonus beyond the required minimum list."
+      "fetch_notes": "Discovered via sitemap.xml, fetched as a bonus beyond the required minimum list. | [2026-10-14 prehliadač] Kompletnosť doplnená z produktovej stránky (predtým: 'prázdne'). | [2026-10-14 prehliadač] Doplnkové látky (vrátane taurínu) ani v prehliadači stránka neuvádza — nejde o chybu sťahovania, CZ web ich nezverejňuje.",
+      "completeness_statement_raw": "Vysoce kvalitní krmivo, které poskytuje kompletní výživu pro vašeho kočičího společníka"
     },
     {
       "name": "SHEBA Fresh & Fine kapsičky pro dospělé kočky Rybí výběr (Fish selection)",
@@ -211,7 +224,8 @@
       "description_raw": "",
       "pack_sizes_raw": "15 x 50 g kapsička",
       "fetch_status": "ok",
-      "fetch_notes": "Discovered via sitemap.xml, fetched as a bonus beyond the required minimum list. Variants available: Treska (Cod), Losos (Salmon), Tuňák (Tuna)."
+      "fetch_notes": "Discovered via sitemap.xml, fetched as a bonus beyond the required minimum list. Variants available: Treska (Cod), Losos (Salmon), Tuňák (Tuna). | [2026-10-14 prehliadač] Kompletnosť doplnená z produktovej stránky (predtým: 'prázdne'). | [2026-10-14 prehliadač] Doplnkové látky (vrátane taurínu) ani v prehliadači stránka neuvádza — nejde o chybu sťahovania, CZ web ich nezverejňuje.",
+      "completeness_statement_raw": "Vysoce kvalitní krmivo, které poskytuje kompletní výživu pro vašeho kočičího společníka"
     },
     {
       "name": "SHEBA CZ vyrobky/fresh-fine category page ('Čerstvý Výběr')",

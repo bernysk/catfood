@@ -50,7 +50,7 @@
       "completeness_statement_raw": "Kompletné krmivo (Complete food)",
       "pack_size_raw": "1 x 85 g; 12 x 85 g",
       "fetch_status": "ok",
-      "fetch_notes": "Note: extraction shows unit 'D3: 90 mg' which is likely originally IU not mg - possible unit transcription error by extraction model, verify against source. Also pack size string rendered oddly ('1 x 85 gg 85 x 1') suggesting a markdown table conversion artifact - treat pack size numbers (85g, 1x/12x) as correct but formatting garbled."
+      "fetch_notes": "Note: extraction shows unit 'D3: 90 mg' which is likely originally IU not mg - possible unit transcription error by extraction model, verify against source. Also pack size string rendered oddly ('1 x 85 gg 85 x 1') suggesting a markdown table conversion artifact - treat pack size numbers (85g, 1x/12x) as correct but formatting garbled. | [2026-10-14 prehliadač] Taurín ani v prehliadači medzi doplnkovými látkami neuvedený."
     },
     {
       "brand": "Royal Canin",
@@ -254,7 +254,7 @@
       "completeness_statement_raw": "not explicitly captured (\"complete food\" statement not found in extracted content)",
       "pack_size_raw": "pouch 85g (product title states 24X85G)",
       "fetch_status": "ok",
-      "fetch_notes": "Page appears to be served in English on the .it domain (site may auto-serve English or Italian was not distinguished by extraction - verify language on re-check). Suitable For: ADULT CAT."
+      "fetch_notes": "Page appears to be served in English on the .it domain (site may auto-serve English or Italian was not distinguished by extraction - verify language on re-check). Suitable For: ADULT CAT. | [2026-10-14 prehliadač] Len marketingová otázka „Are you looking for a complete and palatable meal…“ — nepovažuje sa za deklaráciu kompletnosti."
     },
     {
       "brand": "Stuzzy",
@@ -271,7 +271,7 @@
       "completeness_statement_raw": "not explicitly captured",
       "pack_size_raw": "pouch 12x85g (multipack of 4x12x85g per title)",
       "fetch_status": "ok",
-      "fetch_notes": "Suitable For: STERILIZED ADULT CAT. Note the WITH SALMON additives list is missing vit. D3 (present in WITH COD variant) - this is as extracted, may reflect an actual formulation difference or an extraction omission; verify against source label if precision needed."
+      "fetch_notes": "Suitable For: STERILIZED ADULT CAT. Note the WITH SALMON additives list is missing vit. D3 (present in WITH COD variant) - this is as extracted, may reflect an actual formulation difference or an extraction omission; verify against source label if precision needed. | [2026-10-14 prehliadač] Len marketingové „complete, genuine recipes“ — nepovažuje sa za deklaráciu kompletnosti."
     },
     {
       "brand": "Stuzzy",
@@ -305,7 +305,7 @@
       "completeness_statement_raw": "not explicitly captured by extraction",
       "pack_size_raw": "24 x 85g",
       "fetch_status": "ok",
-      "fetch_notes": "kattovit.com only offers EN/DE locales for its own site; no dedicated SK or CZ locale exists on the manufacturer's domain (confirmed via web search - Kattovit Gastro pouches are sold in SK/CZ only through third-party retailers such as zoohit.sk, zoohit.cz, drmax.cz, superzoo.cz, bitiba.cz, not via a manufacturer-hosted SK/CZ product page)."
+      "fetch_notes": "kattovit.com only offers EN/DE locales for its own site; no dedicated SK or CZ locale exists on the manufacturer's domain (confirmed via web search - Kattovit Gastro pouches are sold in SK/CZ only through third-party retailers such as zoohit.sk, zoohit.cz, drmax.cz, superzoo.cz, bitiba.cz, not via a manufacturer-hosted SK/CZ product page). | [2026-10-14 prehliadač] Kompletnosť ani v prehliadači neuvedená."
     }
   ]
 }

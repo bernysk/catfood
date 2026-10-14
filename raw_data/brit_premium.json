@@ -106,10 +106,10 @@
       "energy_value_raw": "Not stated on page",
       "feeding_guidelines_raw": "4 kg kočka: 3 kapsičky denně; 6 kg: 4; 8 kg: 5",
       "description_raw": "Not fully captured in this fetch.",
-      "completeness_statement_raw": "Not fully captured in this fetch.",
+      "completeness_statement_raw": "Kompletní prémiová kapsička s hovězím a hráškem v omáčce pro dospělé kočky všech plemen",
       "price_raw": "24 kapsiček v kartonu; 13 Kč (sleva z 16 Kč, -20 %)",
       "fetch_status": "partial",
-      "fetch_notes": "Product currently listed as out of stock/unavailable on the shop; description and completeness statement not returned by the extraction, only structured data fields."
+      "fetch_notes": "Product currently listed as out of stock/unavailable on the shop; description and completeness statement not returned by the extraction, only structured data fields. | [2026-10-14 prehliadač] Kompletnosť doplnená z produktovej stránky (predtým: 'Not fully captured in this fetch.')."
     },
     {
       "name": "Brit Premium Cat Pouches Liver for Sterilized 100 g",
@@ -214,10 +214,10 @@
       "energy_value_raw": "780 kcal/kg",
       "feeding_guidelines_raw": "2-5 kg kočka: 1-2 kapsičky denně; 5-8 kg: 2-4 kapsičky denně. Podávat při pokojové teplotě s čerstvou vodou.",
       "description_raw": "Not fully captured in this fetch.",
-      "completeness_statement_raw": "Not fully captured in this fetch.",
+      "completeness_statement_raw": "Kompletní vlhké krmivo ve formě masových filetek s kachnou v lahodné šťávě pro sterilizované kočky.",
       "price_raw": "85 g kapsička; 24 kapsiček v kartonu; aktuální cena 14 Kč (běžná 17 Kč)",
       "fetch_status": "ok",
-      "fetch_notes": ""
+      "fetch_notes": "[2026-10-14 prehliadač] Kompletnosť doplnená z produktovej stránky (predtým: 'Not fully captured in this fetch.')."
     },
     {
       "name": "Brit Premium Cat Delicate Fillets in Gravy with Beef 85 g",
@@ -343,7 +343,7 @@
       "completeness_statement_raw": "Not fully captured in this fetch.",
       "price_raw": "85 g kapsička; 24 kapsiček v kartonu; 14 Kč (sleva 20 % ze 17 Kč)",
       "fetch_status": "partial",
-      "fetch_notes": "Product currently listed as unavailable (\"Nedostupné\") on the shop; description/completeness statement not returned."
+      "fetch_notes": "Product currently listed as unavailable (\"Nedostupné\") on the shop; description/completeness statement not returned. | [2026-10-14 prehliadač] Kompletnosť ani v prehliadači neuvedená (podnadpis: „Delikátní šťavnaté masové filetky…“)."
     }
   ]
 }
