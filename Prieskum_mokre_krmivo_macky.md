@@ -7,7 +7,7 @@
 >
 > **Čo toto nie je.** Nie je to veterinárne odporúčanie, nezávislý laboratórny test ani platený obsah. Známka A–E je **vlastný, neoficiálny rámec** — pre krmivo pre zvieratá žiadny oficiálny „Nutri-Score" neexistuje. Pri zdravotných problémoch sa poraďte s veterinárom.
 >
-> Interaktívna, filtrovateľná verzia všetkých dát: [`index.html`](./index.html) · Strojovo čitateľný výstup: [`dataset.json`](./dataset.json) · Staršie verzie: [`old/`](old/)
+> Interaktívna, filtrovateľná verzia všetkých dát: [bernysk.github.io/catfood](https://bernysk.github.io/catfood/) (súbor `index.html` v repozitári, otvorí sa aj lokálne dvojklikom) · Strojovo čitateľný výstup: [`dataset.json`](./dataset.json) · Staršie verzie: [`old/`](old/)
 
 ---
 
@@ -35,7 +35,7 @@ Podstatné zmeny oproti v3:
 
 - **Trojnásobný rozsah.** 151 produktov namiesto ~40, vrátane úplne nových značiek: **Brit** (54 produktov naprieč Premium/Care), **Ontario** (9), **Bozita** (4 multiboxy = 16 príchutí), **Meowing Heads** (4), a kompletná **Purina Pro Plan** rada vrátane veterinárnych diét (16).
 - **Oprava metodickej chyby v tauríne.** Predošlá verzia porovnávala taurín v stave „ako podávané" (napr. 520 mg/kg) — lenže **FEDIAF svoje minimá udáva na sušinu.** Pri 80 % vlhkosti je to päťnásobný rozdiel. Všetky hodnoty sú teraz prepočítané na sušinu (detail v [časti 4](#4)).
-- **Vetvené nutričné údaje.** Namiesto jedného čísla za produkt sa každý parameter člení na *deklarovanú hodnotu* → *prepočet na sušinu* → *čiastkové skóre*. Dá sa filtrovať a triediť podľa ktorejkoľvek vetvy ([`index.html`](./index.html)).
+- **Vetvené nutričné údaje.** Namiesto jedného čísla za produkt sa každý parameter člení na *deklarovanú hodnotu* → *prepočet na sušinu* → *čiastkové skóre*. Dá sa filtrovať a triediť podľa ktorejkoľvek vetvy ([`index.html`](https://bernysk.github.io/catfood/)).
 - **Nové štúdie (2024–2026)** vrátane dvoch prác o psylliu, ktoré v predošlej verzii chýbali — a jedna práca, ktorá **spochybňuje** sacharidovú paniku ([časť 3](#3)).
 - **Priznaná neistota.** 19 produktov má vlhkosť ≥ 85 %, kde je prepočet na sušinu matematicky správny, ale krehký. Sú označené a v tabuľkách sa dajú odfiltrovať.
 
@@ -106,7 +106,7 @@ sacharidy NFE = 100 − vlhkosť − bielkoviny − tuk − vláknina − popol 
 
 Pri vlhkosti ≥ 85 % je sušina ≤ 15 %, takže **posun vlhkosti o 1 p. b. hýbe každou hodnotou na sušine o niekoľko bodov.** Príklad: Ontario tuniak a losos deklaruje bielkoviny 12 % pri vlhkosti 87 % → 92,3 % bielkovín na sušine. To je nereálne vysoké číslo a je artefaktom malého menovateľa, nie dôkazom výnimočnej kvality.
 
-Takýchto produktov je **19** (celá rada Ontario, mousse rada Brit Care, Sheba Tuna & Salmon Jelly). V dátach nesú príznak `dm_unreliable` a v [`index.html`](./index.html) sa dajú jedným prepínačom skryť. **Neignoroval som ich — označil som ich.**
+Takýchto produktov je **19** (celá rada Ontario, mousse rada Brit Care, Sheba Tuna & Salmon Jelly). V dátach nesú príznak `dm_unreliable` a v [`index.html`](https://bernysk.github.io/catfood/) sa dajú jedným prepínačom skryť. **Neignoroval som ich — označil som ich.**
 
 ### Čo sa nedalo získať
 
@@ -208,7 +208,7 @@ Sedem kritérií, každé **0–2 body**. Skóre je **percento z dosiahnuteľný
 
 **Kritérium 5 (taurín) hodnotí pridaný taurín a plné body dáva pod minimom pre kastrované mačky.** Pole doplnkových látok uvádza **doplnený** taurín; mäso, srdce a ryby obsahujú ďalší, ktorý etiketa neukazuje — nízke číslo teda znamená „málo doplnené", nie „nedostatok". FEDIAF 2025 (tab. III-4a) udáva pre konzervované krmivo minimum 2 000 mg/kg sušiny pre aktívne dospelé mačky, 2 500 pre rast a **2 700 pre kastrované/domáce dospelé mačky**. Rámec dáva 2/2 od 2 500, takže **15 produktov** v pásme 2 500–2 699 dostáva plný počet bodov, hoci sú pod východiskovou hodnotou pre typickú kastrovanú mačku.
 
-Kritérium 4 (pomenované mäso) sa parsuje automaticky z textu zloženia a **nie je dokonalé**. Ak výrobca uvedie blokové „85 % mäsa vo filetách (62 % kuře, 15 % játra, 8 % kachna)", algoritmus berie najvyššie pomenované číslo pod 70 %, teda 62 %. To je rozumné, ale pri neobvykle formulovaných etiketách môže minúť. Pri každom produkte je preto pôvodný text zloženia zobrazený v [`index.html`](./index.html) na kontrolu.
+Kritérium 4 (pomenované mäso) sa parsuje automaticky z textu zloženia a **nie je dokonalé**. Ak výrobca uvedie blokové „85 % mäsa vo filetách (62 % kuře, 15 % játra, 8 % kachna)", algoritmus berie najvyššie pomenované číslo pod 70 %, teda 62 %. To je rozumné, ale pri neobvykle formulovaných etiketách môže minúť. Pri každom produkte je preto pôvodný text zloženia zobrazený v [`index.html`](https://bernysk.github.io/catfood/) na kontrolu.
 
 ---
 
@@ -243,7 +243,7 @@ Priemerné skóre a rozloženie známok. **Pozor:** počet produktov sa výrazne
 
 **Bozita, Dein Bestes a Almo Nature/Kattovit majú príliš málo položiek** na to, aby sa z priemeru dali robiť závery o značke. Bozita skončila druhá, ale sú to 4 multiboxy s jedinou zdieľanou receptúrnou platformou — v skutočnosti hodnotíme jednu receptúru, nie sortiment. To isté platí pre **Shelmu na prvom mieste**: 10 produktov, ktoré zdieľajú jednu analytickú platformu (bielkoviny 10 %, tuk 3,5 %, popol 2,5 %, vláknina 0,4 %, vlhkosť 81 %) a líšia sa hlavne druhom mäsa. Desať A-čiek teda neznamená desať nezávislých dôkazov kvality — je to jedna dobre postavená receptúra v desiatich príchutiach.
 
-**Purina Pro Plan a Royal Canin sú znevýhodnené štruktúrou rámca**, nie nutne kvalitou. Väčšina ich položiek sú **veterinárne diéty**, ktoré sú zámerne formulované proti bežným kritériám: renálna diéta *má* mať nízke bielkoviny (7,2 %), obsahuje obilniny a cukry, a preto v tomto rámci nutne skóruje zle. **To neznamená, že je to zlé krmivo** — znamená to, že rámec navrhnutý pre bežnú stravu zdravej mačky na terapeutické diéty nesedí. Veterinárne diéty sú v [`index.html`](./index.html) samostatne označené a odporúčam ich hodnotiť oddelene.
+**Purina Pro Plan a Royal Canin sú znevýhodnené štruktúrou rámca**, nie nutne kvalitou. Väčšina ich položiek sú **veterinárne diéty**, ktoré sú zámerne formulované proti bežným kritériám: renálna diéta *má* mať nízke bielkoviny (7,2 %), obsahuje obilniny a cukry, a preto v tomto rámci nutne skóruje zle. **To neznamená, že je to zlé krmivo** — znamená to, že rámec navrhnutý pre bežnú stravu zdravej mačky na terapeutické diéty nesedí. Veterinárne diéty sú v [`index.html`](https://bernysk.github.io/catfood/) samostatne označené a odporúčam ich hodnotiť oddelene.
 
 **Brit Care má široký rozptyl** (A až D), pretože zahŕňa dve úplne odlišné kategórie: kompletné filetové kapsičky a **doplnkové mousse/loaf pamlsky**, ktoré automaticky strácajú 2 body za kompletnosť. To je korektné — nie sú to plnohodnotné krmivo — ale skresľuje priemer značky.
 
@@ -254,7 +254,7 @@ Priemerné skóre a rozloženie známok. **Pozor:** počet produktov sa výrazne
 <a id="6"></a>
 ## 6. Vetvené nutričné údaje — ako čítať tabuľky
 
-Každý produkt v [`index.html`](./index.html) sa dá rozbaliť do troch úrovní. Príklad na *Shelma dušené filetky, hovädzie*:
+Každý produkt v [`index.html`](https://bernysk.github.io/catfood/) sa dá rozbaliť do troch úrovní. Príklad na *Shelma dušené filetky, hovädzie*:
 
 **Úroveň 1 — deklarované na etikete (ako podávané)**
 > bielkoviny 10 % · tuk 3,5 % · vláknina 0,4 % · popol 2,5 % · vlhkosť 81 %
@@ -343,7 +343,7 @@ Pripomínam ale [časť 3.1](#3): aj tie „lepšie" produkty majú vlákninu r�
 <a id="8"></a>
 ## 8. Odporúčania podľa situácie
 
-Nie univerzálne poradie, ale výber podľa toho, čo riešite. Zdôvodnenia sú v dátach — čísla si viete overiť v [`index.html`](./index.html).
+Nie univerzálne poradie, ale výber podľa toho, čo riešite. Zdôvodnenia sú v dátach — čísla si viete overiť v [`index.html`](https://bernysk.github.io/catfood/).
 
 ### Mačka bez zubov / potreba jemnej textúry
 

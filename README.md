@@ -7,7 +7,7 @@ sú stiahnuté z oficiálnych stránok výrobcov, prepočítané na sušinu a oh
 jednotným rámcom A–E.
 
 📄 **[Celý dokument prieskumu](./Prieskum_mokre_krmivo_macky.md)** — metodika, štúdie, zistenia, odporúčania
-📊 **[Interaktívna tabuľka](./index.html)** — filtrovanie a triedenie podľa ktoréhokoľvek parametra (otvorí sa dvojklikom, netreba server)
+📊 **[Interaktívna tabuľka](https://bernysk.github.io/catfood/)** — filtrovanie a triedenie podľa ktoréhokoľvek parametra (online cez GitHub Pages; lokálne sa [`index.html`](./index.html) otvorí aj dvojklikom, netreba server)
 
 > **⚠️ Čo toto je a čo nie je.** Osobný prieskum vytvorený s pomocou AI (Claude, Anthropic).
 > **Nie je to** veterinárne odporúčanie, nezávislý laboratórny test ani platený obsah —
