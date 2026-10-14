@@ -30,8 +30,8 @@ jednotným rámcom A–E.
 | CarniLove | 12 | 74,9 | – | 8 | 4 | – | – |
 | Brit Care | 31 | 71,2 | 2 | 20 | 7 | 2 | – |
 | Stuzzy | 3 | 69,0 | – | 2 | 1 | – | – |
-| Ontario | 9 | 68,8 | – | 2 | 7 | – | – |
 | Royal Canin | 5 | 61,4 | – | 1 | 4 | – | – |
+| Ontario | 9 | 60,0 | – | – | 9 | – | – |
 | Kattovit | 1 | 57,0 | – | – | 1 | – | – |
 | Almo Nature | 1 | 57,0 | – | – | 1 | – | – |
 | Purina Pro Plan | 16 | 55,8 | – | 1 | 12 | 2 | 1 |
@@ -51,6 +51,8 @@ raw_data/*.json                  surové dáta — doslovný text etikiet zo str
 curated.json                     klasifikácia kompletnosti + zoznam nahradených záznamov
 dataset.json                     normalizovaný výstup so skóre
 KontrolaLM.md                    revízia metodiky NotebookLM analýz
+REVIEW_2026-10.md                nezávislá revízia v4 (EN): chyby, stabilita známok, bielkoviny a obličky
+reanalysis.py                    skript k revízii (tolerancie EÚ, prepočet na 1000 kcal, FEDIAF 2025)
 
 build_dataset.py                 raw_data → dataset.json + vloženie dát do index.html
 audit_parse.py                   nezávislá kontrola parsovania (iná metóda, hlási nezhody)

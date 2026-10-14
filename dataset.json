@@ -5325,7 +5325,7 @@
     "sugar": false,
     "grain": true
    },
-   "completeness": "neuvedené",
+   "completeness": "doplnkové",
    "completeness_source": "Doplňkové krmivo pro dospělé kočky (complementary food for adult cats)",
    "notes": "RIEŠI CHYBU NA SK STRÁNKE. Slovenská verzia tohto produktu (ontario.json) zobrazovala zloženie 'kuracie mäso 51 %, voda 41,8 %, kačica 4 %...' — teda receptúru kačacieho produktu, bez akejkoľvek zmienky o krevetách, a k tomu analytické zložky kačacieho variantu (proteín 10,5 %, tuk 0,5 %, vláknina 0,5 %, popol 2 %, vlhkosť 86 %). Česká stránka uvádza úplne inú a vnútorne konzistentnú receptúru: krevety 8 %, zelený hrášok 3 %, nižší kuracie 45 % namiesto 51 %, a odlišnú analytiku (tuk len 0,2 %, vlhkosť 88 %). Toto je teda skutočné zloženie produktu; SK stránka mala chybu v CMS.",
    "scores": {
@@ -5334,10 +5334,10 @@
     "prebiotic": 0,
     "meat": 2,
     "taurine": null,
-    "complete": 1,
+    "complete": 0,
     "clean": 1
    },
-   "score_pct": 67,
+   "score_pct": 58,
    "grade": "C",
    "superseded_by": null,
    "is_product": true
@@ -5378,7 +5378,7 @@
     "sugar": false,
     "grain": true
    },
-   "completeness": "neuvedené",
+   "completeness": "doplnkové",
    "completeness_source": "Doplňkové krmivo (complementary feed)",
    "notes": "Zhoduje sa so slovenskou verziou úplne. Potvrdzuje, že SK stránka pri krevetovom produkte zobrazovala práve toto zloženie.",
    "scores": {
@@ -5387,10 +5387,10 @@
     "prebiotic": 0,
     "meat": 2,
     "taurine": null,
-    "complete": 1,
+    "complete": 0,
     "clean": 1
    },
-   "score_pct": 67,
+   "score_pct": 58,
    "grade": "C",
    "superseded_by": null,
    "is_product": true
@@ -5431,7 +5431,7 @@
     "sugar": false,
     "grain": false
    },
-   "completeness": "neuvedené",
+   "completeness": "doplnkové",
    "completeness_source": "Doplňkové krmivo (complementary feed)",
    "notes": "CZ verzia menuje druh ryby presnejšie — \"treska polak\" (treska tmavá / saithe) a uvádza súhrnné % mäsového bloku (57,56 %), ktoré SK verzia neuvádzala. Analytické hodnoty identické so SK. Názov na SK je \"kuracie a biela ryba\", na CZ \"kuře a treska\" — ide o ten istý produkt.",
    "scores": {
@@ -5440,11 +5440,11 @@
     "prebiotic": 0,
     "meat": 2,
     "taurine": null,
-    "complete": 1,
+    "complete": 0,
     "clean": 2
    },
-   "score_pct": 75,
-   "grade": "B",
+   "score_pct": 67,
+   "grade": "C",
    "superseded_by": null,
    "is_product": true
   },
@@ -5484,7 +5484,7 @@
     "sugar": false,
     "grain": false
    },
-   "completeness": "neuvedené",
+   "completeness": "doplnkové",
    "completeness_source": "Doplňkové krmivo pro kočky (complementary food for cats)",
    "notes": "CZ verzia poskytuje kompletné zloženie vrátane taurínu a vitamínov; SK verzia bola pri tomto produkte zachytená len čiastočne (končila pri \"kurací vývar 42,468 %\"). Doplňuje teda medzeru v SK dátach.",
    "scores": {
@@ -5493,10 +5493,10 @@
     "prebiotic": 0,
     "meat": 2,
     "taurine": null,
-    "complete": 1,
+    "complete": 0,
     "clean": 2
    },
-   "score_pct": 67,
+   "score_pct": 58,
    "grade": "C",
    "superseded_by": null,
    "is_product": true
@@ -5537,7 +5537,7 @@
     "sugar": false,
     "grain": false
    },
-   "completeness": "neuvedené",
+   "completeness": "doplnkové",
    "completeness_source": "Doplňkové krmivo (complementary feed)",
    "notes": "Zloženie aj analytika identické so SK verziou. Extrakcia upozornila, že stránka obsahuje aj zloženie suchého krmiva, ktoré k tomuto produktu nepatrí — pri prípadnom opätovnom sťahovaní treba dať pozor, aby sa nezamiešalo.",
    "scores": {
@@ -5546,11 +5546,11 @@
     "prebiotic": 0,
     "meat": 2,
     "taurine": null,
-    "complete": 1,
+    "complete": 0,
     "clean": 2
    },
-   "score_pct": 75,
-   "grade": "B",
+   "score_pct": 67,
+   "grade": "C",
    "superseded_by": null,
    "is_product": true
   },
@@ -5590,7 +5590,7 @@
     "sugar": false,
     "grain": true
    },
-   "completeness": "neuvedené",
+   "completeness": "doplnkové",
    "completeness_source": "Doplňkové krmivo (complementary feed)",
    "notes": "Identické so SK verziou vrátane pšeničnej múky 0,24 % — jediný produkt v rade, ktorý obsahuje obilninu. Pozor pri interpretácii proteínu na sušinu: pri vlhkosti 87 % je sušina len 13 %, takže 12 % proteínu vychádza na 92 % v sušine, čo je artefakt malého menovateľa, nie znak výnimočnej kvality.",
    "scores": {
@@ -5599,10 +5599,10 @@
     "prebiotic": 0,
     "meat": 2,
     "taurine": null,
-    "complete": 1,
+    "complete": 0,
     "clean": 1
    },
-   "score_pct": 67,
+   "score_pct": 58,
    "grade": "C",
    "superseded_by": null,
    "is_product": true
@@ -5643,7 +5643,7 @@
     "sugar": false,
     "grain": true
    },
-   "completeness": "neuvedené",
+   "completeness": "doplnkové",
    "completeness_source": "Doplňkové krmivo pro koťata od 1 měsíce (complementary feed for kittens from 1 month)",
    "notes": "Zhoduje sa so SK verziou. CZ názov obsahuje \"Kitten\" a klasifikácia to potvrdzuje — na rozdiel od šunkového produktu nižšie, kde bol na SK rozpor.",
    "scores": {
@@ -5652,10 +5652,10 @@
     "prebiotic": 0,
     "meat": 2,
     "taurine": null,
-    "complete": 1,
+    "complete": 0,
     "clean": 1
    },
-   "score_pct": 67,
+   "score_pct": 58,
    "grade": "C",
    "superseded_by": null,
    "is_product": true
@@ -5696,7 +5696,7 @@
     "sugar": false,
     "grain": true
    },
-   "completeness": "neuvedené",
+   "completeness": "doplnkové",
    "completeness_source": "Doplňkové krmivo pro dospělé kočky (complementary food for adult cats)",
    "notes": "RIEŠI ROZPOR NA SK STRÁNKE. Slovenský názov znie \"Ontario kapsička pre mačiatka kuracie so šunkou v omáčke\" (pre mačiatka), zatiaľ čo klasifikácia na tej istej SK stránke hovorila \"pre dospelé mačky\". Česká verzia nemá v názve žiadnu zmienku o mačiatkach a klasifikuje produkt ako doplnkové krmivo pre dospelé mačky. Chyba je teda v slovenskom NÁZVE produktu, nie v označení typu krmiva. Zloženie aj analytika sú v oboch mutáciách zhodné.",
    "scores": {
@@ -5705,10 +5705,10 @@
     "prebiotic": 0,
     "meat": 2,
     "taurine": null,
-    "complete": 1,
+    "complete": 0,
     "clean": 1
    },
-   "score_pct": 67,
+   "score_pct": 58,
    "grade": "C",
    "superseded_by": null,
    "is_product": true
@@ -5749,7 +5749,7 @@
     "sugar": false,
     "grain": true
    },
-   "completeness": "neuvedené",
+   "completeness": "doplnkové",
    "completeness_source": "Doplňkové krmivo pro dospělé kočky (complementary feed for adult cats)",
    "notes": "Zhoduje sa so SK verziou vrátane odlišnej vlákniny (0,3 %) a popola (1,5 %) oproti ostatným omáčkovým príchutiam.",
    "scores": {
@@ -5758,10 +5758,10 @@
     "prebiotic": 0,
     "meat": 2,
     "taurine": null,
-    "complete": 1,
+    "complete": 0,
     "clean": 1
    },
-   "score_pct": 67,
+   "score_pct": 58,
    "grade": "C",
    "superseded_by": null,
    "is_product": true

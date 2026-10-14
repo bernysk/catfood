@@ -255,6 +255,15 @@ for r in rows:
                            or r["fetch_status"] == "failed"
                            or sup)
 
+if UNKNOWN_COMPLETENESS:
+    # A warning was printed here before and went unnoticed for the whole Ontario CZ
+    # line (scored 'neuvedené' instead of 'doplnkové'), so this is now fatal.
+    print(f"\n!! {len(UNKNOWN_COMPLETENESS)} completeness statement(s) missing from "
+          f"curated.json — add them before publishing:")
+    for s in sorted(UNKNOWN_COMPLETENESS):
+        print(f"   {s[:110]!r}")
+    sys.exit(1)
+
 payload = {"generated": "2026-07-19", "count": len(rows), "products": rows}
 with open(OUT, "w", encoding="utf-8") as f:
     json.dump(payload, f, ensure_ascii=False, indent=1)
@@ -293,11 +302,6 @@ for r in sorted(rows, key=lambda x: -x["score_pct"])[:25]:
     print(f"  [{r['grade']} {r['score_pct']}%] {r['brand'][:18]:18} | {r['name'][:55]:55} | "
           f"P_DM {d.get('protein_dm','-'):>5} | NFE {d.get('carbs_nfe_dm','-'):>5} | "
           f"tauDM {r['taurine_mg_kg_dm'] or '-':>5} | {r['prebiotic'][:12]} | {r['completeness']}")
-if UNKNOWN_COMPLETENESS:
-    print(f"\n!! {len(UNKNOWN_COMPLETENESS)} completeness statement(s) missing from "
-          f"curated.json — classified as 'neuvedené', please review:")
-    for s in sorted(UNKNOWN_COMPLETENESS):
-        print(f"   {s[:110]!r}")
 
 missing = [r for r in rows if not r["derived"]]
 print(f"\nno-analytics rows: {len(missing)}")

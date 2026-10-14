@@ -201,14 +201,14 @@ Priemerné skóre a rozloženie známok. **Pozor:** počet produktov sa výrazne
 | CarniLove | 12 | 74,9 | – | 8 | 4 | – | – |
 | Brit Care | 31 | 71,2 | 2 | 20 | 7 | 2 | – |
 | Stuzzy | 3 | 69,0 | – | 2 | 1 | – | – |
-| Ontario | 9 | 68,8 | – | 2 | 7 | – | – |
 | Royal Canin | 5 | 61,4 | – | 1 | 4 | – | – |
+| Ontario | 9 | 60,0 | – | – | 9 | – | – |
 | Kattovit | 1 | 57,0 | – | – | 1 | – | – |
 | Almo Nature | 1 | 57,0 | – | – | 1 | – | – |
 | Purina Pro Plan | 16 | 55,8 | – | 1 | 12 | 2 | 1 |
 | Sheba | 14 | 55,4 | – | – | 14 | – | – |
 
-**Celkové rozloženie:** 33× A · 55× B · 58× C · 4× D · 1× E
+**Celkové rozloženie:** 33× A · 53× B · 60× C · 4× D · 1× E
 
 ### Ako to čítať férovo
 
@@ -218,7 +218,7 @@ Priemerné skóre a rozloženie známok. **Pozor:** počet produktov sa výrazne
 
 **Brit Care má široký rozptyl** (A až D), pretože zahŕňa dve úplne odlišné kategórie: kompletné filetové kapsičky a **doplnkové mousse/loaf pamlsky**, ktoré automaticky strácajú 2 body za kompletnosť. To je korektné — nie sú to plnohodnotné krmivo — ale skresľuje priemer značky.
 
-**Sheba skončila nižšie, než by sa od benchmarku čakalo** (59,4; 13 zo 14 produktov je C). Dôvod nie je jeden zlý parameter, ale kombinácia: len 4 % pomenovaného mäsa, pridané cukry a **žiadna deklarovaná vláknina či prebiotikum**. Bielkoviny na sušinu má pritom slušné (47–49 %). Nie je to zlé krmivo — je to priemerne formulované krmivo, ktoré mačke nič nepokazí, ale ani neponúka nič navyše.
+**Sheba skončila nižšie, než by sa od benchmarku čakalo** (55,4; všetkých 14 produktov je C). Dôvod nie je jeden zlý parameter, ale kombinácia: len 4 % pomenovaného mäsa, pridané cukry a **žiadna deklarovaná vláknina či prebiotikum**. Bielkoviny na sušinu má pritom slušné (47–49 %). Nie je to zlé krmivo — je to priemerne formulované krmivo, ktoré mačke nič nepokazí, ale ani neponúka nič navyše.
 
 ---
 
@@ -318,7 +318,7 @@ Nie univerzálne poradie, ale výber podľa toho, čo riešite. Zdôvodnenia sú
 
 ### Mačka bez zubov / potreba jemnej textúry
 
-Textúra sa nehodnotí známkou, tak sem patrí samostatne. **Paté a mousse** (žuvanie netreba): rada **Brit Care Velvet Mousse** — pozor, *Weight Management* varianty sú kompletné krmivo (A, 86 %), ale *Creamy Duo Mousse*, *Real Loaf* a *Double Layer Mousse* sú **doplnkové pamlsky**, nie strava.
+Textúra sa nehodnotí známkou, tak sem patrí samostatne. **Paté a mousse** (žuvanie netreba): rada **Brit Care Velvet Mousse** — pozor, *Weight Management* varianty sú kompletné krmivo (A, 93 %), ale *Creamy Duo Mousse*, *Real Loaf* a *Double Layer Mousse* sú **doplnkové pamlsky**, nie strava.
 
 **Jemné kúsky/filety** ako kompromis: Shelma dušené filetky, Calibra Cat Life, Sheba Fresh & Fine — všetky majú malé mäkké kúsky dobre nasiaknuté omáčkou.
 
@@ -330,9 +330,9 @@ Z bežných produktov s pomenovaným fermentovateľným prebiotikom: **Shelma** 
 
 ### Kontrola hmotnosti
 
-**Brit Care Velvet Mousse Weight Management** — jediné produkty v prieskume s funkčnou vlákninou cielenou na sýtosť (psyllium 0,29 % v kuracom, vláknina z čakanky 0,29 % v hovädzom), kompletné krmivo, A (86 %). Nízka energetická denzita (677–700 kcal/kg) je pri chudnutí výhoda.
+**Brit Care Velvet Mousse Weight Management** — jediné produkty v prieskume s funkčnou vlákninou cielenou na sýtosť (psyllium 0,29 % v kuracom, vláknina z čakanky 0,29 % v hovädzom), kompletné krmivo, A (93 %). Nízka energetická denzita (677–700 kcal/kg) je pri chudnutí výhoda.
 
-Ďalej **Dein Bestes Sensitive** (A, 90 %) — tuk len 3 %, deklarovane vyvinuté s veterinármi na trávenie aj hmotnosť.
+Ďalej **Dein Bestes Sensitive** (A, 86–92 %) — tuk len 3 %, deklarovane vyvinuté s veterinármi na trávenie aj hmotnosť.
 
 ### Priberanie / vyššia energia
 
@@ -342,9 +342,9 @@ Z kompletných: **Calibra Cat Life Kitten** (93 kcal/100 g) alebo kitten rady v�
 
 ### Najlepší pomer kvality naprieč sortimentom
 
-**Shelma** (10 produktov, 10× A, priemer 97,2) a **Calibra Cat Life** (8× A) — obe s pomenovaným inulínom, bez cukru, bez obilnín, vysoké bielkoviny na sušinu, taurín bezpečne nad FEDIAF minimom. Keďže ide pravdepodobne o rovnakú receptúru ([časť 7.2](#7)), je rozumné vybrať tú, ktorá je práve dostupnejšia alebo lacnejšia.
+**Shelma** (10 produktov, 10× A, priemer 90,2) a **Calibra Cat Life** (8× A) — obe s pomenovaným inulínom, bez cukru, bez obilnín, vysoké bielkoviny na sušinu, taurín bezpečne nad FEDIAF minimom. Keďže ide pravdepodobne o rovnakú receptúru ([časť 7.2](#7)), je rozumné vybrať tú, ktorá je práve dostupnejšia alebo lacnejšia.
 
-Prekvapením je **Brit Premium** (7× A, priemer 77,3) — v predošlej verzii prieskumu úplne chýbal. Rada 100 g kapsičiek má 0,4 % inulínu, bez cukru a bez obilnín, s pomenovaným mäsom až 40 % (Chicken & Turkey). Je to najširší A-hodnotený sortiment v prieskume.
+Prekvapením je **Brit Premium** (7× A, priemer 76,7) — v predošlej verzii prieskumu úplne chýbal. Rada 100 g kapsičiek má 0,4 % inulínu, bez cukru a bez obilnín, s pomenovaným mäsom až 40 % (Chicken & Turkey). Je to najširší A-hodnotený sortiment v prieskume.
 
 ### Čo obísť
 
