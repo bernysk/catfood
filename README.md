@@ -1,6 +1,6 @@
 # Mokré krmivo pre mačky — dátový prieskum
 
-**151 produktov · 15 značiek · dáta priamo zo stránok výrobcov · júl 2026 (v4)**
+**151 produktov · 15 značiek · dáta priamo zo stránok výrobcov · v4.1, október 2026**
 
 Nutričné porovnanie kapsičkového mokrého krmiva pre mačky na SK/CZ trhu. Všetky hodnoty
 sú stiahnuté z oficiálnych stránok výrobcov, prepočítané na sušinu a ohodnotené
@@ -92,6 +92,12 @@ bez opätovného sťahovania.
 - **Sacharidy (NFE) sú dopočet, nie meranie**, takže sa v nich kumulujú chyby ostatných hodnôt.
 - **19 produktov má vlhkosť ≥ 85 %**, kde je prepočet na sušinu matematicky správny,
   ale krehký — sú označené ⚠ a dajú sa v tabuľke odfiltrovať.
+- **Susedné známky sú orientačné.** Pri zákonných toleranciách deklarovaných hodnôt
+  (bielkoviny ±2 p. b.) si mediánový produkt udrží známku len v 73 % simulácií —
+  A vs. B nie je spoľahlivý rozdiel, A vs. C áno. Detail v [časti 5](./Prieskum_mokre_krmivo_macky.md#5).
+- **v4.1 (október 2026):** opravené hodnotenie rady Ontario (doplnkové krmivo sa
+  rátalo ako „neuvedené"), doplnené slabiny kritérií prebiotiká/taurín a časť
+  o bielkovinách a obličkách. Revízia: [`REVIEW_2026-10.md`](./REVIEW_2026-10.md).
 
 Nájdené chyby v parsovaní aj nezrovnalosti priamo na stránkach výrobcov sú
 zdokumentované v [dokumente](./Prieskum_mokre_krmivo_macky.md) a v poliach `fetch_notes`

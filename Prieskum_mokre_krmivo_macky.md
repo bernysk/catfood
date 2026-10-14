@@ -1,6 +1,6 @@
 # Mokré krmivo pre mačky (kapsičky): dátový prieskum trhu
 
-**Verzia 4 · júl 2026 · prepracované od základu**
+**Verzia 4.1 · október 2026** (v4: júl 2026, prepracované od základu; zmeny v4.1 v [časti 1](#1))
 **151 produktov · 15 značiek · všetky údaje priamo zo stránok výrobcov**
 
 > **Čo toto je.** Osobný nutričný prieskum kapsičkového mokrého krmiva, zostavený s pomocou AI (Claude, Anthropic). Na rozdiel od predchádzajúcich verzií je **celý postavený výhradne na surových dátach stiahnutých priamo zo stránok výrobcov** — uložených v [`raw_data/`](raw_data/) ako JSON, s doslovným znením etikiet. Žiadne číslo v tomto dokumente nepochádza z e-shopu, blogu ani z pamäte modelu; každé sa dá spätne dohľadať v surovom súbore.
@@ -38,6 +38,16 @@ Podstatné zmeny oproti v3:
 - **Vetvené nutričné údaje.** Namiesto jedného čísla za produkt sa každý parameter člení na *deklarovanú hodnotu* → *prepočet na sušinu* → *čiastkové skóre*. Dá sa filtrovať a triediť podľa ktorejkoľvek vetvy ([`index.html`](./index.html)).
 - **Nové štúdie (2024–2026)** vrátane dvoch prác o psylliu, ktoré v predošlej verzii chýbali — a jedna práca, ktorá **spochybňuje** sacharidovú paniku ([časť 3](#3)).
 - **Priznaná neistota.** 19 produktov má vlhkosť ≥ 85 %, kde je prepočet na sušinu matematicky správny, ale krehký. Sú označené a v tabuľkách sa dajú odfiltrovať.
+
+### Zmeny vo v4.1 (október 2026)
+
+Nezávislá revízia ([`REVIEW_2026-10.md`](./REVIEW_2026-10.md), skript [`reanalysis.py`](./reanalysis.py)) našla jednu chybu, ktorá menila skóre a poradie, a niekoľko vecí, ktoré menia to, ako poradie čítať:
+
+- **Oprava: rada Ontario je doplnková, ale hodnotila sa ako „neuvedené".** Po prechode na českú mutáciu ako kanonickú v `curated.json` chýbalo 5 českých formulácií „Doplňkové krmivo…", takže všetkých 9 produktov Ontario dostávalo za kompletnosť 1 bod namiesto 0. Po oprave: **Ontario 68,8 → 60,0**, dve položky klesli z B na C a značka sa posunula pod Royal Canin. Celkové rozloženie je teraz 33× A · 53× B · 60× C · 4× D · 1× E. `build_dataset.py` sa pri neznámej formulácii odteraz **zastaví** (predtým len vypísal varovanie, ktoré sa prehliadlo).
+- **Opravené neaktuálne čísla v texte** (Shelma, Sheba, Brit Premium, Velvet Mousse, Dein Bestes) — teraz zodpovedajú `dataset.json`.
+- **Stabilita známok** pri toleranciách deklarovaných hodnôt — nový odsek v [časti 5](#5) a bod 9 v [časti 9](#9).
+- **Dve známe slabiny rámca s vplyvom na skóre** (prebiotiká, taurín) — doplnené v [časti 4](#4).
+- **Bielkoviny a obličky** — prečo kritérium bielkovín nemá hornú hranicu a prečo sa fosfor nehodnotí: nová [časť 3.6](#3).
 
 ---
 
@@ -101,7 +111,7 @@ Takýchto produktov je **19** (celá rada Ontario, mousse rada Brit Care, Sheba 
 ### Čo sa nedalo získať
 
 - **Ceny.** V predošlej verzii tvorili veľkú časť dokumentu, ale pochádzali z e-shopov (Tier 3) a rýchlo zastarávajú. Táto verzia ich neuvádza, s výnimkou tam, kde ich výrobca sám zverejňuje (Brit, ktorý prevádzkuje vlastný e-shop). Cenu si overte pred nákupom.
-- **Horčík a fosfor** väčšina bežných značiek nedeklaruje. Riziko močových kryštálov sa preto pri nich posúdiť nedá — dáta má hlavne Royal Canin a Purina veterinárne diéty.
+- **Fosfor** deklaruje 43 produktov (najmä Brit a CarniLove, plus Purina veterinárne diéty a Kattovit), **horčík** len 4. Pri väčšine ostatných sa preto riziko močových kryštálov ani príjem fosforu posúdiť nedá.
 - **Energetická hodnota** chýba u približne polovice produktov.
 
 ---
@@ -155,6 +165,19 @@ Správne prepočítané: Shelma 520 mg/kg ako podávané → **2 737 mg/kg suši
 
 ---
 
+### 3.6 Bielkoviny a obličky — prečo kritérium 1 nemá hornú hranicu
+
+Kritérium bielkovín odmeňuje „viac je lepšie" a vysoké hodnoty nikde netrestá. Je to obhájiteľné, ale treba to zdôvodniť, lebo „veľa bielkovín zaťažuje obličky" je najčastejšia námietka.
+
+- **U zdravých mačiek dôkaz o škodlivosti vysokých bielkovín neexistuje.** Finco a kol. 1998 (dizajn 2×2 bielkoviny × kalórie, mačky so zníženou funkciou obličiek, 12 mesiacov) zistili, že poškodenie zhoršoval **len vysoký kalorický príjem**, nie bielkoviny.
+- **Pre obličky je podstatný fosfor, najmä rozpustné anorganické fosforečnany.** Pri ~1,5 g anorganického P/1000 kcal sa u zdravých mačiek objavili zmeny obličiek (Alexander a kol. 2019); 1 g/1000 kcal z tripolyfosforečnanu bol bez nálezu (Coltherd a kol. 2021). FEDIAF 2025 to uvádza v poznámke, formálne maximum pre mačky nestanovuje.
+- **Obmedzenie bielkovín patrí až do diagnostikovanej CKD** (IRIS 2+ alebo pri proteinúrii) a pod dohľad veterinára — prínos renálnych diét (Ross a kol. 2006) ide z veľkej časti na vrub obmedzenia fosforu.
+- **Kastrované mačky (aj samice) potrebujú bielkovín na kcal viac, nie menej**, lebo zjedia menej kalórií: FEDIAF 2025 dáva pre kastrované/domáce mačky minimum **83,3 g/1000 kcal** (33,3 % sušiny) oproti 62,5 g pre aktívne. Na udržanie svalovej hmoty treba ~5,2 g bielkovín/kg/deň (Laflamme & Hannah 2013), čo pre 4 kg kastrovanú mačku vychádza ~110 g/1000 kcal. Vyššie riziko CKD u kastrovaných samíc doložené nie je (Greene a kol. 2014 našli vyššie riziko u kastrovaných samcov).
+
+**Dôsledok pre rámec:** horná hranica bielkovín sa nezavádza. Fosfor sa **nehodnotí**, lebo ho deklaruje len 43 zo 151 produktov a všetky sú v bezpečnom pásme (0,9–3,1 g/1000 kcal, Ca:P 1,0–1,6) — kritérium by rozlišovalo len „deklaruje" vs. „nedeklaruje". Hodnoty počíta `reanalysis.py`. Odporúčané úrovne bielkovín podľa veku (mačiatko, kastrovaný dospelý, senior, CKD) sú v [`REVIEW_2026-10.md`, časť 4](./REVIEW_2026-10.md#4-what-protein-level-is-best-by-life-stage) — na skóre nemajú vplyv.
+
+---
+
 <a id="4"></a>
 ## 4. Hodnotiaci rámec A–E (prepracovaný)
 
@@ -179,7 +202,11 @@ Sedem kritérií, každé **0–2 body**. Skóre je **percento z dosiahnuteľný
 - **Výrobcu ani závod.** Ako ukazuje [časť 7](#7), ten istý závod vyrába kvalitné aj slabé receptúry.
 - **Marketingové nároky** typu „holistic", „super-premium" — WSAVA na ne explicitne upozorňuje ako na neregulované termíny.
 
-### Známa slabina rámca
+### Známe slabiny rámca
+
+**Kritérium 3 (prebiotiká) má najväčší vplyv na poradie, hoci dôkazy pre dávky v kapsičkách sú najslabšie.** Ak sa kritérium vynechá, zmení sa známka **71 zo 151** produktov (Spearmanova korelácia poradia 0,86); pri vynechaní bielkovín len 34. Samotná prítomnosť inulínu/čakanky v dávke 0,1–0,4 % tak váži rovnako ako celé kritérium bielkovín, hoci štúdie v [časti 3](#3) pracovali so 6 % psyllia alebo 11–15 % vlákniny. Navyše psyllium je v časti 3.2 opísané ako nízko fermentovateľné, ale hodnotí sa v triede „fermentovateľné". Ak sa dva produkty líšia len týmto kritériom, rozdiel v známke je skôr vlastnosťou rámca než krmiva.
+
+**Kritérium 5 (taurín) hodnotí pridaný taurín a plné body dáva pod minimom pre kastrované mačky.** Pole doplnkových látok uvádza **doplnený** taurín; mäso, srdce a ryby obsahujú ďalší, ktorý etiketa neukazuje — nízke číslo teda znamená „málo doplnené", nie „nedostatok". FEDIAF 2025 (tab. III-4a) udáva pre konzervované krmivo minimum 2 000 mg/kg sušiny pre aktívne dospelé mačky, 2 500 pre rast a **2 700 pre kastrované/domáce dospelé mačky**. Rámec dáva 2/2 od 2 500, takže **15 produktov** v pásme 2 500–2 699 dostáva plný počet bodov, hoci sú pod východiskovou hodnotou pre typickú kastrovanú mačku.
 
 Kritérium 4 (pomenované mäso) sa parsuje automaticky z textu zloženia a **nie je dokonalé**. Ak výrobca uvedie blokové „85 % mäsa vo filetách (62 % kuře, 15 % játra, 8 % kachna)", algoritmus berie najvyššie pomenované číslo pod 70 %, teda 62 %. To je rozumné, ale pri neobvykle formulovaných etiketách môže minúť. Pri každom produkte je preto pôvodný text zloženia zobrazený v [`index.html`](./index.html) na kontrolu.
 
@@ -211,6 +238,8 @@ Priemerné skóre a rozloženie známok. **Pozor:** počet produktov sa výrazne
 **Celkové rozloženie:** 33× A · 53× B · 60× C · 4× D · 1× E
 
 ### Ako to čítať férovo
+
+**Susedné známky nie sú spoľahlivo odlíšiteľné.** Deklarované hodnoty majú zákonnú toleranciu (pri krmive pre zvieratá nechované na potravu napr. bielkoviny ±2 percentuálne body), takže kapsička s deklarovanými 8 % bielkovín pri 80 % vlhkosti môže mať 30–50 % na sušine — celý rozsah kritéria 1. Simulácia (2 000 náhodných odchýlok na produkt, `reanalysis.py`) ukazuje, že pri bežnom rozptyle šarží si mediánový produkt udrží známku v 94 % prípadov, ale pri plnom využití zákonných tolerancií len v **73 %** a **55 zo 148** produktov v menej ako 60 %. Najmenej stabilné sú položky blízko hraníc pásiem (najmä Brit Premium a Brit Care). Rozdiel A vs. B alebo B vs. C medzi dvoma produktmi je preto orientačný; rozdiel A vs. C už spravidla náhodou nie je.
 
 **Bozita, Dein Bestes a Almo Nature/Kattovit majú príliš málo položiek** na to, aby sa z priemeru dali robiť závery o značke. Bozita skončila druhá, ale sú to 4 multiboxy s jedinou zdieľanou receptúrnou platformou — v skutočnosti hodnotíme jednu receptúru, nie sortiment. To isté platí pre **Shelmu na prvom mieste**: 10 produktov, ktoré zdieľajú jednu analytickú platformu (bielkoviny 10 %, tuk 3,5 %, popol 2,5 %, vláknina 0,4 %, vlhkosť 81 %) a líšia sa hlavne druhom mäsa. Desať A-čiek teda neznamená desať nezávislých dôkazov kvality — je to jedna dobre postavená receptúra v desiatich príchutiach.
 
@@ -359,7 +388,7 @@ Prekvapením je **Brit Premium** (7× A, priemer 76,7) — v predošlej verzii p
 
 Poctivý zoznam toho, čo tieto dáta **nedokážu** povedať:
 
-1. **Deklarované ≠ namerané.** Podľa nariadenia EÚ 767/2009 sú „analytické zložky" **garantované minimá/maximá**, nie laboratórne hodnoty konkrétnej šarže. Dve šarže sa môžu líšiť pri identickom obale. Zhoda Shelma/Calibra „na desatinu percenta" teda môže byť aj zhodou zaokrúhlenia na rovnakú deklarovanú hodnotu, nie dôkazom identického receptu.
+1. **Deklarované ≠ namerané.** Podľa nariadenia EÚ 767/2009 (príloha IV v znení 2017/2279) sú „analytické zložky" **deklarované hodnoty so zákonnou toleranciou** (napr. bielkoviny ±2 p. b.), nie laboratórne hodnoty konkrétnej šarže — a ani garantované minimá/maximá ako pri americkej „guaranteed analysis". Dve šarže sa môžu líšiť pri identickom obale. Zhoda Shelma/Calibra „na desatinu percenta" teda môže byť aj zhodou zaokrúhlenia na rovnakú deklarovanú hodnotu, nie dôkazom identického receptu.
 2. **Žiadny nezávislý laboratórny test.** Overil som štyri hlavné európske spotrebiteľské testovacie organizácie (Stiftung Warentest, Öko-Test, VKI/Konsument, Test-Aankoop) — testujú prevažne masové supermarketové značky v DACH/Benelux regióne a **väčšinu značiek z tohto prieskumu netestovali.**
 3. **NFE je dopočet, nie meranie.** Kumuluje chyby piatich ostatných hodnôt.
 4. **19 produktov má nespoľahlivý základ sušiny** (vlhkosť ≥ 85 %) — označené, ale nevyradené.
@@ -367,6 +396,7 @@ Poctivý zoznam toho, čo tieto dáta **nedokážu** povedať:
 6. **Chýbajúce údaje = vynechané kritérium**, čo môže mierne zvýhodniť značky, ktoré deklarujú menej. Napríklad Calibra Premium neuvádza energetickú hodnotu a väčšina bežných značiek neuvádza horčík/fosfor.
 7. **Veterinárne diéty sú v tomto rámci systémovo znevýhodnené** — pozri [časť 5](#5).
 8. **Parsovanie je automatické.** Pri neobvykle formulovaných etiketách môže algoritmus minúť pomenované mäso alebo prebiotikum. Preto je pri každom produkte zobrazený pôvodný text.
+9. **Známka nie je presnejšia než vstupné dáta.** Pri zákonných toleranciách deklarovaných hodnôt si mediánový produkt udrží známku len v 73 % simulácií (detail v [časti 5](#5)). Poradie v rámci jednej známky ani medzi susednými známkami nie je štatisticky podložené.
 
 ---
 
@@ -384,7 +414,14 @@ Poctivý zoznam toho, čo tieto dáta **nedokážu** povedať:
 - [The effect of changing the moisture levels of dry extruded and wet canned diets on physical activity in cats](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5465855/), *PMC*
 - **FEDIAF Nutritional Guidelines 2024** — [europeanpetfood.org](https://europeanpetfood.org/self-regulation/nutritional-guidelines/) ([oznámenie o aktualizácii](https://europeanpetfood.org/_/news/fediaf-announces-updated-2024-nutritional-guidelines/))
 - **WSAVA Global Nutrition Guidelines** — [wsava.org](https://wsava.org/global-guidelines/global-nutrition-guidelines/)
-- Nariadenie EÚ č. 767/2009 o uvádzaní krmív na trh (tolerancie deklarovaných hodnôt)
+- Nariadenie EÚ č. 767/2009 o uvádzaní krmív na trh, [príloha IV — tolerancie](https://www.legislation.gov.uk/eur/2009/767/annex/IV/part/1) (v znení nariadenia 2017/2279)
+- **FEDIAF Nutritional Guidelines 2025** — [PDF](https://europeanpetfood.org/wp-content/uploads/2025/09/FEDIAF-Nutritional-Guidelines_2025-ONLINE.pdf), tabuľky III-4a/b (bielkoviny, taurín, fosfor) a poznámka f (anorganický fosfor)
+- **Finco a kol. 1998**, *Am J Vet Res* 59:575 — bielkoviny vs. kalórie u mačiek so zníženou funkciou obličiek ([prehľad](https://pmc.ncbi.nlm.nih.gov/articles/PMC10829141))
+- **Alexander a kol. 2019**, *Br J Nutr* 121:249 — anorganický fosfor a obličky zdravých mačiek ([RVC](https://rvc-repository.worktribe.com/output/1384159))
+- **Coltherd a kol. 2021**, *Br J Nutr* 126:1626 — NOAEL pre zdroje fosforu ([Cambridge](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/16658AA5CA2614963F2F5554F47DA8F1/S0007114521000477a.pdf/towards-establishing-no-observed-adverse-effect-levels-noael-for-different-sources-of-dietary-phosphorus-in-feline-adult-diets-results-from-a-7-month-feeding-study.pdf))
+- **Ross a kol. 2006**, *JAVMA* — randomizovaná štúdia renálnej diéty pri CKD ([abstrakt](https://bohrium.dp.tech/paper/arxiv/21251518))
+- **Laflamme & Hannah 2013**, *JFMS* — bielkoviny potrebné na udržanie svalovej hmoty ([AGRIS](https://agris.fao.org/search/en/providers/122535/records/65de487a4c5aef494fdb7826))
+- **Greene a kol. 2014**, *JAVMA* 244:320 — rizikové faktory CKD u mačiek ([prehľad](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12734309/))
 
 ### Tier 1 — stránky výrobcov (jediný zdroj zloženia a analytiky)
 
