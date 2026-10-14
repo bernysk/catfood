@@ -68,9 +68,9 @@
       "energy_value_raw": "Not stated on page",
       "feeding_guidelines_raw": "Tabulka: 2-5 porcí denně podle hmotnosti kočky (2-8 kg).",
       "description_raw": "Not fully captured in this fetch.",
-      "completeness_statement_raw": "Not fully captured in this fetch (analogous Meat Menu products state \"kompletní krmivo\").",
+      "completeness_statement_raw": "Použití: Kompletní krmivo pro kočky",
       "fetch_status": "ok",
-      "fetch_notes": "Fish flavours (Salmon, Perch) use a lower base meat/animal-product percentage (37%) plus a separately-listed fish %, vs. the land-meat flavours' single combined 45% figure — same pattern seen in the Sauce version of this line and in Meat Menu."
+      "fetch_notes": "Fish flavours (Salmon, Perch) use a lower base meat/animal-product percentage (37%) plus a separately-listed fish %, vs. the land-meat flavours' single combined 45% figure — same pattern seen in the Sauce version of this line and in Meat Menu. | [2026-10-14 prehliadač] Kompletnosť doplnená z produktovej stránky (predtým: 'Not fully captured in this fetch (analogous Meat Menu products state \"kompletní krmivo\").')."
     },
     {
       "name": "BOZITA MEAT MENU – CHUNKS IN JELLY (multibox)",
@@ -136,9 +136,9 @@
       "energy_value_raw": "Not specified on page",
       "feeding_guidelines_raw": "Tabulka: dávkování podle hmotnosti kočky, 2 porce (2 kg) až 5 porcí (8 kg) denně.",
       "description_raw": "Not fully captured in this fetch.",
-      "completeness_statement_raw": "Not fully captured in this fetch.",
+      "completeness_statement_raw": "Použití: Kompletní krmivo pro kočky",
       "fetch_status": "ok",
-      "fetch_notes": "Across all 4 Bozita multiboxes fetched, the pattern is consistent: land-meat flavours use a single combined 'meat and animal products' percentage (45% Jelly / 50% Sauce) with the named meat as a sub-fraction, while fish flavours split it into a lower base meat % (37% Jelly / 42% Sauce) plus a separately listed fish %. Chicken consistently has the highest named-meat percentage (14%) of any flavour across all 4 multiboxes; every other flavour (beef, turkey, reindeer, elk, chicken liver, salmon, perch, herring) sits at 8%."
+      "fetch_notes": "Across all 4 Bozita multiboxes fetched, the pattern is consistent: land-meat flavours use a single combined 'meat and animal products' percentage (45% Jelly / 50% Sauce) with the named meat as a sub-fraction, while fish flavours split it into a lower base meat % (37% Jelly / 42% Sauce) plus a separately listed fish %. Chicken consistently has the highest named-meat percentage (14%) of any flavour across all 4 multiboxes; every other flavour (beef, turkey, reindeer, elk, chicken liver, salmon, perch, herring) sits at 8%. | [2026-10-14 prehliadač] Kompletnosť doplnená z produktovej stránky (predtým: 'Not fully captured in this fetch.')."
     }
   ]
 }

@@ -16,7 +16,8 @@
       "description_raw": "Calibra Kitten Salmon kapsička pre mačiatka s lososom v omáčke. Receptúra Calibra Premium Line Salmon bola špeciálne vyvinutá pre citlivé trávenie mačiatok a mladých mačiek. Vysoko kvalitné a stráviteľné mäso z lososa dobre znášajú aj veľmi citlivé mačičky. Vyvážené zloženie šťavnatých masových kúskov v omáčke navyše osloví aj veľmi maškrtné mačky.\n\nVeľkosť balenia: 100 g",
       "manufacturer_info_raw": "NOT FOUND (no producer address or veterinary approval number shown on product page; site footer only lists general contact: TELEFÓN +421 949 003 744, E-MAIL zakaznicky.servis@mojacalibra.sk, Copyright 2001-2026 Calibra)",
       "fetch_status": "ok",
-      "fetch_notes": "Direct WebFetch was blocked by the site's WAF (Access Denied error page). Fetched instead via headless browser navigation and DOM extraction (document.querySelectorAll('.b-tabs__fragment') reading each tab's innerText: Popis, Zloženie, Odporúčané dávkovanie, Kŕmny návod), which bypassed the block. Price at fetch time: 0,70 €."
+      "fetch_notes": "Direct WebFetch was blocked by the site's WAF (Access Denied error page). Fetched instead via headless browser navigation and DOM extraction (document.querySelectorAll('.b-tabs__fragment') reading each tab's innerText: Popis, Zloženie, Odporúčané dávkovanie, Kŕmny návod), which bypassed the block. Price at fetch time: 0,70 €. | [2026-10-14 prehliadač] Kompletnosť doplnená z produktovej stránky (predtým: 'prázdne').",
+      "completeness_statement_raw": "Rad kapsičiek pre mačky Calibra Cat Premium Line s kompletným a vyváženým zložením zahŕňa kapsičky pre mačiatka, pre dospelé mačky i pre mačky kastrované."
     },
     {
       "name": "Calibra Cat kapsička Premium Kitten Turkey & Chicken 100g",
@@ -32,7 +33,8 @@
       "description_raw": "Calibra Kitten Turkey & Chicken kapsička pre mačiatka s morčacím. Ľahká receptúra Calibra Premium Line Kitten Turkey & Chicken bola špeciálne vyvinutá pre citlivé trávenie mačiatok a mladých mačiek. Vysoká kvalita a stráviteľnosť morčacieho a kuracieho mäsa zaručuje dobrú znášanlivosť u mačiek s citlivým trávením. Šťavnaté kúsky v omáčke navyše oslovia aj tie najnáročnejšie mačky.\n\nVeľkosť balenia: 100 g",
       "manufacturer_info_raw": "NOT FOUND (no producer address or veterinary approval number shown on product page; site footer only lists general contact: TELEFÓN +421 949 003 744, E-MAIL zakaznicky.servis@mojacalibra.sk, Copyright 2001-2026 Calibra)",
       "fetch_status": "ok",
-      "fetch_notes": "Direct WebFetch was blocked by the site's WAF (Access Denied error page). Fetched instead via headless browser navigation and DOM extraction of the tab fragments. Price at fetch time: 0,70 €."
+      "fetch_notes": "Direct WebFetch was blocked by the site's WAF (Access Denied error page). Fetched instead via headless browser navigation and DOM extraction of the tab fragments. Price at fetch time: 0,70 €. | [2026-10-14 prehliadač] Kompletnosť doplnená z produktovej stránky (predtým: 'prázdne').",
+      "completeness_statement_raw": "Rad kapsičiek pre mačky Calibra Cat Premium Line s kompletným a vyváženým zložením zahŕňa kapsičky pre mačiatka, pre dospelé mačky i pre mačky kastrované."
     },
     {
       "name": "Calibra Cat kapsička Premium Adult Chicken & Beef 100g",
@@ -48,7 +50,8 @@
       "description_raw": "Receptúra Calibra Cat Adult Chicken & Beef ponúka lákavú kombináciu kuracieho a hovädzieho mäsa. Vďaka vysokokvalitným surovinám môžeme zaručiť dobrú znášanlivosť aj u citlivých mačiek. Vyvážené zloženie so šťavnatými masovými kúskami v omáčke vyhovie aj najnáročnejším a maškrtným mačkám.\n\nVeľkosť balenia: 100 g",
       "manufacturer_info_raw": "NOT FOUND (no producer address or veterinary approval number shown on product page; site footer only lists general contact: TELEFÓN +421 949 003 744, E-MAIL zakaznicky.servis@mojacalibra.sk, Copyright 2001-2026 Calibra)",
       "fetch_status": "ok",
-      "fetch_notes": "Direct WebFetch was blocked by the site's WAF (Access Denied error page). Fetched instead via headless browser navigation and DOM extraction of the tab fragments. Price at fetch time: 0,70 €."
+      "fetch_notes": "Direct WebFetch was blocked by the site's WAF (Access Denied error page). Fetched instead via headless browser navigation and DOM extraction of the tab fragments. Price at fetch time: 0,70 €. | [2026-10-14 prehliadač] Kompletnosť doplnená z produktovej stránky (predtým: 'prázdne').",
+      "completeness_statement_raw": "Rad kapsičiek pre mačky Calibra Cat Premium Line s kompletným a vyváženým zložením zahŕňa kapsičky pre mačiatka, pre dospelé mačky i pre mačky kastrované."
     },
     {
       "name": "Calibra Cat kapsička Premium Adult Trout & Salmon 100g",
@@ -64,7 +67,8 @@
       "description_raw": "Ľahké a stráviteľné mäso oboch rýb zaručuje dobrú znášanlivosť aj u veľmi citlivých jedincov. Vyvážené zloženie a šťavnaté mäsové kúsky v omáčke navyše oslovia aj tie najnáročnejšie mačky.\n\nVeľkosť balenia: 100 g",
       "manufacturer_info_raw": "NOT FOUND (no producer address or veterinary approval number shown on product page; site footer only lists general contact: TELEFÓN +421 949 003 744, E-MAIL zakaznicky.servis@mojacalibra.sk, Copyright 2001-2026 Calibra)",
       "fetch_status": "ok",
-      "fetch_notes": "Direct WebFetch was blocked by the site's WAF (Access Denied error page). Fetched instead via headless browser navigation and DOM extraction of the tab fragments. Price at fetch time: 0,70 €."
+      "fetch_notes": "Direct WebFetch was blocked by the site's WAF (Access Denied error page). Fetched instead via headless browser navigation and DOM extraction of the tab fragments. Price at fetch time: 0,70 €. | [2026-10-14 prehliadač] Kompletnosť doplnená z produktovej stránky (predtým: 'prázdne').",
+      "completeness_statement_raw": "Rad kapsičiek pre mačky Calibra Cat Premium Line s kompletným a vyváženým zložením zahŕňa kapsičky pre mačiatka, pre dospelé mačky i pre mačky kastrované."
     },
     {
       "name": "Calibra Cat kapsička Premium Adult Duck & Chicken 100g",
@@ -80,7 +84,8 @@
       "description_raw": "Táto kombinácia dvoch druhov vysoko kvalitného mäsa zaručuje dobrú znášanlivosť aj u citlivých jedincov. Vyvážené zloženie so šťavnatými masovými kúskami v omáčke navyše vyhovie aj veľmi náročným mačkám.\n\nVeľkosť balenia: 100 g",
       "manufacturer_info_raw": "NOT FOUND (no producer address or veterinary approval number shown on product page; site footer only lists general contact: TELEFÓN +421 949 003 744, E-MAIL zakaznicky.servis@mojacalibra.sk, Copyright 2001-2026 Calibra)",
       "fetch_status": "ok",
-      "fetch_notes": "Direct WebFetch was blocked by the site's WAF (Access Denied error page). Fetched instead via headless browser navigation and DOM extraction of the tab fragments. Price at fetch time: 0,70 €."
+      "fetch_notes": "Direct WebFetch was blocked by the site's WAF (Access Denied error page). Fetched instead via headless browser navigation and DOM extraction of the tab fragments. Price at fetch time: 0,70 €. | [2026-10-14 prehliadač] Kompletnosť doplnená z produktovej stránky (predtým: 'prázdne').",
+      "completeness_statement_raw": "Rad kapsičiek pre mačky Calibra Cat Premium Line s kompletným a vyváženým zložením zahŕňa kapsičky pre mačiatka, pre dospelé mačky i pre mačky kastrované."
     },
     {
       "name": "Calibra Cat kapsička Premium Adult Lamb & Poultry 100g",
@@ -96,7 +101,8 @@
       "description_raw": "Receptúra Calibra Cat Adult Lamb & Poultry v sebe spája lákavú kombináciu jahňacieho a hydinového mäsa. Predovšetkým vďaka vysokokvalitnému jahňaciemu mäsu môžeme zaručiť dobrú znášanlivosť aj u citlivejších jedincov. Vyvážené zloženie so šťavnatými mäsovými kúskami v omáčke navyše vyhovie aj tým najnáročnejším mačkám.\n\nVeľkosť balenia: 100 g",
       "manufacturer_info_raw": "NOT FOUND (no producer address or veterinary approval number shown on product page; site footer only lists general contact: TELEFÓN +421 949 003 744, E-MAIL zakaznicky.servis@mojacalibra.sk, Copyright 2001-2026 Calibra)",
       "fetch_status": "ok",
-      "fetch_notes": "Direct WebFetch was blocked by the site's WAF (Access Denied error page). Fetched instead via headless browser navigation and DOM extraction of the tab fragments. Price at fetch time: 0,70 €."
+      "fetch_notes": "Direct WebFetch was blocked by the site's WAF (Access Denied error page). Fetched instead via headless browser navigation and DOM extraction of the tab fragments. Price at fetch time: 0,70 €. | [2026-10-14 prehliadač] Kompletnosť doplnená z produktovej stránky (predtým: 'prázdne').",
+      "completeness_statement_raw": "Rad kapsičiek pre mačky Calibra Cat Premium Line s kompletným a vyváženým zložením zahŕňa kapsičky pre mačiatka, pre dospelé mačky i pre mačky kastrované."
     },
     {
       "name": "Calibra Cat kapsička Premium Sterilised Liver 100g",
@@ -112,7 +118,8 @@
       "description_raw": "Táto receptúra s pečeňou im dodá optimálny dostatok živín a zároveň zaistí udržanie ideálnej hmotnosti. Vyvážené zloženie so šťavnatými mäsovými kúskami v omáčke navyše vyhovie aj veľmi náročným dospelým mačkám.\n\nVeľkosť balenia: 100 g",
       "manufacturer_info_raw": "NOT FOUND (no producer address or veterinary approval number shown on product page; site footer only lists general contact: TELEFÓN +421 949 003 744, E-MAIL zakaznicky.servis@mojacalibra.sk, Copyright 2001-2026 Calibra)",
       "fetch_status": "ok",
-      "fetch_notes": "Direct WebFetch was blocked by the site's WAF (Access Denied error page). Fetched instead via headless browser navigation and DOM extraction of the tab fragments. Composition includes 0,4% inulin (prebiotic fibre). Price at fetch time: 0,70 €."
+      "fetch_notes": "Direct WebFetch was blocked by the site's WAF (Access Denied error page). Fetched instead via headless browser navigation and DOM extraction of the tab fragments. Composition includes 0,4% inulin (prebiotic fibre). Price at fetch time: 0,70 €. | [2026-10-14 prehliadač] Kompletnosť doplnená z produktovej stránky (predtým: 'prázdne').",
+      "completeness_statement_raw": "Rad kapsičiek pre mačky Calibra Cat Premium Line s kompletným a vyváženým zložením zahŕňa kapsičky pre mačiatka, pre dospelé mačky i pre mačky kastrované."
     },
     {
       "name": "Calibra Cat kapsička Premium Sterilised Salmon 100g",
@@ -128,7 +135,8 @@
       "description_raw": "Táto kapsička s kvalitným mäsom z lososa im dodá optimálny dostatok živín a zároveň zaistí udržanie ideálnej hmotnosti. Vyvážené zloženie so šťavnatými mäsovými kúskami v omáčke navyše vyhovie aj veľmi náročným dospelým jedincom.\n\nVeľkosť balenia: 100 g",
       "manufacturer_info_raw": "NOT FOUND (no producer address or veterinary approval number shown on product page; site footer only lists general contact: TELEFÓN +421 949 003 744, E-MAIL zakaznicky.servis@mojacalibra.sk, Copyright 2001-2026 Calibra)",
       "fetch_status": "ok",
-      "fetch_notes": "Direct WebFetch was blocked by the site's WAF (Access Denied error page). Fetched instead via headless browser navigation and DOM extraction of the tab fragments. Composition includes 0,4% inulin (prebiotic fibre). Price at fetch time: 0,70 €."
+      "fetch_notes": "Direct WebFetch was blocked by the site's WAF (Access Denied error page). Fetched instead via headless browser navigation and DOM extraction of the tab fragments. Composition includes 0,4% inulin (prebiotic fibre). Price at fetch time: 0,70 €. | [2026-10-14 prehliadač] Kompletnosť doplnená z produktovej stránky (predtým: 'prázdne').",
+      "completeness_statement_raw": "Rad kapsičiek pre mačky Calibra Cat Premium Line s kompletným a vyváženým zložením zahŕňa kapsičky pre mačiatka, pre dospelé mačky i pre mačky kastrované."
     },
     {
       "name": "Calibra Cat Life kapsička Adult Veal in gravy 85g",
@@ -144,7 +152,8 @@
       "description_raw": "Doplnené o chytré funkčné aditíva podľa určenia receptúry, a to vrátane nevyhnutného taurínu. Obohatené o rozmarín a tymián s priaznivým vplyvom na organizmus mačky.\n\nBylinky všeobecne zvyšujú chutnosť krmiva, znižujú množstvo škodlivých baktérií a podporujú imunitný systém.\nTaurín je pre mačky esenciálnou aminokyselinou, ktorú si nevedia samy vytvoriť. Má celý rad účinkov, mimo iné na zdravie zraku a srdca.\n\nReceptúra v kocke:\nobohatené o rozmarín a tymián\nteľacie\npridaný taurín\n\nReceptúra bez obsahu obilnín, sóje, kukurice, GMO\n\nBalenie: 85 g",
       "manufacturer_info_raw": "NOT FOUND (no producer address or veterinary approval number shown on product page; site footer only lists general contact: TELEFÓN +421 949 003 744, E-MAIL zakaznicky.servis@mojacalibra.sk, Copyright 2001-2026 Calibra)",
       "fetch_status": "ok",
-      "fetch_notes": "Direct WebFetch was blocked by the site's WAF (Access Denied error page). Fetched instead via headless browser navigation and DOM extraction of the tab fragments. Price at fetch time: 0,96 € / discounted 0,86 €."
+      "fetch_notes": "Direct WebFetch was blocked by the site's WAF (Access Denied error page). Fetched instead via headless browser navigation and DOM extraction of the tab fragments. Price at fetch time: 0,96 € / discounted 0,86 €. | [2026-10-14 prehliadač] Kompletnosť doplnená z produktovej stránky (predtým: 'prázdne').",
+      "completeness_statement_raw": "Kompletné superprémiové vlhké krmivo je určené na dlhodobé kŕmenie."
     },
     {
       "name": "Calibra Cat Life kapsička Adult Beef in gravy 85g",
@@ -160,7 +169,8 @@
       "description_raw": "Je doplnené o chytré funkčné aditíva podľa určenia receptúry, a to vrátane nevyhnutného taurínu. V kapsičke je pridaný i rozmarín a tymián s priaznivým vplyvom na organizmus mačky.\n\nBylinky všeobecne zvyšujú chutnosť krmiva, znižujú množstvo škodlivých baktérií a podporujú imunitný systém.\nTaurín je pre mačky esenciálnou aminokyselinou, ktorú si nevedia samy vytvoriť. Má celý rad účinkov, mimo iné na zdravie zraku a srdca.\n\nReceptúra v kocke:\nobohatené o rozmarín a tymián\nhovädzie\npridaný taurín\n\nReceptúra bez obsahu obilnín, sóje, kukurice, GMO\n\nBalenie: 85 g",
       "manufacturer_info_raw": "NOT FOUND (no producer address or veterinary approval number shown on product page; site footer only lists general contact: TELEFÓN +421 949 003 744, E-MAIL zakaznicky.servis@mojacalibra.sk, Copyright 2001-2026 Calibra)",
       "fetch_status": "ok",
-      "fetch_notes": "Direct WebFetch was blocked by the site's WAF (Access Denied error page). Fetched instead via headless browser navigation and DOM extraction of the tab fragments. Price at fetch time: 0,96 € / discounted 0,86 €."
+      "fetch_notes": "Direct WebFetch was blocked by the site's WAF (Access Denied error page). Fetched instead via headless browser navigation and DOM extraction of the tab fragments. Price at fetch time: 0,96 € / discounted 0,86 €. | [2026-10-14 prehliadač] Kompletnosť doplnená z produktovej stránky (predtým: 'prázdne').",
+      "completeness_statement_raw": "Kompletné superprémiové vlhké krmivo je určené na dlhodobé kŕmenie."
     },
     {
       "name": "Calibra Cat Life kapsička Adult Duck in gravy 85g",
@@ -176,7 +186,8 @@
       "description_raw": "Je doplnené o chytré funkčné aditíva podľa určenia receptúry, a to vrátane nevyhnutného taurínu. Obohatené o rakytník a ľanový olej s priaznivým vplyvom na organizmus mačky.\n\nRakytník rešetliakový je jeden z najbohatších zdrojov bioaktívnych látok (vitamínov, antioxidantov, esenciálnych mastných kyselín), podporuje imunitu, cirkuláciu krvi, trávenie a metabolizmus.\nĽanové semienko je superpotravina s vysokým obsahom vitamínov skupiny B a E, vlákniny a proteínov. Je zdrojom minerálov ako vápnik, horčík, železo, mangán, fosfor, draslík, selén alebo zinok. Tretinu semienka tvoria omega-3 mastné kyseliny.\n\nReceptúra v kocke:\nobohatené o rakytník\nkačacie\npridaný ľanový olej\n\nReceptúra bez obsahu obilnín, sóje, kukurice, GMO\n\nBalenie: 85 g",
       "manufacturer_info_raw": "NOT FOUND (no producer address or veterinary approval number shown on product page; site footer only lists general contact: TELEFÓN +421 949 003 744, E-MAIL zakaznicky.servis@mojacalibra.sk, Copyright 2001-2026 Calibra)",
       "fetch_status": "ok",
-      "fetch_notes": "Direct WebFetch was blocked by the site's WAF (Access Denied error page). Fetched instead via headless browser navigation and DOM extraction of the tab fragments. Price at fetch time: 0,96 € / discounted 0,86 €."
+      "fetch_notes": "Direct WebFetch was blocked by the site's WAF (Access Denied error page). Fetched instead via headless browser navigation and DOM extraction of the tab fragments. Price at fetch time: 0,96 € / discounted 0,86 €. | [2026-10-14 prehliadač] Kompletnosť doplnená z produktovej stránky (predtým: 'prázdne').",
+      "completeness_statement_raw": "Kompletné superprémiové vlhké krmivo je určené na dlhodobé kŕmenie."
     },
     {
       "name": "Calibra Cat Life kapsička Adult Turkey in gravy 85g",
@@ -192,7 +203,8 @@
       "description_raw": "Je doplnené o chytré funkčné aditíva, a to vrátane nevyhnutného taurínu. Pridaný rakytník a ľanový olej s priaznivým vplyvom na organizmus mačky.\n\nRakytník rešetliakový je jeden z najbohatších zdrojov bioaktívnych látok (vitamínov, antioxidantov, esenciálnych mastných kyselín), podporuje imunitu, cirkuláciu krvi, trávenie a metabolizmus.\nĽanové semienko je superpotravina s vysokým obsahom vitamínov skupiny B a E, vlákniny a proteínov. Je zdrojom minerálov ako vápnik, horčík, železo, mangán, fosfor, draslík, selén alebo zinok. Tretinu semienka tvoria omega-3 mastné kyseliny.\n\nReceptúra v kocke:\nobohatené o rakytník\nmorčacie\npridaný ľanový olej\n\nReceptúra bez obsahu obilnín, sóje, kukurice, GMO\n\nBalenie: 85 g",
       "manufacturer_info_raw": "NOT FOUND (no producer address or veterinary approval number shown on product page; site footer only lists general contact: TELEFÓN +421 949 003 744, E-MAIL zakaznicky.servis@mojacalibra.sk, Copyright 2001-2026 Calibra)",
       "fetch_status": "ok",
-      "fetch_notes": "Direct WebFetch was blocked by the site's WAF (Access Denied error page). Fetched instead via headless browser navigation and DOM extraction of the tab fragments. Price at fetch time: 0,86 € (single price shown, no crossed-out original)."
+      "fetch_notes": "Direct WebFetch was blocked by the site's WAF (Access Denied error page). Fetched instead via headless browser navigation and DOM extraction of the tab fragments. Price at fetch time: 0,86 € (single price shown, no crossed-out original). | [2026-10-14 prehliadač] Kompletnosť doplnená z produktovej stránky (predtým: 'prázdne').",
+      "completeness_statement_raw": "Kompletné superprémiové vlhké krmivo je určené na dlhodobé kŕmenie."
     },
     {
       "name": "Calibra Cat Life kapsa Sterilised Duck in gravy 85g",
@@ -208,7 +220,8 @@
       "description_raw": "Doplnené o chytré funkčné aditíva podľa určenia receptúry, a to vrátane nevyhnutného taurínu. Obohatené o brusnice s priaznivým vplyvom na organizmus mačky.\n\nBrusnice se vyznačujú vysokým obsahom antioxidantov a polyfenolov, sú vynikajúcim zdrojom vitamínu C a majú preukázané prospešné účinky na močové cesty.\nTaurín je pre mačky esenciálnou aminokyselinou, ktorú si nevedia samy vytvoriť. Má celý rad účinkov, mimo iné na zdravie zraku a srdca.\n\nReceptúra v kocke:\nobohatené o brusnice\nkačacie\npridaný taurín\n\nReceptúra bez obsahu obilnín, sóje, kukurice, GMO\n\nBalenie: 85 g",
       "manufacturer_info_raw": "NOT FOUND (no producer address or veterinary approval number shown on product page; site footer only lists general contact: TELEFÓN +421 949 003 744, E-MAIL zakaznicky.servis@mojacalibra.sk, Copyright 2001-2026 Calibra)",
       "fetch_status": "ok",
-      "fetch_notes": "Direct WebFetch was blocked by the site's WAF (Access Denied error page). Fetched instead via headless browser navigation and DOM extraction of the tab fragments. Note: feeding table daily dose is lower than Adult-line duck product (195-310g vs 260-415g) reflecting Sterilised lower calorie needs. Price at fetch time: 0,96 € / discounted 0,86 €."
+      "fetch_notes": "Direct WebFetch was blocked by the site's WAF (Access Denied error page). Fetched instead via headless browser navigation and DOM extraction of the tab fragments. Note: feeding table daily dose is lower than Adult-line duck product (195-310g vs 260-415g) reflecting Sterilised lower calorie needs. Price at fetch time: 0,96 € / discounted 0,86 €. | [2026-10-14 prehliadač] Kompletnosť doplnená z produktovej stránky (predtým: 'prázdne').",
+      "completeness_statement_raw": "Kompletné superprémiové vlhké krmivo je určené na dlhodobé kŕmenie."
     },
     {
       "name": "Calibra Cat Life kapsička Sterilised Salmon in gravy 85g",
@@ -224,7 +237,8 @@
       "description_raw": "Doplnené o chytré funkčné aditíva podľa určenia receptúry, a to vrátane nevyhnutného taurínu. Obohatené naviac o spirulinu s priaznivým vplyvom na organizmus mačky.\n\nSpirulina je bohatým zdrojom živín, vitamínov a minerálov, má silné antioxidačné účinky a podporuje obranyschopnosť organizmu.\nTaurín je pre mačky esenciálnou aminokyselinou, ktorú si nevedia samy vytvoriť. Má celý rad účinkov, mimo iné na zdravie zraku a srdca.\n\nReceptúra v kocke:\nobohatené o spirulinu\nlosos\npridaný taurín\n\nReceptúra bez obsahu obilnín, sóje, kukurice, GMO\n\nBalenie: 85 g",
       "manufacturer_info_raw": "NOT FOUND (no producer address or veterinary approval number shown on product page; site footer only lists general contact: TELEFÓN +421 949 003 744, E-MAIL zakaznicky.servis@mojacalibra.sk, Copyright 2001-2026 Calibra)",
       "fetch_status": "ok",
-      "fetch_notes": "Direct WebFetch was blocked by the site's WAF (Access Denied error page). Fetched instead via headless browser navigation and DOM extraction of the tab fragments. Note: named meat % here refers to chicken/pork/liver/poultry, with salmon (the flavour-defining ingredient) at 11,6%. Price at fetch time: 0,96 € / discounted 0,86 €."
+      "fetch_notes": "Direct WebFetch was blocked by the site's WAF (Access Denied error page). Fetched instead via headless browser navigation and DOM extraction of the tab fragments. Note: named meat % here refers to chicken/pork/liver/poultry, with salmon (the flavour-defining ingredient) at 11,6%. Price at fetch time: 0,96 € / discounted 0,86 €. | [2026-10-14 prehliadač] Kompletnosť doplnená z produktovej stránky (predtým: 'prázdne').",
+      "completeness_statement_raw": "Kompletné superprémiové vlhké krmivo je určené na dlhodobé kŕmenie."
     },
     {
       "name": "Calibra Cat Life kapsička Kitten Turkey in gravy 85g",
@@ -240,7 +254,8 @@
       "description_raw": "Je doplnené o chytré funkčné aditíva, ktoré sú vybrané na mieru mačiatkam, a to vrátane nevyhnutného taurínu. Pridané brusnice a lososový olej majú priaznivý vplyv na ich organizmus.\n\nBrusnice sa vyznačujú vysokým obsahom antioxidantov a polyfenolov, sú vynikajúcim zdrojom vitamínu C a majú preukázané prospešné účinky na močové cesty.\nLososový olej je zdroj nenasýtených mastných kyselín omega-3 (EPA, DHA) potrebných pre vývoj a funkcii mozgu, podporu fyziologickej funkcie kože a srsti a ich kvality. Omega 3 majú také protizápalový účinok.\n\nReceptúra v kocke:\nobohatené o brusnice\nmorčacie\nobohatené o lososový olej\n\nReceptúra bez obsahu obilnín, sóje, kukurice, GMO\n\nBalenie: 85 g",
       "manufacturer_info_raw": "NOT FOUND (no producer address or veterinary approval number shown on product page; site footer only lists general contact: TELEFÓN +421 949 003 744, E-MAIL zakaznicky.servis@mojacalibra.sk, Copyright 2001-2026 Calibra)",
       "fetch_status": "ok",
-      "fetch_notes": "Direct WebFetch was blocked by the site's WAF (Access Denied error page). Fetched instead via headless browser navigation and DOM extraction of the tab fragments. Price at fetch time: 0,96 € / discounted 0,86 €."
+      "fetch_notes": "Direct WebFetch was blocked by the site's WAF (Access Denied error page). Fetched instead via headless browser navigation and DOM extraction of the tab fragments. Price at fetch time: 0,96 € / discounted 0,86 €. | [2026-10-14 prehliadač] Kompletnosť doplnená z produktovej stránky (predtým: 'prázdne').",
+      "completeness_statement_raw": "Kompletné superprémiové vlhké krmivo je určené na dlhodobé kŕmenie."
     },
     {
       "name": "Calibra Cat Life kapsička Kitten Salmon in gravy 85g",
@@ -256,7 +271,8 @@
       "description_raw": "Kapsičky pre mačiatka sú doplnené o chytré funkčné aditíva - vrátane nevyhnutného taurínu - ktoré majú priaznivý vplyv práve na organizmus mačiatok.\n\nRakytník rešetliakový je jeden z nejbohatších zdrojov bioaktívnych látok (vitamínov, antioxidantov, esenciálnych mastných kyselín), podporuje imunitu, cirkuláciu krvi, trávenie a metabolizmus.\nĽanové semienko je superpotravina s vysokým obsahom vitamínov skupiny B a E, vlákniny a proteínov. Je zdrojom minerálov ako vápnik, horčík, železo, mangán, fosfor, draslík, selén alebo zinok. Tretinu semienka tvoria omega-3 mastné kyseliny.\n\nReceptúra v kocke:\nobohatené o rakytník\nlosos\npridaný ľanový olej\n\nReceptúra bez obsahu obilnín, sóje, kukurice, GMO\n\nBalenie: 85 g",
       "manufacturer_info_raw": "NOT FOUND (no producer address or veterinary approval number shown on product page; site footer only lists general contact: TELEFÓN +421 949 003 744, E-MAIL zakaznicky.servis@mojacalibra.sk, Copyright 2001-2026 Calibra)",
       "fetch_status": "ok",
-      "fetch_notes": "Direct WebFetch was blocked by the site's WAF (Access Denied error page). Fetched instead via headless browser navigation and DOM extraction of the tab fragments. Note: named meat % here refers to chicken/pork liver/pork, with salmon (the flavour-defining ingredient) at 14,5%. Price at fetch time: 0,96 € / discounted 0,86 €."
+      "fetch_notes": "Direct WebFetch was blocked by the site's WAF (Access Denied error page). Fetched instead via headless browser navigation and DOM extraction of the tab fragments. Note: named meat % here refers to chicken/pork liver/pork, with salmon (the flavour-defining ingredient) at 14,5%. Price at fetch time: 0,96 € / discounted 0,86 €. | [2026-10-14 prehliadač] Kompletnosť doplnená z produktovej stránky (predtým: 'prázdne').",
+      "completeness_statement_raw": "Kompletné superprémiové vlhké krmivo je určené na dlhodobé kŕmenie."
     }
   ]
 }

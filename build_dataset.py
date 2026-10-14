@@ -299,6 +299,21 @@ if os.path.exists(HTML):
         html.replace(anchor, block + "\n" + anchor, 1))
     print(f"inlined {len(blob)//1024} KB into index.html (replaced {removed} old block(s))")
 
+# NotebookLM does not accept .json uploads, so keep .txt copies of the current
+# raw data and the scored dataset. Regenerated on every build — a hand-made copy
+# went stale before (raw_data/New folder, July 2026).
+NLM = os.path.join(os.path.dirname(__file__), "notebooklm")
+os.makedirs(NLM, exist_ok=True)
+for old in glob.glob(os.path.join(NLM, "*.txt")):
+    os.remove(old)
+for path in sorted(glob.glob(os.path.join(RAW_DIR, "*.json"))):
+    name = os.path.basename(path)[:-5] + ".txt"
+    with open(path, encoding="utf-8") as src, open(os.path.join(NLM, name), "w", encoding="utf-8", newline="\n") as dst:
+        dst.write(src.read())
+with open(os.path.join(NLM, "dataset_skore.txt"), "w", encoding="utf-8", newline="\n") as f:
+    json.dump(payload, f, ensure_ascii=False, indent=1)
+print(f"exported {len(glob.glob(os.path.join(NLM, '*.txt')))} .txt files to notebooklm/")
+
 # --- console summary ---------------------------------------------------------
 print(f"products: {len(rows)}")
 by_grade = {}

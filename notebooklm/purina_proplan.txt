@@ -19,7 +19,7 @@
       "completeness_statement_raw": "Complementary food (implied, not explicitly stated)",
       "pack_size_price_raw": "85 g; 10x 85 g; cena neuvedena",
       "fetch_status": "ok",
-      "fetch_notes": "Highest protein (13.5%) of all non-veterinary Purina products in this batch; only 4% named turkey."
+      "fetch_notes": "Highest protein (13.5%) of all non-veterinary Purina products in this batch; only 4% named turkey. | [2026-10-14 prehliadač] Kompletnosť ani v prehliadači neuvedená."
     },
     {
       "name": "PURINA PRO PLAN CAT Sterilised Maintenance, kapsička pro kočky s kachnou ve šťávě",
@@ -121,7 +121,7 @@
       "completeness_statement_raw": "Complete dietetic food for cats with chronic kidney failure",
       "pack_size_price_raw": "10 x 85 g; cena neuvedena",
       "fetch_status": "ok",
-      "fetch_notes": "Indications: podpora léčby chronického onemocnění ledvin sníženým vysoce kvalitním proteinem a omezeným fosforem, obohaceno o omega-3. Kontraindikace: \"Není vhodné pro kočky, které potřebují vysoký příjem bílkovin nebo fosforu, jako jsou například březí kočky nebo koťata.\" Lowest protein (7.2%) and highest fat (9.4%) of all products in this batch."
+      "fetch_notes": "Indications: podpora léčby chronického onemocnění ledvin sníženým vysoce kvalitním proteinem a omezeným fosforem, obohaceno o omega-3. Kontraindikace: \"Není vhodné pro kočky, které potřebují vysoký příjem bílkovin nebo fosforu, jako jsou například březí kočky nebo koťata.\" Lowest protein (7.2%) and highest fat (9.4%) of all products in this batch. | [2026-10-14 prehliadač] Popol ani v prehliadači stránka neuvádza — NFE sa preto nepočíta."
     },
     {
       "name": "PURINA PRO PLAN VETERINARY DIETS Feline NF St/Ox Renal Function, kapsička pro kočky s kuřetem (Pokročilá péče)",
@@ -257,7 +257,7 @@
       "completeness_statement_raw": "Complete food for adult indoor cats",
       "pack_size_price_raw": "85 g; 26x85 g; cena neuvedena",
       "fetch_status": "partial",
-      "fetch_notes": "Analytical constituents (protein/fat/ash/fibre/moisture) were not returned by this fetch — only additives and feeding guidelines were captured. Re-fetch recommended if exact analytics are needed."
+      "fetch_notes": "Analytical constituents (protein/fat/ash/fibre/moisture) were not returned by this fetch — only additives and feeding guidelines were captured. Re-fetch recommended if exact analytics are needed. | [2026-10-14 prehliadač] Analytické zložky ani v prehliadači stránka neuvádza (uvádza „Kompletní krmivo pro dospělé kočky“ a taurin 630)."
     }
   ]
 }

@@ -54,8 +54,9 @@ KontrolaLM.md                    revízia metodiky NotebookLM analýz
 REVIEW_2026-10.md                nezávislá revízia v4 (EN): chyby, stabilita známok, bielkoviny a obličky
 reanalysis.py                    skript k revízii (tolerancie EÚ, prepočet na 1000 kcal, FEDIAF 2025)
 literatura/                      citované práce s otvorenou licenciou (PDF) + zoznam odkazov
+notebooklm/                      .txt kópie dát pre NotebookLM (generuje build_dataset.py)
 
-build_dataset.py                 raw_data → dataset.json + vloženie dát do index.html
+build_dataset.py                 raw_data → dataset.json + index.html + notebooklm/
 audit_parse.py                   nezávislá kontrola parsovania (iná metóda, hlási nezhody)
 
 old/                             predchádzajúca verzia (v3) — jej dáta sa v v4 nepoužili
