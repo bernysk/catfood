@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="sk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GI granule pre mačky</title>
+<meta name="description" content="Gastrointestinálne veterinárne granule pre mačky na SK/CZ trhu, porovnané na 1000 kcal. Dáta zo stránok výrobcov.">
+<style>
+:root{
+  --bg:#fbfaf8; --panel:#fff; --ink:#1c1a17; --muted:#6b6560; --line:#e6e1da;
+  --accent:#7a5c3e; --accent-soft:#f0e8de; --warn:#b4632a; --warn-soft:#fbeee3; --ok:#2f7d5d;
+  --shadow:0 1px 2px rgba(0,0,0,.04),0 4px 14px rgba(0,0,0,.04);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#16151a; --panel:#1e1d23; --ink:#eceaf0; --muted:#a09aa8; --line:#312f38;
+  --accent:#d9b48c; --accent-soft:#2b2630; --warn:#e8a06a; --warn-soft:#33281f; --ok:#4fc08d;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 4px 16px rgba(0,0,0,.25);
+}}
+:root[data-theme="dark"]{
+  --bg:#16151a; --panel:#1e1d23; --ink:#eceaf0; --muted:#a09aa8; --line:#312f38;
+  --accent:#d9b48c; --accent-soft:#2b2630; --warn:#e8a06a; --warn-soft:#33281f; --ok:#4fc08d;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 4px 16px rgba(0,0,0,.25);
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font:15px/1.55 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  -webkit-font-smoothing:antialiased;overflow-x:hidden}
+.wrap{max-width:1320px;margin:0 auto;padding:0 16px}
+header{padding:44px 0 22px;border-bottom:1px solid var(--line)}
+.crumb{font-size:14px;margin-bottom:14px}
+.crumb a,.note a,td a{color:var(--accent)}
+h1{font-size:clamp(25px,4vw,38px);line-height:1.15;margin:0 0 10px;letter-spacing:-.02em;font-weight:650}
+.sub{color:var(--muted);max-width:76ch;margin:0}
+.note{background:var(--accent-soft);border:1px solid var(--line);border-left:3px solid var(--accent);
+  border-radius:8px;padding:13px 15px;margin:20px 0;font-size:14px;color:var(--muted)}
+.note b{color:var(--ink)}
+.controls{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:18px 0 12px}
+.chip{font:inherit;font-size:13px;background:var(--panel);color:var(--muted);cursor:pointer;
+  border:1px solid var(--line);border-radius:999px;padding:5px 12px}
+.chip[aria-pressed=true]{background:var(--accent);border-color:var(--accent);color:#fff}
+.count{font-size:13px;color:var(--muted);margin-left:auto}
+.tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:10px;background:var(--panel);box-shadow:var(--shadow)}
+table{border-collapse:collapse;width:100%;min-width:1080px;font-size:13.5px}
+th,td{padding:9px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{position:sticky;top:0;background:var(--panel);font-size:12px;font-weight:650;color:var(--muted);
+  text-transform:uppercase;letter-spacing:.03em;cursor:pointer;white-space:nowrap;user-select:none}
+th[aria-sort=ascending]::after{content:" ▲"} th[aria-sort=descending]::after{content:" ▼"}
+td.num{font-variant-numeric:tabular-nums;white-space:nowrap;text-align:right}
+th.num{text-align:right}
+tr.main{cursor:pointer} tr.main:hover td{background:var(--accent-soft)}
+.pname{font-weight:650} .brand{color:var(--muted);font-size:12.5px}
+.tag{display:inline-block;font-size:11.5px;border-radius:999px;padding:1px 8px;margin:3px 4px 0 0;
+  background:var(--accent-soft);color:var(--accent);white-space:nowrap}
+.tag.warn{background:var(--warn-soft);color:var(--warn)}
+.est{color:var(--warn);font-weight:600}
+.muted{color:var(--muted)}
+.ok{color:var(--ok);font-weight:600}
+tr.detail td{background:var(--bg);font-size:13px}
+tr.detail dl{display:grid;grid-template-columns:minmax(130px,190px) 1fr;gap:6px 16px;margin:4px 0}
+tr.detail dt{color:var(--muted);font-weight:600}
+tr.detail dd{margin:0;white-space:pre-wrap}
+.legend{font-size:13px;color:var(--muted);margin:14px 0 40px;line-height:1.7}
+@media (max-width:640px){tr.detail dl{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="crumb"><a href="../">← Krmivo pre mačky</a></div>
+    <h1>Granule: gastrointestinálne diéty</h1>
+    <p class="sub">Suché diéty na tráviace problémy dostupné na SK/CZ trhu. Všetky údaje zo stránok výrobcov, prepočítané na 1000 kcal — teda na to, koľko mačka naozaj zje. Bez známky: diéty sa porovnávajú podľa toho, čo majú robiť. Kliknutím na riadok zobrazíte pôvodný text etikety.</p>
+  </header>
+
+  <div class="note">
+    <b>Nie je to veterinárne odporúčanie.</b> Veterinárne diéty sa podávajú na odporúčanie veterinára, ktorý najprv vylúči iné príčiny (parazity, infekcie, ochorenia pankreasu či štítnej žľazy). Metodika, štúdie a interpretácia sú v <a href="https://github.com/bernysk/catfood/blob/main/granule/Prieskum_granule_GI.md">dokumente prieskumu</a>.
+  </div>
+
+  <div class="controls" role="group" aria-label="Filtre">
+    <button class="chip" data-f="vet" aria-pressed="false">len veterinárne diéty</button>
+    <button class="chip" data-f="kitten" aria-pressed="false">vhodné pre mačiatka</button>
+    <button class="chip" data-f="fibre" aria-pressed="false">vysoká vláknina (≥ 5 %)</button>
+    <button class="chip" data-f="p" aria-pressed="false">fosfor deklarovaný</button>
+    <span class="count" id="count"></span>
+  </div>
+
+  <div class="tablewrap">
+    <table>
+      <thead><tr>
+        <th data-k="name">Produkt</th>
+        <th class="num" data-k="me">kcal/kg</th>
+        <th class="num" data-k="prot">Bielkoviny<br>g/1000 kcal</th>
+        <th class="num" data-k="fat">Tuk<br>g/1000 kcal</th>
+        <th class="num" data-k="fatE">Tuk<br>% energie</th>
+        <th class="num" data-k="fib">Vláknina<br>% (hrubá)</th>
+        <th class="num" data-k="phos">Fosfor<br>g/1000 kcal</th>
+        <th class="num" data-k="cap">Ca:P</th>
+        <th class="num" data-k="na">Na / K<br>%</th>
+        <th class="num" data-k="tau">Taurín<br>mg/kg</th>
+        <th data-k="feat">Zloženie</th>
+        <th data-k="sizes">Balenia</th>
+      </tr></thead>
+      <tbody id="tb"></tbody>
+    </table>
+  </div>
+
+  <p class="legend">
+    <span class="est">*</span> energia nie je na etikete: z tabuľky priemerného obsahu výrobcu (Hill's) alebo odhad podľa Atwatera. ·
+    <span class="est">↓</span> bielkoviny pod minimom FEDIAF 2025 pre kastrovanú dospelú mačku (83,3 g/1000 kcal). ·
+    <span class="ok">✓</span> sodík a draslík spĺňajú požiadavku EÚ pre diéty na poruchy vstrebávania (nariadenie 2020/354, Na ≥ 0,18 %, K ≥ 0,5 %). ·
+    „hydrolyzát“ znamená, že zloženie obsahuje hydrolyzovanú zložku — neznamená to hypoalergénnu diétu. ·
+    Prázdne pole = výrobca údaj nezverejňuje.
+  </p>
+</div>
+
+<script>
+const DATA=/*DATA*/null;
+const fmt=(v,d=0)=>v==null?'<span class="muted">–</span>':Number(v).toLocaleString('sk-SK',{minimumFractionDigits:d,maximumFractionDigits:d});
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const kitten=r=>/mačiat|všetky vek/i.test(r.lifestage);
+const rows=DATA.products.map(r=>({r,
+  name:r.brand+' '+r.name, me:r.me_kcal_kg, prot:r.per_1000kcal.protein, fat:r.per_1000kcal.fat,
+  fatE:r.energy_split_pct&&r.energy_split_pct.fat, fib:r.analytics.fiber, phos:r.per_1000kcal.p,
+  cap:r.ca_p, na:r.analytics.na, tau:r.taurine_mg_kg, feat:r.protein_sources.length, sizes:r.sizes.length}));
+let sortK='name', dir=1; const on=new Set();
+function feat(r){
+  const f=r.flags, t=[];
+  t.push(`<span class="tag">${r.protein_sources.length} zdroje bielkovín</span>`);
+  if(f.hydrolyzate) t.push('<span class="tag">hydrolyzát</span>');
+  if(f.psyllium) t.push(`<span class="tag">psyllium${f.psyllium_pct!=null?' '+fmt(f.psyllium_pct,f.psyllium_pct<1?2:0)+' %':''}</span>`);
+  if(f.live_probiotic) t.push('<span class="tag">živé probiotikum</span>');
+  if(f.paraprobiotic) t.push('<span class="tag">paraprobiotikum</span>');
+  if(f.inorganic_phosphate) t.push('<span class="tag warn">anorganický fosforečnan</span>');
+  if(!f.grain_or_gluten) t.push('<span class="tag">bez obilnín</span>');
+  return t.join('');
+}
+function detail(r){
+  const dd=(k,v)=>v?`<dt>${k}</dt><dd>${esc(v)}</dd>`:'';
+  return `<tr class="detail"><td colspan="12"><dl>
+    <dt>Stránka výrobcu</dt><dd><a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.url)}</a> (${esc(r.market)})</dd>
+    ${dd('Vyhlásenie',r.statement_raw)}${dd('Účel / popis',r.purpose_raw)}${dd('Doba podávania',r.period_raw)}
+    ${dd('Zdroje bielkovín',r.protein_sources.join(', '))}${dd('Vláknina / prebiotiká',r.fibre_types.join(', '))}
+    ${dd('Zloženie',r.composition_raw)}${dd('Analytické zložky',r.analytical_raw)}${dd('Doplnkové látky',r.additives_raw)}
+    ${dd('Priemerný obsah (výrobca)',r.typical_raw)}
+    ${dd('Energia',r.me_kcal_kg+' kcal/kg — zdroj: '+r.me_source)}
+    ${dd('Chýbajúce údaje',r.missing.join(', '))}${dd('Poznámky',r.notes)}
+  </dl></td></tr>`;
+}
+function render(){
+  const list=rows.filter(x=>(!on.has('vet')||/veterin/.test(x.r.type))&&(!on.has('kitten')||kitten(x.r))
+    &&(!on.has('fibre')||(x.fib??0)>=5)&&(!on.has('p')||x.phos!=null))
+    .sort((a,b)=>{const A=a[sortK],B=b[sortK]; if(A==null)return 1; if(B==null)return -1;
+      return (typeof A==='string'?A.localeCompare(B,'sk'):A-B)*dir;});
+  document.getElementById('count').textContent=`${list.length} z ${rows.length} produktov`;
+  document.getElementById('tb').innerHTML=list.map(x=>{const r=x.r, pk=r.per_1000kcal;
+    const meEst=!/^etiketa/.test(r.me_source||'');
+    return `<tr class="main" data-id="${r.id}" tabindex="0">
+      <td><div class="pname">${esc(r.name)}</div><div class="brand">${esc(r.brand)} · ${esc(r.lifestage)}</div>
+        ${/veterin/.test(r.type)?'':'<span class="tag warn">nie je diéta</span>'}</td>
+      <td class="num">${fmt(r.me_kcal_kg)}${meEst?'<span class="est">*</span>':''}</td>
+      <td class="num">${fmt(pk.protein)}${pk.protein!=null&&pk.protein<83.3?' <span class="est">↓</span>':''}</td>
+      <td class="num">${fmt(pk.fat)}</td>
+      <td class="num">${fmt(x.fatE)}</td>
+      <td class="num">${fmt(r.analytics.fiber,1)}</td>
+      <td class="num">${fmt(pk.p,2)}</td>
+      <td class="num">${fmt(r.ca_p,2)}</td>
+      <td class="num">${r.analytics.na!=null?fmt(r.analytics.na,2)+' / '+fmt(r.analytics.k,2):fmt(null)}${r.eu20_electrolytes?' <span class="ok">✓</span>':''}</td>
+      <td class="num">${fmt(r.taurine_mg_kg)}${r.taurine_source&&r.taurine_source!=='etiketa'?'<span class="est">*</span>':''}</td>
+      <td>${feat(r)}</td>
+      <td>${esc(r.sizes.join(', '))}</td></tr>`;}).join('');
+}
+document.querySelectorAll('th[data-k]').forEach(th=>th.addEventListener('click',()=>{
+  const k=th.dataset.k; dir=(sortK===k)?-dir:1; sortK=k;
+  document.querySelectorAll('th').forEach(t=>t.removeAttribute('aria-sort'));
+  th.setAttribute('aria-sort',dir>0?'ascending':'descending'); render();}));
+document.querySelectorAll('.chip').forEach(b=>b.addEventListener('click',()=>{
+  const f=b.dataset.f; on.has(f)?on.delete(f):on.add(f); b.setAttribute('aria-pressed',on.has(f)); render();}));
+function toggle(tr){const n=tr.nextElementSibling;
+  if(n&&n.classList.contains('detail')){n.remove();return;}
+  const r=DATA.products.find(p=>p.id===tr.dataset.id); tr.insertAdjacentHTML('afterend',detail(r));}
+document.getElementById('tb').addEventListener('click',e=>{const tr=e.target.closest('tr.main'); if(tr&&!e.target.closest('a')) toggle(tr);});
+document.getElementById('tb').addEventListener('keydown',e=>{if(e.key==='Enter'){const tr=e.target.closest('tr.main'); if(tr) toggle(tr);}});
+render();
+</script>
+</body>
+</html>

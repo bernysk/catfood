@@ -8,7 +8,7 @@ zo stránok výrobcov a pri každom produkte je uložený pôvodný text etikety
 | Prieskum | Priečinok | Stav |
 |---|---|---|
 | **Mokré krmivo (kapsičky)** — 151 produktov, 15 značiek, rámec A–E | [`mokre-krmivo/`](./mokre-krmivo/) · [tabuľka](https://bernysk.github.io/catfood/mokre-krmivo/) | v4.2, október 2026 |
-| **Granule: gastrointestinálne veterinárne diéty** — porovnanie na 1000 kcal, bez známky | `granule/` | pripravuje sa |
+| **Granule: gastrointestinálne veterinárne diéty** — 13 diét, 6 výrobcov, porovnanie na 1000 kcal, bez známky | [`granule/`](./granule/) · [tabuľka](https://bernysk.github.io/catfood/granule/) | v1, október 2026 |
 
 Každý prieskum má vlastné surové dáta, skripty, dokument aj tabuľku, aby sa nepomiešali.
 Spoločná je len [`literatura/`](./literatura/) — citované odborné práce.
@@ -17,7 +17,7 @@ Spoločná je len [`literatura/`](./literatura/) — citované odborné práce.
 README.md          tento prehľad
 index.html         rozcestník (GitHub Pages)
 mokre-krmivo/      prieskum kapsičiek — vlastný README, dáta, skripty, tabuľka
-granule/           prieskum veterinárnych granúl (pripravuje sa)
+granule/           prieskum veterinárnych granúl — vlastný README, dáta, skript, tabuľka
 literatura/        odborné práce s otvorenou licenciou + bibliografia
 ```
 

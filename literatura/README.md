@@ -1,6 +1,6 @@
 # Literatúra k prieskumu
 
-Odborné práce citované v [prieskume](../mokre-krmivo/Prieskum_mokre_krmivo_macky.md) a v [revízii](../mokre-krmivo/REVIEW_2026-10.md).
+Odborné práce citované v prieskumoch [mokrého krmiva](../mokre-krmivo/Prieskum_mokre_krmivo_macky.md), [granúl](../granule/Prieskum_granule_GI.md) a v [revízii](../mokre-krmivo/REVIEW_2026-10.md).
 Kópie sú tu uložené **len pri prácach s otvorenou licenciou Creative Commons**, ktorá dovoľuje
 nezmenené šírenie s uvedením autorov. Ostatné sú len ako odkazy.
 
@@ -15,6 +15,7 @@ a pýtajte sa na **literatúru**, nie na čísla produktov — prepočty a skór
 | `Coltherd_2021_NOAEL_fosfor.pdf` | Coltherd J.C. a kol. (2021). Towards establishing no observed adverse effect levels (NOAEL) for different sources of dietary phosphorus in feline adult diets: results from a 7-month feeding study. *Br J Nutr* 126(11):1626–1641. [doi:10.1017/S0007114521000477](https://doi.org/10.1017/S0007114521000477) | CC BY 4.0 | Cambridge University Press |
 | `Hall_2016_SDMA_seniori.pdf` | Hall J.A. a kol. (2016). Positive impact of nutritional interventions on serum symmetric dimethylarginine and creatinine concentrations in client-owned geriatric cats. *PLoS ONE* 11(4):e0153654. [doi:10.1371/journal.pone.0153654](https://doi.org/10.1371/journal.pone.0153654) | CC BY 4.0 | PLOS |
 | `Schauf_2021_CKD_bielkoviny_fosfor.pdf` | Schauf S. a kol. (2021). Clinical progression of cats with early-stage chronic kidney disease fed diets with varying protein and phosphorus contents and calcium to phosphorus ratios. *J Vet Intern Med* 35:2797–2811. [doi:10.1111/jvim.16263](https://doi.org/10.1111/jvim.16263) | CC BY-NC-ND 4.0 | Wiley (vydavateľská verzia) |
+| `Perea_2017_GI_diety_macky.pdf` | Perea S.C. a kol. (2017). Evaluation of two dry commercial therapeutic diets for the management of feline chronic gastroenteropathy. *Front Vet Sci* 4:69. [doi:10.3389/fvets.2017.00069](https://doi.org/10.3389/fvets.2017.00069) | CC BY 4.0 | Frontiers |
 
 ## Otvorený prístup — stiahnuť ručne
 
