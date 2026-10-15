@@ -16,4 +16,4 @@ zmeny by sa pri ďalšom builde prepísali.
 - **Nepoužívať na výpočty ani hodnotenie.** Prepočty a skóre robí `build_dataset.py`;
   NotebookLM pri číslach chybuje (pozri [`KontrolaLM.md`](../KontrolaLM.md)).
 - Ku každej odpovedi si v NotebookLM otvorte citáciu a overte ju v pôvodnom texte.
-- Odbornú literatúru (PDF) nahrajte zvlášť z [`literatura/`](../literatura/).
+- Odbornú literatúru (PDF) nahrajte zvlášť z [`literatura/`](../../literatura/).

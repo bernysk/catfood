@@ -9,7 +9,8 @@ disagree, the row needs a human look.
 import json, re, sys
 sys.stdout.reconfigure(encoding="utf-8")
 
-d = json.load(open("dataset.json", encoding="utf-8"))
+import os
+d = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "dataset.json"), encoding="utf-8"))
 P = [p for p in d["products"] if p["is_product"]]
 
 KEYS = {

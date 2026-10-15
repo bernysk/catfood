@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """Independent re-analysis of bernysk/catfood dataset.json (v4).
 
-Usage:  python reanalysis.py path/to/repo
+Usage:  python reanalysis.py [path/to/mokre-krmivo]   (default: the script's folder)
 Outputs: reanalysis_out.json + console report.
 
 1. Completeness bug  - 5 Czech "Doplňkové krmivo" statements missing in curated.json
@@ -13,7 +13,7 @@ Outputs: reanalysis_out.json + console report.
 """
 import json, os, re, sys, random, statistics as st, collections
 sys.stdout.reconfigure(encoding="utf-8")
-REPO = sys.argv[1] if len(sys.argv) > 1 else "."
+REPO = sys.argv[1] if len(sys.argv) > 1 else os.path.dirname(os.path.abspath(__file__))
 D = json.load(open(os.path.join(REPO, "dataset.json"), encoding="utf-8"))
 P = [p for p in D["products"] if p["is_product"]]
 
@@ -190,4 +190,4 @@ for crit in ("protein", "carbs", "prebiotic", "meat", "taurine", "complete", "cl
 json.dump({"energy_rows": rows,
            "mc_stability": {k: [{"brand": p["brand"], "name": p["name"], "stable": round(s, 3)} for s, p in v]
                             for k, v in mc.items()}},
-          open("reanalysis_out.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+          open(os.path.join(REPO, "reanalysis_out.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)

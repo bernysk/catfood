@@ -1,6 +1,6 @@
 # Literatúra k prieskumu
 
-Odborné práce citované v [prieskume](../Prieskum_mokre_krmivo_macky.md) a v [revízii](../REVIEW_2026-10.md).
+Odborné práce citované v [prieskume](../mokre-krmivo/Prieskum_mokre_krmivo_macky.md) a v [revízii](../mokre-krmivo/REVIEW_2026-10.md).
 Kópie sú tu uložené **len pri prácach s otvorenou licenciou Creative Commons**, ktorá dovoľuje
 nezmenené šírenie s uvedením autorov. Ostatné sú len ako odkazy.
 
