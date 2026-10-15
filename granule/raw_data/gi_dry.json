@@ -641,10 +641,8 @@
     }
   ],
   "not_included": {
-    "Brit VD Gastrointestinal High Fibre / Low Fat (cat)": "Predávané v e-shopoch, stránka výrobcu na brit.pet sa nenašla.",
-    "Josera Help Gastrointestinal Cat": "Stránka výrobcu (josera.com/cs) produkt v čase zberu nezobrazila; e-shopové údaje sa nepoužívajú.",
-    "Trovet Intestinal (cat)": "Nenašla sa stránka výrobcu s etiketou pre SK/CZ.",
-    "Specific FID Digestive Support (cat)": "Nenašla sa stránka výrobcu s etiketou pre SK/CZ.",
-    "Monge VetSolution Gastrointestinal Felina": "Výrobca má len PDF list z roku 2016 bez energie; neoverená aktuálnosť pre SK/CZ."
+    "Specific FID Digestive Support (cat)": "Stránka výrobcu (specific-diets.com) pre SK/CZ sa nenašla (404); e-shopové údaje sa nepoužívajú.",
+    "Monge VetSolution (cat, granule)": "Výrobca má len PDF listy (časť z rokov 2016–2019), väčšinou pre mokré verzie a bez energie; aktuálnosť pre SK/CZ neoverená.",
+    "Josera Help (cat)": "Stránka výrobcu (josera.com/sk, /cs) líniu Help pre mačky v čase zberu nezobrazila; e-shopové údaje sa nepoužívajú."
   }
 }

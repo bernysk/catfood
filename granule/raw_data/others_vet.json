@@ -1,0 +1,769 @@
+{
+ "fetched_at": "2026-10-15",
+ "method": "urllib; text = HTML with tags replaced by spaces; sections cut at the label headings",
+ "products": [
+  {
+   "brand": "Brit",
+   "market": "SK",
+   "url": "https://brit.pet/sk/produkty/brit-gf-veterinary-care-cat-sterilised",
+   "http_status": 200,
+   "name": "Brit GF Veterinary Care Cat Sterilised",
+   "statement_raw": "Kompletné dietetické krmivo s lososom a hrachom pre kastrované mačky na kontrolu hmotnosti a podporu telesnej kondície.",
+   "sizes": [
+    "400g",
+    "2kg",
+    "5kg"
+   ],
+   "composition_raw": "Sušený losos (30%), žltý hrach, hydrolyzované proteíny z lososa (14%), hrachový proteín, kokosový olej, sušená jablčná dužina, lignocelulóza (2%), lososový olej (3%), hydrolyzovaný losos (2%), chlorid sodný, chlorid draselný, semená a plevy psýlia (1%), hrachová múka, sušené Vaccinium vitis-idaea (0,2%), sušené Urtica dioica (0,12%), sušené Carlina acaulis (0,08%), hydrolyzované kôrovce (zdroj glukozamín sulfátu, 0,036%), hydrolyzované chrupavky (zdroj chondroitín sulfátu, 0,025%), výťažok z kvasníc (zdroj mannán- oligosacharidov, 0,02%), β-glukány (0,02%), sušený rakytník (0,015%), frukto-oligosacharidy (0,013%), Yucca schidigera (0,012%), Lactobacillus helveticus HA – 122 inaktivované (15x109 buniek/kg).",
+   "additives_raw": "Vitamín A (3a672a) 24000 IU, vitamín D3 (3a671) 850 IU, vitamín E (3a700) 1000 mg, vitamín C (3a312) 300 mg, cholín chlorid (3a890) 2,300 mg, biotín (3a880) 3 mg, vitamín B1 (3a821) 10 mg, vitamín B2 (3a825i) 30 mg, niacínamid (3a315) 60 mg, kalcium D-pantotenát (3a841) 50 mg, vitamín B6 (3a831) 35 mg, kyselina listová (3a316) 15 mg, vitamín B12 0,15 mg, zinok (3b606) 110 mg, železo (3b106) 55 mg, mangán (3b504) 35 mg, jód (3b201) 3 mg, meď (3b406) 3 mg, selén (3b810) 0,2 mg, taurín (3a370) 2300 mg, L-karnitín (3a910) 600 mg, L-metionín (3c305) 6000 mg.",
+   "analytical_raw": "Proteíny 33 % Tuky 12 % Vláknina 3 % Popol 8,2 % Vlhkosť 10 % Omega-3 mastné kyseliny 1 % Omega-6 mastné kyseliny 0,8 % Vápnik 1 % Fosfor 0,7 % Sodík 1,1 % Draslík 0,6 % Horčík 0,05 % Metabolizovateľná energia: 3 600 kcal/kg",
+   "period_raw": "Používanie krmiva Brit VD konzultujte so svojím veterinárom. Krmivo podávajte suché alebo navlhčené vlažnou vodou. Zabezpečte, aby mala vaša mačka neustále prístup k čerstvej pitnej vode.",
+   "fetch_status": "ok"
+  },
+  {
+   "brand": "Brit",
+   "market": "SK",
+   "url": "https://brit.pet/sk/produkty/brit-gf-veterinary-diets-cat-calm-stress-relief",
+   "http_status": 200,
+   "name": "Brit GF Veterinary Diets Cat Calm & Stress Relief",
+   "statement_raw": "Kompletné a vyvážené krmivo s lososom a hráškom pre mačky, ktoré pomáha znižovať stres a podporuje pokojné chovanie v stresových situáciách.",
+   "sizes": [
+    "400g",
+    "2kg",
+    "5kg"
+   ],
+   "composition_raw": "Žltý hrach, sušený losos (26%), hrachový proteín, hydrolyzované proteíny hydinového mäsa (10%), srvátka (5%), lignocelulóza, kurací tuk, hydrolyzovaná kuracia pečeň, lososový olej (2%), semená a plevy psýlia (1%), síran vápenatý (0,7%, látka okysľujúca moč), výťažok z kvasníc (zdroj mannán-oligosacharidov, 0,022%), β-glukány (0,02%), frukto-oligosacharidy (0,02%), Yucca schidigera (0,02%), sušený rakytník (0,015%), Lactobacillus helveticus HA – 122 inaktivované (15x109 buniek/kg).",
+   "additives_raw": "Vitamín A (3a672a) 25000 IU, vitamín D3 (3a671) 500 IU, vitamín E (3a700) 1000 mg, cholín chlorid (3a890) 2300 mg, biotín (3a880) 3 mg, vitamín B1 (3a821) 10 mg, vitamín B2 (3a825i) 30 mg, niacínamid (3a315) 100 mg, kalcium D-pantotenát (3a841) 60 mg, vitamín B6 (3a831) 35 mg, kyselina listová (3a316) 15 mg, vitamín B12 0,18 mg, zinok (3b606) 120 mg, železo (3b106) 60 mg, mangán (3b504) 60 mg, jód (3b201) 4 mg, meď (3b406) 3,5 mg, selén (3b810) 0,2 mg, taurín (3a370) 2300 mg, L-karnitín (3a910) 230 mg, L-metionín (3c305) 4,000 mg, L-tryptofán (3c440) 4400 mg.",
+   "analytical_raw": "Proteíny 36 % Tuky 11 % Vláknina 4 % Popol 8,4 % Vlhkosť 10,0 Omega-3 mastné kyseliny 1 % Omega-6 mastné kyseliny 1,3 % Vápnik 1 % Fosfor 0,8 % Sodík 1,3 % Horčík 0,06 % Draslík 0,6 % Chloridy 1,8 % Síra 0,6 % Taurín 0,23 % Hydroxyprolín 0,4 % Vitamín D 500 IU/kg Metionín 1 % Metabolizovateľná energia: 3 520 kcal/kg",
+   "period_raw": "Používanie diétneho krmiva Brit VD konzultujte so svojím veterinárom. Krmivo má vlastnosti, ktoré znižujú obsah struvitu v moči a okysľujú moč. Krmivo podávajte suché alebo navlhčené vlažnou vodou a používajte ho po dobu 5–12 týždňov, spočiatku na rozpustenie struvitov a následne až 6 mesiacov na prevenciu ich opätovného vzniku. Pred použitím alebo pred predĺžením doby používania sa odporúča poradiť sa s veterinárnym lekárom. Zabezpečte, aby vaša mačka mala neustále prístup k čerstvej pitnej vode.",
+   "fetch_status": "ok"
+  },
+  {
+   "brand": "Brit",
+   "market": "SK",
+   "url": "https://brit.pet/sk/produkty/brit-gf-veterinary-diets-cat-diabetes",
+   "http_status": 200,
+   "name": "Brit GF Veterinary Diets Cat Diabetes",
+   "statement_raw": "Kompletné dietetické krmivo s kuracím mäsom a hrachom pre mačky s diabetes mellitus na reguláciu prísunu glukózy.",
+   "sizes": [
+    "400g",
+    "2kg",
+    "5kg"
+   ],
+   "composition_raw": "Sušené kuracie (48 %), žltý hrach (20 %), hrachová bielkovina zo žltého hrachu, kurací tuk (4 %), zemiaková bielkovina, bambusová lignocelulóza (2 %), lososový olej (2 %), hydrolyzovaná kuracia pečeň (2 %), minerálne látky, chlorid sodný, šupky a semená psyllia (0,5 %), sušené riasy (0,5 %, Ascophyllum nodosum), hydrolyzované schránky kôrovcov (zdroj glukozamín sulfátu, 0,035 %), hydrolyzované chrupavky (zdroj chondroitín sulfátu, 0,023 %), kvasnicový výťažok (zdroj mannánoligosacharidov, 0,018 %), β-glukány (0,018 %), rakytník rešetliakovitý (0,015 %), frukto-oligosacharidy (0,012 %), juka mohave (0,012 %).",
+   "additives_raw": "Vitamín A (3a672a) 26 000 IU, vitamín D3 (E671) 1 000 IU, vitamín E (3a700) 1 000 mg, vitamín C (3a312) 300 mg, cholín-chlorid (3a890) 2 300 mg, biotín (3a880) 3 mg, vitamín B1 (3a821) 10 mg, vitamín B2 30 mg, niacínamid (3a315) 60 mg, kalcium-pantotenát, D-forma (3a841) 60 mg, vitamín B6 (3a831) 35 mg, kyselina listová (3a316) 15 mg, vitamín B12 0,15 mg, hydrát zinočnatého chelátu s aminokyselinami (3b606) 110 mg, cheláty aminokyselín železa, hydráty (E1) 55 mg, chelát mangánu hydrátu aminokyselín (E5) 35 mg, jodid draselný (3b201) 3 mg, chelát medi hydrátu aminokyselín (E4) 3 mg, selén v organickej forme produkovaný mikroorganizmom Saccharomyces cerevisiae CNCM I-3060 (inaktivované kvasnice obohatené selénom) (3b8.10) 0,2 mg, taurín (3a370) 2 300 mg, L-karnitín (3a910) 600 mg, L-metionín (3c305) 4 000 mg. Stabilizátory črevnej mikroflóry na 1 kg Enterococcus faecium DSM 10663/NCIMB 10415 (4b1707) 1 x 109 CFU.",
+   "analytical_raw": "Hrubé bielkoviny 46 % Obsah tuku 13 % Vláknina 3 % Popol 7,7 % Vlhkosť 10 % Omega 3 0,55 % Omega 6 1,6 % Vápnik 1,3 % Fosfor 1 % Sodík 0,4 % Horčík 0,07 % Škrob 15 % Sacharidy celkom 0,8 % Metabolizovateľná energia: 3 740 kcal/kg",
+   "period_raw": "Používanie diétneho krmiva Brit VD konzultujte so svojím veterinárom. Krmivo podávajte suché alebo navlhčené vlažnou vodou a spočiatku ho používajte maximálne 6 mesiacov; pred začatím podávania alebo pred predĺžením doby podávania sa odporúča požiadať o stanovisko veterinára. Denná dávka krmiva by mala byť vašej mačke k dispozícii po celý deň. Zabezpečte, aby vaša mačka mala neustále prístup k čerstvej pitnej vode.",
+   "fetch_status": "ok"
+  },
+  {
+   "brand": "Brit",
+   "market": "SK",
+   "url": "https://brit.pet/sk/produkty/brit-gf-veterinary-diets-cat-gastrointestinal",
+   "http_status": 200,
+   "name": "Brit GF Veterinary Diets Cat Gastrointestinal",
+   "statement_raw": "Kompletné dietetické krmivo so sleďom a hrachom pre mačky s gastrointestinálnymi ochoreniami na zmiernenie akútnych črevných resorpčných porúch a kompenzáciu porúch trávenia.",
+   "sizes": [
+    "400g",
+    "2kg",
+    "5kg"
+   ],
+   "composition_raw": "Sušený sleď (40 %), žltý hrach (18 %), hydrolyzovaná lososová bielkovina (10 %), kurací tuk (9 %), vajcia (6 %), pohánka, jablková dužina, lososový olej (2 %), hydrolyzovaná šťava z lososa (2 %), bambusová lignocelulóza, minerálne látky, pivovarské kvasnice, šupky a semená psyllia (0,5 %), sušené riasy (0,5 %, Ascophyllum nodosum), kvasnicový výťažok (zdroj mannánoligosacharidov, 0,025 %), β-glukány (0,022 %), frukto-oligosacharidy (0,02 %), Juka, mohave (0,02 %), rakytník rešetliakovitý (0,015 %).",
+   "additives_raw": "Vitamín A (3a672a) 25 000 IU, vitamín D3 (E671) 850 IU, vitamín E (3a700) 1 000 mg, vitamín C (3a312) 300 mg, cholín-chlorid (3a890) 2 300 mg, biotín (3a880) 3 mg, vitamín B1 (3a821) 10 mg, vitamín B2 50 mg, niacínamid (3a315) 80 mg, kalcium-pantotenát, D-forma (3a841) 50 mg, vitamín B6 (3a831) 35 mg, kyselina listová (3a316) 15 mg, vitamín B12 0,18 mg, hydrát zinočnatého chelátu s aminokyselinami (3b606) 120 mg, cheláty aminokyselín železa, hydráty (E1) 60 mg, chelát mangánu hydrátu aminokyselín (E5) 60 mg, jodid draselný (3b201) 4 mg, chelát medi hydrátu aminokyselín (E4) 3,5 mg, selén v organickej forme produkovaný mikroorganizmom Saccharomyces cerevisiae CNCM I-3060 (inaktivované kvasnice obohatené selénom) (3b8.10) 0,2 mg, taurín (3a370) 2 300 mg, L-karnitín (3a910) 240 mg, L-metionín (3c305) 4 000 mg. Stabilizátory črevnej mikroflóry na 1 kg Enterococcus faecium DSM 10663/NCIMB 10415 (4b1707) 1 x 109 CFU.",
+   "analytical_raw": "Hrubé bielkoviny 34 % Obsah tuku 17 % Vláknina 3 % Popol 7,8 % Vlhkosť 10 % Omega 3 1,1 % Omega 6 2,5 % Vápnik 1,1 % Fosfor 0,9 % Sodík 1 % Horčík 0,09 % Draslík 0,5 % Metabolizovateľná energia: 3 840 kcal/kg",
+   "period_raw": "Používanie diétneho krmiva Brit VD konzultujte so svojím veterinárnym lekárom. Krmivo podávajte suché alebo navlhčené vlažnou vodou a v prípade akútnych porúch črevnej absorpcie ho používajte po dobu 1–2 týždňov. V prípade porúch trávenia používajte krmivo po dobu 3–12 týždňov. V prípade chronickej pankreatickej nedostatočnosti by sa krmivo malo podávať po celý život. Vo všetkých prípadoch sa odporúča pred použitím alebo pred predĺžením doby podávania konzultovať s veterinárnym lekárom.",
+   "fetch_status": "ok"
+  },
+  {
+   "brand": "Brit",
+   "market": "SK",
+   "url": "https://brit.pet/sk/produkty/brit-gf-veterinary-diets-cat-gastrointestinal-low-fat",
+   "http_status": 200,
+   "name": "Brit GF Veterinary Diets Cat Gastrointestinal-Low fat",
+   "statement_raw": "Kompletná a vyvážená nízkotučná diéta so sleďom a hrachom pre mačky s poruchou vstrebávania lipidov, enteropatiou so stratou bielkovín a pankreatitídou.",
+   "sizes": [
+    "400g",
+    "2kg",
+    "5kg"
+   ],
+   "composition_raw": "Žltý hrach (30%), sušené slede (26%), pohánka, hydrolyzované proteíny z lososa (10%), vajcia (4%), sušená jablčná dužina, lososový olej (3%), hydrolyzovaná šťava z lososa (2%), chlorid sodný, vaječné škrupiny (zdroj vápnika), semená a plevy psýlia (1%), pivovarské kvasnice (1%), hrachová múka, sušené riasy (0,5%, Ascophyllum nodosum), chlorid draselný, výťažok z kvasníc (zdroj mannán-oligosacharidov, 0,025%), β-glukány (0,022%), frukto-oligosacharidy (0,02%), Yucca schidigera (0,02%), sušený rakytník (0,015%), Lactobacillus helveticus HA – 122 inaktivované (15x109 buniek/kg).",
+   "additives_raw": "Vitamín A (3a672a) 25000 IU, vitamín D3 (3a671) 850 IU, vitamín E (3a700) 1000 mg, vitamín C (3a312) 300 mg, cholín chlorid (3a890) 2300 mg, biotín (3a880) 3 mg, vitamín B1 (3a821) 10 mg, vitamín B2 (3a825i) 50 mg, niacínamid (3a315) 80 mg, kalcium D-pantotenát (3a841) 50 mg, vitamín B6 (3a831) 35 mg, kyselina listová (3a316) 15 mg, vitamín B12 0,18 mg, zinok (3b606) 120 mg, železo (3b106) 60 mg, mangán (3b504) 60 mg, jód (3b201) 4 mg, meď (3b406) 3,5 mg, selén (3b810) 0,2 mg, taurín (3a370) 2300 mg. L-karnitín (3a910) 240 mg, L-metionín (3c305) 4000 mg.",
+   "analytical_raw": "Proteiny 32 % Tuky 8 % Vláknina 1,8 % Popol 7,2 % Vlhkosť 10 % Celkový obsah cukrov (NFE) 42,2 % Omega-3 mastné kyseliny 1,3 % Omega-6 mastné kyseliny 0,6 % Vápnik 1 % Fosfor 0,7 % Sodík 0,5 % Horčík 0,1 % Draslík 0,8 % Metabolizovateľná energia: 3 490 kcal/kg",
+   "period_raw": "Používanie diétneho krmiva Brit VD konzultujte so svojím veterinárnym lekárom. Vysoko stráviteľná strava. Krmivo podávajte suché alebo navlhčené vlažnou vodou s cieľom zmierniť poruchy vstrebávania v črevách: po dobu až 12 týždňov. V prípade porúch trávenia spočiatku po dobu až 12 týždňov a v prípade chronickej pankreatickej nedostatočnosti po celý život. Vo všetkých prípadoch sa odporúča pred použitím alebo pred predĺžením doby používania požiadať o názor veterinárneho lekára.",
+   "fetch_status": "ok"
+  },
+  {
+   "brand": "Brit",
+   "market": "SK",
+   "url": "https://brit.pet/sk/produkty/brit-gf-veterinary-diets-cat-hypoallergenic",
+   "http_status": 200,
+   "name": "Brit GF Veterinary Diets Cat Hypoallergenic",
+   "statement_raw": "Kompletné dietetické krmivo s lososom a hrachom pre mačky s potravinovou alergiou alebo dermatitídou na zníženie intolerancie zložiek a živín.",
+   "sizes": [
+    "400g",
+    "2kg",
+    "5kg"
+   ],
+   "composition_raw": "Sušený losos (30 %), žltý hrach (20 %), hydrolyzovaná lososová bielkovina (20 %), kokosový olej, pohánka, hrachová bielkovina zo žltého hrachu, jablková dužina, hydrolyzovaná šťava z lososa (2 %), lososový olej (2 %), minerálne látky, sušené riasy (0,5 %, Ascophyllum nodosum), sušené riasy (0,4 %, Schizochytrium limacinum), kvasnicový výťažok (zdroj mannánoligosacharidov, 0,02 %), β-glukány (0,02 %), rakytník rešetliakovitý (0,015 %), frukto-oligosacharidy (0,013 %), juka mohave (0,013 %).",
+   "additives_raw": "Vitamín A (3a672a) 25 000 IU, vitamín D3 (E671) 850 IU, vitamín E (3a700) 700 mg, vitamín C (3a312) 500 mg, cholín-chlorid (3a890) 2 300 mg, biotín (3a880) 4 mg, vitamín B1 (3a821) 10 mg, vitamín B2 30 mg, niacínamid (3a315) 50 mg, kalcium-pantotenát, D-forma (3a841) 50 mg, vitamín B6 (3a831) 35 mg, kyselina listová (3a316) 15 mg, vitamín B12 0,03 mg, hydrát zinočnatého chelátu s aminokyselinami (3b606) 150 mg, cheláty aminokyselín železa, hydráty (E1) 110 mg, chelát mangánu hydrátu aminokyselín (E5) 65 mg, jodid draselný (3b201) 4,2 mg, chelát medi hydrátu aminokyselín (E4) 12 mg, selén v organickej forme produkovaný mikroorganizmom Saccharomyces cerevisiae CNCM I-3060 (inaktivované kvasnice obohatené selénom) (3b8.10) 0,2 mg, taurín (3a370) 2 600 mg, L-karnitín (3a910) 75 mg, L-metionín (3c305) 4 000 mg. Stabilizátory črevnej mikroflóry na 1 kg Enterococcus faecium DSM 10663/NCIMB 10415 (4b1707) 1 x 109 CFU.",
+   "analytical_raw": "Hrubé bielkoviny 29 % Obsah tuku 17 % Vláknina 1,5 % Popol 7,2 % Vlhkosť 10 % Omega 3 1 % Omega 6 0,85 % Vápnik 1,3 % Fosfor 0,9 % EPA (20:5 n-3) 0,3 % DHA (22:6 n-3) 0,55 % Sodík 0,3 % Horčík 0,09 % Metabolizovateľná energia: 3 900 kcal/kg",
+   "period_raw": "Používanie diétneho krmiva Brit VD konzultujte so svojím veterinárom. Krmivo podávajte suché alebo navlhčené vlažnou vodou a používajte ho po dobu 3–8 týždňov. Ak príznaky neznášanlivosti a/alebo alergie ustúpia, krmivo môžete podávať neobmedzene dlho. Zabezpečte, aby vaša mačka mala neustále prístup k čerstvej pitnej vode.",
+   "fetch_status": "ok"
+  },
+  {
+   "brand": "Brit",
+   "market": "SK",
+   "url": "https://brit.pet/sk/produkty/brit-gf-veterinary-diets-cat-obesity",
+   "http_status": 200,
+   "name": "Brit GF Veterinary Diets Cat Obesity",
+   "statement_raw": "Kompletné dietetické krmivo s kuracím mäsom a hrachom pre mačky s nadváhou na zníženie nadmernej telesnej hmotnosti.",
+   "sizes": [
+    "400g",
+    "2kg",
+    "5kg"
+   ],
+   "composition_raw": "Sušené kuracie (42 %), žltý hrach (18 %), hrachová bielkovina zo žltého hrachu, bambusová lignocelulóza (8 %), jablková dužina, lososový olej (2 %), hydrolyzovaná kuracia pečeň (2 %), zemiaková bielkovina, kurací tuk (1 %), minerálne látky, šupky a semená psyllia (0,8 %), sušené riasy (0,5 %, Ascophyllum nodosum), hydrolyzované schránky kôrovcov (zdroj glukozamín sulfátu, 0,036 %), hydrolyzované chrupavky (zdroj chondroitín sulfátu, 0,025 %), kvasnicový výťažok (zdroj mannánoligosacharidov, 0,02 %), β-glukány (0,02 %), rakytník rešetliakovitý (0,015 %), frukto-oligosacharidy (0,013 %), juka mohave (0,012 %).",
+   "additives_raw": "Vitamín A (3a672a) 25 000 IU, vitamín D3 (E671) 850 IU, vitamín E (3a700) 1 000 mg, vitamín C (3a312) 300 mg, cholín-chlorid (3a890) 2 300 mg, biotín (3a880) 3 mg, vitamín B1 (3a821) 10 mg, vitamín B2 30 mg, niacínamid (3a315) 60 mg, kalcium-pantotenát, D-forma (3a841) 50 mg, vitamín B6 (3a831) 35 mg, kyselina listová (3a316) 15 mg, vitamín B12 0,15 mg, hydrát zinočnatého chelátu s aminokyselinami (3b606) 110 mg, cheláty aminokyselín železa, hydráty (E1) 55 mg, chelát mangánu hydrátu aminokyselín (E5) 35 mg, jodid draselný (3b201) 3 mg, chelát medi hydrátu aminokyselín (E4) 3 mg, selén v organickej forme produkovaný mikroorganizmom Saccharomyces cerevisiae CNCM I-3060 (inaktivované kvasnice obohatené selénom) (3b8.10) 0,2 mg, taurín (3a370) 2 300 mg, L-karnitín (3a910) 600 mg, L-metionín (3c305) 4 000 mg. Stabilizátory črevnej mikroflóry na 1 kg Enterococcus faecium DSM 10663/NCIMB 10415 (4b1707) 1 x 109 CFU.",
+   "analytical_raw": "Hrubé bielkoviny 43 % Obsah tuku 10 % Vláknina 6 % Popol 7 % Vlhkosť 10 % Omega-3 0,5 % Omega-6 1 % Vápnik 1,2 % Fosfor 1 % Sodík 0,3 % Horčík 0,06 % Metabolizovateľná energia: 3 480 kcal/kg",
+   "period_raw": "Používanie diétneho krmiva Brit VD konzultujte so svojím veterinárom. Krmivo podávajte suché alebo navlhčené vlažnou vodou a používajte ho, kým vaša mačka nedosiahne požadovanú hmotnosť. Zabezpečte, aby vaša mačka mala neustále prístup k čerstvej pitnej vode.",
+   "fetch_status": "ok"
+  },
+  {
+   "brand": "Brit",
+   "market": "SK",
+   "url": "https://brit.pet/sk/produkty/brit-gf-veterinary-diets-cat-renal",
+   "http_status": 200,
+   "name": "Brit GF Veterinary Diets Cat Renal",
+   "statement_raw": "Kompletné dietetické krmivo s vajcami a hrachom pre mačky s chronickou pečeňovou nedostatočnosťou na podporu funkcie pečene.",
+   "sizes": [
+    "400g",
+    "2kg",
+    "5kg"
+   ],
+   "composition_raw": "Vajcia (26 %), žltý hrach (25 %), hydrolyzovaná lososová bielkovina (10 %), hydrolyzovaná kuracia bielkovina (8 %), kurací tuk (8 %), pohánka, jablková dužina, lososový olej (2 %), hydrolyzovaná kuracia pečeň (2 %), vaječné škrupiny (zdroj vápnika), minerálne látky, pivovarské kvasnice, citrónan draselný (0,8 %), šupky a semená psyllia (0,5 %), sušené riasy (0,5 %, Ascophyllum nodosum), chitosan (0,08 %), kvasnicový výťažok (zdroj mannánoligosacharidov, 0,025 %), β-glukány (0,022 %), frukto-oligosacharidy (0,02 %), juka mohave (0,02 %), rakytník rešetliakovitý (0,015 %).",
+   "additives_raw": "Vitamín A (3a672a) 25 000 IU, vitamín D3 (E671) 850 IU, vitamín E (3a700) 1 000 mg, vitamín C (3a312) 400 mg, cholín-chlorid (3a890) 2 300 mg, biotín (3a880) 3 mg, vitamín B1 (3a821) 10 mg, vitamín B2 30 mg, niacínamid (3a315) 100 mg, kalcium-pantotenát, D-forma (3a841) 60 mg, vitamín B6 (3a831) 35 mg, kyselina listová (3a316) 15 mg, vitamín B12 0,18 mg, hydrát zinočnatého chelátu s aminokyselinami (3b606) 120 mg, cheláty aminokyselín železa, hydráty (E1) 60 mg, chelát mangánu hydrátu aminokyselín (E5) 60 mg, jodid draselný (3b201) 4 mg, chelát medi hydrátu aminokyselín (E4) 3,5 mg, selén v organickej forme produkovaný mikroorganizmom Saccharomyces cerevisiae CNCM I-3060 (inaktivované kvasnice obohatené selénom) (3b8.10) 0,2 mg, taurín (3a370) 2 300 mg, L-karnitín (3a910) 230 mg, arginín (3c3.6.1.) 3 200 mg, L-metionín (3c305) 4 000 mg. Stabilizátory črevnej mikroflóry na 1 kg Enterococcus faecium DSM 10663/NCIMB 10415 (4b1707) 1 x 109 CFU.",
+   "analytical_raw": "Hrubé bielkoviny 23 % Obsah tuku 19 % Vláknina 2,2 % Popol 5,2 % Vlhkosť 10 % Omega-3 0,75 % Omega-6 3 % Vápnik 0,7 % Fosfor 0,4 % Sodík 0,3 % Horčík 0,08 % Draslík 0,5 % Arginín 0,65 % Taurín 0,23 % Metabolizovateľná energia: 4 000 kcal/kg",
+   "period_raw": "Používanie diétneho krmiva Brit VD konzultujte so svojím veterinárom. Krmivo podávajte suché alebo navlhčené vlažnou vodou a používajte ho maximálne 6 mesiacov; pred začatím používania alebo pred predĺžením doby používania sa odporúča požiadať o stanovisko veterinára. Hmotnosť a zdravotný stav vašej mačky musí pravidelne kontrolovať veterinár. Zabezpečte, aby vaša mačka mala neustále prístup k čerstvej pitnej vode.",
+   "fetch_status": "ok"
+  },
+  {
+   "brand": "Brit",
+   "market": "SK",
+   "url": "https://brit.pet/sk/produkty/brit-gf-veterinary-diets-cat-struvite",
+   "http_status": 200,
+   "name": "Brit GF Veterinary Diets Cat Struvite",
+   "statement_raw": "Kompletné dietetické krmivo s kuracím mäsom a hrachom pre dospelé mačky so struvitovými kameňmi alebo ochorením močových ciest na rozpúšťanie struvitových kameňov a zníženie rizika ich opätovného vzniku.",
+   "sizes": [
+    "400g",
+    "2kg",
+    "5kg"
+   ],
+   "composition_raw": "Sušené kuracie (20 %), žltý hrach (16 %), hrachová bielkovina zo žltého hrachu, kurací tuk (10 %), hydrolyzovaná kuracia bielkovina (10 %), pohánka, zelený hrach (6 %), chlorid sodný (3 %), jablková dužina, zemiaková bielkovina, lososový olej (2 %), hydrolyzovaná kuracia pečeň (2 %), minerálne látky, pivovarské kvasnice, síran vápenatý (0,7 %, látka okysľujúca moč), sušené riasy (0,5 %, Ascophyllum nodosum), brusnice (0,3 %, Vaccinium vitis-idaea), kvasnicový výťažok (zdroj mannánoligosacharidov, 0,022 %), β-glukány (0,02 %), frukto-oligosacharidy (0,02 %), juka mohave (0,02 %), rakytník rešetliakovitý (0,015 %).",
+   "additives_raw": "Vitamín A (3a672a) 25 000 IU, vitamín D3 (E671) 500 IU, vitamín E (3a700) 1 000 mg, cholín-chlorid (3a890) 2 300 mg, biotín (3a880) 3 mg, vitamín B1 (3a821) 10 mg, vitamín B2 30 mg, niacínamid (3a315) 100 mg, kalcium-pantotenát, D-forma (3a841) 60 mg, vitamín B6 (3a831) 35 mg, kyselina listová (3a316) 15 mg, vitamín B12 0,18 mg, hydrát zinočnatého chelátu s aminokyselinami (3b606) 120 mg, cheláty aminokyselín železa, hydráty (E1) 60 mg, chelát mangánu hydrátu aminokyselín (E5) 60 mg, jodid draselný (3b201) 4 mg, chelát medi hydrátu aminokyselín (E4) 3,5 mg, selén v organickej forme produkovaný mikroorganizmom Saccharomyces cerevisiae CNCM I-3060 (inaktivované kvasnice obohatené selénom) (3b8.10) 0,2 mg, taurín (3a370) 2 300 mg, L-karnitín (3a910) 230 mg, L-metionín (3c305) 7 000 mg, L-tryptofán (3.4.1.) 1 400 mg. Stabilizátory črevnej mikroflóry na 1 kg Enterococcus faecium DSM 10663/NCIMB 10415 (4b1707) 1 x 109 CFU.",
+   "analytical_raw": "Hrubé bielkoviny 34 % Obsah tuku 16 % Vláknina 2,2 % Popol 8,7 % Vlhkosť 10 % Omega-3 0,6 % Omega-6 2,1 % Vápnik 0,8 % Fosfor 0,7 % Sodík 1,3 % Horčík 0,06 % Draslík 0,45 % Chloridy 1,8 % Síra 0,6 % Taurín 0,23 % Hydroxyprolín 0,4 % Vitamín D 500 I.U./kg L-metionín 1 % Metabolizovateľná energia: 3 800 kcal/kg",
+   "period_raw": "Používanie diétneho krmiva Brit VD konzultujte so svojím veterinárom. Krmivo podávajte suché alebo navlhčené vlažnou vodou a používajte ho počas 5–12 týždňov na rozpustenie struvitových kameňov a až 6 mesiacov na prevenciu ich opätovného vzniku. Pred začatím podávania alebo pred predĺžením doby podávania sa odporúča poradiť sa s veterinárom. Zabezpečte, aby vaša mačka mala neustále prístup k čerstvej pitnej vode.",
+   "fetch_status": "ok"
+  },
+  {
+   "brand": "Brit",
+   "market": "SK",
+   "url": "https://brit.pet/sk/produkty/brit-gf-veterinary-diets-cat-ultra-hypoallergenic",
+   "http_status": 200,
+   "name": "Brit GF Veterinary Diets Cat Ultra-hypoallergenic",
+   "statement_raw": "Kompletná a vyvážená hypoalergénna diéta s hmyzím proteínom pre mačky s potravinovou alergiou alebo intoleranciou.",
+   "sizes": [
+    "400g",
+    "2kg",
+    "5kg"
+   ],
+   "composition_raw": "Sušený hmyz (30%), žltý hrach, sušená jablčná dužina, kokosový olej, hrachový proteín, ľanové semiačka (4%), uhličitan vápenatý, sušené riasy (2.5%, Schizochytrium limacinum), hrachová múka, hydrolyzované kvasnice (0,5% - zdroj inozitolu a aminokyselín), výťažok z kvasníc (zdroj mannán-oligosacharidov, 0,02%), β-glukány (0,02%), sušený rakytník (0,015%), frukto-oligosacharidy (0,013%), Yucca schidigera (0,013%), Lactobacillus helveticus HA – 122 inaktivované (15x109 buniek/kg).",
+   "additives_raw": "Vitamín A (3a672a) 24000 IU, vitamín D3 (3a671) 850 IU, vitamín E (3a700) 1000 mg, vitamín C (3a312) 300 mg, cholín chlorid (3a890) 2300 mg, biotín (3a880) 3 mg, vitamín B1 (3a821) 10 mg, vitamín B2 (3a825i) 30 mg, niacínamid (3a315) 60 mg, kalcium D-pantotenát (3a841) 50 mg, vitamín B6 (3a831) 35 mg, kyselina listová (3a316) 15 mg,vitamín B12 0,15 mg, zinok (3b606) 110 mg, železo (3b106) 55 mg, mangán (3b504) 35 mg, jód (3b201) 3 mg, meď (3b406) 3 mg, selén (3b810) 0,2 mg, taurín (3a370) 2300 mg, L-karnitín (3a910) 600 mg, L-metionín (3c305) 6000 mg.",
+   "analytical_raw": "Proteíny 30 % Tuky 15 % Vláknina 2 % Popol 5,5 % Vlhkosť 10 % Omega-3 mastné kyseliny 1,4 % Omega-6 mastné kyseliny 0,9 % EPA (20:5 n-3) 0,25 % DHA (22:6 n-3) 0,35 % LA (18:2 n-6) 2,2 % Vápnik 0,9 % Fosfor 0,5 % Sodík 0,9 % Horčík 0,1 % Metabolizovateľná energia: 3 850 kcal/kg",
+   "period_raw": "Používanie diétneho krmiva Brit VD konzultujte so svojím veterinárom. Krmivo s vysokým obsahom kyseliny linolovej (LA) a súčtom kyseliny eikosapentaénovej (EPA) a dokosahexaénovej (DHA). Krmivo podávajte suché alebo navlhčené vlažnou vodou a používajte ho po dobu 3–8 týždňov; ak príznaky neznášanlivosti ustúpia, toto krmivo môžete spočiatku podávať až po dobu jedného roka. V prípade dermatózy a nadmerného vypadávania srsti podávajte spočiatku po dobu až 2 mesiacov. Zabezpečte, aby vaša mačka mala neustále prístup k čerstvej pitnej vode.",
+   "fetch_status": "ok"
+  },
+  {
+   "brand": "Brit",
+   "market": "SK",
+   "url": "https://brit.pet/sk/produkty/brit-grain-free-vd-cat-gastrointestinal-high-fibre",
+   "http_status": 200,
+   "name": "Brit Grain-Free VD Cat Gastrointestinal High Fibre",
+   "statement_raw": "Kompletné dietetické bezlepkové krmivo s vysokým obsahom vlákniny pre mačky na podporu zdravého trávenia a prevenciu zápchy a tvorby trichobezoárov.",
+   "sizes": [
+    "400g",
+    "2kg",
+    "5kg"
+   ],
+   "composition_raw": "Sušené slede (36 %), hrach (23 %), hydrolyzovaný lososový proteín (10 %), lignocelulóza (7 %), hmyzí tuk (8,5 %), hrachový proteín (7 %), lososový olej (2 %), hydrolyzovaná šťava z lososa (2 %), semená a plevy psyllia (2 %), pivovarské kvasnice (1 %), hrachová múka, olej z mikrorias (0,5 %, Schizochytrium limacinum), sušené riasy (0,5 %, Ascophyllum nodosum), výťažok z kvasníc (zdroj mannan-oligosacharidov, 0,025 %), β-glukány (0,022 %), frukto-oligosacharidy (0,02 %), juka schidigera (0,02 %), sušený rakytník rešetliakový (0,015 %), inaktivované baktérie a ich časti (Lactobacillus helveticus HA – 122, 15x109 buniek/kg).",
+   "additives_raw": "Vitamín A (3a672a) 25000 IU, vitamín D3 (3a671) 850 IU, vitamín E (3a700) 1000 mg, vitamín C (3a312) 300 mg, cholín chlorid (3a890) 2300 mg, biotín (3a880) 3,0 mg, vitamín B1 (3a821) 10,0 mg, vitamín B2 (3a825i) 50 mg, niacínamid (3a315) 80 mg, D-pantothenan vápenatý (3a841) 50 mg, vitamín B6 (3a831) 35 mg, kyselina listová (3a316) 15 mg, vitamín B12 (3a835) 0,18 mg, zinok (3b612) 120 mg, železo (3b107) 60 mg, mangán (3b505) 60 mg, jodid draselný (3b201) 4 mg, meď (3b407) 3,5 mg, selén (3b810) 0,2 mg, taurín (3a370) 2300 mg, L-karnitín (3a910) 240 mg, L-metionín (3c305) 4000 mg. Obsahuje antioxidanty schválené EU Tokoferolové extrakty z rastlinných olejov (1b306(i)), askorbylpalmitát (1b304).",
+   "analytical_raw": "Hrubé bielkoviny 36 % Hrubý obsah tuku 16 % Hrubá vláknina 6,8 % Hrubý popol 7 % Vlhkosť 10 % Celkový obsah cukrov (ako NFE) 24,2 % Omega-3 mastné kyseliny 1,3 % Omega-6 mastné kyseliny 3 % Vápnik 1,2 % Fosfor 0,9 % Sodík 0,5 % Horčík 0,1 % Draslík 0,8 % Metabolizovateľná energia: 3 645 kcal/kg",
+   "period_raw": "Vysoko stráviteľná strava. Na zmiernenie porúch vstrebávania v črevách: až 12 týždňov. V prípade porúch trávenia spočiatku až 12 týždňov a v prípade chronickej pankreatickej nedostatočnosti po celý život. Vo všetkých prípadoch sa odporúča pred použitím alebo pred predĺžením doby používania konzultovať s veterinárnym lekárom. Krmivo podávajte suché alebo navlhčené vlažnou vodou.",
+   "fetch_status": "ok"
+  },
+  {
+   "brand": "Farmina",
+   "market": "CZ",
+   "url": "https://www.farmina.com/cz/eshop/krmivo-pro-va%C5%A1i-ko%C4%8Dku/farmina-vet-life-feline/79-gastrointestinal-feline.html",
+   "http_status": 200,
+   "name": "Vet Life Gastrointestinal feline",
+   "statement_raw": "kompletní dietetické krmivo pro kočky určené jako podpora pro omezení střevních resorpčních onemocnění",
+   "period_raw": "do 12 týdnů",
+   "sizes": [
+    "400g",
+    "2kg",
+    "5kg",
+    "10kg"
+   ],
+   "composition_raw": "Dehydrovaný kuřecí protein, rýže, kuřecí tuk, kukuřičný gluten, lněné semínko, špalda, hydrolyzovaný rybí protein, dehydrovaný rybí protein, sušené řepné řízky, rybí olej, sušená vejce, vláknina z hrachu, semena a slupky psyllia, sušené pivovarské kvasnice, chlorid draselný, inulin (0,6 %), fruktooligosacharidy (0,6 %), extrakt z kvasnic (zdroj mannanoligosacharidů) (0,6 %), chlorid sodný, dihydrogenfosforečnan sodný, dihydrát síranu vápenatého. Zdroj mucinogenních látek: semena a slupky psyllia.",
+   "additives_raw": "– nutriční doplňkové látky: Vitamín A 22000IU; Vitamín D3 1500IU; Vitamín E 600 mg; Vitamín C 300 mg; Niacin 150 mg; Kalcium D-Pantothenát 50 mg; Vitamín B2 20 mg; Vitamín B6 8 mg; Vitamín B1 12 mg; Biotin 1,5 mg; Kyselina listová 1,5 mg; Vitamín B12 0,1 mg; Cholin chlorid 3000 mg; Betakaroten 1,5 mg; Zinek (chelát zinku hydroxy analogu methioninu): 130,5 mg; Mangan (chelát manganu hydroxy analogu methioninu): 65,5 mg; Železo (chelátová forma Železa(II), hydrát): 43,1 mg; Měď (chelát mědi hydroxy analogu methioninu): 10,8 mg; Selen (inaktivované kvasinky obohacené selenem): 0,13200 mg; Jód (jodičnan vápenatý bezvodý): 1,56 mg; DL-methionin, technicky čistý 7000 mg; Taurin 2500 mg; L-karnitin 500 mg. Technologické doplňkové látky: mikrokrystalická celulóza. Antioxidanty: extrakty tokoferolu z rostlinných olejů 10 mg.",
+   "analytical_raw": "Hrubý protein 33 %; hrubý tuk 21,5 %; hrubá vláknina 1,7 %; hrubý popel 7,3 %; Vápník 1 %; Fosfor 0,90 %; Sodík 0,5 %; Draslík 0,90 %; Hořčík 0,09 %; Omega-6 mastné kyseliny 3,5 %; Omega-3 mastné kyseliny 0,65 %; EPA 0,15 %; DHA 0,3 %. energetická hodnota EM Kcal/Kg 4253 - Mj/Kg 17,79",
+   "is_dry": true,
+   "fetch_status": "ok"
+  },
+  {
+   "brand": "Farmina",
+   "market": "CZ",
+   "url": "https://www.farmina.com/cz/eshop/krmivo-pro-va%C5%A1i-ko%C4%8Dku/farmina-vet-life-feline/90-hepatic-feline.html",
+   "http_status": 200,
+   "name": "Vet Life Hepatic feline",
+   "statement_raw": "kompletní dietetické krmivo pro kočky, určené pro podporu jaterních funkcí v případě chronické jaterní nedostatečnosti",
+   "period_raw": "ze začátku podávejte produkt až 4 měsíce",
+   "sizes": [
+    "400g",
+    "2kg",
+    "10kg"
+   ],
+   "composition_raw": "Špalda, kukuřičný gluten, hydrolyzovaný rybí protein, oves, kuřecí tuk, rybí olej, dehydrovaný kuřecí protein, uhličitan vápenatý, lněné semínko, chlorid draselný, rýžový škrob, sušené řepné řízky, fruktooligosacharidy, extrakt z kvasnic (zdroj mannanoligosacharidů), chlorid sodný, sušené pivovarské kvasnice. Zdroje proteinů: kukuřičný gluten, hydrolyzovaný rybí protein, dehydrovaný kuřecí protein.",
+   "additives_raw": "– nutriční doplňkové látky: Vitamín A 15000IU; Vitamín D3 900IU; Vitamín E 900 mg; Vitamín C 150 mg; Niacin 38 mg; Kalcium D-Pantothenát 15 mg; Vitamín B2 7,5 mg; Vitamín B6 6 mg; Vitamín B1 4,5 mg; Biotin 0,4 mg; Kyselina listová 0,45 mg; Vitamín B12 0,06 mg; Cholin chlorid 2800 mg; Betakaroten 1,5 mg; Zinek (chelát zinku hydroxy analogu methioninu): 190,8 mg; Mangan (chelát manganu hydroxy analogu methioninu): 68 mg; Železo (chelátová forma Železa(II), hydrát): 43,1 mg; Selen (inaktivované kvasinky obohacené selenem): 0,14960 mg; Jód (jodičnan vápenatý bezvodý): 1,56 mg; DL-methionin, technicky čistý 6000 mg; Taurin 4800 mg; L-Lysin-monohydrochlorid, technicky čistý 4500 mg; L -karnitin 650 mg. Antioxidanty: extrakty tokoferolu z rostlinných olejů 10 mg.",
+   "analytical_raw": "Hrubý protein 26 %; hrubý tuk 20 %; hrubá vláknina 2,2 %; hrubý popel 6,90 %; Vápník 0,85 %; Fosfor 0,65 %; Sodík 0,4 %; Draslík 0,7 %; Hořčík 0,075 %; Omega-6 mastné kyseliny 3 %; Omega-3 mastné kyseliny 0,90 %; EPA 0,18 %; DHA 0,25 %, esenciální mastné kyseliny 0,55 %; celkový obsah mědi: 6,5 mg/kg. energetická hodnota EM Kcal/Kg 4132 - Mj/Kg 17,29",
+   "is_dry": true,
+   "fetch_status": "ok"
+  },
+  {
+   "brand": "Farmina",
+   "market": "CZ",
+   "url": "https://www.farmina.com/cz/eshop/krmivo-pro-va%C5%A1i-ko%C4%8Dku/farmina-vet-life-feline/80-struvite-feline.html",
+   "http_status": 200,
+   "name": "Vet Life Struvite feline",
+   "statement_raw": "kompletní dietetické krmivo pro kočky určené pro rozpouštění a snížení recidivy tvorby struvitových kamenů",
+   "period_raw": "od 5 do 12 týdnů v případě rozpouštění struvitových kamenů; ze začátku až 6 měsíců pokud chceme redukovat riziko jejich opakovaného výskytu",
+   "sizes": [
+    "400g",
+    "2kg",
+    "10kg"
+   ],
+   "composition_raw": "Kukuřičný gluten, rýže, dehydrovaný kuřecí protein, oves, kuřecí tuk, hydrolyzovaný rybí protein, sušená vejce, rybí olej, dehydrovaný rybí protein, chlorid draselný, dihydrát síranu vápenatého, uhličitan vápenatý, inulin, fruktooligosacharidy, extrakt z kvasnic (zdroj mannanoligosacharidů), chlorid sodný. Zdroje proteinů: kukuřičný gluten, dehydrovaný kuřecí protein, hydrolyzovaný rybí protein, sušená vejce, dehydrovaný rybí protein.",
+   "additives_raw": "– nutriční doplňkové látky: Vitamín A 15000IU; Vitamín D3 600IU; Vitamín E 550 mg; Vitamín C 250 mg; Niacin 125 mg; Kalcium D-Pantothenát 42 mg; Vitamín B2 17 mg; Vitamín B6 7 mg; Vitamín B1 8 mg; Biotin 1,3 mg; Kyselina listová 1,3 mg; Vitamín B12 0,08 mg; Cholin chlorid 1900 mg; Betakaroten 1,5 mg; Zinek (chelát zinku hydroxy analogu methioninu): 130,5 mg; Mangan (chelát manganu hydroxy analogu methioninu): 65,5 mg; Železo (chelátová forma Železa(II), hydrát): 43,1 mg; Měď (chelát mědi hydroxy analogu methioninu): 10,8 mg; Selen (inaktivované kvasinky obohacené selenem): 0,13200 mg; Jód (jodičnan vápenatý bezvodý): 1,56 mg; DL-methionin, technicky čistý 7000 mg; Taurin 2000 mg; L-Lysin-monohydrochlorid, technicky čistý 1000 mg; L -karnitin 250 mg. Antioxidanty: extrakty tokoferolu z rostlinných olejů 10 mg.",
+   "analytical_raw": "Hrubý protein 34 %; hrubý tuk 16 %; hrubá vláknina 1,2 %; hrubý popel 5,90 %; Vápník 0,8 %; Fosfor 0,6 %; Sodík 0,26 %; Draslík 0,7 %; Hořčík 0,06 %; Chloridy 0,95 %; Síra 0,4 %; Omega-6 mastné kyseliny 2,90 %; Omega-3 mastné kyseliny 0,6 %; EPA 0,1 %; DHA 0,15 %. Acidifikátor moči: DL-methionin, technicky čistý (7g/kg), dihydrát síranu vápenatého (5g/kg). energetická hodnota EM Kcal/Kg 4080 - Mj/Kg 17,07",
+   "is_dry": true,
+   "fetch_status": "ok"
+  },
+  {
+   "brand": "Farmina",
+   "market": "CZ",
+   "url": "https://www.farmina.com/cz/eshop/krmivo-pro-va%C5%A1i-ko%C4%8Dku/farmina-vet-life-feline/81-struvite-management-feline.html",
+   "http_status": 200,
+   "name": "Vet Life Struvite Management feline",
+   "statement_raw": "kompletní dietetické krmivo pro kočky určené pro rozpouštění a snížení recidivy tvorby struvitových kamenů",
+   "period_raw": "ze začátku až 6 měsíců",
+   "sizes": [
+    "400g",
+    "2kg",
+    "5kg",
+    "10kg"
+   ],
+   "composition_raw": "Kukuřičný gluten, rýže, dehydratovaný kuřecí protein, oves, kuřecí tuk, hydrolyzovaný rybí protein, sušená vejce, rybí olej, dehydratovaný rybí protein, chlorid draselný, uhličitan vápenatý, fruktooligosacharidy, extrakt z kvasnic (zdroj mannanoligosacharidů), chlorid sodný, glukosamin.",
+   "additives_raw": "– nutriční doplňkové látky: Vitamín A 15000IU; Vitamín D3 600IU; Vitamín E 550 mg; Vitamín C 250 mg; Niacin 125 mg; Kalcium D-Pantothenát 42 mg; Vitamín B2 17 mg; Vitamín B6 7 mg; Vitamín B1 8 mg; Biotin 1,3 mg; Kyselina listová 1,3 mg; Vitamín B12 0,08 mg; Cholin chlorid 2500 mg; Betakaroten 1,5 mg; Zinek (chelát zinku hydroxy analogu methioninu): 130,5 mg; Mangan (chelát manganu hydroxy analogu methioninu): 65,5 mg; Železo (chelátová forma Železa(II), hydrát): 43,1 mg; Měď (chelát mědi hydroxy analogu methioninu): 10,8 mg; Selen (inaktivované kvasinky obohacené selenem): 0,13200 mg; Jód (jodičnan vápenatý bezvodý): 1,56 mg; DL-methionin, technicky čistý 2500 mg; Taurin 2000 mg; L-Lysin-monohydrochlorid, technicky čistý 1000 mg; L -karnitin 250 mg. Antioxidanty: extrakty tokoferolu z rostlinných olejů 10 mg. Regulátor kyselosti: chlorid amonný 3500 mg.",
+   "analytical_raw": "Hrubý protein 33 %; hrubý tuk 16,5 %; hrubá vláknina 1,2 %; hrubý popel 6,6 %; Vápník 0,85 %; Fosfor 0,7 %; Sodík 0,4 %; Draslík 0,75 %; Hořčík 0,06 %; Chlorid 0,95 %; Síra 0,4 %; Omega-6 mastné kyseliny 3 %; Omega-3 mastné kyseliny 0,6 %; EPA 0,1 %; DHA 0,15 %. Acidifikátor moči: chlorid amonný (3,5g/kg); DL-methionin, technicky čistý (2,5g/kg). energetická hodnota EM Kcal/Kg 4072 - Mj/Kg 17,03",
+   "is_dry": true,
+   "fetch_status": "ok"
+  },
+  {
+   "brand": "Farmina",
+   "market": "CZ",
+   "url": "https://www.farmina.com/cz/eshop/krmivo-pro-va%C5%A1i-ko%C4%8Dku/farmina-vet-life-feline/82-renal-feline.html",
+   "http_status": 200,
+   "name": "Vet Life Renal feline",
+   "statement_raw": "kompletní dietetické krmivo pro kočky určené pro podporu funkce ledvin v případě chronické nebo dočasné ledvinové nedostatečnosti",
+   "period_raw": "ze začátku podávejte produkt až 6 měsíců v případě chronické ledvinové nedostatečnosti; 2 - 4 týdny v případě dočasné ledvinové nedostatečnosti",
+   "sizes": [
+    "400g",
+    "2kg",
+    "5kg",
+    "10kg"
+   ],
+   "composition_raw": "Rýže, kukuřičný gluten, dehydrovaný kuřecí protein, kuřecí tuk, sušená vejce, hydrolyzovaný rybí protein, chlorid draselný, dehydrovaný rybí protein, rybí olej, uhličitan vápenatý, inulin, fruktooligosacharidy, extrakt z kvasnic (zdroj mannanoligosacharidů), chlorid sodný, glukosamin (500 mg/kg). Zdroj proteinů: kukuřičný gluten, dehydrovaný kuřecí protein, sušená vejce, hydrolyzovaný rybí protein, dehydrovaný rybí protein.",
+   "additives_raw": "– nutriční doplňkové látky: Vitamín A 15000IU; Vitamín D3 600IU; Vitamín E 550 mg; Vitamín C 250 mg; Niacin 125 mg; Kalcium D-Pantothenát 42 mg; Vitamín B2 17 mg; Vitamín B6 7 mg; Vitamín B1 8 mg; Biotin 1,3 mg; Kyselina listová 1,3 mg; Vitamín B12 0,08 mg; Cholin chlorid 2500 mg; Betakaroten 1,5 mg; Zinek (chelát zinku hydroxy analogu methioninu): 130,5 mg; Mangan (chelát manganu hydroxy analogu methioninu): 65,5 mg; Železo (chelátová forma Železa(II), hydrát): 43,1 mg; Měď (chelát mědi hydroxy analogu methioninu): 9,7 mg; Selen (inaktivované kvasinky obohacené selenem): 0,13200 mg; Jód (jodičnan vápenatý bezvodý): 1,56 mg; DL-methionin, technicky čistý 5000 mg; Taurin 2000 mg; L-Lysin-monohydrochlorid, technicky čistý 2000 mg; L-tryptofan 2000 mg; L -karnitin 250 mg. Technologické doplňkové látky: citrát draselný 3000 mg; mikrokrystalická celulóza. Antioxidanty: extrakty tokoferolu z rostlinných olejů 10 mg.",
+   "analytical_raw": "Hrubý protein 24,5 %; hrubý tuk 20 %; hrubá vláknina 0,90 %; hrubý popel 5,3 %; Vápník 0,6 %; Fosfor 0,4 %; Sodík 0,25 %; Draslík 0,7 %; Hořčík 0,060 %; Omega-3 mastné kyseliny 0,6 %; Omega-6 mastné kyseliny 3,5 %; EPA 0,1 %; DHA 0,15 %. Alkalizátor moči: citrát draselný (3g/kg). energetická hodnota EM Kcal/Kg 4241 - Mj/Kg 17,74",
+   "is_dry": true,
+   "fetch_status": "ok"
+  },
+  {
+   "brand": "Farmina",
+   "market": "CZ",
+   "url": "https://www.farmina.com/cz/eshop/krmivo-pro-va%C5%A1i-ko%C4%8Dku/farmina-vet-life-feline/89-cardiac-feline.html",
+   "http_status": 200,
+   "name": "Vet Life Cardiac feline",
+   "statement_raw": "kompletní dietetické krmivo pro kočky, určené pro podporu srdeční funkce v případě chronické srdeční nedostatečnosti",
+   "period_raw": "ze začátku podávejte produkt až 6 měsíců",
+   "sizes": [
+    "400g",
+    "2kg",
+    "10kg"
+   ],
+   "composition_raw": "Špalda, kukuřičný gluten, kuřecí tuk, dehydrovaný kuřecí protein, hydrolyzovaný rybí protein, oves, rybí olej, sušená vejce, uhličitan vápenatý, lněné semínko, chlorid draselný, vláknina z hrachu, sušené řepné řízky, fruktooligosacharidy, extrakt z kvasnic (zdroj mannanoligosacharidů), sušené pivovarské kvasnice.",
+   "additives_raw": "– nutriční doplňkové látky: Vitamín A 15000IU; Vitamín D3 600IU; Vitamín E 550 mg; Vitamín C 250 mg; Niacin 125 mg; Kalcium D-Pantothenát 42 mg; Vitamín B2 17 mg; Vitamín B6 7 mg; Vitamín B1 8 mg; Biotin 1,3 mg; Kyselina listová 1,3 mg; Vitamín B12 0,08 mg; Cholin chlorid 2500 mg; Betakaroten 1,5 mg; Zinek (chelát zinku hydroxy analogu methioninu): 130,5 mg; Mangan (chelát manganu hydroxy analogu methioninu): 65,5 mg; Železo (chelátová forma Železa(II), hydrát): 43,1 mg; Měď (chelát mědi hydroxy analogu methioninu): 9,7 mg; Selen (inaktivované kvasinky obohacené selenem): 0,13200 mg; Jód (jodičnan vápenatý bezvodý): 1,56 mg; Taurin 4800 mg; DL-methionin, technicky čistý 4000 mg; L-Lysin-monohydrochlorid, technicky čistý 2000 mg; L-tryptofan 2000 mg; L -karnitin 650 mg. Antioxidanty: extrakty tokoferolu z rostlinných olejů 10 mg.",
+   "analytical_raw": "Hrubý protein 27 %; hrubý tuk 21 %; hrubá vláknina 2,4 %; hrubý popel 6,90 %; Vápník 0,85 %; Fosfor 0,65 %; Sodík 0,24 %; Draslík 0,7 %; Hořčík 0,080 %; Omega-3 mastné kyseliny 0,90 %; Omega-6 mastné kyseliny 3 %; EPA 0,18 %; DHA 0,25 %. energetická hodnota EM Kcal/Kg 4015 - Mj/Kg 16,80",
+   "is_dry": true,
+   "fetch_status": "ok"
+  },
+  {
+   "brand": "Farmina",
+   "market": "CZ",
+   "url": "https://www.farmina.com/cz/eshop/krmivo-pro-va%C5%A1i-ko%C4%8Dku/farmina-vet-life-feline/83-obesity-feline.html",
+   "http_status": 200,
+   "name": "Vet Life Obesity feline",
+   "statement_raw": "kompletní dietetické krmivo pro kočky určené ke snížení nadměrné tělesné hmotnosti",
+   "period_raw": "dokud není dosaženo optimální hmotnosti, poté v případě nutnosti k udržení požadované hmotnosti",
+   "sizes": [
+    "400g",
+    "2kg",
+    "5kg",
+    "10kg"
+   ],
+   "composition_raw": "Dehydrovaný kuřecí protein, kukuřičný gluten, vláknina z hrachu, oves, hydrolyzovaný rybí protein, špalda, dehydrovaný rybí protein, kuřecí tuk, sušená vejce, rybí olej, sušené řepné řízky, lněné semínko, chlorid draselný, inulin, fruktooligosacharidy, extrakt z kvasnic (zdroj mannanoligosacharidů), semena a slupky psyllia, chlorid sodný, dihydrát síranu vápenatého, chondroitin sulfát, glukosamin.",
+   "additives_raw": "– nutriční doplňkové látky: Vitamín A 15000IU; Vitamín D3 1000IU; Vitamín E 550 mg; Vitamín C 250 mg; Niacin 125 mg; Kalcium D-Pantothenát 42 mg; Vitamín B2 17 mg; Vitamín B6 7 mg; Vitamín B1 8 mg; Biotin 1,3 mg; Kyselina listová 1,3 mg; Vitamín B12 0,08 mg; Cholin chlorid 2500 mg; Betakaroten 1,5 mg; Zinek (chelát zinku hydroxy analogu methioninu): 130,5 mg; Mangan (chelát manganu hydroxy analogu methioninu): 65,5 mg; Železo (chelátová forma Železa(II), hydrát): 43,1 mg; Měď (chelát mědi hydroxy analogu methioninu): 10,8 mg; Selen (inaktivované kvasinky obohacené selenem): 0,13200 mg; Jód (jodičnan vápenatý bezvodý): 1,56 mg; L-Lysin-monohydrochlorid, technicky čistý 4000 mg; DL-methionin, technicky čistý 3500 mg; Taurin 2500 mg; L -karnitin 550 mg. Technologické doplňkové látky: mikrokrystalická celulóza. Antioxidanty: extrakty tokoferolu z rostlinných olejů 10 mg.",
+   "analytical_raw": "Hrubý protein 43 %; hrubý tuk 9 %; hrubá vláknina 10 %; hrubý popel 7,5 %; Vápník 1,1 %; Fosfor 0,95 %; Sodík 0,45 %; Draslík 0,8 %; Hořčík 0,08 %; Omega-6 mastné kyseliny 1,6 %; Omega-3 mastné kyseliny 0,45 %; EPA 0,1 %; DHA 0,15 %. energetická hodnota EM Kcal/Kg 3369 - Mj/Kg 14,09",
+   "is_dry": true,
+   "fetch_status": "ok"
+  },
+  {
+   "brand": "Farmina",
+   "market": "CZ",
+   "url": "https://www.farmina.com/cz/eshop/krmivo-pro-va%C5%A1i-ko%C4%8Dku/farmina-vet-life-feline/84-diabetic-feline.html",
+   "http_status": 200,
+   "name": "Vet Life Diabetic feline",
+   "statement_raw": "kompletní dietetické krmivo pro kočky určené k regulaci přísunu glukózy (Diabetes mellitus)",
+   "period_raw": "pro regulaci přísunu glukózy (Diabetes mellitus) podávejte produkt ze začátku až 6 měsíců",
+   "sizes": [
+    "400g",
+    "2kg",
+    "10kg"
+   ],
+   "composition_raw": "Dehydrovaný kuřecí protein, kukuřičný gluten, oves, špalda, hydrolyzovaný rybí protein, kuřecí tuk, vláknina z hrachu, dehydrovaný rybí protein, sušená vejce, rybí olej, sušené řepné řízky, lněné semínko, chlorid draselný, inulin, fruktooligosacharidy, extrakt z kvasnic (zdroj mannanoligosacharidů), semena a slupky psyllia, chlorid sodný, citrát draselný, dihydrát síranu vápenatého, chondroitin sulfát, glukosamin. Zdroj sacharidů: oves, špalda.",
+   "additives_raw": "– nutriční doplňkové látky: Vitamín A 15000IU; Vitamín D3 1000IU; Vitamín E 550 mg; Vitamín C 250 mg; Niacin 125 mg; Kalcium D-Pantothenát 42 mg; Vitamín B2 17 mg; Vitamín B6 7 mg; Vitamín B1 8 mg; Biotin 1,3 mg; Kyselina listová 1,3 mg; Vitamín B12 0,08 mg; Cholin chlorid 2500 mg; Betakaroten 1,5 mg; Zinek (chelát zinku hydroxy analogu methioninu): 130,5 mg; Mangan (chelát manganu hydroxy analogu methioninu): 65,5 mg; Železo (chelátová forma Železa(II), hydrát): 43,1 mg; Měď (chelát mědi hydroxy analogu methioninu): 10,8 mg; Selen (inaktivované kvasinky obohacené selenem): 0,13200 mg; Jód (jodičnan vápenatý bezvodý): 1,56 mg; L-Lysin-monohydrochlorid, technicky čistý 4000 mg; DL-methionin, technicky čistý 3500 mg; L-tryptofan 3000 mg; Taurin 2500 mg; L -karnitin 550 mg. Technologické doplňkové látky: mikrokrystalická celulóza. Antioxidanty: extrakty tokoferolu z rostlinných olejů 10 mg.",
+   "analytical_raw": "Hrubý protein 46 %; hrubý tuk 13 %; hrubá vláknina 4,6 %; hrubý popel 7,90 %; Vápník 1,2 %; Fosfor 0,98 %; škrob 10,5 %; celkový obsah cukru 0,33 %; Sodík 0,4 %; Draslík 0,65 %; Hořčík 0,09 %; Omega-6 mastné kyseliny 2,3 %; Omega-3 mastné kyseliny 0,45 %; EPA 0,1 %; DHA 0,15 %. energetická hodnota EM Kcal/Kg 3787 - Mj/Kg 15,84",
+   "is_dry": true,
+   "fetch_status": "ok"
+  },
+  {
+   "brand": "Farmina",
+   "market": "CZ",
+   "url": "https://www.farmina.com/cz/eshop/krmivo-pro-va%C5%A1i-ko%C4%8Dku/farmina-vet-life-feline/85-ultrahypo-feline.html",
+   "http_status": 200,
+   "name": "Vet Life UltraHypo feline",
+   "statement_raw": "kompletní krmivo pro kočky určené pro snížení výskytu potravinových alergií a nesnášenlivostí",
+   "period_raw": "od 3 do 8 týdnů pro snížení výskytu potravinových alergií a nesnášenlivostí (v případě, že symptomy vymizí, může být krmivo používáno ze začátku až po dobu jednoho roku); až 2 měsíce pro podporu fun",
+   "sizes": [
+    "400g",
+    "2kg",
+    "5kg",
+    "10kg"
+   ],
+   "composition_raw": "Hydrolyzovaný rybí protein, rýžový škrob, rybí olej, uhličitan vápenatý, fruktooligosacharidy (0,6 %), chlorid draselný, dihydrát síranu vápenatého, dihydrogenfosforečnan vápenatý, chlorid sodný. Zdroj proteinů: Hydrolyzovaný rybí protein. Zdroj sacharidů: rýžový škrob.",
+   "additives_raw": "– nutriční doplňkové látky: Vitamín A 22000IU; Vitamín D3 1500IU; Vitamín E 600 mg; Vitamín C 300 mg; Niacin 150 mg; Kalcium D-Pantothenát 50 mg; Vitamín B2 20 mg; Vitamín B6 8,1 mg; Vitamín B1 10 mg; Biotin 1,5 mg; Kyselina listová 1,5 mg; Vitamín B12 0,1 mg; Cholin chlorid 2500 mg; Betakaroten 5 mg; Zinek (chelát zinku hydroxy analogu methioninu): 130,5 mg; Mangan (chelát manganu hydroxy analogu methioninu): 65,5 mg; Železo (chelátová forma Železa(II), hydrát): 43,1 mg; Měď (chelát mědi hydroxy analogu methioninu): 10,8 mg; Selen (inaktivované kvasinky obohacené selenem): 0,04400 mg; Jód (jodičnan vápenatý bezvodý): 1,56 mg; DL-methionin, technicky čistý 5000 mg; Taurin 3000 mg; L-karnitin 300 mg. Technologické doplňkové látky: mikrokrystalická celulóza. Antioxidanty: extrakty tokoferolu z rostlinných olejů 10 mg.",
+   "analytical_raw": "Hrubý protein 28 %; hrubý tuk 11 %; hrubá vláknina 1,8 %; hrubý popel 7,1 %; Vápník 1 %; Fosfor 0,8 %; Sodík 0,8 %; Draslík 0,7 %; Hořčík 0,06 %; Omega-3 mastné kyseliny 1,65 %; Omega-6 mastné kyseliny 2,1 %; LA 2,05 %; EPA 0,5 %; DHA 0,7 %. energetická hodnota EM Kcal/Kg 3745 - Mj/Kg 15,67",
+   "is_dry": true,
+   "fetch_status": "ok"
+  },
+  {
+   "brand": "Farmina",
+   "market": "CZ",
+   "url": "https://www.farmina.com/cz/eshop/krmivo-pro-va%C5%A1i-ko%C4%8Dku/farmina-vet-life-feline/967-hypoallergenic-pork-&-potato-feline.html",
+   "http_status": 200,
+   "name": "Vet Life Hypoallergenic Pork & Potato feline",
+   "statement_raw": "kompletní dietetické krmivo pro kočky určené pro snížení výskytu potravinových alergií a nesnášenlivostí",
+   "period_raw": "od 3 do 8 týdnů pro snížení výskytu potravinových alergií a nesnášenlivostí (v případě, že symptomy vymizí, může být krmivo používáno ze začátku až po dobu jednoho roku); až 2 měsíce pro podporu fun",
+   "sizes": [
+    "400g",
+    "1.5kg"
+   ],
+   "composition_raw": "Batáty (55 %), dehydrovaný vepřový protein (30 %), rybí olej, uhličitan vápenatý, fruktooligosacharidy (0,6 %), chlorid draselný, síran vápenatý dihydrát, dihydrogenfosforečnan vápenatý, chlorid sodný. Zdroj proteinů: dehydrovaný vepřový protein. Zdroj sacharidů: batáty.",
+   "additives_raw": "",
+   "analytical_raw": "Hrubý protein 28 %; hrubý tuk 11 %; hrubá vláknina 2,5 %; hrubý popel 7,90 %; Vápník 1 %; Fosfor 0,8 %; Sodík 0,6 %; Draslík 0,7 %; Hořčík 0,06 %; Omega-3 mastné kyseliny 0,65 %; Omega-6 mastné kyseliny 2,2 %; LA 2,05 %; EPA+DHA 0,42 %; EPA 0,17 %; DHA 0,25 %. energetická hodnota EM Kcal/Kg 3687 - Mj/Kg 15,42",
+   "is_dry": true,
+   "fetch_status": "ok"
+  },
+  {
+   "brand": "Farmina",
+   "market": "CZ",
+   "url": "https://www.farmina.com/cz/eshop/krmivo-pro-va%C5%A1i-ko%C4%8Dku/farmina-vet-life-feline/86-neutered-male-feline.html",
+   "http_status": 200,
+   "name": "Vet Life Neutered Male feline",
+   "statement_raw": "kompletní krmivo určené pro dospělé kastrované kocoury",
+   "period_raw": "",
+   "sizes": [
+    "400g",
+    "2kg",
+    "5kg",
+    "10kg"
+   ],
+   "composition_raw": "Dehydrovaný kuřecí protein, rýže, kukuřičný gluten, oves, vláknina z hrachu, hydrolyzovaný rybí protein, kuřecí tuk, lněné semínko, sušené řepné řízky, dehydrovaný rybí protein, sušená vejce, rybí olej, sušené pivovarské kvasnice, extrakt z kvasnic (zdroj mannanoligosacharidů), fruktooligosacharidy, semena a slupky psyllia, chlorid draselný, chlorid sodný, dihydrát síranu vápenatého, sójový extrakt (zdroj izoflavonů 500 mg/kg), chondroitin sulfát.",
+   "additives_raw": "– nutriční doplňkové látky: Vitamín A 22000IU; Vitamín D3 1500IU; Vitamín E 600 mg; Vitamín C 300 mg; Niacin 150 mg; Kalcium D-Pantothenát 50 mg; Vitamín B2 20 mg; Vitamín B6 8,1 mg; Vitamín B1 10 mg; Biotin 1,5 mg; Kyselina listová 1,5 mg; Vitamín B12 0,1 mg; Cholin chlorid 2500 mg; Betakaroten 5 mg; Zinek (chelát zinku hydroxy analogu methioninu): 130,5 mg; Mangan (chelát manganu hydroxy analogu methioninu): 65,5 mg; Železo (chelátová forma Železa(II), hydrát): 43,1 mg; Měď (chelát mědi hydroxy analogu methioninu): 10,8 mg; Selen (inaktivované kvasinky obohacené selenem): 0,13200 mg; Jód (jodičnan vápenatý bezvodý): 1,56 mg; DL-methionin, technicky čistý 5000 mg; Taurin 2600 mg; L-karnitin 300 mg. Antioxidanty: extrakty tokoferolu z rostlinných olejů 10 mg.",
+   "analytical_raw": "Hrubý protein 37 %; hrubý tuk 10 %; hrubá vláknina 6,5 %; hrubý popel 7,8 %; Vápník 1,2 %; Fosfor 1,1 %; Sodík 0,6 %; Draslík 0,6 %; Hořčík 0,07 %. energetická hodnota EM Kcal/Kg 3524 - Mj/Kg 14,74",
+   "is_dry": true,
+   "fetch_status": "ok"
+  },
+  {
+   "brand": "Farmina",
+   "market": "CZ",
+   "url": "https://www.farmina.com/cz/eshop/krmivo-pro-va%C5%A1i-ko%C4%8Dku/farmina-vet-life-feline/87-neutered-female-feline.html",
+   "http_status": 200,
+   "name": "Vet Life Neutered Female feline",
+   "statement_raw": "kompletní krmivo určené pro dospělé kastrované kočky",
+   "period_raw": "",
+   "sizes": [
+    "400g",
+    "2kg",
+    "5kg",
+    "10kg"
+   ],
+   "composition_raw": "Dehydrovaný kuřecí protein, rýže, kukuřičný gluten, oves, vláknina z hrachu, hydrolyzovaný rybí protein, kuřecí tuk, lněné semínko, sušené řepné řízky, dehydrovaný rybí protein, sušená vejce, rybí olej, sušené pivovarské kvasnice, extrakt z kvasnic (zdroj mannanoligosacharidů), fruktooligosacharidy, semena a slupky psyllia, chlorid draselný, chlorid sodný, dihydrát síranu vápenatého, sójový extrakt (zdroj izoflavonů 600 mg/kg), chondroitin sulfát.",
+   "additives_raw": "– nutriční doplňkové látky: Vitamín A 22000IU; Vitamín D3 1500IU; Vitamín E 600 mg; Vitamín C 300 mg; Niacin 150 mg; Kalcium D-Pantothenát 50 mg; Vitamín B2 20 mg; Vitamín B6 8,1 mg; Vitamín B1 10 mg; Biotin 1,5 mg; Kyselina listová 1,5 mg; Vitamín B12 0,1 mg; Cholin chlorid 2500 mg; Betakaroten 5 mg; Zinek (chelát zinku hydroxy analogu methioninu): 130,5 mg; Mangan (chelát manganu hydroxy analogu methioninu): 65,5 mg; Železo (chelátová forma Železa(II), hydrát): 43,1 mg; Měď (chelát mědi hydroxy analogu methioninu): 10,8 mg; Selen (inaktivované kvasinky obohacené selenem): 0,13200 mg; Jód (jodičnan vápenatý bezvodý): 1,56 mg; DL-methionin, technicky čistý 5000 mg; Taurin 2600 mg; L-karnitin 300 mg. Antioxidanty: extrakty tokoferolu z rostlinných olejů 10 mg.",
+   "analytical_raw": "Hrubý protein 33 %; hrubý tuk 10 %; hrubá vláknina 6,4 %; hrubý popel 7,6 %; Vápník 1 %; Fosfor 0,90 %; Sodík 0,5 %; Draslík 0,6 %; Hořčík 0,07 %. energetická hodnota EM Kcal/Kg 3300 - Mj/Kg 13,80",
+   "is_dry": true,
+   "fetch_status": "ok"
+  },
+  {
+   "brand": "Farmina",
+   "market": "CZ",
+   "url": "https://www.farmina.com/cz/eshop/krmivo-pro-va%C5%A1i-ko%C4%8Dku/farmina-vet-life-feline/88-hairball-feline.html",
+   "http_status": 200,
+   "name": "Vet Life Hairball feline",
+   "statement_raw": "kompletní krmivo pro dospělé kočky, které napomáhá snížit tvorbu trichobezoárů",
+   "period_raw": "",
+   "sizes": [
+    "400g",
+    "2kg",
+    "10kg"
+   ],
+   "composition_raw": "Dehydrovaný kuřecí protein, oves, vláknina z hrachu (10 %), kuřecí tuk, kukuřičný gluten, dehydrovaný rybí protein, rýže, lněné semínko, sušené řepné řízky, hydrolyzovaný rybí protein, rybí olej, semena a slupky psyllia (1,5 %), fruktooligosacharidy (0,6 %), extrakt z kvasnic (zdroj mannanoligosacharidů) (0,6 %), sušené pivovarské kvasnice, chlorid draselný, chlorid sodný, dihydrát síranu vápenatého (4g/kg).",
+   "additives_raw": "– nutriční doplňkové látky: Vitamín A 18000IU; Vitamín D3 1200IU; Vitamín E 600 mg; Vitamín C 300 mg; Niacin 150 mg; Kalcium D-Pantothenát 50 mg; Vitamín B2 20 mg; Vitamín B6 8,1 mg; Vitamín B1 10 mg; Biotin 1,5 mg; Kyselina listová 1,5 mg; Vitamín B12 0,1 mg; Cholin chlorid 2200 mg; Betakaroten 5 mg; Zinek (chelát zinku hydroxy analogu methioninu): 130,5 mg; Mangan (chelát manganu hydroxy analogu methioninu): 65,5 mg; Železo (chelátová forma Železa(II), hydrát): 43,1 mg; Měď (chelát mědi hydroxy analogu methioninu): 10,8 mg; Selen (inaktivované kvasinky obohacené selenem): 0,13200 mg; Jód (jodičnan vápenatý bezvodý): 1,56 mg; DL-methionin, technicky čistý 4500 mg; L-cystin 3000 mg; L-Lysin-monohydrochlorid, technicky čistý 2500 mg; Taurin 2400 mg. Antioxidanty: extrakty tokoferolu z rostlinných olejů 10 mg.",
+   "analytical_raw": "Hrubý protein 34 %; hrubý tuk 15 %; hrubá vláknina 8 %; hrubý popel 7,6 %; Vápník 1,15 %; Fosfor 0,95 %; Sodík 0,6 %; Draslík 0,7 %; Hořčík 0,07 %; Omega-6 mastné kyseliny 2,90 %; Omega-3 mastné kyseliny 0,45 %; energetická hodnota EM Kcal/Kg 3495 - Mj/Kg 14,62",
+   "is_dry": true,
+   "fetch_status": "ok"
+  },
+  {
+   "brand": "Farmina",
+   "market": "CZ",
+   "url": "https://www.farmina.com/cz/eshop/krmivo-pro-va%C5%A1i-ko%C4%8Dku/farmina-vet-life-feline/1035-struvite-management-feline.html",
+   "http_status": 200,
+   "name": "Vet Life Struvite Management feline",
+   "statement_raw": "kompletní dietetické krmivo pro kočky určené pro rozpouštění a snížení recidivy tvorby struvitových kamenů",
+   "period_raw": "od 5 do 12 týdnů v případě rozpouštění struvitových kamenů, ze začátku až 6 měsíců pokud chceme redukovat riziko jejich opakovaného výskytu",
+   "sizes": [
+    "85g"
+   ],
+   "composition_raw": "kuřecí filet, batáty, hydrolyzovaný rybí protein, ryby (sardinky, tuňák), kuřecí játra, vařená vejce, rybí olej, kuřecí tuk, semínka quinoi, chlorid draselný, chlorid sodný, dihydrát síranu vápenatého, vláknina z hrachu, fruktooligosacharidy, kvasnicový extrakt (zdroj mannan-oligosacharidů), sušené pivovarské kvasnice. Zdroje proteinu: Kuřecí filet, hydrolyzovaný rybí protein, ryby, kuřecí játra, vařená vejce.",
+   "additives_raw": "– Nutriční doplňkové látky: Vitamín A 4300 MJ; Vitamín D3 170 MJ; Vitamin E 160 mg; Zinek (chelát zinku hydroxy analogu methioninu): 37,3 mg; Mangan (chelát manganu hydroxy analogu methioninu): 18,7 mg; Železo (chelátová forma Železa(II), hydrát): 3,3 mg; Měď (chelát mědi hydroxy analogu methioninu): 3,1 mg; Jód (jodičnan vápenatý bezvodý): 0,46 mg; Taurin 1250 mg; DL-methionin, technicky čistý 2000 mg. Regulátor kyselosti: dihydrát síranu vápenatého 4500 mg.",
+   "analytical_raw": "Analytické složky: hrubý protein 10,2%; hrubé tuky 5,7%; hrubá vláknina 0,3%; hrubý popel 2,4%; vlhkost 75%; Vápník 0,19%; Fosfor 0,17%; Sodík 0,3%; Draslík 0,2 %; Hořčík 0,019%; Chlorid 0,35%; Síran 0,2%; Taurin 0,15%. Acidifikátor moči: dihydrát síranu vápenatého (4,5g/kg). Skladujte na chladném a suchém místě, mimo dosah slunce. Vyrobeno 36 měsíců před datem spotřeby vytištěném na obalu. Net hmotnost/datum spotřeby/číslo šarže/registrační číslo továrny jsou uvedeny: na obalu. energetická hodnota EM Kcal/Kg 1089 - Mj/Kg 4,56",
+   "is_dry": false,
+   "fetch_status": "ok"
+  },
+  {
+   "brand": "Virbac",
+   "market": "SK",
+   "url": "https://sk.virbac.com/produkty/advanced-kidney-joint-kj3-cat-granule-pre-macky-s-chronickym-zlyhanim-obliciek-a-na-podporu-klbov",
+   "http_status": 200,
+   "name": "Advanced Kidney & Joint KJ3 Cat – Granule pre mačky s chronickým zlyhaním obličiek a na podporu kĺbov",
+   "purpose_raw": "Veterinárna diéta pre mačky VETERINARY HPM® Advanced Kidney & Joint KJ3 Cat je chutné suché krmivo pre dospelé a staršie mačky v pokročilom štádiu chronického ochorenia obličiek (štádium III a IV podľa klasifikácie IRIS) s prítomnou osteoartritídou alebo bez nej. Naši odborníci ju prispôsobili tak, aby podporovala funkciu obličiek pri chronickom ochorení obličiek, podporovala kĺby v prípade osteoartritídy a pomáhala zvládať podvýživu vašej mačky. | Nutrične prispôsobené krmivo pre mačky s pokročilým ochorením obličiek | Veterinárna diéta pre mačky VETERINARY HPM® Advanced Kidney & Joint KJ3 Cat obsahuje vysoký obsah tuku a energie, aby sa zabránilo podvýžive, v kombinácii s obmedzeným množstvom vysokokvalitných proteínov (30 %, z toho 86 % živočíšneho pôvodu) pre mačky s pokročilým ochorením obličiek. Takáto nízka hladina proteínov a výber vysokokvalitných proteínov obmedzujú produkciu uremických toxínov na ochranu obličiek a zároveň prispievajú k zachovaniu svalovej hmoty vašej mačky. V prípade osteoartritídy tiež podporuje udržanie zdravej telesnej hmotnosti na zníženie záťaže kĺbov. | Veľmi nízky obsah fosforu na podporu funkcie obličiek | V pokročilých štádiách ochorenia obličiek majú obličky problémy s vylučovaním prebytočného fosforu. Tento stav môže ďalej poškodzovať samotné obličky aj ďalšie tkanivá. Veterinárna diéta pre mačky VETERINARY HPM® Advanced Kidney & Joint KJ3 Cat obsahuje obmedzené množstvo proteínov, vysoký obsah omega-3 mastných kyselín a nízky obsah fo",
+   "sizes": [
+    "400 g",
+    "3 kg"
+   ],
+   "composition_raw": "Dehydratované bravčové proteíny*, ryža, živočíšne tuky, zemiakový škrob, hrach, hydrolyzované bravčové a hydinové proteíny*, minerálne látky, rybí olej, repná dužina, lignocelulóza, pivovarské kvasnice, hydrolyzované rybie proteíny, vláknina psyllium, fruktooligosacharidy, membrána z vaječných škrupín, hydrolyzované kôrovce (zdroj chitosanu), chondroitín sulfát, Lactobacillus acidophilus. | * zdroj proteínov | VETERINARY HPM® | neobsahuje žiadne umelé farbivá ani dochucovadlá.",
+   "analytical_cells": "Vlhkosť | 5,5 | Proteíny | 30 | Pomer živočíšnych a rastlinných proteínov | 86 : 14, | Tuky | 21 | Minerálne látky | 7 | Hrubá vláknina | 3,5 | NFE* | 33 | Škrob | 28 | Vápnik | 1 | Fosfor | 0,5 | Sodík | 0,4 | Draslík | 0,8 | Omega-6 | 3,2 | omega-3 | 1,5 | DHA | 0,4 | % v krmive * Bezdusíkatý extrakt: využiteľné sacharidy",
+   "additives_cells": "Vitamín A (IU/kg) | 17 000 | Vitamín D3 (IU/kg) | 1 700 | Vitamín E (mg/kg) | 610 | Vitamín K3 (mg/kg) | 0,22 | Vitamín B1 (tiamín) (mg/kg) | 11,2 | Vitamín B2 (riboflavín) (mg/kg) | 8 | Vitamín B3 (niacín, kyselina nikotínová) (mg/kg) | 113,4 | Vitamín B5 (kyselina pantoténová) (mg/kg) | 14,5 | Vitamín B6 (pyridoxín) (mg/kg) | 7,6 | Vitamín B8 (biotín, vitamín B7, vitamín H) (mg/kg) | 0,15 | Vitamín B9 (kyselina listová) (mg/kg) | 1,9 | Vitamín B12 (kobalamín) (mg/kg) | 0,046 | Cholín (mg/kg) | 1 760 | Taurín (mg/kg) | 2 460 | Meď (mg/kg) | 12 | Železo (mg/kg) | 300 | Jód (mg/kg) | 0,4 | Zinok (mg/kg) | 110 | Pridané zložky | Chondroitín sulfát | 1 200 mg/kg | Chitosan | 1 200 mg/kg | Mmbrána z vaječných škrupín | 1 200 mg/kg | Uhličitan vápenatý | 1 | Vitamín E | 610 mg/kg | Lactobacillus acidophilus (postbiotiká) | 7 mg/kg | Bentonit | 5 g/kg.",
+   "energy_cells": "Metabolizovateľná energia – vypočítané (kcal/100 g) | 415 | Metabolizovateľná energia – merané in vivo (kcal/100 g) | 410 | Stráviteľnosť proteínov (in vivo %) | 84 | Stráviteľnosť tukov (in vivo %) | 92,5 | Energie z proteínov (%) | 26, | Energie z tukov (%) | 45 | Energie zo sacharidov (%) | 29",
+   "fetch_status": "ok"
+  },
+  {
+   "brand": "Virbac",
+   "market": "SK",
+   "url": "https://sk.virbac.com/produkty/dermatology-support-d1-cat-granule-pre-macky-na-zdravu-kozu-a-srst",
+   "http_status": 200,
+   "name": "Dermatology Support D1 Cat – Granule pre mačky na zdravú kožu a srsť",
+   "purpose_raw": "Pomôžte svojej mačke rýchlo sa zbaviť problémov kože a srsti pomocou veterinárnej diéty pre mačky VETERINARY HPM® Dermatology Support D1 Cat. Vhodná pre mačky s dermatózou, nadmerným vypadávaním srsti, dermatitídou a svrbením. | Ochorenia kože môžu poškodiť prirodzenú kožnú bariéru a viesť k podráždeniu, svrbeniu, začervenaniu, zlému stavu srsti a nadmernému vypadávaniu srsti u mačiek. VETERINARY HPM® Dermatology Support D1 Cat je kompletné a vyvážené krmivo vyrobené našimi odborníkmi zo starostlivo namiešaných ingrediencií, ktoré pomáha zvládať bežné problémy kože, upokojiť zápaly a obnoviť zdravie kože a srsti vašej mačky. | Veterinárna diéta pre mačky VETERINARY HPM® Dermatology Support D1 Cat je dokonale prispôsobená potrebám mačiek a ich optimálnemu zdraviu. Ponúka zloženie s nízkym obsahom sacharidov a vysokým obsahom proteínov – obsahuje 19,5 % sacharidov a 44 % proteínov (z toho 91 % živočíšneho pôvodu). | Veterinárna diéta pre mačky VETERINARY HPM® Dermatology Support D1 Cat poskytuje vysoké množstvo vysoko kvalitných živočíšnych proteínov bohatých na sírne aminokyseliny, ktoré tvoria stavebné kamene zdravej kože a srsti. Obsahuje tiež nami vyvinutý DERMA Plus komplex potrebných živín, ktoré podporujú regeneráciu a ochranu kože a srsti: | omega 3 mastné kyseliny (vrátane EPA a DHA); | omega 6 mastné kyseliny (vrátane kyseliny linolovej); | antioxidanty, vitamíny A a E. | VETERINARY HPM® Dermatology Support D1 Cat je krmivo vhodné pre mačky všetkých vekových kategóri",
+   "sizes": [
+    "3 kg"
+   ],
+   "composition_raw": "Dehydratované bravčové a hydinové proteíny, zemiakový škrob, hrach, hydrolyzované bravčové a hydinové proteíny, minerálne látky, lignocelulóza, živočíšne tuky, rybí olej, repná dužina, slnečnicový olej, pivovarské kvasnice, semená boráka, vláknina psyllium (Plantago (L. ) spp.), fruktooligosacharidy, hydrolyzované kôrovce (zdroj chitosanu), chondroitín sulfát, | Lactobacillus acidophilus | .",
+   "analytical_cells": "Proteíny | 44 | Tuky | 17,5 | Minerálne látky | 8,5 | Hrubá vláknina | 5 | Škrob | 14 | Vápnik | 1,3 | Fosfor | 1,1 | Sodík | 0,7 | Metionín + cystín | 1,5 | Fenylalanín + tyrozín | 2,6 | Omega-6 | 3,5 | LA | 3,4 | Omega-3 | 1,1 | EPA + DHA | 0,8 | Pomer (LA + GLA) : (EPA + DHA) | 5 | % v krmive",
+   "additives_cells": "Vitamín A (IU/kg) | 17 000 | Vitamín D3 (IU/kg) | 1 700 | Vitamín E (mg/kg) | 610 | Vitamín K3 (mg/kg) | 0,22 | Vitamín B1 (tiamín) (mg/kg) | 11,2 | Vitamín B2 (riboflavín) (mg/kg) | 8 | Vitamín B3 (niacín, kyselina nikotínová) (mg/kg) | 113,4 | Vitamín B5 (kyselina pantoténová) (mg/kg) | 14,5 | Vitamín B6 (pyridoxín) (mg/kg) | 7,6 | Vitamín B8 (biotín, vitamín B7, vitamín H) (mg/kg) | 0,15 | Vitamín B9 (kyselina listová) (mg/kg) | 1,9 | Vitamín B12 (kobalamín) (mg/kg) | 0,046 | Cholín (mg/kg) | 1 760 | Taurín (mg/kg) | 2 460 | Meď (mg/kg) | 12 | Železo (mg/kg) | 300 | Jód (mg/kg) | 0,4 | Zinok (mg/kg) | 110 | Pridané zložky | Bentonit | 0,5 | Lactobacillus acidophilus (postbiotiká) | 7 mg/kg | Chitosan | 800 mg/kg | L-karnitín | 540 mg/kg",
+   "energy_cells": "Metabolizovateľná energia – vypočítané (kcal/100 g) | 395 | Stráviteľnosť proteínov (in vivo %) | 89 | Stráviteľnosť tukov (in vivo %) | 97 | Energia z proteínov (%) | 42 | Energia z tukov (%) | 40 | Energia z NFE* (%) | 18 | Pomer proteínov ku kalóriám (g/Mcal) | 111 | * Bezdusíkatý extrakt: využitelné sacharidy",
+   "fetch_status": "ok"
+  },
+  {
+   "brand": "Virbac",
+   "market": "SK",
+   "url": "https://sk.virbac.com/produkty/early-kidney-joint-kj1-cat-granule-pre-macky-na-podporu-obliciek-a-klbov",
+   "http_status": 200,
+   "name": "Early Kidney & Joint KJ1 Cat – Granule pre mačky na podporu obličiek a kĺbov",
+   "purpose_raw": "Veterinárna diéta pre mačky VETERINARY HPM® Early Kidney & Joint KJ1 Cat je suché krmivo pre dospelé a staršie mačky na podporu funkcie kĺbov a pohyblivosti v prípade osteoartritídy s počiatočnou fázou obličkovej nedostatočnosti alebo bez nej. Naši odborníci ju vyvinuli tak, aby zachovala funkciu obličiek vašej mačky a zároveň jej pomohla udržať optimálnu telesnú kondíciu a pohyblivosť kĺbov. | Zmes podporných živín pre starostlivosť o kĺby | Rovnako ako ochorenia obličiek aj ochorenia kĺbov, ako je osteoartritída, sú pri starnúcich mačkách bežné. VETERINARY HPM® Early Kidney & Joint KJ1Cat obsahuje množstvo živín, ktoré podporujú kĺby a svaly a v prípade osteoartritídy tlmia zápalové a bolestivé procesy. | Omega-3 mastné kyseliny obmedzujú zápaly, ktoré môžu viesť k bolestiam kĺbov a ich degenerácii. | Membrána z vaječnej škrupiny je bohatá na kolagén, glukozamín a ďalšie živiny, ktoré sa prirodzene vyskytujú v kĺboch. | Chondroitín sulfát pomáha predchádzať poškodeniu kĺbovej chrupavky a podporuje premazanie kĺbov. | Chitosan optimalizuje rozklad a vstrebávanie chondroitínu. | Nízky obsah fosforu na zachovanie funkcie obličiek | Fosfor je v malých množstvách nevyhnutný pre zdravie vašej mačky, ale porucha funkcie obličiek môže spôsobiť jeho hromadenie v tele. Tento stav môže ďalej poškodiť obličky aj ďalšie tkanivá. Veterinárna diéta pre mačky VETERINARY HPM® Early Kidney & Joint KJ1 Cat obsahuje znížený obsah fosforu (0,6 %), ktorý podporuje funkciu obličiek vašej mačky a",
+   "sizes": [
+    "1.5 kg",
+    "3 kg"
+   ],
+   "composition_raw": "Dehydratované bravčové proteíny[1], zemiakový škrob, hydrolyzované bravčové a hydinové proteíny*, živočíšne tuky, hrach, minerálne látky, lignocelulóza, šupky fazule Faba, ryža, rybí olej, repná dužina, pivovarské kvasnice, hydrolyzované rybie proteíny, fruktooligosacharidy, vláknina psyllium, membrána z vaječných škrupín, hydrolyzované kôrovce (zdroj chitosanu), chondroitín sulfát, Lactobacillus acidophilus. | *zdroj proteínov | VETERINARY HPM® | neobsahuje žiadne umelé farbivá ani dochucovadlá",
+   "analytical_cells": "Vlhkosť | 5,5 | Proteíny | 38 | Pomer živočíšnych a rastlinných proteínov | 92 : 8, | Tuky | 16,5 | Minerálne látky | 7,5 | Hrubá vláknina | 6,5 | NFE | 26 | škrob | 21 | Vápnik | 0,9 | Fosfor | 0,6 | Sodík | 0,4 | Draslík | 0,8 | Omega-6 | 2,5 | Omega-3 | 1,5 | DHA | 0,4 | % v krmive",
+   "additives_cells": "Vitamín A (IU/kg) | 17 000 | Vitamín D3 (IU/kg) | 1 700 | Vitamín E (mg/kg) | 610 | Vitamín K3 (mg/kg) | 0,22 | Vitamín B1 (tiamín) (mg/kg) | 11,2 | Vitamín B2 (riboflavín) (mg/kg) | 8 | Vitamín B3 (niacín, kyselina nikotínová) (mg/kg) | 113,4 | Vitamín B5 (kyselina pantoténová) (mg/kg) | 14,5 | Vitamín B6 (pyridoxín) (mg/kg) | 7,6 | Vitamín B8 (biotín, vitamín B7, vitamín H) (mg/kg) | 0,15 | Vitamín B9 (kyselina listová) (mg/kg) | 1,9 | Vitamín B12 (kobalamín) (mg/kg) | 0,046 | Cholín (mg/kg) | 1 760 | Taurín (mg/kg) | 2 460 | Meď (mg/kg) | 12 | Železo (mg/kg) | 300 | Jód (mg/kg) | 0,4 | Zinok (mg/kg) | 110 | Pridané zložky | Chondroitín sulfát | 1 200 mg/kg | Chitosan | 1 200 mg/kg | Membrána z vaječných škrupín | 1 200 mg/kg | Uhličitan vápenatý | 0,7 | Vitamín E | 610 mg/kg | Lactobacillus acidophilus (postbiotiká) | 7 mg/kg | Bentonit | 5 g/kg",
+   "energy_cells": "Metabolizovateľná energia – vypočítané (kcal/100 g) | 384 | Metabolizovateľná energia – merané in vivo (kcal/100 g) | 385 | Stráviteľnosť proteínov (in vivo %) | 86 | Stráviteľnosť tukov (in vivo %) | 94,5 | Energie z proteínov (%) | 37 | Energie z tukov (%) | 39 | Energie zo sacharidov (%) | 24",
+   "fetch_status": "ok"
+  },
+  {
+   "brand": "Virbac",
+   "market": "SK",
+   "url": "https://sk.virbac.com/produkty/hpm-diet-cat-w2-weight-loss-control",
+   "http_status": 200,
+   "name": "Weight Loss & Control W2 Cat – Granule pre mačky s nadváhou (<30 %) a cukrovkou",
+   "purpose_raw": "Pomôžte svojej mačke schudnúť, udržať si ideálnu telesnú hmotnosť aj po redukčnej diéte a regulovať hladinu cukru v krvi pomocou veterinárnej diéty pre mačky VETERINARY HPM® Weight Loss & Control W2 Cat. | Keď znižujete energetický príjem svojej mačky s cieľom chudnutia, je dôležité zaistiť, aby aj naďalej dostávala všetky nevyhnutné živiny, ktoré potrebuje pre optimálne zdravie. Preto sme vyvinuli VETERINARY HPM® Weight Loss & Control W2 Cat, kompletné a vyvážené suché krmivo pre mačky, ktoré je špeciálne určené na účinnú kontrolu telesnej hmotnosti. | Veterinárna diéta pre mačky VETERINARY HPM® Weight Loss & Control W2 Cat je dokonale prispôsobená potrebám mačiek a ich optimálnemu zdraviu. Ponúka zloženie s nízkym obsahom sacharidov a vysokým obsahom proteínov – obsahuje 18,5 % sacharidov a 44 % proteínov (z toho 90 % živočišného pôvodu). | Našimi odborníkmi vyvinutá veterinárna diéta poskytuje vašej mačke optimálnu výživu, ktorú potrebuje na dosiahnutie a udržanie svojej ideálnej telesnej hmotnosti. Medzi jej výhody patrí: | nízkokalorická receptúra – stredne redukčná diéta na podporu pozvoľného znižovania nadmernej telesnej hmotnosti a dlhodobé udržanie dosiahnutej optimálnej telesnej hmotnosti; | ideálny pomer vysokého obsahu proteínov a nízkeho obsahu sacharidov na zachovanie svalovej hmoty a udržanie zdravej telesnej kondície; | vysoký obsah vysoko kvalitných živočíšnych proteínov a tukov pre chutné krmivo, ktoré zasýti a vaša mačka ho bude milovať. | U neobéznych mač",
+   "sizes": [
+    "1.5 kg",
+    "3 kg"
+   ],
+   "composition_raw": "Dehydratované bravčové a hydinové proteíny, zemiakový škrob, lignocelulóza, hydrolyzované bravčové a hydinové proteíny, šupky fazule Faba, hrach*, živočíšne tuky, minerálne látky, ľanové semienka, repná dužina, vláknina psyllium (Plantago (L.) spp.), fruktooligosacharidy, pivovarské kvasnice, hydrolyzované kôrovce (zdroj chitosanu), | Lactobacillus acidophilus, | chondroitín sulfát. *zdroj sacharidov",
+   "analytical_cells": "Proteíny | 44 | Tuky | 12 | Minerálne látky | 8,5 | Hrubá vláknina | 11,5 | Celkový obsah vlákniny | 16,5 | Škrob | 12 | Cukry celkom | 1,4 | Vápnik | 1,3 | Fosfor | 1,1 | Omega-6 | 2,1 | Omega-3 | 0,7 %. | % v krmive",
+   "additives_cells": "Vitamín A (IU/kg) | 17 000 | Vitamín D3 (IU/kg) | 1 700 | Vitamín E (mg/kg) | 610 | Vitamín K3 (mg/kg) | 0,22 | Vitamín B1 (tiamín) (mg/kg) | 11,2 | Vitamín B2 (riboflavín) (mg/kg) | 8 | Vitamín B3 (niacín, kyselina nikotínová) (mg/kg) | 113,4 | Vitamín B5 (kyselina pantoténová) (mg/kg) | 14,5 | Vitamín B6 (pyridoxín) (mg/kg) | 7,6 | Vitamín B8 (biotín, vitamín B7, vitamín H) (mg/kg) | 0,15 | Vitamín B9 (kyselina listová) (mg/kg) | 1,9 | Vitamín B12 (kobalamín) (mg/kg) | 0,046 | Cholín (mg/kg) | 2 100 | Taurín (mg/kg) | 2 900 | Meď (mg/kg) | 12 | Jód (mg/kg) | 0,4 | Zinok (mg/kg) | 110 | Pridané zložky | Bentonit | 0,5 | Lactobacillus acidophilus (postbiotiká) | 7 mg/kg | Chitosan | 800 mg/kg | L-karnitín | 540 mg/kg | Chondroitín sulfát | 215 mg/kg",
+   "energy_cells": "Metabolizovateľná energia – vypočítané (kcal/100 g) | 342 | Stráviteľnosť proteínov (in vivo %) | 82,5 | Stráviteľnosť tukov (in vivo %) | 94,5 | Energia z proteínov (%) | 48 | Energia z tukov (%) | 32 | Energia z NFE* (%) | 20 | Pomer proteínov ku kalóriám (g/Mcal) | 129 | * Bezdusíkatý extrakt: využitelné sacharidy",
+   "fetch_status": "ok"
+  },
+  {
+   "brand": "Virbac",
+   "market": "SK",
+   "url": "https://sk.virbac.com/produkty/kidney-joint-kj2-cat-granule-pre-macky-s-ochorenim-obliciek-a-na-podporu-klbov",
+   "http_status": 200,
+   "name": "Kidney & Joint KJ2 Cat – Granule pre mačky s ochorením obličiek a na podporu kĺbov",
+   "purpose_raw": "Veterinárna diéta pre mačky VETERINARY HPM® Kidney & Joint KJ2 Cat je chutné suché krmivo pre dospelé a staršie mačky v stredne pokročilom štádiu chronického ochorenia obličiek (štádium II podľa klasifikácie IRIS) s prítomnou osteoartritídou alebo bez nej. Naši odborníci ju prispôsobili tak, aby podporovala funkciu obličiek, podporovala kĺby v prípade osteoartritídy a pomáhala zvládať podvýživu vašej mačky. | Nutrične prispôsobené krmivo pre mačky s ochorením obličiek | Veterinárna diéta pre mačky VETERINARY HPM® Kidney & Joint KJ2 Cat obsahuje vysoký obsah tuku a energie, aby sa zabránilo podvýžive, v kombinácii s primeraným množstvom vysokokvalitných proteínov (35 %, z toho 89 % živočíšneho pôvodu) pre mačky so stredne pokročilým ochorením obličiek. Takto redukovaná hladina proteínov a výber kvalitných proteínov obmedzujú produkciu uremických toxínov a zároveň prispievajú k zachovaniu svalovej hmoty vašej mačky. Krmivo podporuje aj udržanie zdravej telesnej hmotnosti, fyzickú aktivitu a znižuje záťaž kĺbov. | Nízky obsah fosforu na podporu funkcie obličiek | S postupujúcim ochorením obličiek sa znižuje ich schopnosť vylučovať fosfor. Tento stav môže ďalej poškodzovať samotné obličky aj ďalšie tkanivá. Veterinárna diéta pre mačky VETERINARY HPM® Kidney & Joint KJ2 Cat obsahuje obmedzené množstvo proteínov, vysoký obsah omega-3 mastných kyselín a nízky obsah fosforu (0,55 %) na ochranu funkcie obličiek vašej mačky a spomalenie progresie ochorenia. Obsahuje aj chitosan, ktorý",
+   "sizes": [
+    "1.5 kg",
+    "3 kg"
+   ],
+   "composition_raw": "Dehydratované bravčové proteíny*, ryža, živočíšne tuky, hrach, hydrolyzované bravčové a hydinové proteíny*, zemiakový škrob, minerálne látky, rybí olej, repná dužina, lignocelulóza, pivovarské kvasnice, hydrolyzované rybie proteíny, vláknina psyllium, fruktooligosacharidy, membrána z vaječných škrupín, hydrolyzované kôrovce (zdroj chitosanu), chondroitín sulfát, Lactobacillus acidophilus. | * zdroj proteínov | VETERINARY HPM® | neobsahuje žiadne umelé farbivá ani dochucovadlá",
+   "analytical_cells": "Vlhkosť | 5,5 | Proteíny | 35 | Pomer živočíšnych a rastlinných proteínov | 89 : 11, | Tuky | 20 | Minerálne látky | 7,5 | Hrubá vláknina | 3,5 | NFE* | 28,5 | Škrob | 24 | Vápnik | 1 | Fosfor | 0,55 | Sodík | 0,4 | Draslík | 0,8 | Omega-6 | 3 | Omega-3 | 1,5 | DHA | 0,4 | % v krmive * Bezdusíkatý extrakt: využiteľné sacharidy",
+   "additives_cells": "Vitamín A (IU/kg) | 17 000 | Vitamín D3 (IU/kg) | 1 700 | Vitamín E (mg/kg) | 610 | Vitamín K3 (mg/kg) | 0,22 | Vitamín B1 (tiamín) (mg/kg) | 11,2 | Vitamín B2 (riboflavín) (mg/kg) | 8 | Vitamín B3 (niacín, kyselina nikotínová) (mg/kg) | 113,4 | Vitamín B5 (kyselina pantoténová) (mg/kg) | 14,5 | Vitamín B6 (pyridoxín) (mg/kg) | 7,6 | Vitamín B8 (biotín, vitamín B7, vitamín H) (mg/kg) | 0,15 | Vitamín B9 (kyselina listová) (mg/kg) | 1,9 | Vitamín B12 (kobalamín) (mg/kg) | 0,046 | Cholín (mg/kg) | 1 760 | Taurín (mg/kg) | 2 460 | Meď (mg/kg) | 12 | Železo (mg/kg) | 300 | Jód (mg/kg) | 0,4 | Zinok (mg/kg) | 110 | Pridané zložky | Chondroitín sulfát | 1 200 mg/kg | Chitosan | 1 200 mg/kg | Membrána z vaječných škrupín | 1 200 mg/kg | Uhličitan vápenatý | 1 | Vitamín E | 610 mg/kg | Lactobacillus acidophilus (postbiotiká) | 7 mg/kg | Bentonit | 5 g/kg",
+   "energy_cells": "Metabolizovateľná energia – vypočítané (kcal/100 g) | 412 | Metabolizovateľná energia – merané in vivo (kcal/100 g) | 410 | Stráviteľnosť proteínov (in vivo %) | 84 | Stráviteľnosť tukov (in vivo %) | 92,5 | Energie z proteínov (%) | 31 | Energie z tukov (%) | 44 | Energie zo sacharidov (%) | 25",
+   "fetch_status": "ok"
+  },
+  {
+   "brand": "Virbac",
+   "market": "SK",
+   "url": "https://sk.virbac.com/produkty/urology-dissolution-prevention-u2-cat-granule-pre-macky-na-mocove-kamene-struvity-a-oxalaty",
+   "http_status": 200,
+   "name": "Urology Dissolution & Prevention U2 Cat – Granule pre mačky na močové kamene (struvity a oxaláty)",
+   "purpose_raw": "Močové kamene sa u mačiek môžu tvoriť z rôznych dôvodov, akými sú napr. nevyvážená strava alebo infekcia močových ciest či močového mechúra. Najčastejšími typmi u mačiek sú struvitové kamene a kalcium oxalátové kamene. Tieto tvrdé usadeniny v močovom systéme môžu spôsobovať značný diskomfort a bolesť. | Veterinári zvyčajne odporúčajú klinickú diétu, ktorá pomáha rozpúšťať a vylučovať kamene z organizmu močom. Veterinárna diéta pre mačky VETERINARY HPM® Urology Dissolution & Prevention U2 Cat je suché, kompletné a vyvážené krmivo pre mačky určené na starostlivosť o močové cesty, ktoré pomáha nielen rozpúšťať a vylučovať struvitové kamene, ale tiež zabraňuje tvorbe nových struvitových a oxalátových kryštálov. | Veterinárna diéta pre mačky VETERINARY HPM® Urology Dissolution & Prevention U2 Cat je dokonale prispôsobená potrebám mačiek a ich optimálnemu zdraviu. Ponúka zloženie s nízkym obsahom sacharidov a vysokým obsahom proteínov – obsahuje 23 % sacharidov a 44 % proteínov (z toho 90 % živočíšneho pôvodu). | Okrem toho, že vašej mačke denne poskytuje všetky nevyhnutné živiny, táto špeciálna suchá diétna receptúra: | obsahuje zvýšené množstvo vysoko kvalitných proteínov (44 %), ktoré mačku stimuluje k vyššej potrebe a ochote piť, čím dochádza k vylučovaniu väčšieho objemu moču a tým aj k rýchlejšiemu vylučovaniu tvrdých usadenín z močového mechúra; | dosahuje nízke hodnoty RSS <1 pri struvite (relatívna supersaturácia) pre liečbu a prevenciu močových kameňov; | upravuje pH moč",
+   "sizes": [
+    "1.5 kg",
+    "3 kg"
+   ],
+   "composition_raw": "Dehydratované bravčové a hydinové proteíny, zemiakový škrob, lignocelulóza, hydrolyzované bravčové a hydinové proteíny, šupky fazule Faba, živočíšne tuky, ryža, minerálne látky, ľanové semienka, repná dužina, vláknina psyllium (Plantago (L.) spp.), fruktooligosacharidy, pivovarské kvasnice, hydrolyzované kôrovce (zdroj chitosanu), Lactobacillus acidophilus, chondroitín sulfát.",
+   "analytical_cells": "Proteíny | 44 | Tuky | 13,5 | Minerálne látky | 7,5 | Hrubá vláknina | 6,5 ​​ | Škrob | 15 | Vápnik | 0,7 | Fosfor | 0,7 | Sodík | 1,1 | Draslík | 0,7 | Horčík | 0,08 | Chlorid | 1,4 | Síra | 0,7 | Metionín + cystín | 1,5 | Omega-6 | 2,2 | Omega-3 | 0,7 | % v krmive",
+   "additives_cells": "Vitamín A (IU/kg) | 17 000 | Vitamín D3 (IU/kg) | 1 700 | Vitamín E (mg/kg) | 610 | Vitamín K3 (mg/kg) | 0,22 | Vitamín B1 (tiamín) (mg/kg) | 11,2 | Vitamín B2 (riboflavín) (mg/kg) | 8 | Vitamín B3 (niacín, kyselina nikotínová) (mg/kg) | 113,4 | Vitamín B5 (kyselina pantoténová) (mg/kg) | 14,5 | Vitamín B6 (pyridoxín) (mg/kg) | 7,6 | Vitamín B8 (biotín, vitamín B7, vitamín H) (mg/kg) | 0,15 | Vitamín B9 (kyselina listová) (mg/kg) | 1,9 | Vitamín B12 (kobalamín) (mg/kg) | 0,046 | Cholín (mg/kg) | 1 760 | Taurín (mg/kg) | 2 460 | Meď (mg/kg) | 12 | Železo (mg/kg) | 300 | Jód (mg/kg) | 0,4 | Zinok (mg/kg) | 110 | Pridané zložky | Bentonit | 0,5 | Lactobacillus acidophilus (postbiotiká) | 7 mg/kg | Chitosan | 800 mg/kg | L-karnitín | 540 mg/kg | Citrát draselný | 0,3",
+   "energy_cells": "Metabolizovateľná energia – vypočítané (kcal/100 g) | 374 | Stráviteľnosť proteínov (in vivo %) | 86 | Stráviteľnosť tukov (in vivo %) | 91,5 | Energia z proteínov (%) | 44 | Energia z tukov (%) | 33 | Energia z NFE* (%) | 23 | Pomer proteínov ku kalóriám (g/Mcal) | 118 | * Bezdusíkatý extrakt: využiteľné sacharidy",
+   "fetch_status": "ok"
+  },
+  {
+   "brand": "Virbac",
+   "market": "SK",
+   "url": "https://sk.virbac.com/produkty/urology-struvite-dissolution-u1-cat-granule-pre-macky-na-mocove-kamene-struvity",
+   "http_status": 200,
+   "name": "Urology Struvite Dissolution U1 Cat – Granule pre mačky na močové kamene (struvity)",
+   "purpose_raw": "Struvitové kamene sa u mačiek vyskytujú veľmi často a zvyčajne sú spôsobené infekciou močových ciest a/alebo nevyváženou stravou. Tieto tvrdé usadeniny sa hromadia v močovom mechúre a blokujú odtok moču, čo môže spôsobiť značný diskomfort a bolesť. Ak sa neliečia, môže ísť o život ohrozujúci stav, ale správnou stravou ich možno liečiť. | Veterinárna diéta pre mačky VETERINARY HPM® Urology Struvite Dissolution U1 Cat je suché, kompletné a vyvážené krmivo, ktoré svojej mačke budete podávať po dobu 5 až 12 týždňov. Pomáha rozpúšťať a vylučovať struvitové kamene a možno ju tiež použiť ako diétu na zníženie recidívy iného druhu usadenín v močových cestách, tzv. oxalátových kameňov. | Okrem toho, že vašej mačke denne poskytuje všetky nevyhnutné živiny, táto špeciálna diétna receptúra: | pomáha pri liečbe ochorení močových ciest; | rozpúšťa struvitové kamene v priemere za 14 dní; | vašu mačku stimuluje k vyššej potrebe a ochote piť, a tým podporuje častejšie močenie; | pomocou vysokého obsahu proteínov a sodíka riedi a okysľuje moč pre rýchly účinok; | obmedzuje výskyt zápalu dolných močových ciest vďaka vysokému obsahu omega-3 mastných kyselín (EPA + DHA); | viaže fosfor s cieľom zníženia rizika tvorby struvitových a oxalátových kameňov v budúcnosti; | prispieva k zníženiu príjmu sacharidov. | Táto receptúra tiež dosahuje nízke hodnoty RSS <1 pri struvite (relatívna supersaturácia) pre liečbu a prevenciu močových kameňov. | Len čo u vašej mačky dôjde k rozpusteniu struvitových kam",
+   "sizes": [
+    "1.5 kg",
+    "3 kg"
+   ],
+   "composition_raw": "Dehydratované bravčové a hydinové proteíny, zemiakový škrob, hydrolyzované bravčové a hydinové proteíny, živočíšne tuky, minerálne látky, hrach, struky fazule Faba, ryža, repná dužina, ľanové semienka, pivovarské kvasnice, rybí olej, lignocelulóza, vláknina psyllium (Plantago (L.) spp.), fruktooligosacharidy, hydrolyzované kôrovce (zdroj chitosanu), chondroitín sulfát, Lactobacillus acidophilus.",
+   "analytical_cells": "Proteíny | 44 | Tuky | 16 | Minerálne látky | 7,5 | Hrubá vláknina | 4 | Skrob | 15 | Vápnik | 0,65 | Fosfor | 0,65 | Sodík | 1,3 | Draslík | 0,7 | Horčík | 0,08 | Chlorid | 1,8 | Síra | 0,7 | Metionín + cystín | 1,5 | Omega-6 | 2,5 | Omega-3 | 1 | EPA + DHA | 0,3 | % v krmive",
+   "additives_cells": "Vitamín A (IU/kg) | 17 000 | Vitamín D3 (IU/kg) | 1 700 | Vitamín E (mg/kg) | 610 | Vitamín K3 (mg/kg) | 0,22 | Vitamín B1 (tiamín) (mg/kg) | 11,2 | Vitamín B2 (riboflavín) (mg/kg) | 8 | Vitamín B3 (niacín, kyselina nikotínová) (mg/kg) | 113,4 | Vitamín B5 (kyselina pantoténová) (mg/kg) | 14,5 | Vitamín B6 (pyridoxín) (mg/kg) | 7,6 | Vitamín B8 (biotín, vitamín B7, vitamín H) (mg/kg) | 0,15 | Vitamín B9 (kyselina listová) (mg/kg) | 1,9 | Vitamín B12 (kobalamín) (mg/kg) | 0,046 | Cholín (mg/kg) | 1 760 | Taurín (mg/kg) | 2 460 | Meď (mg/kg) | 12 | Železo (mg/kg) | 300 | Jód (mg/kg) | 0,4 | Zinok (mg/kg) | 110 | Pridané zložky | Bentonit | 0,5 | Lactobacillus acidophilus (postbiotiká) | 7 mg/kg | Chitosan | 800 mg/kg | L-karnitín | 540 mg/kg | Citrát draselný | 0,3",
+   "energy_cells": "Metabolizovateľná energia – vypočítané (kcal/100 g) | 397 | Stráviteľnosť proteínov (in vivo %) | 87 | Stráviteľnosť tukov (in vivo %) | 96 | Energia z proteínov (%) | 42 | Energia z tukov (%) | 37 | Energia z NFE* (%) | 21 | Pomer proteínov ku kalóriám (g/Mcal) | 111 | * Bezdusíkatý extrakt: využiteľné sacharidy",
+   "fetch_status": "ok"
+  },
+  {
+   "brand": "Virbac",
+   "market": "SK",
+   "url": "https://sk.virbac.com/produkty/urology-water-intake-behaviour-u3-cat-granule-pre-macky-na-prevenciu-mocovych-kamenov",
+   "http_status": 200,
+   "name": "Urology Water Intake & Behaviour U3 Cat – Granule pre mačky na prevenciu močových kameňov",
+   "purpose_raw": "Mačky môžu trpieť struvitovými kameňmi, čo sú tvrdé minerálne usadeniny, ktoré sa hromadia v močovom mechúre a močovej trubici a spôsobujú značný diskomfort, bolesť alebo upchatie močových ciest. Ďalším častým ochorením močových ciest u mačiek je idiopatická cystitída mačiek (FIC), ktorá spôsobuje zápal močového mechúra bez zjavnej príčiny. V prípade FIC je dôležité venovať pozornosť zvládaniu stresu. | Veterinárna diéta pre mačky VETERINARY HPM® Urology Water Intake & Behaviour U3 Cat je suché, kompletné a vyvážené krmivo pre mačky, ktoré pomáha obmedzovať tvorbu močových kameňov (struvitov a oxalátov) a pomáha pri liečbe idiopatickej cystitídy mačiek (FIC). Obsahuje koncentrát zeleného čaju, ktorý je prírodným zdrojom L-theanínu a preukázateľne pomáha regulovať náladu a stres. Môže sa podávať dlhodobo pri liečbe ochorení dolných močových ciest. | Veterinárna diéta pre mačky VETERINARY HPM® Urology Water Intake & Behaviour U3 Cat je dokonale prispôsobená potrebám mačiek a ich optimálnemu zdraviu. Ponúka zloženie s nízkym obsahom sacharidov a vysokým obsahom proteínov – obsahuje 23 % sacharidov a 44 % proteínov (z toho 90 % živočíšneho pôvodu). | Okrem toho, že vašej mačke denne poskytuje všetky nevyhnutné živiny, táto špeciálna diétna receptúra: | obmedzuje tvorbu struvitových a oxalátových kameňov; | stimuluje príjem vody, čím zvyšuje objem a frekvenciu vylučovania moču; | riedi a okysľuje moč vďaka vysokému obsahu proteínov a sodíka, čím upravuje pH moču; | viaže fosfor,",
+   "sizes": [
+    "1.5 kg",
+    "3 kg"
+   ],
+   "composition_raw": "Dehydratované bravčové a hydinové proteíny, zemiakový škrob, hydrolyzované bravčové a hydinové proteíny, minerálne látky, struky fazule Faba, hrach, živočíšne tuky, lignocelulóza, ľanové semienka, ryža, repná dužina, pivovarské kvasnice, rybí olej, vláknina psyllium (Plantago (L.) spp.), fruktooligosacharidy, koncentrát sušeného zeleného čaju, hydrolyzované kôrovce (zdroj chitosanu), chondroitín sulfát, Lactobacillus acidophilus. VETERINARY HPM® | neobsahuje žiadne umelé farbivá ani dochucovadlá. Neobsahuje bežné potravinové alergény, ako sú: mliečne výrobky, jahňacie, ryby, vajcia, pšenica, kukurica, sója a lepok.",
+   "analytical_cells": "Proteíny | 44 | Tuky 13,5 | % | Minerálne látky | 7,5 | Hrubá vláknina | 6,5 | Škrob | 15 | Vápnik | 0,7 | Fosfor | 0,7 | Sodík | 1,1 | Draslík | 0,7 | Horčík | 0,08 | Chlorid | 1,4 | Síra | 0,7 | Metionín + cystín | 1,5 | Omega-6 | 2,2 | Omega-3 | 1,1 | % v krmive",
+   "additives_cells": "Vitamín A (IU/kg) | 17 000 | Vitamín D3 (IU/kg) | 1 700 | Vitamín E (mg/kg) | 610 | Vitamín K3 (mg/kg) | 0,22 | Vitamín B1 (tiamín) (mg/kg) | 11,2 | Vitamín B2 (riboflavín) (mg/kg) | 8 | Vitamín B3 (niacín, kyselina nikotínová) (mg/kg) | 113,4 | Vitamín B5 (kyselina pantoténová) (mg/kg) | 14,5 | Vitamín B6 (pyridoxín) (mg/kg) | 7,6 | Vitamín B8 (biotín, vitamín B7, vitamín H) (mg/kg) | 0,15 | Vitamín B9 (kyselina listová) (mg/kg) | 1,9 | Vitamín B12 (kobalamín) (mg/kg) | 0,046 | Cholín (mg/kg) | 1 760 | Taurín (mg/kg) | 2 460 | Meď (mg/kg) | 12 | Železo (mg/kg) | 300 | Jód (mg/kg) | 0,4 | Zinok (mg/kg) | 110 | Pridané zložky | Koncentrát zeleného čaju | 0,26 | Bentonit | 0,5 | Lactobacillus acidophilus (postbiotiká) | 7 mg/kg | Chitosan | 800 mg/kg | L-karnitín | 540 mg/kg | Citrát draselný | 0,3 .",
+   "energy_cells": "Metabolizovateľná energia – vypočítané (kcal/100 g) | 374 | Stráviteľnosť proteínov (in vivo %) | 86 | Stráviteľnosť tukov (in vivo %) | 91,5 | Energia z proteínov (%) | 44 | Energia z tukov (%) | 33 | Energia z NFE* (%) | 23 | Pomer proteínov ku kalóriám (g/Mcal) | 118 | * Bezdusíkatý extrakt: využiteľné sacharidy",
+   "fetch_status": "ok"
+  },
+  {
+   "brand": "Virbac",
+   "market": "SK",
+   "url": "https://sk.virbac.com/produkty/weight-loss-diabetes-w1-cat-granule-pre-macky-s-obezitou-30-a-cukrovkou",
+   "http_status": 200,
+   "name": "Weight Loss & Diabetes W1 Cat – Granule pre mačky s obezitou (>30 %) a cukrovkou",
+   "purpose_raw": "Pomôžte svojej mačke rýchlo schudnúť a regulovať hladinu cukru v krvi pomocou veterinárnej diéty pre mačky VETERINARY HPM® Weight Loss & Diabetes W1 Cat. | Zníženie nadmernej telesnej hmotnosti u mačiek nedosiahneme iba zmenšením veľkosti ich porcií. Aby sa predišlo problémom, ako sú nedostatok živín a úbytok svalovej hmoty, je dôležité regulovať telesnú hmotnosť vašej mačky pomocou kompletného a vyváženého krmiva špeciálne určeného na zníženie telesnej hmotnosti. | Veterinárna diéta pre mačky VETERINARY HPM® Weight Loss & Diabetes W1 Cat je dokonale prispôsobená potrebám mačiek a ich optimálnemu zdraviu. Ponúka zloženie s nízkym obsahom sacharidov a vysokým obsahom proteínov – obsahuje 18 % sacharidov a 44 % proteínov (z toho 94 % živočíšneho pôvodu). | Naši odborníci preto vyvinuli veterinárnu diétu pre mačky VETERINARY HPM® Weight Loss & Diabetes W1 Cat, ktorá vašej mačke pomôže dosiahnuť zdravú telesnú hmotnosť. Medzi jej výhody patrí: | nízka energetická hustota, ktorá vašej mačke pomôže rýchlo dosiahnuť cieľovú telesnú hmotnosť; | ideálny pomer vysokého obsahu proteínov a nízkeho obsahu sacharidov na podporu odbúravania tukov pri zachovaní svalovej hmoty; | pridané vitamíny a minerály zaisťujú, že vaša mačka získa všetky nevyhnutné živiny aj z menších porcií; | vysoký obsah vysoko kvalitných živočíšnych proteínov pre chutné krmivo, ktoré zasýti a vaša mačka ho bude milovať. | Veterinárna diéta pre mačky VETERINARY HPM Weight Loss & Diabetes W1 Cat má nízky glykemický i",
+   "sizes": [
+    "1.5 kg",
+    "3 kg"
+   ],
+   "composition_raw": "Dehydratované bravčové a hydinové proteíny, zemiakový škrob*, lignocelulóza, hydrolyzované bravčové a hydinové proteíny, minerálne látky, živočíšne tuky, ľanové semienka, repná dužina, pivovarské kvasnice, vláknina psyllium (Plantago (L.) spp.), hydrolyzované kôrovce (zdroj chitosanu), chondroitín sulfát, Lactobacillus acidophilus. | *zdroj sacharidov",
+   "analytical_cells": "Proteíny | 44 | Tuky | 11 | Minerálne látky | 8,5 | Hrubá vláknina | 13 | Celkový obsah vlákniny | 17,5 | Škrob | 12,5 | Cukry celkom | 1 | Vápnik | 1,3 | Fosfor | 0,9 | Sodík | 0,9 | Omega-6 | 2 | Omega-3 | 0,7 | % v krmive",
+   "additives_cells": "Vitamín A (IU/kg) | 20 000 | Vitamín D3 (IU/kg) | 2 000 | Vitamín E (mg/kg) | 700 | Vitamín K3 (mg/kg) | 0,25 | Vitamín B1 (tiamín) (mg/kg) | 13 | Vitamín B2 (riboflavín) (mg/kg) | 9 | Vitamín B3 (niacín, kyselina nikotínová) (mg/kg) | 130 | Vitamín B5 (kyselina pantoténová) (mg/kg) | 17,4 | Vitamín B6 (pyridoxín) (mg/kg) | 9,1 | Vitamín B8 (biotín, vitamín B7, vitamín H) (mg/kg) | 0,18 | Vitamín B9 (kyselina listová) (mg/kg) | 2,2 | Vitamín B12 (kobalamín) (mg/kg) | 0,055 | Cholín (mg/kg) | 2 100 | Taurín (mg/kg) | 2 900 | Meď (mg/kg) | 14 | Jód (mg/kg) | 0,45 | Zinok (mg/kg) | 130 | Pridané zložky | Bentonit | 0,5 | Lactobacillus acidophilus (postbiotiká) | 7 mg/kg | Chitosan | 800 mg/kg | L-karnitín | 540 mg/kg | Chondroitín sulfát | 440 mg/kg",
+   "energy_cells": "Metabolizovateľná energia – vypočítané (kcal/100 g) | 331 | Stráviteľnosť proteínov (in vivo %) | 84 | Stráviteľnosť tukov (in vivo %) | 94 | Energia z proteínov (%) | 50 | Energia z tukov (%) | 30 | Energia z NFE* (%) | 20 | Pomer proteínov ku kalóriám (g/Mcal) | 133 | * Bezdusíkatý extrakt: využitelné sacharidy",
+   "fetch_status": "ok"
+  },
+  {
+   "brand": "Trovet",
+   "market": "EN",
+   "url": "https://www.trovet.com/en/product/renal-venison-cat/",
+   "http_status": 200,
+   "fetch_status": "no dry form"
+  },
+  {
+   "brand": "Trovet",
+   "market": "EN",
+   "url": "https://www.trovet.com/en/product/urinary-calm-cat/",
+   "http_status": 200,
+   "name": "Trovet Urinary Calm | UCD",
+   "statement_raw": "Complete dietary food for adult cats to reduce urolithiasis and to promote calmness",
+   "composition_raw": "corn,corn gluten,dehydrated whole egg,dehydrated fish protei, poultry oil, yeast, dehydrated poultry protein, cellulose, antarctic Krill, beet pulp, mineral substances, psyllium husk, hydrolysed poultry, hydrolysed dairy protein (Trypsin-hydrolysed bovine casein 0.25%), fish oil, hydrolysed yeast cell wall (source of MOS), inulin (FOS), glucosamine 1,750 mg/kg, chondroitin Sulphate 250 mg/kg, green tea 0.07%.",
+   "analytical_raw": "Protein 34.0 %, Fat content 13.5 %, Inorganic matter 6.6 %, Crude fibre 5.5 %, Moisture 7.0 %, Carbohydrates 33.4 %, Vitamin A 20500 IU/kg, Vitamin D3 1500 IU/kg, Vitamin E 150 mg/kg, Calcium (Ca) 0.90 %, Phosphorous (P) 0.70 %, Sodium (Na) 0.75 %, Chloride (Cl) 1.80 %, Magnesium (Mg) 0.09 %, Sulphur (S) 0.50 %, Taurine 2400 mg/kg, DL-Methionine 8500 mg, Ammonium chloride 5000 mg ¦ Energy: 15,5MJ/kg - 3709 kcal/kg",
+   "period_raw": "",
+   "fetch_status": "ok"
+  },
+  {
+   "brand": "Trovet",
+   "market": "EN",
+   "url": "https://www.trovet.com/product/hepatic-cat/",
+   "http_status": 200,
+   "name": "Trovet Hepatic | HLD",
+   "statement_raw": "Complete dietary food for cats with insufficient liver function",
+   "composition_raw": "rice, poultry meal, poultry fat, corn gluten, poultry liver (hydrolysate), yeast, sodium chloride, fish oil, vitamins and minerals.",
+   "analytical_raw": "Protein 30.5 %, Fat content 15.0 %, Inorganic matter 7.0 %, Crude fibre 1.5 %, Moisture 8.0 %, Carbohydrates 38.0 %, Vitamin A 15000 IU/kg, Vitamin D3 1000 IU/kg, Vitamin E 200 mg/kg, Vitamin C 200 mg/kg, Calcium (Ca) 1.10 %, Phosphorous (P) 0.90 %, Sodium (Na) 0.65 %, Potassium (K) 0.54 %, Copper (Cu) 20 mg/kg, Taurine 1800 mg/kg, Lecithin 5000 mg/kg, Choline 2200 mg/kg, L-carnitine 300 mg/kg ¦ Energy: 15.4MJ/kg - 3675 kcal/kg",
+   "period_raw": "It is recommended that a veterinarian's opinion be sought before use or before extending the period of use. The recommended period of use in case of (chronic) liver insufficiency is initially up to 6 months. Hepatic is a complete dietary food that, after prescription by a veterinarian, can safely be fed for life.",
+   "fetch_status": "ok"
+  },
+  {
+   "brand": "Trovet",
+   "market": "EN",
+   "url": "https://www.trovet.com/product/hypoallergenic-horse-cat/",
+   "http_status": 200,
+   "fetch_status": "no dry form"
+  },
+  {
+   "brand": "Trovet",
+   "market": "EN",
+   "url": "https://www.trovet.com/product/hypoallergenic-insect-cat/",
+   "http_status": 200,
+   "name": "Trovet Hypoallergenic (Insect) | IRD",
+   "statement_raw": "Complete, easily digestible dietary food for cats with food hypersensitivity",
+   "composition_raw": "insect meal, rice, poultry fat, poultry liver (hydrolysate), calcium carbonate, fish oil, vitamins and minerals, potassium chloride, linseed, choline chloride.",
+   "analytical_raw": "Protein 28.0 %, Fat content 18.0 %, Inorganic matter 8.5 %, Crude fibre 5.8 %, Moisture 8.0 %, Carbohydrates 31.7 %, Vitamin A 200000 IU/kg, Vitamin D3 2000 IU/kg, Vitamin E 200 mg/kg, Calcium (Ca) 1.00 %, Phosphorous (P) 0.90 %, Sodium (Na) 0.31 %, Potassium (K) 0.60 %, Zinc (Zn) 60 mg/kg, Omega-3 fatty acids 0.45 %, Linoleic acid 1.91 %, Taurine 1000 mg/kg ¦ Energy: 15.1MJ/kg - 3622 kcal/kg",
+   "period_raw": "",
+   "fetch_status": "ok"
+  },
+  {
+   "brand": "Trovet",
+   "market": "EN",
+   "url": "https://www.trovet.com/product/hypoallergenic-lamb-cat/",
+   "http_status": 200,
+   "name": "Trovet Hypoallergenic (Lamb) | LRD",
+   "statement_raw": "Complete, easily digestible dietary food for adult cats with food hypersensitivity",
+   "composition_raw": "rice, lamb meal, rice protein, poultry fat, poultry liver (hydrolysate), vitamins and trace elements, fish oil, yeast, sodium chloride.",
+   "analytical_raw": "Protein 27.0 %, Fat content 16.0 %, Inorganic matter 8.5 %, Crude fibre 1.5 %, Moisture 8.0 %, Carbohydrates 39.0 %, Vitamin A 15000 IU/kg, Vitamin D3 1000 IU/kg, Vitamin E 200 mg/kg, Vitamin C 200 mg/kg, Calcium (Ca) 1.70 %, Phosphorous (P) 1.20 %, Sodium (Na) 0.55 %, Potassium (K) 0.50 %, Magnesium (Mg) 0.06 %, Zinc (Zn) 85 mg/kg, Iodine (I) 2.0 mg/kg, Taurine 1800 mg/kg, Linoleic acid 3.9 %, Ammonium chloride 0.85 % ¦ Energy: 15.4MJ/kg - 3673 kcal/kg",
+   "period_raw": "It is recommended that a veterinarian's opinion is sought before use. The recommended duration of use for Hypoallergenic (Lamb) is initially 3-8 weeks in case of food allergy or food intolerance and at most 6 months for the reduction of reocurring struvite formation. After extension of prescription, Hypoallergenic (Lamb) can be fed for life as a complete dietary food.",
+   "fetch_status": "ok"
+  },
+  {
+   "brand": "Trovet",
+   "market": "EN",
+   "url": "https://www.trovet.com/product/hypoallergenic-rabbit-cat/",
+   "http_status": 200,
+   "name": "Trovet Hypoallergenic (Rich in Rabbit) | RRD",
+   "statement_raw": "Complete, easily digestible dietary food for cats with food hypersensitivity",
+   "composition_raw": "dehydrated rabbit protein 24%, rice 23%, rice protein, poultry oil, rice bran, fermentation products, hydrolysed poultry, yeast (Saccharomyces cerevisiae), mineral substances, fish oil.",
+   "analytical_raw": "Protein 29.5 %, Fat content 19.0 %, Inorganic matter 8.0 %, Crude fibre 1.5 %, Moisture 7.0 %, Carbohydrates 34.0 %, Vitamin A 15000 IU/kg, Vitamin D3 1000 IU/kg, Vitamin E 200 mg/kg, Vitamin C 200 mg/kg, Calcium (Ca) 1.30 %, Phosphorous (P) 1.10 %, Sodium (Na) 0.45 %, Potassium (K) 0.51 %, Zinc (Zn) 120 mg/kg, Iron (Fe) 75 mg/kg, Iodine (I) 3.5 mg/kg, Copper (Cu) 10 mg/kg, Manganese (Mn) 7.5 mg/kg, Selenium (Se) 0.12 mg/kg, Taurine 1800 mg/kg ¦ Energy: 17.01MJ/kg - 4065 kcal/kg",
+   "period_raw": "",
+   "fetch_status": "ok"
+  },
+  {
+   "brand": "Trovet",
+   "market": "EN",
+   "url": "https://www.trovet.com/product/hypoallergenic-turkey-cat/",
+   "http_status": 200,
+   "fetch_status": "no dry form"
+  },
+  {
+   "brand": "Trovet",
+   "market": "EN",
+   "url": "https://www.trovet.com/product/hypoallergenic-venison-cat/",
+   "http_status": 200,
+   "fetch_status": "no dry form"
+  },
+  {
+   "brand": "Trovet",
+   "market": "EN",
+   "url": "https://www.trovet.com/product/intestinal-cat/",
+   "http_status": 200,
+   "name": "Trovet Intestinal | FRD",
+   "statement_raw": "Complete, hypoallergenic dietary food for cats with gastro-intestinal disorders",
+   "composition_raw": "rice, rice protein, hydrolysed fish protein 14%, chicken oil, fish oil, antarctic Krill, hydrolysed fish 2.5%, tapioca, beet pulp, mineral substances, vegetable fibres (Cellulose), seaweed oil, psyllium, hydrolysed yeast cell wall (source of mannan oligosaccharides (MOS) 0.13%, inulin (source of FOS) 0.08%, yucca schidigera.",
+   "analytical_raw": "Protein 32.0 %, Fat content 20.0 %, Inorganic matter 7.5 %, Crude fibre 2.5 %, Moisture 7.0 %, Carbohydrates 31.0 %, Vitamin A 20000 IU/kg, Vitamin D3 1550 IU/kg, Vitamin E 130 mg/kg, Calcium (Ca) 0.90 %, Phosphorous (P) 0.70 %, Sodium (Na) 0.65 %, Potassium (K) 0.65 %, Magnesium (Mg) 0.15 %, Iron (Fe) 75 mg/kg, Iodine (I) 3.5 mg/kg, Copper (Cu) 10 mg/kg, Manganese (Mn) 7.5 mg/kg, Zinc (Zn) 120 mg/kg, Selenium (Se) 0.12 mg/kg, Taurine 1500 mg/kg, Omega-3 fatty acids 2.30 %, Linoleic acid 2.80 % ¦ Energy: 17.1MJ/kg - 4096 kcal/kg",
+   "period_raw": "It is advised to consult a veterinarian before using this diet. The recommended duration of use for Intestinal is initially 3 to 8 weeks in case of food allergy or food intolerance, 3 to 12 weeks in case of gastro-intestinal problems and at most 2 months in case of dermatitis and hair loss. After extension of prescription, Intestinal can be fed for life as a complete dietary food.",
+   "fetch_status": "ok"
+  },
+  {
+   "brand": "Trovet",
+   "market": "EN",
+   "url": "https://www.trovet.com/product/recovery-liquid-cat/",
+   "http_status": 200,
+   "fetch_status": "no dry form"
+  },
+  {
+   "brand": "Trovet",
+   "market": "EN",
+   "url": "https://www.trovet.com/product/renal-oxalate-cat/",
+   "http_status": 200,
+   "name": "Trovet Renal & Oxalate | RID",
+   "statement_raw": "Complete dietary food for adult cats with insufficient kidney function",
+   "composition_raw": "corn. corn gluten. chicken fat. rice. dehydrated poultry protein. rice protein. poultry hydrolysate. dehydrated whole egg. corn flour. fish oil. calcium carbonate 0.90% (urine alkalinising substance). minerals. yeast (Saccharomyces cerevisiae).",
+   "analytical_raw": "Protein 26.0 %, Fat content 23.5 %, Inorganic matter 5.5 %, Crude fibre 2.5 %, Moisture 7.0 %, Carbohydrates 35.5 %, Vitamin A 15000 IU/kg, Vitamin D3 1000 IU/kg, Vitamin E 250 mg/kg, Calcium (Ca) 0.95 %, Phosphorous (P) 0.50 %, Sodium (Na) 0.40 %, Potassium (K) 0.70 %, Magnesium (Mg) 0.07 %, Taurine 1800 mg/kg ¦ Energy: 17.94MJ/kg - 4290 kcal/kg",
+   "period_raw": "It is recommended that a veterinarian's opinion is sought before use. The recommended duration of use for Renal & Oxalate is initially up to 6 months. After extending the period of use, Renal & Oxalate can be fed for life as a complete dietary food.",
+   "fetch_status": "ok"
+  },
+  {
+   "brand": "Trovet",
+   "market": "EN",
+   "url": "https://www.trovet.com/product/urinary-struvite-cat/",
+   "http_status": 200,
+   "name": "Trovet Urinary Struvite | ASD",
+   "statement_raw": "Complete, dietary food for adult cats with struvite disorders",
+   "composition_raw": "rice, dehydrated chicken protein, chicken oil, corn gluten, dehydrated fish protein, corn. hydrolysed chicken, yeasts, mineral substances, fish oil.",
+   "analytical_raw": "Protein 32.0 %, Fat content 23.0 %, Inorganic matter 6.8 %, Crude fibre 1.5 %, Moisture 7.0 %, Carbohydrates 29.7 %, Vitamin A 15000 IU/kg, Vitamin D3 300 IU/kg, Vitamin E 550 mg/kg, Calcium (Ca) 1.00 %, Phosphorous (P) 1.00 %, Sodium (Na) 0.60 %, Potassium (K) 0.56 %, Chloride (Cl) 1.80 %, Magnesium (Mg) 0.07 %, Sulphur (S) 0.32 %, Taurine 1800 mg/kg, Ammonium chloride 5000 mg ¦ Energy: 18.02MJ/kg - 4306 kcal/kg",
+   "period_raw": "It is recommended that a veterinarian's opinion is sought before use. The recommended duration of use for Urinary Struvite is 5 to 12 weeks for the dissolution of struvite and at most 6 months for the reduction of reoccuring struvite formation. After extending the period of use, Urinary Struvite can be fed for life as a complete dietary food.",
+   "fetch_status": "ok"
+  },
+  {
+   "brand": "Trovet",
+   "market": "EN",
+   "url": "https://www.trovet.com/product/weight-diabetic-cat/",
+   "http_status": 200,
+   "name": "Trovet Weight & Diabetic | WRD",
+   "statement_raw": "Complete dietary food for overweight / diabetic adult cats",
+   "composition_raw": "poultry meal, corn, rice, corn gluten, poultry liver (hydrolysate), fish meal, cellulose, egg, yeast, vitamins and minerals, fish oil, sodium chloride.",
+   "analytical_raw": "Protein 36.0 %, Fat content 8.5 %, Inorganic matter 7.0 %, Crude fibre 4.5 %, Moisture 8.0 %, Carbohydrates 36.0 %, Vitamin A 15000 IU/kg, Vitamin D3 1000 IU/kg, Vitamin E 250 mg/kg, Calcium (Ca) 1.20 %, Phosphorous (P) 1.10 %, Sodium (Na) 0.45 %, Potassium (K) 0.60 %, Iron (Fe) 75 mg/kg, Copper (Cu) 10 mg/kg, Zinc (Zn) 85 mg/kg, Manganese (Mn) 15 mg/kg, L-carnitine 150 mg/kg, Taurine 1800 mg/kg ¦ Energy: 13.6MJ/kg - 3254 kcal/kg",
+   "period_raw": "",
+   "fetch_status": "ok"
+  }
+ ]
+}

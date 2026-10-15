@@ -1,8 +1,8 @@
 # Granule pre mačky: gastrointestinálne diéty (SK/CZ)
 
-**Verzia 1.2 · október 2026 · 97 granúl: 19 ručne overených (GI diéty a porovnanie, [časti 4.1–4.2](#4)) + 78 automaticky stiahnutých zo stránok výrobcov — všetky suché veterinárne diéty Royal Canin a všetky granule Pro Plan / Pro Plan Veterinary Diets z CZ, SK a UK ([časť 4.3](#4))**
+**Verzia 1.3 · október 2026 · 161 granúl: 19 ručne overených (GI diéty a porovnanie, [časti 4.1–4.2](#4)) + 142 automaticky stiahnutých zo stránok výrobcov — všetky suché veterinárne diéty Royal Canin, Hill's, Brit, Farmina, Calibra, Virbac HPM a Trovet a všetky granule Pro Plan / Pro Plan Veterinary Diets z CZ, SK a UK ([časti 4.3–4.4](#4))**
 
-> **Čo toto je.** Osobný prieskum suchých krmív na tráviace problémy, zostavený s pomocou AI (Claude, Anthropic). Všetky údaje sú doslovne prevzaté zo stránok výrobcov a uložené v [`raw_data/gi_dry.json`](raw_data/gi_dry.json); prepočty robí [`build_dataset.py`](build_dataset.py).
+> **Čo toto je.** Osobný prieskum suchých krmív na tráviace problémy, zostavený s pomocou AI (Claude, Anthropic). Všetky údaje sú doslovne prevzaté zo stránok výrobcov a uložené v [`raw_data/`](raw_data/) (ručne overené v `gi_dry.json`); prepočty robí [`build_dataset.py`](build_dataset.py).
 >
 > **Čo toto nie je.** Nie je to veterinárne odporúčanie. Veterinárne diéty sú určené na podávanie po konzultácii s veterinárom — ten musí najprv zistiť, prečo má mačka tráviace problémy. Žiadna diéta nenahradí vyšetrenie.
 >
@@ -177,7 +177,7 @@ Na žiadosť autora boli stiahnuté **všetky** granule Pro Plan a Pro Plan Vete
 - **Energia**: z etikety, ak ju stránka uvádza; inak z rovnakého produktu na inom trhu, ak má zhodné deklarované bielkoviny, tuk, popol a vlákninu (28 produktov — zväčša bežné Pro Plan CZ/SK s energiou z UK); inak Atwaterov odhad (21 produktov). Zdroj je pri každom produkte v detaile.
 - Rovnaké deklarované hodnoty na viacerých trhoch má 49 riadkov (37 vo všetkých troch krajinách).
 
-**Prehľad podľa kategórie (všetkých 97 granúl)**
+**Prehľad podľa kategórie (stav verzie 1.2, 97 granúl; aktuálny prehľad všetkých 161 je v [časti 4.4](#4))**
 
 | Kategória | n | Bielkoviny g/1000 kcal — medián (rozsah) | Fosfor g/1000 kcal — medián (rozsah; počet s deklarovaným P) | kcal/kg (medián) |
 |---|---:|---|---|---:|
@@ -198,6 +198,71 @@ Na žiadosť autora boli stiahnuté **všetky** granule Pro Plan a Pro Plan Vete
 - **Royal Canin** uvádza fosfor pri renálnych a močových diétach, ale pri GI diétach nie.
 - Pribudli dve GI diéty Royal Canin, ktoré v ručnom výbere chýbali: **Gastrointestinal Moderate Calorie** (menej tuku, 35 g/1000 kcal) a **CA Gastrointestinal Hydrolysed Protein** (hydrolyzovaná bielkovina, 77 g bielkovín/1000 kcal).
 - Kategórie z názvu sú pomôcka na filtrovanie, nie klasifikácia účelu podľa EÚ — napr. „Neutered Satiety Balance" je zaradená medzi diéty na chudnutie, hoci je to udržiavacia diéta pre kastrované mačky.
+
+### 4.4 Ďalší výrobcovia dostupní na SK/CZ: Hill's, Brit, Farmina, Calibra, Virbac, Trovet
+
+Verzia 1.3 dopĺňa **všetky suché veterinárne diéty pre mačky** ďalších šiestich výrobcov, ktorých stránka uvádza etiketu (64 nových riadkov). GI diéty týchto značiek boli ručne overené už v časti 4.1 a nezdvojujú sa.
+
+| Výrobca | Stránka | Počet | Ako sa sťahovalo |
+|---|---|---:|---|
+| Hill's Prescription Diet | hillspet.cz | 21 | stránka blokuje skripty (HTTP 403) → text etikety načítaný vstavaným prehliadačom (`raw_data/hills_vet.json`) |
+| Brit Veterinary Diets | brit.pet/sk | 10 | skript [`scrape_others.py`](scrape_others.py) |
+| Farmina Vet Life | farmina.com/cz | 12 | skript; konzerva 85 g vynechaná (nie granule) |
+| Calibra VD | mojacalibra.sk | 3 | stránka skriptu vráti prázdnu stránku → vstavaný prehliadač (`raw_data/calibra_vet.json`) |
+| Virbac Veterinary HPM | sk.virbac.com | 9 | skript; analytické zložky sú tabuľka bez znaku % (stĺpec „% v krmive“) |
+| Trovet | trovet.com (anglicky) | 9 | skript; **výrobca nemá SK/CZ stránku**, použitá anglická; doplnkové látky stránka neuvádza |
+
+**Nezaradené** (stránka výrobcu s etiketou sa nenašla alebo je zastaraná; e-shopy sa nepoužívajú): Specific (specific-diets.com – 404), Josera Help (josera.com/sk a /cs líniu pre mačky nezobrazuje), Monge VetSolution (len PDF listy z rokov 2016–2019, väčšinou mokré verzie a bez energie). Trovet má 6 ďalších diét pre mačky len v mokrej forme (Renal Venison, Hypoallergenic Horse/Turkey/Venison, Recovery Liquid) – nie sú zaradené.
+
+**Opravy oproti verzii 1.2**
+- Brit **Gastrointestinal Low Fat** a **Gastrointestinal High Fibre** na brit.pet sú (v1.2 ich uvádzala ako nenájdené) — sú zaradené.
+- Brit **Ultra-hypoallergenic** je na báze **hmyzu** (sušený hmyz 30 %), nie lososa.
+- Trovet **Intestinal** má stránku výrobcu (anglickú) — zaradený.
+
+**Prehľad podľa kategórie (všetkých 161 granúl)**
+
+| Kategória | n | Bielkoviny g/1000 kcal — medián (rozsah) | Fosfor g/1000 kcal — medián (rozsah; počet s deklarovaným P) | kcal/kg (medián) |
+|---|---:|---|---|---:|
+| diéta – močové cesty | 27 | 92 (74–118) | 1,89 (1,47–3,41; 27) | 3800 |
+| bežné krmivo | 25 | 101 (90–114) | nedeklarovaný (0) | 3850 |
+| diéta – obličky | 22 | 69 (58–99) | 1,04 (0,74–1,56; 22) | 4020 |
+| GI diéta | 19 | 92 (77–108) | 2,27 (1,64–3,13; 13) | 3988 |
+| diéta – chudnutie | 14 | 117 (110–141) | 2,49 (1,85–3,69; 9) | 3400 |
+| diéta – alergie | 14 | 76 (66–96) | 2,17 (1,30–3,27; 9) | 3720 |
+| diéta – diabetes | 9 | 121 (111–133) | 2,70 (1,83–3,38; 6) | 3787 |
+| diéta – pečeň | 7 | 66 (63–83) | 1,57 (1,54–2,45; 3) | 4136 |
+| citlivé trávenie (bežné krmivo) | 6 | 102 (97–107) | nedeklarovaný (0) | 3945 |
+| ostatné veterinárne (udržiavacie, stres, srdce, zuby, kĺby, koža, štítna žľaza) | 18 | 67–134 | 1,53–3,12 (16) | — |
+
+**Obličkové diéty (22) — bielkoviny a fosfor na 1000 kcal**
+
+| Diéta | Bielkoviny g | Fosfor g |
+|---|---:|---:|
+| Brit GF VD Renal | 58 | 1,00 |
+| Farmina Vet Life Renal | 58 | 0,94 |
+| RC CA Renal – Mobility | 59 | 0,74 |
+| Trovet Renal & Oxalate RID | 61 | 1,17 |
+| Calibra VD Renal & Cardiac | 61 | 1,02 |
+| RC Renal / Renal Select / CA Renal-Hypoallergenic | 62–63 | 0,81–1,05 |
+| Hill's k/d, k/d + Mobility | 68 | 1,09–1,17 |
+| Pro Plan NF Advanced Care | 69 | 0,82 |
+| RC Renal Special | 71 | 1,22 |
+| Virbac HPM Advanced Kidney & Joint KJ3 | 72 | 1,20 |
+| RC CA Early Renal – Mobility | 76 | 1,34 |
+| Pro Plan NF Early Care | 76 | 0,92 |
+| Hill's k/d Early Stage | 78 | 1,14 |
+| RC Early Renal | 79 | 1,41 |
+| Virbac HPM Kidney & Joint KJ2 | 85 | 1,33 |
+| Virbac HPM Early Kidney & Joint KJ1 | 99 | 1,56 |
+
+**Čo z toho vyplýva**
+- **Renálne diéty všetkých výrobcov** sa zhodujú v tom podstatnom: fosfor 0,74–1,41 g/1000 kcal (okrem Virbac KJ1/KJ2) a bielkoviny 58–79 g/1000 kcal. Najnižší fosfor majú stále RC CA Renal – Mobility, RC Renal a Pro Plan NF Advanced Care (0,74–0,82 g); najnižšie bielkoviny Brit a Farmina.
+- **Virbac KJ1 a KJ2** sú kombinované diéty „obličky + kĺby“ pre skoré štádiá (IRIS 2, resp. počiatočná fáza): KJ1 má 99 g bielkovín a 1,56 g fosforu na 1000 kcal — to je bližšie bežnému krmivu pre seniorov než renálnej diéte. Do kategórie „obličky“ ich dalo pravidlo podľa názvu („Kidney“).
+- **Diabetické diéty** sú všetky vysokobielkovinové (111–133 g/1000 kcal) s nízkym podielom energie zo sacharidov (NFE 14–21 % energie); výnimkou je **Trovet Weight & Diabetic** s 39 % energie z NFE.
+- **Močové diéty** sa delia na dve skupiny podľa sodíka: s vysokým sodíkom (≥ 2,9 g/1000 kcal — RC S/O, Pro Plan UR, Calibra, Brit, Virbac U1–U3), ktorý zvyšuje príjem vody a riedi moč, a s nízkym sodíkom (Hill's c/d a s/d, Farmina, Trovet ASD, RC S/O Bladder Comfort Ageing: 0,6–1,4 g); Trovet Urinary Calm je medzi nimi (2,0 g).
+- **Virbac U2 a U3** majú na stránke úplne rovnaké analytické zložky a energiu — líšia sa len deklarovaným účelom.
+- **Hill's** uvádza energiu na etikete len pri 7 z 21 diét; pri ostatných je použitý „priemerný obsah“ z tabuľky výrobcu na tej istej stránke (zdroj je pri každom produkte v detaile). Pri m/d je energia na etikete v MJ/kg (16,5 MJ/kg = 3 944 kcal/kg).
+- Kontrola elektrolytov podľa nariadenia EÚ 2020/354, položky 20 (Na ≥ 0,18 %, K ≥ 0,5 %), platí len pre GI diéty. Pri iných diétach sa v tabuľke zobrazuje iba informatívne — napr. Brit Struvite má draslík 0,45 %, čo pre močovú diétu nie je chyba.
 
 ---
 
@@ -265,15 +330,16 @@ Pre dve adoptované mačky s citlivým trávením (všeobecný postup, nie diagn
 4. **Hill's** zverejňuje energiu len v tabuľke priemerného obsahu, nie na etikete.
 5. **Klinické tvrdenia výrobcov** („klinicky overené", „do 24 hodín") sa tu nehodnotia — väčšina súvisiacich štúdií je financovaná výrobcami a nie vždy publikovaná.
 6. **Vybrané štúdie** sú malé (28–55 mačiek) a takmer všetky financované výrobcami krmív.
-7. **Rozsah:** ručne overené sú GI diéty a porovnanie v časti 4.2; ostatné veterinárne diéty sú len od Royal Canin a Pro Plan (automaticky stiahnuté, časť 4.3) — Hill's, Brit, Calibra, Farmina a ďalší majú vo svojich radoch aj diéty na obličky, moč a pod., ktoré tu zatiaľ nie sú.
-8. **Automaticky stiahnuté produkty** (štítok „auto“) neprešli čítaním s porozumením: kategória je z názvu, druhy vlákniny z kľúčových slov a zdroje bielkovín nie sú určené. Číselné údaje sú doslovne zo stránky výrobcu.
+7. **Rozsah:** ručne overené sú GI diéty a porovnanie v časti 4.2; ostatné veterinárne diéty (8 výrobcov) sú automaticky stiahnuté (časti 4.3–4.4). Chýbajú výrobcovia bez stránky s etiketou (Specific, Josera Help, Monge VetSolution) a mokré diéty. Trovet je z anglickej stránky výrobcu — zloženie pre SK/CZ trh sa môže líšiť.
+8. **Automaticky stiahnuté produkty** (štítok „auto“) neprešli čítaním s porozumením: kategória je z názvu, druhy vlákniny z kľúčových slov a zdroje bielkovín nie sú určené. Číselné údaje sú doslovne zo stránky výrobcu (pri Virbac je % doplnené podľa hlavičky stĺpca tabuľky).
+9. **Kontrola elektrolytov EÚ 2020/354 (položka 20)** sa vzťahuje len na GI diéty; pri ostatných kategóriách je v tabuľke len informatívna.
 
 ---
 
 <a id="9"></a>
 ## 9. Zdroje
 
-**Stránky výrobcov** (jediný zdroj údajov o produktoch; odkaz pri každom produkte v [`raw_data/gi_dry.json`](raw_data/gi_dry.json)): royalcanin.com/sk, hillspet.cz, purina.cz, brit.pet/sk, mojacalibra.sk, farmina.com/cz.
+**Stránky výrobcov** (jediný zdroj údajov o produktoch; odkaz pri každom produkte v [`raw_data/gi_dry.json`](raw_data/gi_dry.json)): royalcanin.com/sk, hillspet.cz, purina.cz, purina.sk, purina.co.uk, brit.pet/sk, mojacalibra.sk, farmina.com/cz, sk.virbac.com, trovet.com.
 
 **Štúdie a regulácia**
 

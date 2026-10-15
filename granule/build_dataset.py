@@ -17,7 +17,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 RAW = json.load(open(os.path.join(HERE, "raw_data", "gi_dry.json"), encoding="utf-8"))
 ASSUMED_MOISTURE = 8.0
 sys.path.insert(0, HERE)
-import scraped  # automatically downloaded Pro Plan + Royal Canin pages
+import scraped  # Pro Plan, Royal Canin, Hill's, Brit, Farmina, Calibra, Virbac, Trovet pages
 SCRAPED, SCRAPE_FAILED = scraped.load({p["url"] for p in RAW["products"]})
 PRODUCTS = RAW["products"] + SCRAPED
 
@@ -26,12 +26,12 @@ def num(s):
 
 N = r"(\d+(?:[.,]\d+)?)"
 LABELS = {
-    "protein":  r"(?:hrub[éýá] )?(?:bielkoviny|b[íi]lkoviny|b[íi]lkovina|prote[íi]n|dus[íi]kat[ée] l[áa]tky)",
-    "fat":      r"(?:obsah tuku|oleje a tuky|fat content|hrub[ýá] tuk|\bfat\b)",
+    "protein":  r"(?:hrub[éýá] )?(?:bielkoviny|b[íi]lkovin[ay]?\\?|prote[íi]ny?|dus[íi]kat[ée] l[áa]tky)",   # Hill's t/d: "Bílkovin\ 32,5 %"
+    "fat":      r"(?:obsah tuku|oleje a tuky|fat content|hrub[ýá] tuky?|hrub[ée] tuky|\bfat\b|\btuky\b)",
     "fiber":    r"(?:hrub[áé] )?(?:vl[áa]knina|crude fibres?)",
-    "ash":      r"(?:hrub[ýé] )?(?:popol|popel|crude ash|obsah anorganick[ýé]ch l[áa]t(?:ek|ok))",
+    "ash":      r"(?:hrub[ýé] )?(?:popol|popel|crude ash|obsah anorganick[ýé]ch l[áa]t(?:ek|ok)|miner[áa]ln[ei] l[áa]tky|inorganic matter)",
     "carb":     r"(?:sacharidy|carbohydrates?)",
-    "moisture": r"vlhkos[tť]",
+    "moisture": r"(?:vlhkos[tť]|moisture)",
     "ca":       r"(?:v[áa]pn[íi]k|calcium)",
     "p":        r"(?:fosfor|phosphor(?:o)?us)",
     "na":       r"(?:sod[íi]k|sodium)",
@@ -42,7 +42,7 @@ LABELS = {
 def parse_analytics(text):
     out = {}
     for key, lab in LABELS.items():
-        m = re.search(lab + r"\s*:?\s*" + N + r"\s*%", text, re.I)
+        m = re.search(lab + r"(?:\s*\([A-Za-z]{1,2}\))?\s*:?\s*" + N + r"\s*%", text, re.I)   # Trovet "Calcium (Ca) 0.95 %"
         if m:
             out[key] = num(m.group(1))
     return out
@@ -67,6 +67,9 @@ def parse_energy(p):
     m = re.search(r"(\d+(?:[.,]\d+)?)\s*kcal\s*(?:per|/)\s*100\s*g", a, re.I)   # "415kcal per 100g"
     if m:
         return num(m.group(1)) * 10, "etiketa"
+    m = re.search(r"(\d+[.,]\d+)\s*MJ\s*/\s*kg", a)                  # Hill's m/d: "16,5 MJ/kg"
+    if m:
+        return round(num(m.group(1)) * 239.006), "etiketa (prepočet z MJ/kg)"
     m = re.search(r"Kalorick[ýy] obsah\s*(\d[\d ]*)\s*kcal/kg", p.get("typical_raw", ""))
     if m:
         return num(m.group(1)), "priemerný obsah (výrobca)"
@@ -95,6 +98,12 @@ def taurine_mg_kg(p):
     m = re.search(r"mg/kg:\s*Taurin\s*:\s*(\d[\d ]*)", t, re.I)
     if m:
         return num(m.group(1)), "etiketa"
+    m = re.search(r"Taur[íi]n\s*\(mg/kg\)\s*(\d[\d ]*)", t, re.I)       # Virbac table: "Taurín (mg/kg) 2 900"
+    if m:
+        return num(m.group(1)), "etiketa"
+    m = re.search(r"Taur[íi]ne?\s*:?\s*" + N + r"\s*%", t, re.I)         # "Taurín 0,23 %"
+    if m:
+        return num(m.group(1)) * 10000, "etiketa"
     m = re.search(r"Taurin\s*" + N + r"\s*%", p.get("typical_raw", ""))
     if m:
         return num(m.group(1)) * 10000, "priemerný obsah (výrobca)"
