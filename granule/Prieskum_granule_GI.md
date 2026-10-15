@@ -1,6 +1,6 @@
 # Granule pre mačky: gastrointestinálne diéty (SK/CZ)
 
-**Verzia 1.1 · október 2026 · 19 granúl: 12 GI diét, 2 bežné krmivá na citlivé trávenie, 2 diéty na chudnutie, 3 bežné krmivá ([časť 4.2](#4)) · 6 výrobcov · údaje výhradne zo stránok výrobcov**
+**Verzia 1.2 · október 2026 · 97 granúl: 19 ručne overených (GI diéty a porovnanie, [časti 4.1–4.2](#4)) + 78 automaticky stiahnutých zo stránok výrobcov — všetky suché veterinárne diéty Royal Canin a všetky granule Pro Plan / Pro Plan Veterinary Diets z CZ, SK a UK ([časť 4.3](#4))**
 
 > **Čo toto je.** Osobný prieskum suchých krmív na tráviace problémy, zostavený s pomocou AI (Claude, Anthropic). Všetky údaje sú doslovne prevzaté zo stránok výrobcov a uložené v [`raw_data/gi_dry.json`](raw_data/gi_dry.json); prepočty robí [`build_dataset.py`](build_dataset.py).
 >
@@ -39,7 +39,7 @@ Preto sa tu diéty **porovnávajú podľa toho, čo majú robiť**, a to všetko
 ### Zdroje
 
 - **Iba stránky výrobcov** pre SK alebo CZ trh, načítané v prehliadači (vrátane skrytých záložiek a dát vykresľovaných JavaScriptom). E-shopy sa nepoužili — popisy na nich bývajú zastarané.
-- Výrobcovia bez dohľadateľnej stránky s etiketou pre SK/CZ sú vymenovaní ako **nezaradení** (Josera, Trovet, Specific, Monge, RC Moderate Calorie, Brit High Fibre/Low Fat) — pozri `not_included` v surových dátach.
+- Výrobcovia bez dohľadateľnej stránky s etiketou pre SK/CZ sú vymenovaní ako **nezaradení** (Josera, Trovet, Specific, Monge, Brit High Fibre/Low Fat) — pozri `not_included` v surových dátach. *(Oprava v1.2: RC Gastrointestinal Moderate Calorie na SK webe je — chýba len vo výpise produktov, ale je v sitemap; teraz je zaradená.)*
 - Prilepený zoznam produktov (z inej AI konverzácie) slúžil len ako východisko; každé jeho tvrdenie bolo overené na stránke výrobcu ([časť 5](#5)).
 
 ### Energia
@@ -164,6 +164,41 @@ Na žiadosť autora pribudlo šesť granúl, ktoré **nie sú gastrointestináln
 - **Diéty na chudnutie** majú najnižšiu energetickú hustotu v celom porovnaní (3 040–3 400 kcal/kg) a vysoký podiel bielkovín na kalóriu — **OM 141 g/1000 kcal**, čo je v súlade so štúdiou Laflamme & Hannah 2005 (viac bielkovín pri chudnutí = menšia strata svalov). **Satiety** stavia na vláknine (14,6 %, najviac zo všetkých 19 produktov). Prvými zložkami OM sú pšeničný lepok, kukuričná bielkovina a sójová múka.
 - Pri žiadnom z týchto šiestich produktov výrobca neuvádza fosfor, vápnik ani horčík a okrem OM ani taurín.
 
+### 4.3 Všetky granule Pro Plan a všetky suché veterinárne diéty Royal Canin (automaticky stiahnuté)
+
+Na žiadosť autora boli stiahnuté **všetky** granule Pro Plan a Pro Plan Veterinary Diets zo stránok purina.cz, purina.sk a purina.co.uk a **všetky suché veterinárne diéty Royal Canin** zo SK stránky (78 nových riadkov). Robia to skripty [`scrape_proplan.py`](scrape_proplan.py) a [`scrape_royalcanin.py`](scrape_royalcanin.py); surové dáta sú v `raw_data/proplan_dry.json` a `raw_data/royalcanin_vet.json`, prevod do tabuľky v [`scraped.py`](scraped.py).
+
+**Ako sa sťahovalo**
+- Stránkovanie výpisov Purina v prehliadači nefunguje; server však vracia každú stranu (`?page=N`) správne, takže skript číta odkazy priamo z HTML. Výpis „granule" na purina.cz vynecháva časť veterinárnych diét — skript preto prechádza aj všeobecný výpis.
+- **purina.eu**: všetkých 7 produktových stránok vrátilo **chybu servera (HTTP 500)**. Rovnaké produkty (rovnaké adresy) sú na purina.co.uk, odkiaľ sú zaradené.
+- Royal Canin skrýva časť produktov vo výpise; skript berie zoznam zo **sitemap** (SK aj CZ: zhodne 33 suchých diét + 1 tekutá, ktorá nie je zaradená). Do tabuľky ide SK verzia; CZ je ten istý sortiment s rovnakými ID produktov.
+- Produkty, ktoré už boli ručne overené (časti 4.1–4.2), sa nezdvojujú.
+- **Kategória** sa priraďuje podľa názvu produktu (tabuľka pravidiel v `scraped.py`), **druhy vlákniny** automaticky zo zloženia, **zdroje bielkovín sa pri stiahnutých produktoch neurčujú**. V tabuľke majú tieto riadky štítok „auto".
+- **Energia**: z etikety, ak ju stránka uvádza; inak z rovnakého produktu na inom trhu, ak má zhodné deklarované bielkoviny, tuk, popol a vlákninu (28 produktov — zväčša bežné Pro Plan CZ/SK s energiou z UK); inak Atwaterov odhad (21 produktov). Zdroj je pri každom produkte v detaile.
+- Rovnaké deklarované hodnoty na viacerých trhoch má 49 riadkov (37 vo všetkých troch krajinách).
+
+**Prehľad podľa kategórie (všetkých 97 granúl)**
+
+| Kategória | n | Bielkoviny g/1000 kcal — medián (rozsah) | Fosfor g/1000 kcal — medián (rozsah; počet s deklarovaným P) | kcal/kg (medián) |
+|---|---:|---|---|---:|
+| bežné krmivo | 25 | 101 (90–114) | nedeklarovaný (0) | 3850 |
+| GI diéta | 16 | 93 (77–108) | 2,30 (1,64–3,13; 10) | 4012 |
+| diéta – močové cesty | 13 | 94 (76–112) | 2,37 (1,76–3,41; 13) | 3557 |
+| diéta – obličky | 12 | 70 (59–79) | 0,92 (0,74–1,41; 12) | 3852 |
+| citlivé trávenie (bežné krmivo) | 6 | 102 (97–107) | nedeklarovaný (0) | 3945 |
+| diéta – chudnutie | 6 | 128 (110–141) | 3,69 (1 produkt) | 3249 |
+| diéta – alergie | 5 | 96 (66–96) | nedeklarovaný (0) | 3640 |
+| diéta – pečeň | 4 | 66 (63–66) | nedeklarovaný (0) | 4240 |
+| diéta – diabetes | 3 | 119 | nedeklarovaný (0) | 4190 |
+| ostatné veterinárne (udržiavacie, stres, srdce, zuby, kĺby, koža) | 7 | 78–134 | 1,67–2,85 (4) | — |
+
+**Čo z toho vyplýva**
+- **Renálne diéty** majú fosforu najmenej (0,74–1,41 g/1000 kcal, polovica až tretina oproti GI diétam) a bielkoviny mierne obmedzené (59–79 g/1000 kcal). „Ranné" verzie (Pro Plan NF Early Care, RC Early Renal) sú na hornej hranici — 76–79 g bielkovín a 0,9–1,4 g fosforu na 1000 kcal — teda blízko „mierneho obmedzenia" zo štúdie Schauf a kol. 2021 (76–98 g bielkovín, 1,4–1,6 g P). Pre porovnanie: bežné krmivo **Pro Plan „Renal Plus" má ~120 g bielkovín na 1000 kcal a fosfor nedeklaruje** — je to iný typ krmiva ([časť 4.2](#4)).
+- **Bežné krmivá Pro Plan** (25 + 6 riadkov naprieč trhmi) neuvádzajú fosfor, vápnik ani horčík na žiadnej z troch stránok; veterinárne diéty Pro Plan a Royal Canin ich uvádzajú takmer vždy.
+- **Royal Canin** uvádza fosfor pri renálnych a močových diétach, ale pri GI diétach nie.
+- Pribudli dve GI diéty Royal Canin, ktoré v ručnom výbere chýbali: **Gastrointestinal Moderate Calorie** (menej tuku, 35 g/1000 kcal) a **CA Gastrointestinal Hydrolysed Protein** (hydrolyzovaná bielkovina, 77 g bielkovín/1000 kcal).
+- Kategórie z názvu sú pomôcka na filtrovanie, nie klasifikácia účelu podľa EÚ — napr. „Neutered Satiety Balance" je zaradená medzi diéty na chudnutie, hoci je to udržiavacia diéta pre kastrované mačky.
+
 ---
 
 <a id="5"></a>
@@ -230,7 +265,8 @@ Pre dve adoptované mačky s citlivým trávením (všeobecný postup, nie diagn
 4. **Hill's** zverejňuje energiu len v tabuľke priemerného obsahu, nie na etikete.
 5. **Klinické tvrdenia výrobcov** („klinicky overené", „do 24 hodín") sa tu nehodnotia — väčšina súvisiacich štúdií je financovaná výrobcami a nie vždy publikovaná.
 6. **Vybrané štúdie** sú malé (28–55 mačiek) a takmer všetky financované výrobcami krmív.
-7. **Rozsah:** len suché GI diéty od výrobcov s overiteľnou stránkou pre SK/CZ; ďalšie veterinárne diéty (obličky, moč, alergie, diabetes, hmotnosť) sú plánované ako ďalší krok.
+7. **Rozsah:** ručne overené sú GI diéty a porovnanie v časti 4.2; ostatné veterinárne diéty sú len od Royal Canin a Pro Plan (automaticky stiahnuté, časť 4.3) — Hill's, Brit, Calibra, Farmina a ďalší majú vo svojich radoch aj diéty na obličky, moč a pod., ktoré tu zatiaľ nie sú.
+8. **Automaticky stiahnuté produkty** (štítok „auto“) neprešli čítaním s porozumením: kategória je z názvu, druhy vlákniny z kľúčových slov a zdroje bielkovín nie sú určené. Číselné údaje sú doslovne zo stránky výrobcu.
 
 ---
 

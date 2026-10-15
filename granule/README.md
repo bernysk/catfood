@@ -1,6 +1,6 @@
 # Granule pre mačky — gastrointestinálne diéty
 
-**19 granúl: 12 GI diét, 2 bežné krmivá na citlivé trávenie, 2 diéty na chudnutie, 3 bežné krmivá · 6 výrobcov · dáta zo stránok výrobcov (SK/CZ) · v1.1, október 2026**
+**97 granúl · 19 ručne overených (GI diéty) + všetky suché veterinárne diéty Royal Canin a všetky granule Pro Plan (CZ, SK, UK) · dáta zo stránok výrobcov · v1.2, október 2026**
 
 📄 **[Dokument prieskumu](./Prieskum_granule_GI.md)** — metodika, štúdie, výsledky, kontrola prilepeného zoznamu, Kitten vs. Adult
 📊 **[Interaktívna tabuľka](https://bernysk.github.io/catfood/granule/)** — triedenie, filtre, pôvodný text etikety pri každom produkte
@@ -14,7 +14,12 @@
 ```
 README.md                 tento prehľad
 Prieskum_granule_GI.md    dokument prieskumu
-raw_data/gi_dry.json      doslovný text zo stránok výrobcov + nezaradené produkty s dôvodom
+raw_data/gi_dry.json      ručne overené produkty: doslovný text + nezaradené produkty s dôvodom
+raw_data/proplan_dry.json automaticky stiahnuté granule Pro Plan (CZ, SK, UK; EU = chyba servera)
+raw_data/royalcanin_vet.json  automaticky stiahnuté veterinárne diéty Royal Canin (SK, CZ)
+scrape_proplan.py         sťahovanie Pro Plan (výpisy ?page=N + produktové stránky)
+scrape_royalcanin.py      sťahovanie Royal Canin (sitemap + produktové stránky)
+scraped.py                prevod stiahnutých stránok do tabuľky (kategórie, vláknina)
 build_dataset.py          raw_data → dataset.json + index.html
 index.template.html       šablóna tabuľky (dáta sa vkladajú pri builde)
 index.html                vygenerovaná tabuľka (otvorí sa aj lokálne)
@@ -24,6 +29,8 @@ dataset.json              prepočítané hodnoty
 ## Prebuildovanie
 
 ```bash
+python granule/scrape_proplan.py      # voliteľné — znovu stiahne Pro Plan
+python granule/scrape_royalcanin.py   # voliteľné — znovu stiahne Royal Canin
 python granule/build_dataset.py
 ```
 

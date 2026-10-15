@@ -16,19 +16,24 @@ sys.stdout.reconfigure(encoding="utf-8")
 HERE = os.path.dirname(os.path.abspath(__file__))
 RAW = json.load(open(os.path.join(HERE, "raw_data", "gi_dry.json"), encoding="utf-8"))
 ASSUMED_MOISTURE = 8.0
+sys.path.insert(0, HERE)
+import scraped  # automatically downloaded Pro Plan + Royal Canin pages
+SCRAPED, SCRAPE_FAILED = scraped.load({p["url"] for p in RAW["products"]})
+PRODUCTS = RAW["products"] + SCRAPED
 
 def num(s):
     return float(s.replace(" ", "").replace(",", "."))
 
 N = r"(\d+(?:[.,]\d+)?)"
 LABELS = {
-    "protein":  r"(?:hrub[éýá] )?(?:bielkoviny|b[íi]lkoviny|b[íi]lkovina|prote[íi]n)",
-    "fat":      r"(?:obsah tuku|oleje a tuky|fat content|hrub[ýá] tuk)",
+    "protein":  r"(?:hrub[éýá] )?(?:bielkoviny|b[íi]lkoviny|b[íi]lkovina|prote[íi]n|dus[íi]kat[ée] l[áa]tky)",
+    "fat":      r"(?:obsah tuku|oleje a tuky|fat content|hrub[ýá] tuk|\bfat\b)",
     "fiber":    r"(?:hrub[áé] )?(?:vl[áa]knina|crude fibres?)",
-    "ash":      r"(?:hrub[ýé] )?(?:popol|popel|crude ash|obsah anorganick[ýé]ch l[áa]tek)",
+    "ash":      r"(?:hrub[ýé] )?(?:popol|popel|crude ash|obsah anorganick[ýé]ch l[áa]t(?:ek|ok))",
+    "carb":     r"(?:sacharidy|carbohydrates?)",
     "moisture": r"vlhkos[tť]",
     "ca":       r"(?:v[áa]pn[íi]k|calcium)",
-    "p":        r"(?:fosfor|phosphorus)",
+    "p":        r"(?:fosfor|phosphor(?:o)?us)",
     "na":       r"(?:sod[íi]k|sodium)",
     "k":        r"(?:drasl[íi]k|potassium)",
     "mg":       r"(?:ho[řr][čc][íi]k|magnesium)",
@@ -56,6 +61,12 @@ def parse_energy(p):
     m = re.search(r"\(ME\)\*?\s*:\s*(\d[.,]\d+)", a)          # also "(ME)* : 3,4 kcal/g"
     if m:
         return num(m.group(1)) * 1000, "etiketa (kcal/g, jednotka na stránke chýba)"
+    m = re.search(r"(\d+[.,]\d+)\s*kcal\s*/\s*g\b", a, re.I)   # "Energy value: 4.15 kcal/g"
+    if m:
+        return num(m.group(1)) * 1000, "etiketa"
+    m = re.search(r"(\d+(?:[.,]\d+)?)\s*kcal\s*(?:per|/)\s*100\s*g", a, re.I)   # "415kcal per 100g"
+    if m:
+        return num(m.group(1)) * 10, "etiketa"
     m = re.search(r"Kalorick[ýy] obsah\s*(\d[\d ]*)\s*kcal/kg", p.get("typical_raw", ""))
     if m:
         return num(m.group(1)), "priemerný obsah (výrobca)"
@@ -114,7 +125,7 @@ FEDIAF = {
 EU20 = {"na": 0.18, "k": 0.5}
 
 rows = []
-for p in RAW["products"]:
+for p in PRODUCTS:
     an = parse_analytics(p["analytical_raw"])
     me, me_src = parse_energy(p)
     moist = an.get("moisture")
@@ -125,6 +136,8 @@ for p in RAW["products"]:
         moist, moist_src = ASSUMED_MOISTURE, f"predpoklad {ASSUMED_MOISTURE:g} %"
     need = all(k in an for k in ("protein", "fat", "fiber", "ash"))
     nfe = 100 - moist - an["protein"] - an["fat"] - an["fiber"] - an["ash"] if need else None
+    if not need and "carb" in an and all(k in an for k in ("protein", "fat")):
+        need, nfe = True, an["carb"]          # carbohydrate declared, ash not (Pro Plan UR CZ)
     atw = (3.5 * an["protein"] + 8.5 * an["fat"] + 3.5 * nfe) * 10 if need else None  # kcal/kg
     if me is None and atw is not None:
         me, me_src = round(atw), "odhad (Atwater, " + moist_src + ")"
@@ -150,7 +163,7 @@ for p in RAW["products"]:
         "period_raw": p["period_raw"],
         "composition_raw": p["composition_raw"], "analytical_raw": p["analytical_raw"],
         "additives_raw": p["additives_raw"], "typical_raw": p.get("typical_raw", ""),
-        "notes": p["fetch_notes"],
+        "notes": p["fetch_notes"], "auto": bool(p.get("auto")),
     }
     pk = r["per_1000kcal"]
     r["eu20_electrolytes"] = (None if ("na" not in an or "k" not in an)
@@ -168,8 +181,37 @@ for p in RAW["products"]:
         r["missing"].append("taurín")
     rows.append(r)
 
+# Same product sold in several markets: identical declared protein/fat/ash/fibre
+# for the same brand is treated as "same values" (a hint, not proof of one recipe).
+groups = {}
+for r in rows:
+    r["same_values_markets"] = []
+    a = r["analytics"]
+    if all(k in a for k in ("protein", "fat", "ash", "fiber")):
+        groups.setdefault((r["brand"], a["protein"], a["fat"], a["ash"], a["fiber"]), []).append(r)
+for g in groups.values():
+    mks = sorted({x["market"].split(" ")[0] for x in g})
+    for x in g:
+        x["same_values_markets"] = mks if len(mks) > 1 else []
+
+# Borrow label energy from the same product in another market (identical declared
+# protein/fat/ash/fibre) instead of an Atwater estimate, which ran ~8 % low.
+for g in groups.values():
+    donors = [x for x in g if (x["me_source"] or "").startswith("etiketa")]
+    for x in g:
+        if donors and (x["me_source"] or "").startswith("odhad"):
+            dn = donors[0]
+            me = x["me_kcal_kg"] = dn["me_kcal_kg"]
+            x["me_source"] = f"stránka výrobcu {dn['market'].split(' ')[0]} (rovnaké deklarované hodnoty)"
+            a = x["analytics"]
+            x["per_1000kcal"] = {k: (round(a[k] * 10 * 1000 / me, 2) if k in a else None)
+                                 for k in ("protein", "fat", "fiber", "ash", "ca", "p", "na", "k", "mg")}
+
+not_included = dict(RAW.get("not_included", {}))
+for mk, urls in SCRAPE_FAILED.items():
+    not_included[f"Pro Plan {mk} ({len(urls)} stránok)"] = "Stránka výrobcu vrátila chybu: " + "; ".join(sorted(set(urls)))
 payload = {"generated": RAW["fetched_at"], "count": len(rows), "products": rows,
-           "not_included": RAW.get("not_included", {})}
+           "not_included": not_included}
 with open(os.path.join(HERE, "dataset.json"), "w", encoding="utf-8") as f:
     json.dump(payload, f, ensure_ascii=False, indent=1)
 
