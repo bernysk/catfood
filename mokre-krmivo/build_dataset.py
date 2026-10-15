@@ -66,6 +66,9 @@ def parse_energy(text):
     m = re.search(r"(\d+[.,]?\d*)\s*kcal\s*/\s*kg", text, re.IGNORECASE)
     if m:
         return round(num(m.group(1)) / 10.0, 1)
+    m = re.search(r"kcal\s*/\s*kg\s*(\d+[.,]?\d*)", text, re.IGNORECASE)   # Farmina: "EM Kcal/Kg 1222"
+    if m:
+        return round(num(m.group(1)) / 10.0, 1)
     m = re.search(r"(\d+[.,]?\d*)\s*kcal\s*/\s*g", text, re.IGNORECASE)
     if m:
         return round(num(m.group(1)) * 100.0, 1)

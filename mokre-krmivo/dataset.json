@@ -1,6 +1,6 @@
 {
  "generated": "2026-07-19",
- "count": 172,
+ "count": 173,
  "products": [
   {
    "source_file": "bozita.json",
@@ -4596,6 +4596,59 @@
     "clean": 2
    },
    "score_pct": 71,
+   "grade": "B",
+   "superseded_by": null,
+   "is_product": true
+  },
+  {
+   "source_file": "farmina.json",
+   "brand": "Farmina",
+   "name": "Vet Life Gastrointestinal Wet Food Feline (konzerva 85 g)",
+   "url": "https://www.farmina.com/cz/eshop/krmivo-pro-va%C5%A1i-ko%C4%8Dku/farmina-vet-life-feline/382-gastrointestinal-wet-food-feline.html",
+   "market": "CZ",
+   "texture": "konzerva (paté)",
+   "lifestage": "dospelé",
+   "fetch_status": "ok",
+   "composition_raw": "složení kuřecí filet, batáty, hydrolyzovaný rybí protein, kuřecí játra, rybí olej, ryby (sardinky), kuřecí tuk, semínka quinoi, uhličitan vápenatý, chlorid draselný, dihydrát síranu vápenatého, fruktooligosacharidy (0,15%), kvasnicový extrakt (zdroj mannan-oligosacharidů) (0,1%), chlorid sodný, vláknina z hrachu, Yucca schidigera, sušené pivovarské kvasnice.",
+   "analytics_raw": "analytické složky hrubý protein 9,4%; hrubé tuky 5,7%; hrubá vláknina 0,4%; hrubý popel 2,6%; vlhkost 74%; Vápník 0,22%; Fosfor 0,18%; Sodík 0,16%; Draslík 0,35%.",
+   "additives_raw": "Doplňkové látky na 1 kg – Nutriční doplňkové látky: Vitamín A 6600IU; Vitamín D3 450IU; Vitamín E 180 mg; Zinek (chelát zinku hydroxy analogu methioninu): 39,6 mg; Mangan (chelát manganu hydroxy analogu methioninu): 19,7 mg; Železo (chelátová forma Železa(II), hydrát): 13 mg; Měď (chelát mědi hydroxy analogu methioninu): 3,2 mg; Jód (jodičnan vápenatý bezvodý): 0,46 mg; Taurin 1250 mg. Technologická aditiva: prášek z celulózy 1500 mg.",
+   "analytics": {
+    "protein": 9.4,
+    "fat": 5.7,
+    "fiber": 0.4,
+    "ash": 2.6,
+    "moisture": 74.0
+   },
+   "derived": {
+    "dm": 26.0,
+    "protein_dm": 36.2,
+    "fat_dm": 21.9,
+    "carbs_nfe_dm": 30.4,
+    "ash_dm": 10.0,
+    "dm_unreliable": false
+   },
+   "energy_kcal_100g": 122.2,
+   "taurine_mg_kg": 1250.0,
+   "taurine_mg_kg_dm": 4808,
+   "prebiotic": "fermentovateľné (inulín/FOS/psyllium)",
+   "named_meat_max_pct": null,
+   "flags": {
+    "sugar": false,
+    "grain": false
+   },
+   "completeness": "kompletné",
+   "completeness_source": "Farmina Vet Life Gastrointestinal je kompletní dietetické krmivo pro kočky určené ke snížení střevních poruch absorpce.",
+   "notes": "[2026-10-15 prehliadač] Pridané na žiadosť autora. Konzerva, nie kapsička. Veterinárna diéta (doporučená doba užívání do 12 týdnů) — hodnotiť oddelene od bežných krmív, rovnako ako ostatné veterinárne diéty (časť 5 dokumentu). Suchá verzia toho istého radu je v prieskume granúl (granule/).",
+   "scores": {
+    "protein": 1,
+    "carbs": 0,
+    "prebiotic": 2,
+    "meat": null,
+    "taurine": 2,
+    "complete": 2,
+    "clean": 2
+   },
+   "score_pct": 75,
    "grade": "B",
    "superseded_by": null,
    "is_product": true

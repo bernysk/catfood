@@ -1,6 +1,6 @@
 # Mokré krmivo pre mačky — dátový prieskum
 
-**151 produktov · 15 značiek · dáta priamo zo stránok výrobcov · v4.2, október 2026**
+**152 produktov · 16 značiek · dáta priamo zo stránok výrobcov · v4.3, október 2026**
 
 Nutričné porovnanie kapsičkového mokrého krmiva pre mačky na SK/CZ trhu. Všetky hodnoty
 sú stiahnuté z oficiálnych stránok výrobcov, prepočítané na sušinu a ohodnotené
@@ -28,6 +28,7 @@ jednotným rámcom A–E.
 | Meowing Heads | 4 | 79,0 | – | 4 | – | – | – |
 | CarniLove | 12 | 78,7 | 5 | 6 | 1 | – | – |
 | Brit Premium | 23 | 77,4 | 9 | 10 | 4 | – | – |
+| Farmina | 1 | 75,0 | – | 1 | – | – | – |
 | Brit Care | 31 | 71,8 | 5 | 18 | 6 | 2 | – |
 | Stuzzy | 3 | 69,0 | – | 2 | 1 | – | – |
 | Sheba | 14 | 63,0 | – | 2 | 12 | – | – |
@@ -104,6 +105,8 @@ bez opätovného sťahovania.
   ale nenačítal sa) a medzery v kompletnosti overené v skutočnom prehliadači (45 produktov
   ju na stránke deklaruje). Rozloženie 45 A · 52 B · 49 C · 4 D · 1 E. Detail v
   [časti 1 dokumentu](./Prieskum_mokre_krmivo_macky.md#1).
+- **v4.3 (október 2026):** pridaná Farmina Vet Life Gastrointestinal, konzerva 85 g
+  (veterinárna diéta) — B, 75 %.
 
 Nájdené chyby v parsovaní aj nezrovnalosti priamo na stránkach výrobcov sú
 zdokumentované v [dokumente](./Prieskum_mokre_krmivo_macky.md) a v poliach `fetch_notes`

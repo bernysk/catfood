@@ -1,0 +1,26 @@
+{
+  "brand": "Farmina",
+  "fetched_at": "2026-10-15",
+  "products": [
+    {
+      "brand": "Farmina",
+      "name": "Vet Life Gastrointestinal Wet Food Feline (konzerva 85 g)",
+      "product_line": "veterinárna diéta — konzerva (nie kapsička)",
+      "texture": "konzerva (paté)",
+      "lifestage": "dospelé",
+      "market": "CZ",
+      "language": "cs",
+      "url": "https://www.farmina.com/cz/eshop/krmivo-pro-va%C5%A1i-ko%C4%8Dku/farmina-vet-life-feline/382-gastrointestinal-wet-food-feline.html",
+      "composition_raw": "složení kuřecí filet, batáty, hydrolyzovaný rybí protein, kuřecí játra, rybí olej, ryby (sardinky), kuřecí tuk, semínka quinoi, uhličitan vápenatý, chlorid draselný, dihydrát síranu vápenatého, fruktooligosacharidy (0,15%), kvasnicový extrakt (zdroj mannan-oligosacharidů) (0,1%), chlorid sodný, vláknina z hrachu, Yucca schidigera, sušené pivovarské kvasnice.",
+      "analytical_constituents_raw": "analytické složky hrubý protein 9,4%; hrubé tuky 5,7%; hrubá vláknina 0,4%; hrubý popel 2,6%; vlhkost 74%; Vápník 0,22%; Fosfor 0,18%; Sodík 0,16%; Draslík 0,35%.",
+      "additives_per_kg_raw": "Doplňkové látky na 1 kg – Nutriční doplňkové látky: Vitamín A 6600IU; Vitamín D3 450IU; Vitamín E 180 mg; Zinek (chelát zinku hydroxy analogu methioninu): 39,6 mg; Mangan (chelát manganu hydroxy analogu methioninu): 19,7 mg; Železo (chelátová forma Železa(II), hydrát): 13 mg; Měď (chelát mědi hydroxy analogu methioninu): 3,2 mg; Jód (jodičnan vápenatý bezvodý): 0,46 mg; Taurin 1250 mg. Technologická aditiva: prášek z celulózy 1500 mg.",
+      "energy_value_raw": "energetická hodnota EM Kcal/Kg 1222 - Mj/Kg 5,11",
+      "feeding_guidelines_raw": "Před použitím se doporučuje vyžádat si stanovisko veterinárního lékaře. Vysoce stravitelné krmivo se zvýšeným obsahem sodíku a draslíku. Doporučená doba užívání: do 12 týdnů. Po otevření skladujte v lednici a spotřebujte do 48 hodin.",
+      "description_raw": "Farmina Vet Life Gastrointestinal je kompletní dietetické krmivo pro kočky určené ke snížení střevních poruch absorpce.",
+      "completeness_statement_raw": "Farmina Vet Life Gastrointestinal je kompletní dietetické krmivo pro kočky určené ke snížení střevních poruch absorpce.",
+      "pack_size_raw": "85g",
+      "fetch_status": "ok",
+      "fetch_notes": "[2026-10-15 prehliadač] Pridané na žiadosť autora. Konzerva, nie kapsička. Veterinárna diéta (doporučená doba užívání do 12 týdnů) — hodnotiť oddelene od bežných krmív, rovnako ako ostatné veterinárne diéty (časť 5 dokumentu). Suchá verzia toho istého radu je v prieskume granúl (granule/)."
+    }
+  ]
+}

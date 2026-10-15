@@ -1,7 +1,7 @@
 # Mokré krmivo pre mačky (kapsičky): dátový prieskum trhu
 
-**Verzia 4.2 · október 2026** (v4: júl 2026, prepracované od základu; zmeny v4.1 a v4.2 v [časti 1](#1))
-**151 produktov · 15 značiek · všetky údaje priamo zo stránok výrobcov**
+**Verzia 4.3 · október 2026** (v4: júl 2026, prepracované od základu; zmeny v4.1–v4.3 v [časti 1](#1))
+**152 produktov · 16 značiek · všetky údaje priamo zo stránok výrobcov**
 
 > **Čo toto je.** Osobný nutričný prieskum kapsičkového mokrého krmiva, zostavený s pomocou AI (Claude, Anthropic). Na rozdiel od predchádzajúcich verzií je **celý postavený výhradne na surových dátach stiahnutých priamo zo stránok výrobcov** — uložených v [`raw_data/`](raw_data/) ako JSON, s doslovným znením etikiet. Žiadne číslo v tomto dokumente nepochádza z e-shopu, blogu ani z pamäte modelu; každé sa dá spätne dohľadať v surovom súbore.
 >
@@ -38,6 +38,13 @@ Podstatné zmeny oproti v3:
 - **Vetvené nutričné údaje.** Namiesto jedného čísla za produkt sa každý parameter člení na *deklarovanú hodnotu* → *prepočet na sušinu* → *čiastkové skóre*. Dá sa filtrovať a triediť podľa ktorejkoľvek vetvy ([`index.html`](https://bernysk.github.io/catfood/mokre-krmivo/)).
 - **Nové štúdie (2024–2026)** vrátane dvoch prác o psylliu, ktoré v predošlej verzii chýbali — a jedna práca, ktorá **spochybňuje** sacharidovú paniku ([časť 3](#3)).
 - **Priznaná neistota.** 19 produktov má vlhkosť ≥ 85 %, kde je prepočet na sušinu matematicky správny, ale krehký. Sú označené a v tabuľkách sa dajú odfiltrovať.
+
+### Zmeny vo v4.3 (15. október 2026)
+
+- **Pridaná Farmina Vet Life Gastrointestinal, konzerva 85 g** (veterinárna diéta, mokré krmivo v konzerve, nie kapsička) — údaje zo stránky výrobcu farmina.com/cz, súbor [`raw_data/farmina.json`](raw_data/farmina.json). Výsledok **B (75 %)**: bielkoviny 36 % v sušine, sacharidy 30 % v sušine (batáty), FOS, taurín 4 808 mg/kg sušiny, kompletné diétne krmivo. Ako ostatné veterinárne diéty ju treba hodnotiť oddelene ([časť 5](#5)); suchá verzia toho istého radu je v [prieskume granúl](../granule/).
+- `build_dataset.py` číta aj energiu zapísanú s číslom za jednotkou („EM Kcal/Kg 1222"). Ostatných 151 produktov sa nezmenilo.
+- Opravený počet produktov s deklarovaným fosforom: 46 zo 152 (v4.2 uvádzala 43; dva anglické záznamy „phosphorus" neboli započítané).
+- Citlivostné analýzy (stabilita známok, vplyv jednotlivých kritérií) sa vzťahujú na 151 produktov z v4.2.
 
 ### Zmeny vo v4.2 (14. október 2026)
 
@@ -183,7 +190,7 @@ Kritérium bielkovín odmeňuje „viac je lepšie" a vysoké hodnoty nikde netr
 - **Obmedzenie bielkovín patrí až do diagnostikovanej CKD** (IRIS 2+ alebo pri proteinúrii) a pod dohľad veterinára — prínos renálnych diét (Ross a kol. 2006) ide z veľkej časti na vrub obmedzenia fosforu.
 - **Kastrované mačky (aj samice) potrebujú bielkovín na kcal viac, nie menej**, lebo zjedia menej kalórií: FEDIAF 2025 dáva pre kastrované/domáce mačky minimum **83,3 g/1000 kcal** (33,3 % sušiny) oproti 62,5 g pre aktívne. Na udržanie svalovej hmoty treba ~5,2 g bielkovín/kg/deň (Laflamme & Hannah 2013), čo pre 4 kg kastrovanú mačku vychádza ~110 g/1000 kcal. Vyššie riziko CKD u kastrovaných samíc doložené nie je (Greene a kol. 2014 našli vyššie riziko u kastrovaných samcov).
 
-**Dôsledok pre rámec:** horná hranica bielkovín sa nezavádza. Fosfor sa **nehodnotí**, lebo ho deklaruje len 43 zo 151 produktov a všetky sú v bezpečnom pásme (0,9–3,1 g/1000 kcal, Ca:P 1,0–1,6) — kritérium by rozlišovalo len „deklaruje" vs. „nedeklaruje". Hodnoty počíta `reanalysis.py`. Odporúčané úrovne bielkovín podľa veku (mačiatko, kastrovaný dospelý, senior, CKD) sú v [`REVIEW_2026-10.md`, časť 4](./REVIEW_2026-10.md#4-what-protein-level-is-best-by-life-stage) — na skóre nemajú vplyv.
+**Dôsledok pre rámec:** horná hranica bielkovín sa nezavádza. Fosfor sa **nehodnotí**, lebo ho deklaruje len 46 zo 152 produktov a všetky sú v bezpečnom pásme (0,9–3,1 g/1000 kcal, Ca:P 1,0–1,6) — kritérium by rozlišovalo len „deklaruje" vs. „nedeklaruje". Hodnoty počíta `reanalysis.py`. Odporúčané úrovne bielkovín podľa veku (mačiatko, kastrovaný dospelý, senior, CKD) sú v [`REVIEW_2026-10.md`, časť 4](./REVIEW_2026-10.md#4-what-protein-level-is-best-by-life-stage) — na skóre nemajú vplyv.
 
 ---
 
@@ -213,7 +220,7 @@ Sedem kritérií, každé **0–2 body**. Skóre je **percento z dosiahnuteľný
 
 ### Známe slabiny rámca
 
-**Kritérium 3 (prebiotiká) má najväčší vplyv na poradie, hoci dôkazy pre dávky v kapsičkách sú najslabšie.** Ak sa kritérium vynechá, zmení sa známka **67 zo 151** produktov (Spearmanova korelácia poradia 0,88); pri vynechaní bielkovín len 29. Samotná prítomnosť inulínu/čakanky v dávke 0,1–0,4 % tak váži rovnako ako celé kritérium bielkovín, hoci štúdie v [časti 3](#3) pracovali so 6 % psyllia alebo 11–15 % vlákniny. Navyše psyllium je v časti 3.2 opísané ako nízko fermentovateľné, ale hodnotí sa v triede „fermentovateľné". Ak sa dva produkty líšia len týmto kritériom, rozdiel v známke je skôr vlastnosťou rámca než krmiva.
+**Kritérium 3 (prebiotiká) má najväčší vplyv na poradie, hoci dôkazy pre dávky v kapsičkách sú najslabšie.** Ak sa kritérium vynechá, zmení sa známka **67 zo 151** produktov (analýza v4.2) (Spearmanova korelácia poradia 0,88); pri vynechaní bielkovín len 29. Samotná prítomnosť inulínu/čakanky v dávke 0,1–0,4 % tak váži rovnako ako celé kritérium bielkovín, hoci štúdie v [časti 3](#3) pracovali so 6 % psyllia alebo 11–15 % vlákniny. Navyše psyllium je v časti 3.2 opísané ako nízko fermentovateľné, ale hodnotí sa v triede „fermentovateľné". Ak sa dva produkty líšia len týmto kritériom, rozdiel v známke je skôr vlastnosťou rámca než krmiva.
 
 **Kritérium 5 (taurín) hodnotí pridaný taurín a plné body dáva pod minimom pre kastrované mačky.** Pole doplnkových látok uvádza **doplnený** taurín; mäso, srdce a ryby obsahujú ďalší, ktorý etiketa neukazuje — nízke číslo teda znamená „málo doplnené", nie „nedostatok". FEDIAF 2025 (tab. III-4a) udáva pre konzervované krmivo minimum 2 000 mg/kg sušiny pre aktívne dospelé mačky, 2 500 pre rast a **2 700 pre kastrované/domáce dospelé mačky**. Rámec dáva 2/2 od 2 500, takže **16 produktov** v pásme 2 500–2 699 dostáva plný počet bodov, hoci sú pod východiskovou hodnotou pre typickú kastrovanú mačku.
 
@@ -235,6 +242,7 @@ Priemerné skóre a rozloženie známok. **Pozor:** počet produktov sa výrazne
 | Meowing Heads | 4 | 79,0 | – | 4 | – | – | – |
 | CarniLove | 12 | 78,7 | 5 | 6 | 1 | – | – |
 | Brit Premium | 23 | 77,4 | 9 | 10 | 4 | – | – |
+| Farmina | 1 | 75,0 | – | 1 | – | – | – |
 | Brit Care | 31 | 71,8 | 5 | 18 | 6 | 2 | – |
 | Stuzzy | 3 | 69,0 | – | 2 | 1 | – | – |
 | Sheba | 14 | 63,0 | – | 2 | 12 | – | – |
@@ -244,7 +252,7 @@ Priemerné skóre a rozloženie známok. **Pozor:** počet produktov sa výrazne
 | Kattovit | 1 | 57,0 | – | – | 1 | – | – |
 | Purina Pro Plan | 16 | 55,8 | – | 1 | 12 | 2 | 1 |
 
-**Celkové rozloženie:** 45× A · 52× B · 49× C · 4× D · 1× E
+**Celkové rozloženie:** 45× A · 53× B · 49× C · 4× D · 1× E
 
 ### Ako to čítať férovo
 
@@ -332,20 +340,20 @@ Pri sťahovaní sa objavili tri nezrovnalosti, ktoré som **neopravil, ale zazna
 | Typ | Počet | Podiel |
 |---|---:|---:|
 | Žiadne deklarované | 74 | 49 % |
-| Fermentovateľné (inulín / FOS / psyllium) | 59 | 39 % |
+| Fermentovateľné (inulín / FOS / psyllium) | 60 | 39 % |
 | Objemové (lignocelulóza) | 18 | 12 % |
 
 Pripomínam ale [časť 3.1](#3): aj tie „lepšie" produkty majú vlákninu rádovo desaťnásobne nižšie, než aké dávky vykazovali efekt v štúdiách. **Rozdiel medzi produktom s 0,4 % inulínu a bez neho je reálny, ale skromný** — nie je to náhrada za veterinárne riešenie problému s bezoármi.
 
 ### 7.6 Pridaný cukor
 
-**28 zo 151 produktov (19 %)** má v zložení deklarované cukry. Koncentrujú sa u masových značiek (Sheba, Purina Pro Plan, Royal Canin OTC rady). Väčšina prémiových a bezobilných rád (Shelma, Calibra, Bozita, CarniLove, Meowing Heads) cukor neobsahuje.
+**28 zo 152 produktov (18 %)** má v zložení deklarované cukry. Koncentrujú sa u masových značiek (Sheba, Purina Pro Plan, Royal Canin OTC rady). Väčšina prémiových a bezobilných rád (Shelma, Calibra, Bozita, CarniLove, Meowing Heads) cukor neobsahuje.
 
 ### 7.7 Doplnkové vs. kompletné
 
 **21 produktov (14 %) je len doplnkových** — nesmú tvoriť podstatnú časť stravy. Patrí sem takmer celá mousse/loaf rada Brit Care a celá rada Ontario. Pri Ontariu je to podstatné, lebo produkty pôsobia ako plnohodnotné kapsičky, ale sú deklarované ako doplnkové krmivo.
 
-**108 produktov (72 %) je deklarovaných ako kompletné** a pri **22 (15 %) to stránka výrobcu neuvádza vôbec** (overené aj v prehliadači, v4.2) — čo treba overiť priamo na obale. Toto vysoké číslo je dôsledok prísnejšieho prístupu: ak stránka kompletnosť nedeklaruje, prieskum ju **nedomýšľa** z názvu ani z analógie so súrodeneckým produktom. Rozhodnutia pri sporných formuláciách sú zdokumentované v [`curated.json`](./curated.json).
+**109 produktov (72 %) je deklarovaných ako kompletné** a pri **22 (14 %) to stránka výrobcu neuvádza vôbec** (overené aj v prehliadači, v4.2) — čo treba overiť priamo na obale. Toto vysoké číslo je dôsledok prísnejšieho prístupu: ak stránka kompletnosť nedeklaruje, prieskum ju **nedomýšľa** z názvu ani z analógie so súrodeneckým produktom. Rozhodnutia pri sporných formuláciách sú zdokumentované v [`curated.json`](./curated.json).
 
 ---
 
@@ -449,6 +457,7 @@ Všetky produktové dáta pochádzajú výhradne odtiaľto a sú uložené v [`r
 | `ontario.json` | Ontario | ontario.pet/sk | 9* |
 | `ontario_cz.json` | Ontario | ontario.pet (CZ) | 9 |
 | `bozita.json` | Bozita | bozita.com/cz | 4 |
+| `farmina.json` | Farmina (Vet Life GI konzerva) | farmina.com/cz | 1 |
 | `meowing_heads.json` | Meowing Heads | barkingheads.co.uk | 4 |
 | `other_brands.json` | RC, Animonda, Almo Nature, Dein Bestes, Stuzzy, Kattovit, Purina | rôzne | 20 |
 
@@ -463,4 +472,4 @@ Všetky produktové dáta pochádzajú výhradne odtiaľto a sú uložené v [`r
 
 ---
 
-*Vygenerované z [`dataset.json`](./dataset.json) (151 produktov) skriptom [`build_dataset.py`](./build_dataset.py). Rekonštrukcia: `python build_dataset.py`. Staršie verzie prieskumu sú v [`old/`](old/) a ich údaje sa v tomto dokumente nepoužili.*
+*Vygenerované z [`dataset.json`](./dataset.json) (152 produktov) skriptom [`build_dataset.py`](./build_dataset.py). Rekonštrukcia: `python build_dataset.py`. Staršie verzie prieskumu sú v [`old/`](old/) a ich údaje sa v tomto dokumente nepoužili.*
