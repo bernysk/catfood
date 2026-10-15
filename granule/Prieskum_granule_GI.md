@@ -144,13 +144,15 @@ Hviezdička pri energii = nie je z etikety (tabuľka priemerného obsahu Hill's 
 
 ### 4.2 Doplnené porovnanie: bežné krmivá Pro Plan a diéty na chudnutie
 
-Na žiadosť autora pribudlo šesť granúl, ktoré **nie sú gastrointestinálne diéty**. V tabuľke majú vlastnú kategóriu, aby sa s GI diétami nemiešali. Údaje sú zo stránok výrobcov (purina.cz, royalcanin.com/sk); pri bežných krmivách Pro Plan stránka neuvádza energiu, minerály ani taurín, preto je energia odhadnutá (hviezdička).
+Na žiadosť autora pribudlo šesť granúl, ktoré **nie sú gastrointestinálne diéty**. V tabuľke majú vlastnú kategóriu, aby sa s GI diétami nemiešali. Údaje sú zo stránok výrobcov (purina.cz, royalcanin.com/sk); pri bežných krmivách Pro Plan CZ/SK stránka neuvádza energiu, minerály ani taurín.
+
+**Kontrola britskej stránky výrobcu (purina.co.uk).** Pri Kitten Healthy Start, Delicate Digestion a OM sú britské zloženie (poradie aj percentá zložiek), analytické zložky a doplnkové látky **totožné s CZ** — ide o tú istú receptúru. Závod výroby neuvádza ani jedna stránka (dá sa zistiť len z kódu na obale), pri totožnej receptúre to však na údaje z etikety nemá vplyv. Pri Kitten a Delicate Digestion je preto energia prevzatá z UK stránky (4 255 a 4 140 kcal/kg); Atwaterov odhad bol o 8 % nižší. Sterilised Renal Plus losos ani Derma Care sa v UK nepredávajú (britský Renal Plus kura je iná receptúra s 36 % bielkovín), pri nich ostáva odhad. Hviezdička = energia nie je zo SK/CZ etikety.
 
 | Produkt | Kategória | kcal/kg | Bielk. g/1000 kcal | Tuk g/1000 kcal | Tuk % E | Vlák. % | Taurín mg/kg |
 |---|---|---:|---:|---:|---:|---:|---:|
 | Pro Plan Adult 1+ Sterilised Renal Plus losos | bežné krmivo | 3418* | 120 | 35 | 30 | 4,0 | – |
-| Pro Plan Adult Delicate Digestion morka | citlivé trávenie (bežné) | 3805* | 105 | 47 | 40 | 1,5 | – |
-| Pro Plan Kitten Healthy Start kura | bežné krmivo (rast) | 3922* | 102 | 51 | 43 | 1,0 | – |
+| Pro Plan Adult Delicate Digestion morka | citlivé trávenie (bežné) | 4140* (UK) | 97 | 43 | 40 | 1,5 | – |
+| Pro Plan Kitten Healthy Start kura | bežné krmivo (rast) | 4255* (UK) | 94 | 47 | 43 | 1,0 | – |
 | Pro Plan Adult Derma Care losos | bežné krmivo | 3582* | 100 | 45 | 38 | 5,5 | – |
 | Pro Plan Veterinary Diets OM St/Ox Obesity Management | diéta – chudnutie | 3400 | 141 | 24 | 22 | 7,5 | 1000 |
 | Royal Canin VHN Cat Satiety Weight Management | diéta – chudnutie | 3040 | 112 | 30 | 27 | 14,6 | – |
@@ -224,7 +226,7 @@ Pre dve adoptované mačky s citlivým trávením (všeobecný postup, nie diagn
 
 1. **Deklarované ≠ namerané.** Analytické zložky majú zákonnú toleranciu (pozri [prieskum mokrého krmiva, časť 9](../mokre-krmivo/Prieskum_mokre_krmivo_macky.md#9)).
 2. **Stráviteľnosť nie je na etikete.** Je to hlavná vlastnosť GI diét a z dát sa nedá overiť; tvrdenia o „vysokej stráviteľnosti" sú od výrobcov. Nariadenie EÚ však pre diétne krmivá na maldigesciu vyžaduje stráviteľnosť bielkovín ≥ 85 % a tuku ≥ 90 % (pri nízkej vláknine).
-3. **Vlhkosť chýba** u 18 z 19 produktov (deklaruje ju len Brit); odhady energie (6 produktov: RC Hairball, RC Digestive Care a štyri bežné krmivá Pro Plan) a podiel energie z tuku preto počítajú s predpokladanou alebo priemernou vlhkosťou.
+3. **Vlhkosť chýba** u 18 z 19 produktov (deklaruje ju len Brit); odhady energie (4 produkty: RC Hairball, RC Digestive Care, Pro Plan Sterilised Renal Plus a Derma Care; pri dvoch ďalších Pro Plan je energia z UK stránky výrobcu pri overenej zhodnej receptúre) a podiel energie z tuku preto počítajú s predpokladanou alebo priemernou vlhkosťou.
 4. **Hill's** zverejňuje energiu len v tabuľke priemerného obsahu, nie na etikete.
 5. **Klinické tvrdenia výrobcov** („klinicky overené", „do 24 hodín") sa tu nehodnotia — väčšina súvisiacich štúdií je financovaná výrobcami a nie vždy publikovaná.
 6. **Vybrané štúdie** sú malé (28–55 mačiek) a takmer všetky financované výrobcami krmív.

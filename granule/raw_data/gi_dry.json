@@ -467,7 +467,7 @@
       "fibre_types": [
         "sušená rastlinná vláknina (bližšie neurčená)"
       ],
-      "fetch_notes": "Nie je to veterinárna renálna diéta. Stránka neuvádza energiu, fosfor, vápnik, sodík ani taurín — tvrdenie o podpore obličiek sa z deklarovaných údajov nedá overiť. Zložky na stránke bez čiarok (doplnené pri prepise). SK stránka: balenia 1,5 kg a 10 kg; CZ: 400 g, 1,5, 3, 10 kg. Kód X62318 z požiadavky je kód e-shopu, nie výrobcu."
+      "fetch_notes": "Nie je to veterinárna renálna diéta. Stránka neuvádza energiu, fosfor, vápnik, sodík ani taurín — tvrdenie o podpore obličiek sa z deklarovaných údajov nedá overiť. Zložky na stránke bez čiarok (doplnené pri prepise). SK stránka: balenia 1,5 kg a 10 kg; CZ: 400 g, 1,5, 3, 10 kg. Kód X62318 z požiadavky je kód e-shopu, nie výrobcu. V UK sa Sterilised Renal Plus losos nepredáva (UK Renal Plus kura je iná receptúra: 36 % bielkovín) — britské údaje sa nepoužili."
     },
     {
       "id": "pp-delicate-digestion",
@@ -501,7 +501,9 @@
       "fibre_types": [
         "sušený čakankový koreň (inulín)"
       ],
-      "fetch_notes": "Bežné krmivo, nie diéta — žiadna povinnosť stráviteľnosti ani elektrolytov. Stránka neuvádza energiu, minerály ani taurín. SK stránka: 1,5 kg a 10 kg."
+      "fetch_notes": "Bežné krmivo, nie diéta — žiadna povinnosť stráviteľnosti ani elektrolytov. Stránka neuvádza energiu, minerály ani taurín. SK stránka: 1,5 kg a 10 kg. Energia z britskej stránky výrobcu (414 kcal/100 g). UK zloženie, analytické zložky a doplnkové látky sú s CZ totožné (2026-10-15) — tá istá receptúra; závod výroby neuvádza ani jedna stránka.",
+      "energy_alt_raw": "Calories 414 kcal per 100g",
+      "energy_alt_url": "https://www.purina.co.uk/cat/cat-food/product-proplan-delicate-dry-turkey"
     },
     {
       "id": "pp-kitten-healthy-start",
@@ -535,7 +537,9 @@
       "fibre_types": [
         "žiadne deklarované"
       ],
-      "fetch_notes": "Rastové krmivo. Stránka neuvádza energiu, vápnik, fosfor ani taurín — splnenie miním pre rast sa z deklarovaných údajov nedá overiť. SK stránka: balenie 10 kg."
+      "fetch_notes": "Rastové krmivo. Stránka neuvádza energiu, vápnik, fosfor ani taurín — splnenie miním pre rast sa z deklarovaných údajov nedá overiť. SK stránka: balenie 10 kg. Energia z britskej stránky výrobcu (4255 kcal/kg; inde na tej istej stránke „425 kcal per 100g“). UK zloženie, analytické zložky a doplnkové látky sú s CZ totožné (2026-10-15) — tá istá receptúra; závod výroby neuvádza ani jedna stránka.",
+      "energy_alt_raw": "Calories 4255 kcal/kg",
+      "energy_alt_url": "https://www.purina.co.uk/cat/cat-food/product-proplan-original-dry-kitten-healthy-start-chicken"
     },
     {
       "id": "pp-derma-care",
@@ -569,7 +573,7 @@
         "repná dužina",
         "čakankový koreň (inulín)"
       ],
-      "fetch_notes": "Stránka neuvádza energiu, minerály ani taurín. Druhou zložkou je pšenica."
+      "fetch_notes": "Stránka neuvádza energiu, minerály ani taurín. Druhou zložkou je pšenica. V UK sa Derma Care nepredáva — britské údaje nie sú k dispozícii."
     },
     {
       "id": "pp-vd-om",
@@ -600,7 +604,7 @@
         "hrachové šupky",
         "celulóza"
       ],
-      "fetch_notes": "Zložky na stránke bez čiarok (doplnené pri prepise). Prvé tri zložky sú rastlinné bielkoviny. Vlhkosť a minerály nedeklarované."
+      "fetch_notes": "Zložky na stránke bez čiarok (doplnené pri prepise). Prvé tri zložky sú rastlinné bielkoviny. Vlhkosť a minerály nedeklarované. UK stránka výrobcu: zloženie, analytické zložky a energia (343 kcal/100 g, 3,4 kcal/g) zhodné s CZ."
     },
     {
       "id": "rc-satiety",

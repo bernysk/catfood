@@ -59,6 +59,15 @@ def parse_energy(p):
     m = re.search(r"Kalorick[ýy] obsah\s*(\d[\d ]*)\s*kcal/kg", p.get("typical_raw", ""))
     if m:
         return num(m.group(1)), "priemerný obsah (výrobca)"
+    # Same manufacturer, other market, only used when the recipe was checked to be
+    # identical (composition, analytics, additives) — see fetch_notes.
+    alt = p.get("energy_alt_raw", "")
+    m = re.search(r"(\d[\d ]*[.,]?\d*)\s*kcal\s*/\s*kg", alt, re.I)
+    if m:
+        return num(m.group(1)), "stránka výrobcu UK (receptúra zhodná s CZ)"
+    m = re.search(r"(\d[\d ]*[.,]?\d*)\s*kcal\s*per\s*100\s*g", alt, re.I)
+    if m:
+        return num(m.group(1)) * 10, "stránka výrobcu UK (receptúra zhodná s CZ)"
     return None, None
 
 def typical_moisture(p):
