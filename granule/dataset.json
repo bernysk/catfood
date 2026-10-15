@@ -1,12 +1,13 @@
 {
  "generated": "2026-10-15",
- "count": 13,
+ "count": 19,
  "products": [
   {
    "id": "rc-gi",
    "brand": "Royal Canin",
    "name": "VHN Cat Gastrointestinal",
    "type": "veterinárna diéta",
+   "category": "GI diéta",
    "lifestage": "dospelé (na webe aj mačiatko/senior)",
    "url": "https://www.royalcanin.com/sk/cats/products/vet-products/gastrointestinal-3905",
    "market": "SK",
@@ -96,6 +97,7 @@
    "brand": "Royal Canin",
    "name": "VHN Cat Gastrointestinal Kitten",
    "type": "veterinárna diéta",
+   "category": "GI diéta",
    "lifestage": "mačiatka",
    "url": "https://www.royalcanin.com/sk/cats/products/vet-products/gastrointestinal-kitten-1228",
    "market": "SK",
@@ -183,6 +185,7 @@
    "brand": "Royal Canin",
    "name": "VHN Cat Gastrointestinal Fibre Response",
    "type": "veterinárna diéta",
+   "category": "GI diéta",
    "lifestage": "dospelé",
    "url": "https://www.royalcanin.com/sk/cats/products/vet-products/gastrointestinal-fibre-response-4007",
    "market": "SK (etiketa na stránke v angličtine)",
@@ -269,6 +272,7 @@
    "brand": "Royal Canin",
    "name": "VHN Cat Gastrointestinal Hairball",
    "type": "veterinárna diéta",
+   "category": "GI diéta",
    "lifestage": "dospelé",
    "url": "https://www.royalcanin.com/sk/cats/products/vet-products/gastrointestinal-hairball-2722",
    "market": "SK",
@@ -356,6 +360,7 @@
    "brand": "Royal Canin",
    "name": "Digestive Care",
    "type": "bežné krmivo (nie diéta)",
+   "category": "citlivé trávenie (bežné krmivo)",
    "lifestage": "dospelé",
    "url": "https://www.royalcanin.com/sk/cats/products/retail-products/digestive-care-2555",
    "market": "SK",
@@ -447,6 +452,7 @@
    "brand": "Hill's",
    "name": "Prescription Diet i/d",
    "type": "veterinárna diéta",
+   "category": "GI diéta",
    "lifestage": "dospelé",
    "url": "https://www.hillspet.cz/cat-food/prescription-diet-id-digestive-care-dry",
    "market": "CZ",
@@ -531,6 +537,7 @@
    "brand": "Hill's",
    "name": "Prescription Diet i/d Kitten",
    "type": "veterinárna diéta",
+   "category": "GI diéta",
    "lifestage": "mačiatka",
    "url": "https://www.hillspet.cz/cat-food/prescription-diet-id-kitten-chicken-digestive-care-dry",
    "market": "CZ",
@@ -616,6 +623,7 @@
    "brand": "Hill's",
    "name": "Prescription Diet Gastrointestinal Biome",
    "type": "veterinárna diéta",
+   "category": "GI diéta",
    "lifestage": "dospelé",
    "url": "https://www.hillspet.cz/cat-food/prescription-diet-gastrointestinal-biome-digestive-care-dry",
    "market": "CZ",
@@ -699,6 +707,7 @@
    "brand": "Hill's",
    "name": "Prescription Diet Gastrointestinal Biome Stress",
    "type": "veterinárna diéta",
+   "category": "GI diéta",
    "lifestage": "dospelé",
    "url": "https://www.hillspet.cz/cat-food/prescription-diet-gastrointestinal-biome-stress-digestive-care-dry",
    "market": "CZ",
@@ -784,6 +793,7 @@
    "brand": "Purina Pro Plan",
    "name": "Veterinary Diets EN Gastrointestinal",
    "type": "veterinárna diéta",
+   "category": "GI diéta",
    "lifestage": "všetky vekové kategórie (dospelé aj mačiatka)",
    "url": "https://www.purina.cz/kocka/krmivo-pro-kocky/produkt-proplan-veterinarni-diety-onemocneni-traviciho-traktu-granule",
    "market": "CZ",
@@ -869,6 +879,7 @@
    "brand": "Brit",
    "name": "GF Veterinary Diets Cat Gastrointestinal",
    "type": "veterinárna diéta",
+   "category": "GI diéta",
    "lifestage": "dospelé",
    "url": "https://brit.pet/sk/produkty/brit-gf-veterinary-diets-cat-gastrointestinal",
    "market": "SK",
@@ -957,6 +968,7 @@
    "brand": "Calibra",
    "name": "VD Cat Gastrointestinal & Pancreas",
    "type": "veterinárna diéta",
+   "category": "GI diéta",
    "lifestage": "dospelé",
    "url": "https://www.mojacalibra.sk/calibra-vd-cat-gastrointestinal-pancreas-2-kg-new",
    "market": "SK",
@@ -1041,6 +1053,7 @@
    "brand": "Farmina",
    "name": "Vet Life Gastrointestinal Feline",
    "type": "veterinárna diéta",
+   "category": "GI diéta",
    "lifestage": "dospelé",
    "url": "https://www.farmina.com/cz/eshop/krmivo-pro-va%C5%A1i-ko%C4%8Dku/farmina-vet-life-feline/79-gastrointestinal-feline.html",
    "market": "CZ",
@@ -1127,6 +1140,539 @@
    },
    "missing": [
     "vlhkosť"
+   ]
+  },
+  {
+   "id": "pp-renal-plus-sterilised",
+   "brand": "Purina Pro Plan",
+   "name": "Adult 1+ Sterilised Renal Plus losos",
+   "type": "bežné krmivo (nie diéta)",
+   "category": "bežné krmivo",
+   "lifestage": "dospelé kastrované",
+   "url": "https://www.purina.cz/kocka/krmivo-pro-kocky/produkt-proplan-sterilizovana-kastrovana-granule-dospela-renal-plus-losos",
+   "market": "CZ (SK stránka: rovnaké údaje)",
+   "sizes": [
+    "400 g",
+    "1,5 kg",
+    "3 kg",
+    "10 kg"
+   ],
+   "analytics": {
+    "protein": 41.0,
+    "fat": 12.0,
+    "fiber": 4.0,
+    "ash": 7.5
+   },
+   "me_kcal_kg": 3418,
+   "me_source": "odhad (Atwater, predpoklad 8 %)",
+   "moisture_used": 8.0,
+   "moisture_source": "predpoklad 8 %",
+   "nfe_pct": 27.5,
+   "per_1000kcal": {
+    "protein": 119.95,
+    "fat": 35.11,
+    "fiber": 11.7,
+    "ash": 21.94,
+    "ca": null,
+    "p": null,
+    "na": null,
+    "k": null,
+    "mg": null
+   },
+   "energy_split_pct": {
+    "protein": 42.0,
+    "fat": 29.8,
+    "nfe": 28.2
+   },
+   "ca_p": null,
+   "taurine_mg_kg": null,
+   "taurine_source": null,
+   "flags": {
+    "hydrolyzate": false,
+    "psyllium": false,
+    "psyllium_pct": null,
+    "inorganic_phosphate": false,
+    "live_probiotic": false,
+    "paraprobiotic": false,
+    "grain_or_gluten": true,
+    "soy": false
+   },
+   "protein_sources": [
+    "losos",
+    "hydina",
+    "kukurica (bielkovina)",
+    "pšenica (lepok)",
+    "vajcia"
+   ],
+   "fibre_types": [
+    "sušená rastlinná vláknina (bližšie neurčená)"
+   ],
+   "statement_raw": "",
+   "purpose_raw": "Obsahuje Renal Plus. Jedinečná kombinace živin Renal Plus podporuje zdraví ledvin. Krmivo PURINA® PRO PLAN® Sterilised RENAL PLUS* vyvinuté odborníky už za šest týdnů dokáže ovlivnit oxidační parametry, a tím podporuje zdravou funkci ledvin. Krmivo PURINA® PRO PLAN® Sterilised RENAL PLUS pomáhá kastrovaným kočkám udržet ideální hmotnost, předchází problémům s močovými cestami a chrání zuby před tvorbou plaku a zubního kamene.",
+   "period_raw": "",
+   "composition_raw": "Složení: losos (20 %) (včetně hlavy, skeletu, masa), Sušené drůbeží bílkoviny, Rýže, Moučka z kukuřičné bílkoviny, Pšeničný lepek, Kukuřice, Pšeničné mlýnské kousky, Sušená rostlinná vláknina, Sušená vejce, Minerální látky, Živočišné tuky, Dochucovací masové výtažky, Kvasnice, Rybí tuk",
+   "analytical_raw": "Analytické složky Protein: 41 % Obsah tuku: 12 % Obsah anorganických látek: 7,5 % Hrubá vláknina: 4 %",
+   "additives_raw": "Nutriční doplňkové látky m.j./kg: Vitamín A: 32 000; Vitamín D3: 1 000; Vitamín E: 670; mg/kg: Vitamín C: 140; Síran železnatý monohydrát: (Fe: 120); Jodičnan vápenatý bezvodý: (I: 1,9); Síran měďnatý pentahydrát: (Cu: 13); Síran manganatý monohydrát: (Mn: 45); Síran zinečnatý monohydrát: (Zn: 110); Seleničitan sodný: (Se: ,13). Antioxidanty.",
+   "typical_raw": "",
+   "notes": "Nie je to veterinárna renálna diéta. Stránka neuvádza energiu, fosfor, vápnik, sodík ani taurín — tvrdenie o podpore obličiek sa z deklarovaných údajov nedá overiť. Zložky na stránke bez čiarok (doplnené pri prepise). SK stránka: balenia 1,5 kg a 10 kg; CZ: 400 g, 1,5, 3, 10 kg. Kód X62318 z požiadavky je kód e-shopu, nie výrobcu.",
+   "eu20_electrolytes": null,
+   "fediaf_growth": {
+    "protein": true,
+    "ca": null,
+    "p": null
+   },
+   "missing": [
+    "energia na etikete",
+    "vlhkosť",
+    "vápnik",
+    "fosfor",
+    "sodík",
+    "draslík",
+    "horčík",
+    "taurín"
+   ]
+  },
+  {
+   "id": "pp-delicate-digestion",
+   "brand": "Purina Pro Plan",
+   "name": "Adult Delicate Digestion morka",
+   "type": "bežné krmivo (nie diéta)",
+   "category": "citlivé trávenie (bežné krmivo)",
+   "lifestage": "dospelé",
+   "url": "https://www.purina.cz/kocka/krmivo-pro-kocky/produkt-proplan-citlive-traveni-granule-dospela-delicate-digestion-kruta",
+   "market": "CZ (SK stránka: rovnaké údaje)",
+   "sizes": [
+    "400 g",
+    "1,5 kg",
+    "3 kg",
+    "10 kg"
+   ],
+   "analytics": {
+    "protein": 40.0,
+    "fat": 18.0,
+    "fiber": 1.5,
+    "ash": 7.5
+   },
+   "me_kcal_kg": 3805,
+   "me_source": "odhad (Atwater, predpoklad 8 %)",
+   "moisture_used": 8.0,
+   "moisture_source": "predpoklad 8 %",
+   "nfe_pct": 25.0,
+   "per_1000kcal": {
+    "protein": 105.12,
+    "fat": 47.31,
+    "fiber": 3.94,
+    "ash": 19.71,
+    "ca": null,
+    "p": null,
+    "na": null,
+    "k": null,
+    "mg": null
+   },
+   "energy_split_pct": {
+    "protein": 36.8,
+    "fat": 40.2,
+    "nfe": 23.0
+   },
+   "ca_p": null,
+   "taurine_mg_kg": null,
+   "taurine_source": null,
+   "flags": {
+    "hydrolyzate": false,
+    "psyllium": false,
+    "psyllium_pct": null,
+    "inorganic_phosphate": false,
+    "live_probiotic": false,
+    "paraprobiotic": false,
+    "grain_or_gluten": true,
+    "soy": true
+   },
+   "protein_sources": [
+    "morka",
+    "kukurica (bielkovina)",
+    "hrach (bielkovina)",
+    "sója (bielkovina)",
+    "vajcia"
+   ],
+   "fibre_types": [
+    "sušený čakankový koreň (inulín)"
+   ],
+   "statement_raw": "",
+   "purpose_raw": "Speciální složení podporuje zdravé trávení.",
+   "period_raw": "",
+   "composition_raw": "Složení: krůta* (18 %) (včetně hřbetu a hrudi), moučka z kukuřičné bílkoviny*, rýže*, sušené krůtí bílkoviny*, hrachová bílkovina*, živočišné tuky, sójová bílkovina prášek*, kukuřičný škrob, sušená vejce*, kukuřice*, sušený čekankový kořen, minerální látky, rybí tuk, dochucovací masové výtažky, kvasnice*. *Zdroje bílkovin",
+   "analytical_raw": "Analytické složky: protein: 40,0 %, obsah tuku: 18,0 %, obsah anorganických látek: 7,5 %, hrubá vláknina: 1,5 %, arginin: 2,3 %, omega-3 mastné kyseliny: 0,5 %.",
+   "additives_raw": "Doplňkové látky: Nutriční doplňkové látky: m.j./kg: vit A: 35 000; vit D3: 970; vit E: 670; mg/kg: vit C: 140; 3b103: (Fe: 130); 3b202: (I: 2,0); 3b405: (Cu: 14); 3b503: (Mn: 48); 3b605: (Zn: 120); 3b801: (Se: 0,14). Antioxidanty.",
+   "typical_raw": "",
+   "notes": "Bežné krmivo, nie diéta — žiadna povinnosť stráviteľnosti ani elektrolytov. Stránka neuvádza energiu, minerály ani taurín. SK stránka: 1,5 kg a 10 kg.",
+   "eu20_electrolytes": null,
+   "fediaf_growth": {
+    "protein": true,
+    "ca": null,
+    "p": null
+   },
+   "missing": [
+    "energia na etikete",
+    "vlhkosť",
+    "vápnik",
+    "fosfor",
+    "sodík",
+    "draslík",
+    "horčík",
+    "taurín"
+   ]
+  },
+  {
+   "id": "pp-kitten-healthy-start",
+   "brand": "Purina Pro Plan",
+   "name": "Kitten Healthy Start kura",
+   "type": "bežné krmivo (nie diéta)",
+   "category": "bežné krmivo",
+   "lifestage": "mačiatka 1–12 mesiacov",
+   "url": "https://www.purina.cz/kocka/krmivo-pro-kocky/produkt-proplan-granule-kote-healthy-start-kure",
+   "market": "CZ (veta o kompletnosti zo SK stránky)",
+   "sizes": [
+    "400 g",
+    "1,5 kg",
+    "3 kg",
+    "10 kg"
+   ],
+   "analytics": {
+    "protein": 40.0,
+    "fat": 20.0,
+    "fiber": 1.0,
+    "ash": 7.5
+   },
+   "me_kcal_kg": 3922,
+   "me_source": "odhad (Atwater, predpoklad 8 %)",
+   "moisture_used": 8.0,
+   "moisture_source": "predpoklad 8 %",
+   "nfe_pct": 23.5,
+   "per_1000kcal": {
+    "protein": 101.99,
+    "fat": 50.99,
+    "fiber": 2.55,
+    "ash": 19.12,
+    "ca": null,
+    "p": null,
+    "na": null,
+    "k": null,
+    "mg": null
+   },
+   "energy_split_pct": {
+    "protein": 35.7,
+    "fat": 43.3,
+    "nfe": 21.0
+   },
+   "ca_p": null,
+   "taurine_mg_kg": null,
+   "taurine_source": null,
+   "flags": {
+    "hydrolyzate": false,
+    "psyllium": false,
+    "psyllium_pct": null,
+    "inorganic_phosphate": false,
+    "live_probiotic": false,
+    "paraprobiotic": false,
+    "grain_or_gluten": true,
+    "soy": false
+   },
+   "protein_sources": [
+    "kura/hydina",
+    "pšenica (lepok)",
+    "kukurica (bielkovina)",
+    "hrach (bielkovina)",
+    "vajcia"
+   ],
+   "fibre_types": [
+    "žiadne deklarované"
+   ],
+   "statement_raw": "Kompletné krmivo pre mačiatka vo veku 1-12 mesiacov, s vysokým obsahom kuraťa. Vhodné aj pre kotné a laktujúce mačky.",
+   "purpose_raw": "Kolostrum posiluje přirozenou obranyschopnost.",
+   "period_raw": "",
+   "composition_raw": "Složení: kuře (20 %) (včetně hřbetu a hrudi), sušené drůbeží bílkoviny, rýže, pšeničný lepek, živočišné tuky, kukuřice, moučka z kukuřičné bílkoviny, hrachová bílkovina, kukuřičný škrob, sušená vejce, minerální látky, dochucovací masové výtažky, kvasnice, rybí tuk, mlezivo (0,10 %).",
+   "analytical_raw": "Analytické složky: protein: 40 %, obsah tuku: 20 %, obsah anorganických látek: 7,5 %, hrubá vláknina: 1 %, DHA: 0,05 %.",
+   "additives_raw": "Doplňkové látky: Nutriční doplňkové látky: m.j./kg: vit A: 36 500; vit D3: 1 200; vit E: 670; mg/kg: vit C: 140; 3b103: (Fe: 160); 3b202: (I: 2,5); 3b405: (Cu: 17); 3b503: (Mn: 60); 3b605: (Zn: 150); 3b801: (Se: 0,18). Antioxidanty.",
+   "typical_raw": "",
+   "notes": "Rastové krmivo. Stránka neuvádza energiu, vápnik, fosfor ani taurín — splnenie miním pre rast sa z deklarovaných údajov nedá overiť. SK stránka: balenie 10 kg.",
+   "eu20_electrolytes": null,
+   "fediaf_growth": {
+    "protein": true,
+    "ca": null,
+    "p": null
+   },
+   "missing": [
+    "energia na etikete",
+    "vlhkosť",
+    "vápnik",
+    "fosfor",
+    "sodík",
+    "draslík",
+    "horčík",
+    "taurín"
+   ]
+  },
+  {
+   "id": "pp-derma-care",
+   "brand": "Purina Pro Plan",
+   "name": "Adult Derma Care losos",
+   "type": "bežné krmivo (nie diéta)",
+   "category": "bežné krmivo",
+   "lifestage": "dospelé",
+   "url": "https://www.purina.cz/kocka/krmivo-pro-kocky/produkt-proplan-dospela-granule-derma-care-losos",
+   "market": "CZ (na SK stránke výrobcu sa nenašiel)",
+   "sizes": [
+    "400 g",
+    "3 kg",
+    "10 kg"
+   ],
+   "analytics": {
+    "protein": 36.0,
+    "fat": 16.0,
+    "fiber": 5.5,
+    "ash": 7.0
+   },
+   "me_kcal_kg": 3582,
+   "me_source": "odhad (Atwater, predpoklad 8 %)",
+   "moisture_used": 8.0,
+   "moisture_source": "predpoklad 8 %",
+   "nfe_pct": 27.5,
+   "per_1000kcal": {
+    "protein": 100.5,
+    "fat": 44.67,
+    "fiber": 15.35,
+    "ash": 19.54,
+    "ca": null,
+    "p": null,
+    "na": null,
+    "k": null,
+    "mg": null
+   },
+   "energy_split_pct": {
+    "protein": 35.2,
+    "fat": 38.0,
+    "nfe": 26.9
+   },
+   "ca_p": null,
+   "taurine_mg_kg": null,
+   "taurine_source": null,
+   "flags": {
+    "hydrolyzate": false,
+    "psyllium": false,
+    "psyllium_pct": null,
+    "inorganic_phosphate": false,
+    "live_probiotic": false,
+    "paraprobiotic": false,
+    "grain_or_gluten": true,
+    "soy": false
+   },
+   "protein_sources": [
+    "losos",
+    "pšenica (lepok)",
+    "kukurica (bielkovina)",
+    "vajcia"
+   ],
+   "fibre_types": [
+    "sušená rastlinná vláknina (bližšie neurčená)",
+    "repná dužina",
+    "čakankový koreň (inulín)"
+   ],
+   "statement_raw": "",
+   "purpose_raw": "Podporuje zdravou kůži a krásnou srst.",
+   "period_raw": "",
+   "composition_raw": "Složení: losos (15 %) (včetně hlavy, skeletu, masa), pšenice, pšeničný lepek, moučka z kukuřičné bílkoviny, sušené bílkoviny z lososa, živočišné tuky, sušená rostlinná vláknina, kukuřice, sušená vejce, sušená řepná dužina, kukuřičná krupice, minerální látky, sušený čekankový kořen, dochucovací masové výtažky, kvasnice",
+   "analytical_raw": "Analytické složky: protein: 36,0 %, obsah tuku: 16,0 %, obsah anorganických látek: 7,0 %, hrubá vláknina: 5,5 %, omega-3 mastné kyseliny: 0,6 %, omega-6 mastné kyseliny: 2,0 %.",
+   "additives_raw": "Doplňkové látky: Nutriční doplňkové látky: m.j./kg: vit A: 37 000; vit D3: 1 200; vit E: 670; mg/kg: vit C: 140; 3b103: (Fe: 140); 3b202: (I: 2,2); 3b405: (Cu: 15); 3b503: (Mn: 53); 3b605: (Zn: 130); 3b801: (Se: 0,15). Antioxidanty.",
+   "typical_raw": "",
+   "notes": "Stránka neuvádza energiu, minerály ani taurín. Druhou zložkou je pšenica.",
+   "eu20_electrolytes": null,
+   "fediaf_growth": {
+    "protein": true,
+    "ca": null,
+    "p": null
+   },
+   "missing": [
+    "energia na etikete",
+    "vlhkosť",
+    "vápnik",
+    "fosfor",
+    "sodík",
+    "draslík",
+    "horčík",
+    "taurín"
+   ]
+  },
+  {
+   "id": "pp-vd-om",
+   "brand": "Purina Pro Plan",
+   "name": "Veterinary Diets OM St/Ox Obesity Management",
+   "type": "veterinárna diéta",
+   "category": "diéta – chudnutie",
+   "lifestage": "dospelé",
+   "url": "https://www.purina.cz/kocka/krmivo-pro-kocky/produkt-proplan-veterinarni-diety-obezita-granule",
+   "market": "CZ",
+   "sizes": [
+    "5 kg"
+   ],
+   "analytics": {
+    "protein": 48.0,
+    "fat": 8.0,
+    "fiber": 7.5,
+    "ash": 8.0
+   },
+   "me_kcal_kg": 3400.0,
+   "me_source": "etiketa (kcal/g, jednotka na stránke chýba)",
+   "moisture_used": 8.0,
+   "moisture_source": "predpoklad 8 %",
+   "nfe_pct": 20.5,
+   "per_1000kcal": {
+    "protein": 141.18,
+    "fat": 23.53,
+    "fiber": 22.06,
+    "ash": 23.53,
+    "ca": null,
+    "p": null,
+    "na": null,
+    "k": null,
+    "mg": null
+   },
+   "energy_split_pct": {
+    "protein": 54.6,
+    "fat": 22.1,
+    "nfe": 23.3
+   },
+   "ca_p": null,
+   "taurine_mg_kg": 1000.0,
+   "taurine_source": "etiketa",
+   "flags": {
+    "hydrolyzate": false,
+    "psyllium": false,
+    "psyllium_pct": null,
+    "inorganic_phosphate": false,
+    "live_probiotic": false,
+    "paraprobiotic": false,
+    "grain_or_gluten": true,
+    "soy": true
+   },
+   "protein_sources": [
+    "pšenica (lepok)",
+    "kukurica (bielkovina)",
+    "sója",
+    "hydina"
+   ],
+   "fibre_types": [
+    "hrachové šupky",
+    "celulóza"
+   ],
+   "statement_raw": "Kompletní dietní krmivo pro dospělé kočky určené ke snížení nadměrné a udržení optimální tělesné hmotnosti",
+   "purpose_raw": "Vysoký obsah bílkovin během hubnutí podporuje odbourávání tuku a zachování svalové hmoty.",
+   "period_raw": "",
+   "composition_raw": "Složení: Pšeničný lepek, Moučka z kukuřičné bílkoviny, Sójová mouka, Sušené drůbeží bílkoviny, Pšeničná mouka, Hrachové slupky, Celulóza, Dochucovací masové výtažky, Minerální látky, Sójová bílkovina prášek, Vepřový tuk, Rybí tuk, Kvasnice, Xylosa",
+   "analytical_raw": "Analytické složky Protein: 48,0 % Obsah tuku: 8,0 % Obsah anorganických látek: 8,0 % Hrubá vláknina: 7,5 % Metabolizovatelná energie (ME)* : 3,4 kcal/g. *Vypočítaná",
+   "additives_raw": "Nutriční doplňkové látky m.j./kg: Vit. A: 36 000; Vit. D3: 1 200; Vit. E: 650. mg/kg: Taurin: 1 000; Síran železnatý monohydrát: (Fe : 125); Jodičnan vápenatý bezvodý: (I : 1,9); Síran měďnatý pentahydrát: (Cu: 13); Síran manganatý monohydrát: (Mn: 46); Síran zinečnatý monohydrát: (Zn: 115); Seleničitan sodný: (Se: 0,13).",
+   "typical_raw": "",
+   "notes": "Zložky na stránke bez čiarok (doplnené pri prepise). Prvé tri zložky sú rastlinné bielkoviny. Vlhkosť a minerály nedeklarované.",
+   "eu20_electrolytes": null,
+   "fediaf_growth": {
+    "protein": true,
+    "ca": null,
+    "p": null
+   },
+   "missing": [
+    "vlhkosť",
+    "vápnik",
+    "fosfor",
+    "sodík",
+    "draslík",
+    "horčík"
+   ]
+  },
+  {
+   "id": "rc-satiety",
+   "brand": "Royal Canin",
+   "name": "VHN Cat Satiety Weight Management",
+   "type": "veterinárna diéta",
+   "category": "diéta – chudnutie",
+   "lifestage": "dospelé",
+   "url": "https://www.royalcanin.com/sk/cats/products/vet-products/satiety-weight-management-3943",
+   "market": "SK",
+   "sizes": [
+    "1,5 kg",
+    "3,5 kg",
+    "6 kg"
+   ],
+   "analytics": {
+    "protein": 34.0,
+    "fat": 9.0,
+    "fiber": 14.6,
+    "ash": 8.6
+   },
+   "me_kcal_kg": 3040.0,
+   "me_source": "etiketa",
+   "moisture_used": 8.0,
+   "moisture_source": "predpoklad 8 %",
+   "nfe_pct": 25.8,
+   "per_1000kcal": {
+    "protein": 111.84,
+    "fat": 29.61,
+    "fiber": 48.03,
+    "ash": 28.29,
+    "ca": null,
+    "p": null,
+    "na": null,
+    "k": null,
+    "mg": null
+   },
+   "energy_split_pct": {
+    "protein": 41.6,
+    "fat": 26.8,
+    "nfe": 31.6
+   },
+   "ca_p": null,
+   "taurine_mg_kg": null,
+   "taurine_source": null,
+   "flags": {
+    "hydrolyzate": true,
+    "psyllium": true,
+    "psyllium_pct": null,
+    "inorganic_phosphate": false,
+    "live_probiotic": false,
+    "paraprobiotic": false,
+    "grain_or_gluten": true,
+    "soy": false
+   },
+   "protein_sources": [
+    "hydina",
+    "živočíšne (bližšie neurčené, hydrolyzované)",
+    "pšenica/kukurica (glutén)"
+   ],
+   "fibre_types": [
+    "rastlinná vláknina (bližšie neurčená)",
+    "čakanka",
+    "psyllium (bez %)"
+   ],
+   "statement_raw": "Kompletné diétne krmivo pre dospelé mačky",
+   "purpose_raw": "",
+   "period_raw": "ODPORÚČANIE: Pred podávaním alebo predĺžením doby podávania sa odporúča konzultácia s veterinárnym lekárom. Granulované krmivo ROYAL CANIN® SATIETY WEIGHT MANAGEMENT podávajte až do dosiahnutia cieľovej telesnej hmotnosti a aj naďalej ak je to potrebné pre udržanie cieľovej hmotnosti.",
+   "composition_raw": "ZLOŽENIE: dehydrované hydinové bielkoviny, rastlinná vláknina, maniok (tapioka), hydrolyzované živočíšne bielkoviny, pšeničná múka, pšeničný glutén*, kukuričný glutén, živočíšne tuky, dužina čakanky, minerálne látky, semená a šupky psyllia, rybí olej, múčka z aksamietnic, glukozamín z fermentácie, hydrolyzovaná chrupavka (zdroj chondroitínu). *L.I.P.: bielkoviny selektované pre svoju vysokú stráviteľnosť.",
+   "analytical_raw": "ANALYTICKÉ ZLOŽKY: Bielkoviny: 34,0 % - Oleje a tuky: 9,0 % - Popol: 8,6 % - Vláknina: 14,6 % - Metabolizovateľná energia: 3040 kcal/kg.",
+   "additives_raw": "DOPLNKOVÉ LÁTKY (na 1 kg): Výživné doplnkové látky: Vitamín A: 25000 IU, Vitamín D3: 1000 IU, Železo (3b103): 33 mg, Jód (3b201, 3b202): 3,3 mg, Meď (3b405, 3b406): 10 mg, Mangán (3b502, 3b504): 43 mg, Zinok (3b603, 3b605, 3b606): 133 mg, Selén (3b801, 3b811, 3b812): 0,05 mg - Konzervačné látky - Antioxidanty.",
+   "typical_raw": "",
+   "notes": "Produkt sa nezobrazuje vo výpise SK webu, ale stránka existuje. Taurín, vlhkosť a minerály nedeklarované. Vláknina 14,6 % — najvyššia v porovnaní.",
+   "eu20_electrolytes": null,
+   "fediaf_growth": {
+    "protein": true,
+    "ca": null,
+    "p": null
+   },
+   "missing": [
+    "vlhkosť",
+    "vápnik",
+    "fosfor",
+    "sodík",
+    "draslík",
+    "horčík",
+    "taurín"
    ]
   }
  ],

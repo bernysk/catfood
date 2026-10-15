@@ -68,14 +68,21 @@ tr.detail dd{margin:0;white-space:pre-wrap}
   <header>
     <div class="crumb"><a href="../">← Krmivo pre mačky</a></div>
     <h1>Granule: gastrointestinálne diéty</h1>
-    <p class="sub">Suché diéty na tráviace problémy dostupné na SK/CZ trhu. Všetky údaje zo stránok výrobcov, prepočítané na 1000 kcal — teda na to, koľko mačka naozaj zje. Bez známky: diéty sa porovnávajú podľa toho, čo majú robiť. Kliknutím na riadok zobrazíte pôvodný text etikety.</p>
+    <p class="sub">Suché diéty na tráviace problémy dostupné na SK/CZ trhu, plus doplnené porovnanie s bežnými krmivami a diétami na chudnutie (filter „Kategória“). Všetky údaje zo stránok výrobcov, prepočítané na 1000 kcal — teda na to, koľko mačka naozaj zje. Bez známky: diéty sa porovnávajú podľa toho, čo majú robiť. Kliknutím na riadok zobrazíte pôvodný text etikety.</p>
   </header>
 
   <div class="note">
     <b>Nie je to veterinárne odporúčanie.</b> Veterinárne diéty sa podávajú na odporúčanie veterinára, ktorý najprv vylúči iné príčiny (parazity, infekcie, ochorenia pankreasu či štítnej žľazy). Metodika, štúdie a interpretácia sú v <a href="https://github.com/bernysk/catfood/blob/main/granule/Prieskum_granule_GI.md">dokumente prieskumu</a>.
   </div>
 
-  <div class="controls" role="group" aria-label="Filtre">
+  <div class="controls" role="group" aria-label="Kategória">
+    <button class="chip cat" data-c="" aria-pressed="true">všetky</button>
+    <button class="chip cat" data-c="GI diéta" aria-pressed="false">GI diéty</button>
+    <button class="chip cat" data-c="citlivé trávenie (bežné krmivo)" aria-pressed="false">citlivé trávenie (bežné)</button>
+    <button class="chip cat" data-c="diéta – chudnutie" aria-pressed="false">diéty na chudnutie</button>
+    <button class="chip cat" data-c="bežné krmivo" aria-pressed="false">bežné krmivá</button>
+  </div>
+  <div class="controls" role="group" aria-label="Filtre" style="margin-top:0">
     <button class="chip" data-f="vet" aria-pressed="false">len veterinárne diéty</button>
     <button class="chip" data-f="kitten" aria-pressed="false">vhodné pre mačiatka</button>
     <button class="chip" data-f="fibre" aria-pressed="false">vysoká vláknina (≥ 5 %)</button>
@@ -121,7 +128,7 @@ const rows=DATA.products.map(r=>({r,
   name:r.brand+' '+r.name, me:r.me_kcal_kg, prot:r.per_1000kcal.protein, fat:r.per_1000kcal.fat,
   fatE:r.energy_split_pct&&r.energy_split_pct.fat, fib:r.analytics.fiber, phos:r.per_1000kcal.p,
   cap:r.ca_p, na:r.analytics.na, tau:r.taurine_mg_kg, feat:r.protein_sources.length, sizes:r.sizes.length}));
-let sortK='name', dir=1; const on=new Set();
+let sortK='name', dir=1; const on=new Set(); let catSel='';
 function feat(r){
   const f=r.flags, t=[];
   t.push(`<span class="tag">${r.protein_sources.length} zdroje bielkovín</span>`);
@@ -146,7 +153,7 @@ function detail(r){
   </dl></td></tr>`;
 }
 function render(){
-  const list=rows.filter(x=>(!on.has('vet')||/veterin/.test(x.r.type))&&(!on.has('kitten')||kitten(x.r))
+  const list=rows.filter(x=>(!catSel||x.r.category===catSel)&&(!on.has('vet')||/veterin/.test(x.r.type))&&(!on.has('kitten')||kitten(x.r))
     &&(!on.has('fibre')||(x.fib??0)>=5)&&(!on.has('p')||x.phos!=null))
     .sort((a,b)=>{const A=a[sortK],B=b[sortK]; if(A==null)return 1; if(B==null)return -1;
       return (typeof A==='string'?A.localeCompare(B,'sk'):A-B)*dir;});
@@ -155,7 +162,7 @@ function render(){
     const meEst=!/^etiketa/.test(r.me_source||'');
     return `<tr class="main" data-id="${r.id}" tabindex="0">
       <td><div class="pname">${esc(r.name)}</div><div class="brand">${esc(r.brand)} · ${esc(r.lifestage)}</div>
-        ${/veterin/.test(r.type)?'':'<span class="tag warn">nie je diéta</span>'}</td>
+        <span class="tag">${esc(r.category)}</span>${/veterin/.test(r.type)?'':'<span class="tag warn">nie je diéta</span>'}</td>
       <td class="num">${fmt(r.me_kcal_kg)}${meEst?'<span class="est">*</span>':''}</td>
       <td class="num">${fmt(pk.protein)}${pk.protein!=null&&pk.protein<83.3?' <span class="est">↓</span>':''}</td>
       <td class="num">${fmt(pk.fat)}</td>
@@ -172,7 +179,9 @@ document.querySelectorAll('th[data-k]').forEach(th=>th.addEventListener('click',
   const k=th.dataset.k; dir=(sortK===k)?-dir:1; sortK=k;
   document.querySelectorAll('th').forEach(t=>t.removeAttribute('aria-sort'));
   th.setAttribute('aria-sort',dir>0?'ascending':'descending'); render();}));
-document.querySelectorAll('.chip').forEach(b=>b.addEventListener('click',()=>{
+document.querySelectorAll('.chip.cat').forEach(b=>b.addEventListener('click',()=>{
+  catSel=b.dataset.c; document.querySelectorAll('.chip.cat').forEach(x=>x.setAttribute('aria-pressed',x===b)); render();}));
+document.querySelectorAll('.chip[data-f]').forEach(b=>b.addEventListener('click',()=>{
   const f=b.dataset.f; on.has(f)?on.delete(f):on.add(f); b.setAttribute('aria-pressed',on.has(f)); render();}));
 function toggle(tr){const n=tr.nextElementSibling;
   if(n&&n.classList.contains('detail')){n.remove();return;}

@@ -1,6 +1,6 @@
 # Granule pre mačky: gastrointestinálne diéty (SK/CZ)
 
-**Verzia 1 · október 2026 · 13 produktov od 6 výrobcov · údaje výhradne zo stránok výrobcov**
+**Verzia 1.1 · október 2026 · 19 granúl: 12 GI diét, 2 bežné krmivá na citlivé trávenie, 2 diéty na chudnutie, 3 bežné krmivá ([časť 4.2](#4)) · 6 výrobcov · údaje výhradne zo stránok výrobcov**
 
 > **Čo toto je.** Osobný prieskum suchých krmív na tráviace problémy, zostavený s pomocou AI (Claude, Anthropic). Všetky údaje sú doslovne prevzaté zo stránok výrobcov a uložené v [`raw_data/gi_dry.json`](raw_data/gi_dry.json); prepočty robí [`build_dataset.py`](build_dataset.py).
 >
@@ -142,6 +142,26 @@ Hviezdička pri energii = nie je z etikety (tabuľka priemerného obsahu Hill's 
 - **Bez obilnín** je len Brit (pohánka, hrach). Pri GI diétach to nie je výhoda samo osebe — ryža je dobre stráviteľná.
 - **Digestive Care** od Royal Canin **nie je veterinárna diéta**; prvou zložkou je pšeničný glutén a výrobca neuvádza energiu, minerály ani taurín.
 
+### 4.2 Doplnené porovnanie: bežné krmivá Pro Plan a diéty na chudnutie
+
+Na žiadosť autora pribudlo šesť granúl, ktoré **nie sú gastrointestinálne diéty**. V tabuľke majú vlastnú kategóriu, aby sa s GI diétami nemiešali. Údaje sú zo stránok výrobcov (purina.cz, royalcanin.com/sk); pri bežných krmivách Pro Plan stránka neuvádza energiu, minerály ani taurín, preto je energia odhadnutá (hviezdička).
+
+| Produkt | Kategória | kcal/kg | Bielk. g/1000 kcal | Tuk g/1000 kcal | Tuk % E | Vlák. % | Taurín mg/kg |
+|---|---|---:|---:|---:|---:|---:|---:|
+| Pro Plan Adult 1+ Sterilised Renal Plus losos | bežné krmivo | 3418* | 120 | 35 | 30 | 4,0 | – |
+| Pro Plan Adult Delicate Digestion morka | citlivé trávenie (bežné) | 3805* | 105 | 47 | 40 | 1,5 | – |
+| Pro Plan Kitten Healthy Start kura | bežné krmivo (rast) | 3922* | 102 | 51 | 43 | 1,0 | – |
+| Pro Plan Adult Derma Care losos | bežné krmivo | 3582* | 100 | 45 | 38 | 5,5 | – |
+| Pro Plan Veterinary Diets OM St/Ox Obesity Management | diéta – chudnutie | 3400 | 141 | 24 | 22 | 7,5 | 1000 |
+| Royal Canin VHN Cat Satiety Weight Management | diéta – chudnutie | 3040 | 112 | 30 | 27 | 14,6 | – |
+
+- **„Renal Plus" nie je renálna diéta.** Je to bežné krmivo pre kastrované mačky s vysokým obsahom bielkovín (≈ 120 g/1000 kcal). Tvrdenie „podporuje zdraví ledvin" sa z etikety nedá overiť, lebo **fosfor ani iné minerály nie sú deklarované** — a práve fosfor je pre obličky podstatný (pozri [prieskum mokrého krmiva, časť 3.6](../mokre-krmivo/Prieskum_mokre_krmivo_macky.md#3)). Mačke s diagnostikovaným ochorením obličiek patrí veterinárna renálna diéta (Ross a kol. 2006), nie toto krmivo. Pre zdravú kastrovanú mačku je to obyčajné kompletné krmivo s dostatkom bielkovín.
+- **Delicate Digestion** je bežné krmivo s čakankovým koreňom (inulín). Oproti GI diétam nemá deklarovanú stráviteľnosť, zvýšené elektrolyty ani dobu podávania. Rozumná voľba na dlhodobé kŕmenie mačky s mierne citlivým trávením; pri hnačke alebo zvracaní nenahrádza diétu.
+- **Kitten Healthy Start** je rastové krmivo (1–12 mesiacov, aj pre gravidné a dojčiace mačky). Vápnik a fosfor stránka neuvádza, takže splnenie miním FEDIAF pre rast sa nedá overiť.
+- **Derma Care**: druhou zložkou je pšenica; vláknina 5,5 %, omega-3 0,6 %.
+- **Diéty na chudnutie** majú najnižšiu energetickú hustotu v celom porovnaní (3 040–3 400 kcal/kg) a vysoký podiel bielkovín na kalóriu — **OM 141 g/1000 kcal**, čo je v súlade so štúdiou Laflamme & Hannah 2005 (viac bielkovín pri chudnutí = menšia strata svalov). **Satiety** stavia na vláknine (14,6 %, najviac zo všetkých 19 produktov). Prvými zložkami OM sú pšeničný lepok, kukuričná bielkovina a sójová múka.
+- Pri žiadnom z týchto šiestich produktov výrobca neuvádza fosfor, vápnik ani horčík a okrem OM ani taurín.
+
 ---
 
 <a id="5"></a>
@@ -204,7 +224,7 @@ Pre dve adoptované mačky s citlivým trávením (všeobecný postup, nie diagn
 
 1. **Deklarované ≠ namerané.** Analytické zložky majú zákonnú toleranciu (pozri [prieskum mokrého krmiva, časť 9](../mokre-krmivo/Prieskum_mokre_krmivo_macky.md#9)).
 2. **Stráviteľnosť nie je na etikete.** Je to hlavná vlastnosť GI diét a z dát sa nedá overiť; tvrdenia o „vysokej stráviteľnosti" sú od výrobcov. Nariadenie EÚ však pre diétne krmivá na maldigesciu vyžaduje stráviteľnosť bielkovín ≥ 85 % a tuku ≥ 90 % (pri nízkej vláknine).
-3. **Vlhkosť chýba** u 12 z 13 produktov (deklaruje ju len Brit); odhady energie (2 produkty) a podiel energie z tuku preto počítajú s predpokladanou alebo priemernou vlhkosťou.
+3. **Vlhkosť chýba** u 18 z 19 produktov (deklaruje ju len Brit); odhady energie (6 produktov: RC Hairball, RC Digestive Care a štyri bežné krmivá Pro Plan) a podiel energie z tuku preto počítajú s predpokladanou alebo priemernou vlhkosťou.
 4. **Hill's** zverejňuje energiu len v tabuľke priemerného obsahu, nie na etikete.
 5. **Klinické tvrdenia výrobcov** („klinicky overené", „do 24 hodín") sa tu nehodnotia — väčšina súvisiacich štúdií je financovaná výrobcami a nie vždy publikovaná.
 6. **Vybrané štúdie** sú malé (28–55 mačiek) a takmer všetky financované výrobcami krmív.
@@ -224,6 +244,8 @@ Pre dve adoptované mačky s citlivým trávením (všeobecný postup, nie diagn
 - **Perea SC a kol. 2017.** Evaluation of two dry commercial therapeutic diets for the management of feline chronic gastroenteropathy. *Front Vet Sci* 4:69 — [doi:10.3389/fvets.2017.00069](https://doi.org/10.3389/fvets.2017.00069) (CC BY, PDF v [`literatura/`](../literatura/))
 - **Rochon a kol. 2026.** A psyllium-supplemented gastrointestinal diet is effective for the management of chronic constipation in cats: a 6-month controlled clinical trial. *J Feline Med Surg* — [doi:10.1177/1098612X261420519](https://doi.org/10.1177/1098612X261420519)
 - **Alexander J a kol. 2019.** Effects of the long-term feeding of diets enriched with inorganic phosphorus on the adult feline kidney and phosphorus metabolism. *Br J Nutr* 121:249–269 (PDF v [`literatura/`](../literatura/))
+- **Ross SJ a kol. 2006.** Clinical evaluation of dietary modification for treatment of spontaneous chronic kidney disease in cats. *JAVMA* 229:949–957
+- **Laflamme DP, Hannah SS 2005.** Increased dietary protein promotes fat loss and reduces loss of lean body mass during weight loss in cats. *Intern J Appl Res Vet Med* 3:62–68
 - **Nariadenie Komisie (EÚ) 2020/354** — zoznam zamýšľaných účelov krmív na osobitné výživové účely, príloha časť B ([legislation.gov.uk](https://www.legislation.gov.uk/eur/2020/354/annex/part/B))
 - **FEDIAF Nutritional Guidelines 2025**, tabuľka III-4b — [PDF](https://europeanpetfood.org/wp-content/uploads/2025/09/FEDIAF-Nutritional-Guidelines_2025-ONLINE.pdf)
 - **AAFCO Expert Panel on Ca & P (2025)** — predbežné maximum fosforu 5 g/1000 kcal — [PDF](https://www.aafco.org/wp-content/uploads/2026/08/PFC-Expert_Panel_Ca-P_WGRprt.pdf)

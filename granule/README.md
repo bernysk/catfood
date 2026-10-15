@@ -1,6 +1,6 @@
 # Granule pre mačky — gastrointestinálne diéty
 
-**13 suchých GI diét · 6 výrobcov · dáta zo stránok výrobcov (SK/CZ) · október 2026**
+**19 granúl: 12 GI diét, 2 bežné krmivá na citlivé trávenie, 2 diéty na chudnutie, 3 bežné krmivá · 6 výrobcov · dáta zo stránok výrobcov (SK/CZ) · v1.1, október 2026**
 
 📄 **[Dokument prieskumu](./Prieskum_granule_GI.md)** — metodika, štúdie, výsledky, kontrola prilepeného zoznamu, Kitten vs. Adult
 📊 **[Interaktívna tabuľka](https://bernysk.github.io/catfood/granule/)** — triedenie, filtre, pôvodný text etikety pri každom produkte

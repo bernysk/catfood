@@ -53,7 +53,7 @@ def parse_energy(p):
         return num(m.group(1)), "etiketa"
     # Purina: "Metabolizovatelná energie (ME): 4,15.* *Vypočítaná" — unit missing,
     # matches 415 kcal/100 g on the UK page, i.e. kcal/g.
-    m = re.search(r"\(ME\)\s*:\s*(\d[.,]\d+)", a)
+    m = re.search(r"\(ME\)\*?\s*:\s*(\d[.,]\d+)", a)          # also "(ME)* : 3,4 kcal/g"
     if m:
         return num(m.group(1)) * 1000, "etiketa (kcal/g, jednotka na stránke chýba)"
     m = re.search(r"Kalorick[ýy] obsah\s*(\d[\d ]*)\s*kcal/kg", p.get("typical_raw", ""))
@@ -123,6 +123,7 @@ for p in RAW["products"]:
     tau, tau_src = taurine_mg_kg(p)
     r = {
         "id": p["id"], "brand": p["brand"], "name": p["name"], "type": p["type"],
+        "category": p.get("category", "GI diéta"),
         "lifestage": p["lifestage"], "url": p["url"], "market": p["market"],
         "sizes": p["sizes"], "analytics": an,
         "me_kcal_kg": me, "me_source": me_src,
