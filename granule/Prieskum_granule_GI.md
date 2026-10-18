@@ -1,6 +1,6 @@
 # Granule pre mačky: gastrointestinálne diéty (SK/CZ)
 
-**Verzia 1.3 · október 2026 · 161 granúl: 19 ručne overených (GI diéty a porovnanie, [časti 4.1–4.2](#4)) + 142 automaticky stiahnutých zo stránok výrobcov — všetky suché veterinárne diéty Royal Canin, Hill's, Brit, Farmina, Calibra, Virbac HPM a Trovet a všetky granule Pro Plan / Pro Plan Veterinary Diets z CZ, SK a UK ([časti 4.3–4.4](#4))**
+**Verzia 1.3 · október 2026 · 164 granúl: 19 ručne overených (GI diéty a porovnanie, [časti 4.1–4.2](#4)) + 145 automaticky stiahnutých zo stránok výrobcov — všetky suché veterinárne diéty Royal Canin, Hill's, Brit, Farmina, Calibra, Virbac HPM, Trovet a Eminent a všetky granule Pro Plan / Pro Plan Veterinary Diets z CZ, SK a UK ([časti 4.3–4.4](#4))**
 
 > **Čo toto je.** Osobný prieskum suchých krmív na tráviace problémy, zostavený s pomocou AI (Claude, Anthropic). Všetky údaje sú doslovne prevzaté zo stránok výrobcov a uložené v [`raw_data/`](raw_data/) (ručne overené v `gi_dry.json`); prepočty robí [`build_dataset.py`](build_dataset.py).
 >
@@ -199,9 +199,9 @@ Na žiadosť autora boli stiahnuté **všetky** granule Pro Plan a Pro Plan Vete
 - Pribudli dve GI diéty Royal Canin, ktoré v ručnom výbere chýbali: **Gastrointestinal Moderate Calorie** (menej tuku, 35 g/1000 kcal) a **CA Gastrointestinal Hydrolysed Protein** (hydrolyzovaná bielkovina, 77 g bielkovín/1000 kcal).
 - Kategórie z názvu sú pomôcka na filtrovanie, nie klasifikácia účelu podľa EÚ — napr. „Neutered Satiety Balance" je zaradená medzi diéty na chudnutie, hoci je to udržiavacia diéta pre kastrované mačky.
 
-### 4.4 Ďalší výrobcovia dostupní na SK/CZ: Hill's, Brit, Farmina, Calibra, Virbac, Trovet
+### 4.4 Ďalší výrobcovia dostupní na SK/CZ: Hill's, Brit, Farmina, Calibra, Virbac, Trovet, Eminent
 
-Verzia 1.3 dopĺňa **všetky suché veterinárne diéty pre mačky** ďalších šiestich výrobcov, ktorých stránka uvádza etiketu (64 nových riadkov). GI diéty týchto značiek boli ručne overené už v časti 4.1 a nezdvojujú sa.
+Verzia 1.3 dopĺňa **všetky suché veterinárne diéty pre mačky** ďalších siedmich výrobcov, ktorých stránka uvádza etiketu (67 nových riadkov). GI diéty týchto značiek boli ručne overené už v časti 4.1 a nezdvojujú sa.
 
 | Výrobca | Stránka | Počet | Ako sa sťahovalo |
 |---|---|---:|---|
@@ -211,6 +211,7 @@ Verzia 1.3 dopĺňa **všetky suché veterinárne diéty pre mačky** ďalších
 | Calibra VD | mojacalibra.sk | 3 | stránka skriptu vráti prázdnu stránku → vstavaný prehliadač (`raw_data/calibra_vet.json`) |
 | Virbac Veterinary HPM | sk.virbac.com | 9 | skript; analytické zložky sú tabuľka bez znaku % (stĺpec „% v krmive“) |
 | Trovet | trovet.com (anglicky) | 9 | skript; **výrobca nemá SK/CZ stránku**, použitá anglická; doplnkové látky stránka neuvádza |
+| Eminent Diet (Tekro, CZ) | krmivo-eminent.cz | 3 | vstavaný prehliadač; zloženie zo stránky, analytické hodnoty a energia z PDF tabuľky výrobcu odkázanej zo stránky (`raw_data/eminent_vet.json`); sodík, draslík, horčík a vlhkosť neuvádza |
 
 **Nezaradené** (stránka výrobcu s etiketou sa nenašla alebo je zastaraná; e-shopy sa nepoužívajú): Specific (specific-diets.com – 404), Josera Help (josera.com/sk a /cs líniu pre mačky nezobrazuje), Monge VetSolution (len PDF listy z rokov 2016–2019, väčšinou mokré verzie a bez energie). Trovet má 6 ďalších diét pre mačky len v mokrej forme (Renal Venison, Hypoallergenic Horse/Turkey/Venison, Recovery Liquid) – nie sú zaradené.
 
@@ -219,7 +220,7 @@ Verzia 1.3 dopĺňa **všetky suché veterinárne diéty pre mačky** ďalších
 - Brit **Ultra-hypoallergenic** je na báze **hmyzu** (sušený hmyz 30 %), nie lososa.
 - Trovet **Intestinal** má stránku výrobcu (anglickú) — zaradený.
 
-**Prehľad podľa kategórie (všetkých 161 granúl)**
+**Prehľad podľa kategórie (stav pred doplnením Eminent, 161 granúl)**
 
 | Kategória | n | Bielkoviny g/1000 kcal — medián (rozsah) | Fosfor g/1000 kcal — medián (rozsah; počet s deklarovaným P) | kcal/kg (medián) |
 |---|---:|---|---|---:|
@@ -257,6 +258,7 @@ Verzia 1.3 dopĺňa **všetky suché veterinárne diéty pre mačky** ďalších
 
 **Čo z toho vyplýva**
 - **Renálne diéty všetkých výrobcov** sa zhodujú v tom podstatnom: fosfor 0,74–1,41 g/1000 kcal (okrem Virbac KJ1/KJ2) a bielkoviny 58–79 g/1000 kcal. Najnižší fosfor majú stále RC CA Renal – Mobility, RC Renal a Pro Plan NF Advanced Care (0,74–0,82 g); najnižšie bielkoviny Brit a Farmina.
+- **Eminent Diet** (doplnený neskôr, 3 diéty): Gastrointestinal Hypoallergenic/Hepatic má 86 g bielkovín a 2,19 g fosforu na 1000 kcal, jedinou bielkovinou sú ryby (hydrolyzovaný losos); Renal/Urinary 70 g bielkovín a 1,61 g fosforu — fosforu má zo všetkých renálnych diét najviac; Struvite 75 g bielkovín.
 - **Virbac KJ1 a KJ2** sú kombinované diéty „obličky + kĺby“ pre skoré štádiá (IRIS 2, resp. počiatočná fáza): KJ1 má 99 g bielkovín a 1,56 g fosforu na 1000 kcal — to je bližšie bežnému krmivu pre seniorov než renálnej diéte. Do kategórie „obličky“ ich dalo pravidlo podľa názvu („Kidney“).
 - **Diabetické diéty** sú všetky vysokobielkovinové (111–133 g/1000 kcal) s nízkym podielom energie zo sacharidov (NFE 14–21 % energie); výnimkou je **Trovet Weight & Diabetic** s 39 % energie z NFE.
 - **Močové diéty** sa delia na dve skupiny podľa sodíka: s vysokým sodíkom (≥ 2,9 g/1000 kcal — RC S/O, Pro Plan UR, Calibra, Brit, Virbac U1–U3), ktorý zvyšuje príjem vody a riedi moč, a s nízkym sodíkom (Hill's c/d a s/d, Farmina, Trovet ASD, RC S/O Bladder Comfort Ageing: 0,6–1,4 g); Trovet Urinary Calm je medzi nimi (2,0 g).

@@ -1,6 +1,6 @@
 {
  "generated": "2026-10-15",
- "count": 161,
+ "count": 164,
  "products": [
   {
    "id": "rc-gi",
@@ -13825,6 +13825,257 @@
    "missing": [
     "vlhkosť",
     "draslík"
+   ],
+   "same_values_markets": []
+  },
+  {
+   "id": "eminent-diet-cat-gastrointestinal-hypoallergenic-hepatic",
+   "brand": "Eminent",
+   "name": "Diet Cat Gastrointestinal Hypoallergenic/Hepatic",
+   "type": "veterinárna diéta",
+   "category": "GI diéta",
+   "lifestage": "dospelé",
+   "url": "https://www.krmivo-eminent.cz/eminent-diet-cat-gastrointestinal-hypoallergenic-hepatic",
+   "market": "CZ",
+   "sizes": [
+    "2,5 kg",
+    "11 kg"
+   ],
+   "analytics": {
+    "protein": 33.5,
+    "fat": 19.0,
+    "fiber": 6.5,
+    "ash": 7.0,
+    "ca": 0.9,
+    "p": 0.85
+   },
+   "me_kcal_kg": 3875.0,
+   "me_source": "etiketa",
+   "moisture_used": 8.0,
+   "moisture_source": "predpoklad 8 %",
+   "nfe_pct": 26.0,
+   "per_1000kcal": {
+    "protein": 86.45,
+    "fat": 49.03,
+    "fiber": 16.77,
+    "ash": 18.06,
+    "ca": 2.32,
+    "p": 2.19,
+    "na": null,
+    "k": null,
+    "mg": null
+   },
+   "energy_split_pct": {
+    "protein": 31.7,
+    "fat": 43.7,
+    "nfe": 24.6
+   },
+   "ca_p": 1.06,
+   "taurine_mg_kg": 2200.0,
+   "taurine_source": "etiketa",
+   "flags": {
+    "hydrolyzate": true,
+    "psyllium": false,
+    "psyllium_pct": null,
+    "inorganic_phosphate": false,
+    "live_probiotic": false,
+    "paraprobiotic": false,
+    "grain_or_gluten": true,
+    "soy": false
+   },
+   "protein_sources": [],
+   "fibre_types": [
+    "FOS",
+    "inulín/čakanka",
+    "MOS",
+    "rastlinná vláknina (bližšie neurčená)"
+   ],
+   "statement_raw": "Kompletní dietní krmivo s obsahem hydrolyzovaného proteinu pro kočky s potřebou vysoce stravitelného krmiva, s jaterním onemocněním a se sklonem k alergiím.",
+   "purpose_raw": "Indikace: gastritidy; kolitidy; enteritidy; chronický průjem; malabsorpce; maldigesce; anorexie; potravní alergie projevující se kožními či gastrointestinálními příznaky; zlepšení kondice u vyhublých zvířat; exokrinní pankreatická insuficience; onemocnění jater.",
+   "period_raw": "V případě kompenzace maldigesce a omezení střevních resorpčních onemocnění: do 12 týdnů. V případě intolerance: 3-8 týdnů; pokud příznaky intolerance nezmizí, může se krmivo používat od počátku do jednoho roku. Celoživotně v případě chronické pankreatické nedostatečnosti a při onemocnění jater.",
+   "composition_raw": "rýže, hydrolyzovaný lososový protein, dehydrovaný rybí protein, kuřecí tuk, sušené jablečné výlisky, rybí tuk, hydrolyzovaný rybí protein, rostlinná vláknina, lněné semínko, bramborový protein, komplex bylin (Urtica dioica, Echinacea purpurea, Ascophyllum nodosum, smetanka lékařská, čekanka, ostropestřec, plod fenyklu, plod anýzu, plod koriandru), MOS (mannanoligosacharidy), FOS (fruktooligosacharidy), sodná sůl kyseliny glutámové, betaglukany, Yucca schidigera, doplňkové látky (vitaminy, stopové prvky, aminokyseliny).",
+   "analytical_raw": "Dusíkaté látky (protein) 33,5 %, Tuk 19 %, Anorganické látky (popel) 7 %, Vláknina 6,5 %, Vápník 0,9 %, Fosfor 0,85 %, Lysin 2,3 %, Methionin 0,9 %, Živočišný protein 87 % ¦ Metabolizovatelná energie (NRC 2006): 3 875 kcal/kg (16,21 MJ/kg)",
+   "additives_raw": "Vitamin A 25 000 m.j., Vitamin D3 2 500 m.j., Vitamin E 500 mg/kg, Vitamin B1 17 mg/kg, Vitamin B2 26 mg/kg, Vitamin B6 25 mg/kg, Vitamin B12 0,16 mg/kg, Kyselina listová 5 mg/kg, Panthotenan vápenatý 35 mg/kg, Niacin 110 mg/kg, Biotin 0,85 mg/kg, Cholin chlorid 780 mg/kg, Taurin 2 200 mg/kg, L-karnitin 275 mg/kg, Železo 110 mg/kg, Zinek 195 mg/kg, Mangan 48 mg/kg, Měď 11,8 mg/kg, Jod 3,4 mg/kg, Selen 0,45 mg/kg",
+   "typical_raw": "",
+   "notes": "Načítané vstavaným prehliadačom (2026-10-18): text zo stránky výrobcu; analytické hodnoty a energia z PDF tabuľky výrobcu odkázanej z produktovej stránky. Sodík, draslík, horčík a vlhkosť výrobca neuvádza. Zdroje bielkovín neurčené; druhy vlákniny rozpoznané automaticky zo zloženia.",
+   "auto": true,
+   "eu20_electrolytes": null,
+   "fediaf_growth": {
+    "protein": true,
+    "ca": false,
+    "p": true
+   },
+   "missing": [
+    "vlhkosť",
+    "sodík",
+    "draslík",
+    "horčík"
+   ],
+   "same_values_markets": []
+  },
+  {
+   "id": "eminent-diet-cat-renal-urinary",
+   "brand": "Eminent",
+   "name": "Diet Cat Renal/Urinary",
+   "type": "veterinárna diéta",
+   "category": "diéta – obličky",
+   "lifestage": "dospelé",
+   "url": "https://www.krmivo-eminent.cz/eminent-diet-cat-renal-urinary",
+   "market": "CZ",
+   "sizes": [
+    "2,5 kg",
+    "11 kg"
+   ],
+   "analytics": {
+    "protein": 28.0,
+    "fat": 17.0,
+    "fiber": 2.2,
+    "ash": 5.7,
+    "ca": 0.7,
+    "p": 0.64
+   },
+   "me_kcal_kg": 3985.0,
+   "me_source": "etiketa",
+   "moisture_used": 8.0,
+   "moisture_source": "predpoklad 8 %",
+   "nfe_pct": 39.1,
+   "per_1000kcal": {
+    "protein": 70.26,
+    "fat": 42.66,
+    "fiber": 5.52,
+    "ash": 14.3,
+    "ca": 1.76,
+    "p": 1.61,
+    "na": null,
+    "k": null,
+    "mg": null
+   },
+   "energy_split_pct": {
+    "protein": 25.8,
+    "fat": 38.1,
+    "nfe": 36.1
+   },
+   "ca_p": 1.09,
+   "taurine_mg_kg": 2100.0,
+   "taurine_source": "etiketa",
+   "flags": {
+    "hydrolyzate": true,
+    "psyllium": false,
+    "psyllium_pct": null,
+    "inorganic_phosphate": false,
+    "live_probiotic": false,
+    "paraprobiotic": false,
+    "grain_or_gluten": true,
+    "soy": false
+   },
+   "protein_sources": [],
+   "fibre_types": [
+    "FOS",
+    "MOS",
+    "rastlinná vláknina (bližšie neurčená)"
+   ],
+   "statement_raw": "Kompletní dietní krmivo pro kočky s onemocněním ledvin a dolních cest močových.",
+   "purpose_raw": "Indikace: chronická renální insuficience; prevence tvorby struvitových, kalcium oxalátových a kalcium fosfátových kamenů; onemocnění dolních močových cest.",
+   "period_raw": "Doba a způsob podávání: od začátku podávání diety až po dobu 6 měsíců v případě chronické ledvinové nedostatečnosti. Do 6 měsíců nebo celoživotně v případě nevratné poruchy metabolismu kyseliny močové.",
+   "composition_raw": "dehydrovaný vepřový protein, rýže, kukuřice, vejce, kuřecí tuk, rybí tuk, hydrolyzovaný živočišný protein, kukuřičná bílkovina, rostlinná vláknina, lněné semínko, taurin, MOS (mannanoligosacharidy), FOS (fruktooligosacharidy), směs bylin a řas (Ascophyllum nodosum, Echinacea purpurea, Urtica dioica), betaglukany, brusinkový extrakt, doplňkové látky (vitaminy, stopové prvky, aminokyseliny).",
+   "analytical_raw": "Dusíkaté látky (protein) 28 %, Tuk 17 %, Anorganické látky (popel) 5,7 %, Vláknina 2,2 %, Vápník 0,7 %, Fosfor 0,64 %, Lysin 1,7 %, Methionin 0,64 %, Živočišný protein 85 % ¦ Metabolizovatelná energie (NRC 2006): 3 985 kcal/kg (16,70 MJ/kg)",
+   "additives_raw": "Vitamin A 20 000 m.j., Vitamin D3 2 000 m.j., Vitamin E 340 mg/kg, Vitamin B1 14 mg/kg, Vitamin B2 20 mg/kg, Vitamin B6 20,1 mg/kg, Vitamin B12 0,13 mg/kg, Kyselina listová 4 mg/kg, Panthotenan vápenatý 28 mg/kg, Niacin 85 mg/kg, Biotin 0,7 mg/kg, Cholin chlorid 450 mg/kg, Taurin 2 100 mg/kg, Železo 110 mg/kg, Zinek 160 mg/kg, Mangan 45 mg/kg, Měď 15 mg/kg, Jod 2,5 mg/kg, Selen 0,45 mg/kg",
+   "typical_raw": "",
+   "notes": "Načítané vstavaným prehliadačom (2026-10-18): text zo stránky výrobcu; analytické hodnoty a energia z PDF tabuľky výrobcu odkázanej z produktovej stránky. Sodík, draslík, horčík a vlhkosť výrobca neuvádza. Zdroje bielkovín neurčené; druhy vlákniny rozpoznané automaticky zo zloženia.",
+   "auto": true,
+   "eu20_electrolytes": null,
+   "fediaf_growth": {
+    "protein": false,
+    "ca": false,
+    "p": false
+   },
+   "missing": [
+    "vlhkosť",
+    "sodík",
+    "draslík",
+    "horčík"
+   ],
+   "same_values_markets": []
+  },
+  {
+   "id": "eminent-diet-cat-struvite",
+   "brand": "Eminent",
+   "name": "Diet Cat Struvite",
+   "type": "veterinárna diéta",
+   "category": "diéta – močové cesty",
+   "lifestage": "dospelé",
+   "url": "https://www.krmivo-eminent.cz/eminent-diet-cat-struvite",
+   "market": "CZ",
+   "sizes": [
+    "2,5 kg",
+    "11 kg"
+   ],
+   "analytics": {
+    "protein": 29.0,
+    "fat": 15.0,
+    "fiber": 2.7,
+    "ash": 6.5,
+    "ca": 0.75,
+    "p": 0.6
+   },
+   "me_kcal_kg": 3850.0,
+   "me_source": "etiketa",
+   "moisture_used": 8.0,
+   "moisture_source": "predpoklad 8 %",
+   "nfe_pct": 38.8,
+   "per_1000kcal": {
+    "protein": 75.32,
+    "fat": 38.96,
+    "fiber": 7.01,
+    "ash": 16.88,
+    "ca": 1.95,
+    "p": 1.56,
+    "na": null,
+    "k": null,
+    "mg": null
+   },
+   "energy_split_pct": {
+    "protein": 27.8,
+    "fat": 35.0,
+    "nfe": 37.2
+   },
+   "ca_p": 1.25,
+   "taurine_mg_kg": 2150.0,
+   "taurine_source": "etiketa",
+   "flags": {
+    "hydrolyzate": true,
+    "psyllium": false,
+    "psyllium_pct": null,
+    "inorganic_phosphate": true,
+    "live_probiotic": false,
+    "paraprobiotic": false,
+    "grain_or_gluten": true,
+    "soy": false
+   },
+   "protein_sources": [],
+   "fibre_types": [
+    "MOS"
+   ],
+   "statement_raw": "Kompletní dietní krmivo pro kočky s nežádoucím alkalickým pH moči a struvitovou urolitiázou.",
+   "purpose_raw": "Indikace: patologická struvitová urolitiáza a alkalické pH moči.",
+   "period_raw": "Doba a způsob podávání: za účelem rozpouštění struvitových kamenů 5 až 12 týdnů. Pro omezení opakované tvorby struvitových kamenů 6 měsíců od začátku podávání diety.",
+   "composition_raw": "rýže, dehydrovaný vepřový protein, kukuřice, kuřecí tuk, kukuřičný protein, hydrolyzovaný živočišný protein, lněné semínko, kyselina ortofosforečná, taurin, Yucca schidigera, MOS (mannanoligosacharidy), směs bylin a řas (Urtica dioica, Echinacea purpurea, Ascophyllum nodosum), brusinkový extrakt, doplňkové látky (vitaminy, stopové prvky, aminokyseliny).",
+   "analytical_raw": "Dusíkaté látky (protein) 29 %, Tuk 15 %, Anorganické látky (popel) 6,5 %, Vláknina 2,7 %, Vápník 0,75 %, Fosfor 0,6 %, Lysin 1,3 %, Methionin 0,9 %, Živočišný protein 65 % ¦ Metabolizovatelná energie (NRC 2006): 3 850 kcal/kg (16,12 MJ/kg)",
+   "additives_raw": "Vitamin A 20 000 m.j., Vitamin D3 2 000 m.j., Vitamin E 330 mg/kg, Vitamin B1 13,4 mg/kg, Vitamin B2 20,1 mg/kg, Vitamin B6 20,1 mg/kg, Vitamin B12 0,13 mg/kg, Kyselina listová 4 mg/kg, Panthotenan vápenatý 27 mg/kg, Niacin 80 mg/kg, Biotin 0,8 mg/kg, Cholin chlorid 450 mg/kg, Taurin 2 150 mg/kg, Železo 105 mg/kg, Zinek 140 mg/kg, Mangan 35 mg/kg, Měď 13 mg/kg, Jod 3 mg/kg, Selen 0,26 mg/kg",
+   "typical_raw": "",
+   "notes": "Načítané vstavaným prehliadačom (2026-10-18): text zo stránky výrobcu; analytické hodnoty a energia z PDF tabuľky výrobcu odkázanej z produktovej stránky. Sodík, draslík, horčík a vlhkosť výrobca neuvádza. Zdroje bielkovín neurčené; druhy vlákniny rozpoznané automaticky zo zloženia.",
+   "auto": true,
+   "eu20_electrolytes": null,
+   "fediaf_growth": {
+    "protein": true,
+    "ca": false,
+    "p": false
+   },
+   "missing": [
+    "vlhkosť",
+    "sodík",
+    "draslík",
+    "horčík"
    ],
    "same_values_markets": []
   }

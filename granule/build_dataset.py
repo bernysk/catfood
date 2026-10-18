@@ -27,9 +27,9 @@ def num(s):
 N = r"(\d+(?:[.,]\d+)?)"
 LABELS = {
     "protein":  r"(?:hrub[éýá] )?(?:bielkoviny|b[íi]lkovin[ay]?\\?|prote[íi]ny?|dus[íi]kat[ée] l[áa]tky)",   # Hill's t/d: "Bílkovin\ 32,5 %"
-    "fat":      r"(?:obsah tuku|oleje a tuky|fat content|hrub[ýá] tuky?|hrub[ée] tuky|\bfat\b|\btuky\b)",
+    "fat":      r"(?:obsah tuku|oleje a tuky|fat content|hrub[ýá] tuky?|hrub[ée] tuky|\bfat\b|\btuky?\b)",   # Eminent PDF: "Tuk 19 %"
     "fiber":    r"(?:hrub[áé] )?(?:vl[áa]knina|crude fibres?)",
-    "ash":      r"(?:hrub[ýé] )?(?:popol|popel|crude ash|obsah anorganick[ýé]ch l[áa]t(?:ek|ok)|miner[áa]ln[ei] l[áa]tky|inorganic matter)",
+    "ash":      r"(?:hrub[ýé] )?(?:popol|popel|crude ash|obsah anorganick[ýé]ch l[áa]t(?:ek|ok)|miner[áa]ln[ei] l[áa]tky|inorganic matter|anorganick[ée] l[áa]tky)",
     "carb":     r"(?:sacharidy|carbohydrates?)",
     "moisture": r"(?:vlhkos[tť]|moisture)",
     "ca":       r"(?:v[áa]pn[íi]k|calcium)",
@@ -42,7 +42,7 @@ LABELS = {
 def parse_analytics(text):
     out = {}
     for key, lab in LABELS.items():
-        m = re.search(lab + r"(?:\s*\([A-Za-z]{1,2}\))?\s*:?\s*" + N + r"\s*%", text, re.I)   # Trovet "Calcium (Ca) 0.95 %"
+        m = re.search(lab + r"(?:\s*\([A-Za-z]{1,7}\))?\s*:?\s*" + N + r"\s*%", text, re.I)   # Trovet "Calcium (Ca) 0.95 %"
         if m:
             out[key] = num(m.group(1))
     return out

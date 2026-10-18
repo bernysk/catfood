@@ -1,6 +1,6 @@
 # Granule pre mačky — veterinárne diéty
 
-**161 granúl · 19 ručne overených (GI diéty) + všetky suché veterinárne diéty Royal Canin, Hill's, Brit, Farmina, Calibra, Virbac HPM, Trovet a všetky granule Pro Plan (CZ, SK, UK) · dáta zo stránok výrobcov · v1.3, október 2026**
+**164 granúl · 19 ručne overených (GI diéty) + všetky suché veterinárne diéty Royal Canin, Hill's, Brit, Farmina, Calibra, Virbac HPM, Trovet, Eminent a všetky granule Pro Plan (CZ, SK, UK) · dáta zo stránok výrobcov · v1.3, október 2026**
 
 📄 **[Dokument prieskumu](./Prieskum_granule_GI.md)** — metodika, štúdie, výsledky, kontrola prilepeného zoznamu, Kitten vs. Adult
 📊 **[Interaktívna tabuľka](https://bernysk.github.io/catfood/granule/)** — triedenie, filtre, pôvodný text etikety pri každom produkte
@@ -20,6 +20,7 @@ raw_data/royalcanin_vet.json  automaticky stiahnuté veterinárne diéty Royal C
 raw_data/others_vet.json  automaticky stiahnuté diéty Brit, Farmina, Virbac HPM, Trovet
 raw_data/hills_vet.json   diéty Hill's (CZ) – načítané vstavaným prehliadačom (stránka blokuje skripty)
 raw_data/calibra_vet.json diéty Calibra (SK) – načítané vstavaným prehliadačom
+raw_data/eminent_vet.json diéty Eminent (CZ) – stránka + PDF tabuľka výrobcu
 scrape_proplan.py         sťahovanie Pro Plan (výpisy ?page=N + produktové stránky)
 scrape_royalcanin.py      sťahovanie Royal Canin (sitemap + produktové stránky)
 scrape_others.py          sťahovanie Brit, Farmina, Virbac HPM, Trovet

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """Turn the automatically scraped manufacturer pages (scrape_proplan.py,
 scrape_royalcanin.py, scrape_others.py) and the pages collected in the built-in
-browser (raw_data/hills_vet.json, raw_data/calibra_vet.json) into product records with the same fields as the
+browser (raw_data/hills_vet.json, raw_data/calibra_vet.json, raw_data/eminent_vet.json) into product records with the same fields as the
 hand-curated raw_data/gi_dry.json.
 
 Rules
@@ -11,7 +11,7 @@ Rules
   same product IDs and stays in the raw file only.
 - Pro Plan: CZ, SK and UK pages are all kept (market filter in the table);
   purina.eu product pages returned HTTP 500 and are reported, not used.
-- Hill's, Brit, Farmina, Calibra, Virbac (SK/CZ pages) and Trovet (English page;
+- Hill's, Brit, Farmina, Calibra, Virbac, Eminent (SK/CZ pages) and Trovet (English page;
   no SK/CZ manufacturer site) are dry veterinary diets only.
 - Category comes from the product name (keyword table below). Fibre types are
   detected automatically from the composition and labelled as such; protein
@@ -269,7 +269,25 @@ def calibra(existing):
     return out
 
 
+def eminent(existing):
+    path = os.path.join(HERE, "raw_data", "eminent_vet.json")
+    if not os.path.exists(path):
+        return []
+    d = json.load(open(path, encoding="utf-8"))
+    out = []
+    for r in d["products"]:
+        if r["url"] in existing:
+            continue
+        out.append(_rec("Eminent", "eminent", _slug(r["url"]).replace("eminent-", "", 1), r["name"], r["url"], r.get("market", "CZ"),
+                        r["composition_raw"], r["analytical_raw"], r["additives_raw"],
+                        f"Načítané vstavaným prehliadačom ({d['fetched_at']}): text zo stránky výrobcu; analytické hodnoty "
+                        "a energia z PDF tabuľky výrobcu odkázanej z produktovej stránky. Sodík, draslík, horčík a vlhkosť výrobca neuvádza.",
+                        statement_raw=r.get("statement_raw", ""), purpose_raw=r.get("purpose_raw", ""),
+                        period_raw=r.get("period_raw", ""), sizes=r.get("sizes", [])))
+    return out
+
+
 def load(existing_urls):
     pp, failed = proplan(existing_urls)
     return (pp + royalcanin(existing_urls) + hills(existing_urls) + others(existing_urls)
-            + calibra(existing_urls)), failed
+            + calibra(existing_urls) + eminent(existing_urls)), failed

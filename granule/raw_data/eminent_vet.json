@@ -1,0 +1,54 @@
+{
+ "fetched_at": "2026-10-18",
+ "method": "Built-in browser (krmivo-eminent.cz, výrobca Tekro spol. s r.o.): názov, indikácie, zloženie a doba podávania z produktovej stránky; analytické hodnoty z PDF výrobcu odkázaného z tej stránky (https://webadmin.krmivo-eminent.cz/media/tabulky-zivin/diety/Eminent_Diet_obsah_zivin_zkracena_web.pdf), stĺpce Kočka. Sodík, draslík, horčík ani vlhkosť výrobca neuvádza.",
+ "products": [
+  {
+   "url": "https://www.krmivo-eminent.cz/eminent-diet-cat-gastrointestinal-hypoallergenic-hepatic",
+   "name": "Diet Cat Gastrointestinal Hypoallergenic/Hepatic",
+   "statement_raw": "Kompletní dietní krmivo s obsahem hydrolyzovaného proteinu pro kočky s potřebou vysoce stravitelného krmiva, s jaterním onemocněním a se sklonem k alergiím.",
+   "purpose_raw": "Indikace: gastritidy; kolitidy; enteritidy; chronický průjem; malabsorpce; maldigesce; anorexie; potravní alergie projevující se kožními či gastrointestinálními příznaky; zlepšení kondice u vyhublých zvířat; exokrinní pankreatická insuficience; onemocnění jater.",
+   "composition_raw": "rýže, hydrolyzovaný lososový protein, dehydrovaný rybí protein, kuřecí tuk, sušené jablečné výlisky, rybí tuk, hydrolyzovaný rybí protein, rostlinná vláknina, lněné semínko, bramborový protein, komplex bylin (Urtica dioica, Echinacea purpurea, Ascophyllum nodosum, smetanka lékařská, čekanka, ostropestřec, plod fenyklu, plod anýzu, plod koriandru), MOS (mannanoligosacharidy), FOS (fruktooligosacharidy), sodná sůl kyseliny glutámové, betaglukany, Yucca schidigera, doplňkové látky (vitaminy, stopové prvky, aminokyseliny).",
+   "period_raw": "V případě kompenzace maldigesce a omezení střevních resorpčních onemocnění: do 12 týdnů. V případě intolerance: 3-8 týdnů; pokud příznaky intolerance nezmizí, může se krmivo používat od počátku do jednoho roku. Celoživotně v případě chronické pankreatické nedostatečnosti a při onemocnění jater.",
+   "brand": "Eminent",
+   "market": "CZ",
+   "sizes": [
+    "2,5 kg",
+    "11 kg"
+   ],
+   "analytical_raw": "Dusíkaté látky (protein) 33,5 %, Tuk 19 %, Anorganické látky (popel) 7 %, Vláknina 6,5 %, Vápník 0,9 %, Fosfor 0,85 %, Lysin 2,3 %, Methionin 0,9 %, Živočišný protein 87 % ¦ Metabolizovatelná energie (NRC 2006): 3 875 kcal/kg (16,21 MJ/kg)",
+   "additives_raw": "Vitamin A 25 000 m.j., Vitamin D3 2 500 m.j., Vitamin E 500 mg/kg, Vitamin B1 17 mg/kg, Vitamin B2 26 mg/kg, Vitamin B6 25 mg/kg, Vitamin B12 0,16 mg/kg, Kyselina listová 5 mg/kg, Panthotenan vápenatý 35 mg/kg, Niacin 110 mg/kg, Biotin 0,85 mg/kg, Cholin chlorid 780 mg/kg, Taurin 2 200 mg/kg, L-karnitin 275 mg/kg, Železo 110 mg/kg, Zinek 195 mg/kg, Mangan 48 mg/kg, Měď 11,8 mg/kg, Jod 3,4 mg/kg, Selen 0,45 mg/kg"
+  },
+  {
+   "url": "https://www.krmivo-eminent.cz/eminent-diet-cat-renal-urinary",
+   "name": "Diet Cat Renal/Urinary",
+   "statement_raw": "Kompletní dietní krmivo pro kočky s onemocněním ledvin a dolních cest močových.",
+   "purpose_raw": "Indikace: chronická renální insuficience; prevence tvorby struvitových, kalcium oxalátových a kalcium fosfátových kamenů; onemocnění dolních močových cest.",
+   "composition_raw": "dehydrovaný vepřový protein, rýže, kukuřice, vejce, kuřecí tuk, rybí tuk, hydrolyzovaný živočišný protein, kukuřičná bílkovina, rostlinná vláknina, lněné semínko, taurin, MOS (mannanoligosacharidy), FOS (fruktooligosacharidy), směs bylin a řas (Ascophyllum nodosum, Echinacea purpurea, Urtica dioica), betaglukany, brusinkový extrakt, doplňkové látky (vitaminy, stopové prvky, aminokyseliny).",
+   "period_raw": "Doba a způsob podávání: od začátku podávání diety až po dobu 6 měsíců v případě chronické ledvinové nedostatečnosti. Do 6 měsíců nebo celoživotně v případě nevratné poruchy metabolismu kyseliny močové.",
+   "brand": "Eminent",
+   "market": "CZ",
+   "sizes": [
+    "2,5 kg",
+    "11 kg"
+   ],
+   "analytical_raw": "Dusíkaté látky (protein) 28 %, Tuk 17 %, Anorganické látky (popel) 5,7 %, Vláknina 2,2 %, Vápník 0,7 %, Fosfor 0,64 %, Lysin 1,7 %, Methionin 0,64 %, Živočišný protein 85 % ¦ Metabolizovatelná energie (NRC 2006): 3 985 kcal/kg (16,70 MJ/kg)",
+   "additives_raw": "Vitamin A 20 000 m.j., Vitamin D3 2 000 m.j., Vitamin E 340 mg/kg, Vitamin B1 14 mg/kg, Vitamin B2 20 mg/kg, Vitamin B6 20,1 mg/kg, Vitamin B12 0,13 mg/kg, Kyselina listová 4 mg/kg, Panthotenan vápenatý 28 mg/kg, Niacin 85 mg/kg, Biotin 0,7 mg/kg, Cholin chlorid 450 mg/kg, Taurin 2 100 mg/kg, Železo 110 mg/kg, Zinek 160 mg/kg, Mangan 45 mg/kg, Měď 15 mg/kg, Jod 2,5 mg/kg, Selen 0,45 mg/kg"
+  },
+  {
+   "url": "https://www.krmivo-eminent.cz/eminent-diet-cat-struvite",
+   "name": "Diet Cat Struvite",
+   "statement_raw": "Kompletní dietní krmivo pro kočky s nežádoucím alkalickým pH moči a struvitovou urolitiázou.",
+   "purpose_raw": "Indikace: patologická struvitová urolitiáza a alkalické pH moči.",
+   "composition_raw": "rýže, dehydrovaný vepřový protein, kukuřice, kuřecí tuk, kukuřičný protein, hydrolyzovaný živočišný protein, lněné semínko, kyselina ortofosforečná, taurin, Yucca schidigera, MOS (mannanoligosacharidy), směs bylin a řas (Urtica dioica, Echinacea purpurea, Ascophyllum nodosum), brusinkový extrakt, doplňkové látky (vitaminy, stopové prvky, aminokyseliny).",
+   "period_raw": "Doba a způsob podávání: za účelem rozpouštění struvitových kamenů 5 až 12 týdnů. Pro omezení opakované tvorby struvitových kamenů 6 měsíců od začátku podávání diety.",
+   "brand": "Eminent",
+   "market": "CZ",
+   "sizes": [
+    "2,5 kg",
+    "11 kg"
+   ],
+   "analytical_raw": "Dusíkaté látky (protein) 29 %, Tuk 15 %, Anorganické látky (popel) 6,5 %, Vláknina 2,7 %, Vápník 0,75 %, Fosfor 0,6 %, Lysin 1,3 %, Methionin 0,9 %, Živočišný protein 65 % ¦ Metabolizovatelná energie (NRC 2006): 3 850 kcal/kg (16,12 MJ/kg)",
+   "additives_raw": "Vitamin A 20 000 m.j., Vitamin D3 2 000 m.j., Vitamin E 330 mg/kg, Vitamin B1 13,4 mg/kg, Vitamin B2 20,1 mg/kg, Vitamin B6 20,1 mg/kg, Vitamin B12 0,13 mg/kg, Kyselina listová 4 mg/kg, Panthotenan vápenatý 27 mg/kg, Niacin 80 mg/kg, Biotin 0,8 mg/kg, Cholin chlorid 450 mg/kg, Taurin 2 150 mg/kg, Železo 105 mg/kg, Zinek 140 mg/kg, Mangan 35 mg/kg, Měď 13 mg/kg, Jod 3 mg/kg, Selen 0,26 mg/kg"
+  }
+ ]
+}
