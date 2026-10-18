@@ -1,7 +1,10 @@
 {
   "_comment": "Klasifikácia kompletnosti čítaná s porozumením, nie keywordmi. Kľúč je doslovné znenie poľa completeness_statement_raw z raw_data/. Regex tu zlyhával na negáciách ('not explicitly labeled complementary' = KOMPLETNÉ) a na vetách, kde sa obe slová vyskytujú naraz. Neznáme formulácie build_dataset.py nahlási na doplnenie namiesto hádania.",
-  "_values": ["kompletné", "doplnkové", "neuvedené"],
-
+  "_values": [
+    "kompletné",
+    "doplnkové",
+    "neuvedené"
+  ],
   "_superseded_comment": "URL, ktoré sa nemajú počítať do štatistík, lebo ten istý produkt je v datasete z lepšieho zdroja. Riadky zostávajú v raw_data/ ako archív — vyradia sa až tu, s uvedeným dôvodom.",
   "superseded": {
     "https://ontario.pet/sk/krmivo-pre-macky/ontario-kapsicka-kuracie-a-krevety-v-omacke/": "SK stránka zobrazuje zloženie a analytiku kačacieho produktu, nie krevetového — nahradené CZ verziou (ontario_cz.json), ktorá uvádza skutočnú receptúru s 8 % kreviet.",
@@ -14,7 +17,6 @@
     "https://ontario.pet/sk/krmivo-pre-macky/ontario-kapsicka-pre-maciatka-kuracie-so-sunkou-v-omacke/": "Duplicita — SK názov chybne uvádza 'pre mačiatka', hoci ide o krmivo pre dospelé mačky; CZ názov je správny.",
     "https://ontario.pet/sk/krmivo-pre-macky/ontario-kapsicka-kuracie-a-makrela-v-omacke/": "Duplicita — ten istý produkt je v ontario_cz.json."
   },
-
   "completeness": {
     "": "neuvedené",
     "Not explicitly stated on the page (per WebFetch extraction).": "neuvedené",
@@ -23,7 +25,6 @@
     "not explicitly captured (\"complete food\" statement not found in extracted content)": "neuvedené",
     "not explicitly captured": "neuvedené",
     "not explicitly captured by extraction": "neuvedené",
-
     "Complete wet food for adult cats": "kompletné",
     "Complete food for adult cats": "kompletné",
     "Complete food for kittens": "kompletné",
@@ -67,10 +68,8 @@
     "Complete food for adult sterilized/neutered cats": "kompletné",
     "Complete food for adult indoor cats": "kompletné",
     "Complete food for adult cats with sensitive digestion (as characterized by extraction, exact CZ wording not confirmed verbatim)": "kompletné",
-
     "Complete food for adult cats (not explicitly labeled complementary)": "kompletné",
     "Complete food for kittens (no complementary designation stated)": "kompletné",
-
     "Complementary wet food for cats — NOT complete": "doplnkové",
     "Doplnkové krmivo pre mačky (complementary food)": "doplnkové",
     "Doplnkové krmivo pre dospelé mačky (complementary food for adult cats)": "doplnkové",
@@ -98,12 +97,14 @@
     "100% complete and balanced everyday meal for your feline companion": "kompletné",
     "Farmina Vet Life Gastrointestinal je kompletní dietetické krmivo pro kočky určené ke snížení střevních poruch absorpce.": "kompletné",
     "\"Doplnkové krmivo pre dospelé mačky\" — MISMATCH: product name says 'pre mačiatka' (for kittens) but the food-type label on the same page says 'pre dospelé mačky' (for adult cats).": "doplnkové",
-
     "Complementary food (implied, not explicitly stated)": "neuvedené",
     "Not fully captured in this fetch (analogous Meat Menu products state \"kompletní krmivo\").": "neuvedené",
-    "Complementary pet food (wet food for adult sterilized cats) — this fetch described it as complementary, unlike most sibling entries described as complete; see also duplicate URL entry below with different stock status.": "neuvedené"
+    "Complementary pet food (wet food for adult sterilized cats) — this fetch described it as complementary, unlike most sibling entries described as complete; see also duplicate URL entry below with different stock status.": "neuvedené",
+    "Kompletné diétne krmivo pre mačky": "kompletné",
+    "Kompletné diétne krmivo pre dospelé mačky": "kompletné",
+    "Kompletné diétne krmivo pre mačky – špeciálne pre mačatá": "kompletné",
+    "Kompletné diétne krmivo pre dospelé mačky a mačiatka určené na zníženie porúch črevného vstrebávania a na výživu na zotavenie a rekonvalescenciu.": "kompletné"
   },
-
   "_notes": {
     "Complete food for adult cats (not explicitly labeled complementary)": "Negácia — veta hovorí, že produkt NIE JE označený ako doplnkový. Regex tu videl slovo 'complementary' a otočil význam.",
     "Complementary food (implied, not explicitly stated)": "Purina Senior Sterilised. Slovo 'implied' znamená, že to bola domnienka extrakcie, nie údaj zo stránky — preto neuvedené, nie doplnkové.",

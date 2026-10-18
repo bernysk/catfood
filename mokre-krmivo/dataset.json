@@ -1,6 +1,6 @@
 {
  "generated": "2026-07-19",
- "count": 173,
+ "count": 177,
  "products": [
   {
    "source_file": "bozita.json",
@@ -8987,6 +8987,218 @@
    },
    "score_pct": 93,
    "grade": "A",
+   "superseded_by": null,
+   "is_product": true
+  },
+  {
+   "source_file": "vet_wet_2026_10.json",
+   "brand": "Royal Canin",
+   "name": "VHN Cat Gastrointestinal Fibre Response Gravy Kapsičky",
+   "url": "https://www.royalcanin.com/sk/cats/products/vet-products/gastrointestinal-fibre-response-2733",
+   "market": "SK",
+   "texture": "kapsička (kúsky v šťave)",
+   "lifestage": "dospelé",
+   "fetch_status": "ok",
+   "composition_raw": "mäso a produkty živočíšneho pôvodu*, obilniny*, produkty rastlinného pôvodu (vrátane semien a šupiek psyllia, 1,2 %), minerálne látky, oleje a tuky**, kvasnice, rôzne cukry. Vysokostráviteľné zložky: *vysokostráviteľné zdroje bielkovín: 41 %, **vysokostráviteľné zdroje tukov: 0,3 %.",
+   "analytics_raw": "Bielkoviny: 7,1 % - Vláknina: 0,5 % - Obsah tuku: 3,2 % - Popol: 1,9 % - Vlhkosť: 82,0 % - Draslík: 0,14 % - Sodík: 0,13 % - Omega-3 mastné kyseliny: 0,15 % - EPA/DHA: 0,08 % - Metabolizovateľná energia: 751 kcal/kg.",
+   "additives_raw": "Výživné doplnkové látky: Vitamín D3: 290 IU, Vitamín E: 95 mg, Vitamín C: 40 mg, Taurín: 1 g, Železo (3b103): 4 mg, Jód (3b202): 0,29 mg, Meď (3b405, 3b406): 2,3 mg, Mangán (3b502, 3b503, 3b504): 1,4 mg, Zinok (3b603, 3b605, 3b606): 14 mg - Technologické doplnkové látky: Klinoptilolit sedimentárneho pôvodu: 1,8 g.",
+   "analytics": {
+    "protein": 7.1,
+    "fat": 3.2,
+    "fiber": 0.5,
+    "ash": 1.9,
+    "moisture": 82.0
+   },
+   "derived": {
+    "dm": 18.0,
+    "protein_dm": 39.4,
+    "fat_dm": 17.8,
+    "carbs_nfe_dm": 29.4,
+    "ash_dm": 10.6,
+    "dm_unreliable": false
+   },
+   "energy_kcal_100g": 75.1,
+   "taurine_mg_kg": 1000,
+   "taurine_mg_kg_dm": 5556,
+   "prebiotic": "fermentovateľné (inulín/FOS/psyllium)",
+   "named_meat_max_pct": null,
+   "flags": {
+    "sugar": true,
+    "grain": true
+   },
+   "completeness": "kompletné",
+   "completeness_source": "Kompletné diétne krmivo pre mačky",
+   "notes": "[2026-10-15] Stiahnuté skriptom granule/scrape_royalcanin.py zo SK stránky výrobcu (sitemap, technológia „wet“); pridané do mokrej štúdie na žiadosť autora 2026-10-18.",
+   "scores": {
+    "protein": 1,
+    "carbs": 0,
+    "prebiotic": 2,
+    "meat": null,
+    "taurine": 2,
+    "complete": 2,
+    "clean": 0
+   },
+   "score_pct": 58,
+   "grade": "C",
+   "superseded_by": null,
+   "is_product": true
+  },
+  {
+   "source_file": "vet_wet_2026_10.json",
+   "brand": "Royal Canin",
+   "name": "VHN Cat Gastrointestinal Moderate Calorie Gravy Kapsičky",
+   "url": "https://www.royalcanin.com/sk/cats/products/vet-products/gastrointestinal-moderate-calorie-4009",
+   "market": "SK",
+   "texture": "kapsička (kúsky v šťave)",
+   "lifestage": "dospelé",
+   "fetch_status": "ok",
+   "composition_raw": "Mäso a výrobky živočíšneho pôvodu*, obilniny, vedľajšie výrobky rastlinného pôvodu, minerálne látky, kvasnice, oleje a tuky**. Vysoko stráviteľné zložky: *Vysoko stráviteľné zdroje bielkovín: 33,6 %, **zdroje vysoko stráviteľných tukov: 0,05 %.",
+   "analytics_raw": "Bielkoviny: 7,5 % - Hrubá vláknina: 1,0 % - Obsah tuku: 2,5 % - Popol: 1,6 % - Vlhkosť: 82,2 % - Draslík: 0,14 % - Sodík: 0,12 % - Omega-3 % mastné kyseliny: 0,06% - EPA/DHA: 0,02 % - Metabolizovateľná energia: 703 kcal/kg.",
+   "additives_raw": "DOPLNKOVÉ LÁTKY (na kg): Výživové doplnkové látky: Vitamín D3: 230 IU, Vitamín E: 83 mg, Vitamín C: 35 mg, Taurín: 0,9 g, Železo (3b103): 4 mg, Jód (3b202): 0,29 mg, Meď ( 3b405, 3b406): 2,3 mg, Mangán (3b502, 3b503, 3b504): 1,3 mg, Zinok (3b603, 3b605, 3b606): 13 mg - Technologické doplnkové látky: Klinoptilolit sedimentárneho pôvodu 2 g.",
+   "analytics": {
+    "protein": 7.5,
+    "fat": 2.5,
+    "fiber": 1.0,
+    "ash": 1.6,
+    "moisture": 82.2
+   },
+   "derived": {
+    "dm": 17.8,
+    "protein_dm": 42.1,
+    "fat_dm": 14.0,
+    "carbs_nfe_dm": 29.2,
+    "ash_dm": 9.0,
+    "dm_unreliable": false
+   },
+   "energy_kcal_100g": 70.3,
+   "taurine_mg_kg": 900,
+   "taurine_mg_kg_dm": 5056,
+   "prebiotic": "žiadne deklarované",
+   "named_meat_max_pct": null,
+   "flags": {
+    "sugar": false,
+    "grain": true
+   },
+   "completeness": "kompletné",
+   "completeness_source": "Kompletné diétne krmivo pre dospelé mačky",
+   "notes": "[2026-10-15] Stiahnuté skriptom granule/scrape_royalcanin.py zo SK stránky výrobcu (sitemap, technológia „wet“); pridané do mokrej štúdie na žiadosť autora 2026-10-18.",
+   "scores": {
+    "protein": 1,
+    "carbs": 0,
+    "prebiotic": 0,
+    "meat": null,
+    "taurine": 2,
+    "complete": 2,
+    "clean": 1
+   },
+   "score_pct": 50,
+   "grade": "C",
+   "superseded_by": null,
+   "is_product": true
+  },
+  {
+   "source_file": "vet_wet_2026_10.json",
+   "brand": "Royal Canin",
+   "name": "VHN Cat Gastrointestinal Kitten Konzerva",
+   "url": "https://www.royalcanin.com/sk/cats/products/vet-products/gastrointestinal-kitten-1227",
+   "market": "SK",
+   "texture": "konzerva (paštéta)",
+   "lifestage": "mačiatka",
+   "fetch_status": "ok",
+   "composition_raw": "mäso a produkty živočíšneho pôvodu*, produkty rastlinného pôvodu, oleje a tuky**, mlieko a mliečne produkty*, obilniny*, minerálne látky, kvasnice, rôzne cukry. Vysoko stráviteľné zložky: *Vysoko stráviteľné zdroje bielkovín: 47,4 %, **zdroje vysoko stráviteľných tukov: 1,1 %.",
+   "analytics_raw": "Bielkoviny: 11,0 % - Hrubá vláknina: 0,8 % - Obsah tuku: 5,3 % - Popol: 2,0 % - Vlhkosť: 78,0 % - Sodík: 0,19 % - Draslík: 0,19 % - Vápnik: 0,32 % Energia: 997 % kcal/kg.",
+   "additives_raw": "DOPLNKOVÉ LÁTKY (na kg): Výživové doplnkové látky: Vitamín D3: 192 IU, Vitamín E: 150 mg, Vitamín C: 54 mg, Taurín: 1,4 g, Železo (3b103): 4,1 mg, Jód (3b202): 0,35 mg, Meď ( 3b405, 3b406): 2,8 mg, Mangán (3b502, 3b503, 3b504): 1,3 mg, Zinok (3b603, 3b605, 3b606): 12,9 mg - Technologické prísady: Klinoptilolit sedimentárneho pôvodu: 2 g",
+   "analytics": {
+    "protein": 11.0,
+    "fat": 5.3,
+    "fiber": 0.8,
+    "ash": 2.0,
+    "moisture": 78.0
+   },
+   "derived": {
+    "dm": 22.0,
+    "protein_dm": 50.0,
+    "fat_dm": 24.1,
+    "carbs_nfe_dm": 13.2,
+    "ash_dm": 9.1,
+    "dm_unreliable": false
+   },
+   "energy_kcal_100g": 99.7,
+   "taurine_mg_kg": 1400,
+   "taurine_mg_kg_dm": 6364,
+   "prebiotic": "žiadne deklarované",
+   "named_meat_max_pct": null,
+   "flags": {
+    "sugar": true,
+    "grain": true
+   },
+   "completeness": "kompletné",
+   "completeness_source": "Kompletné diétne krmivo pre mačky – špeciálne pre mačatá",
+   "notes": "[2026-10-15] Stiahnuté skriptom granule/scrape_royalcanin.py zo SK stránky výrobcu (sitemap, technológia „wet“); pridané do mokrej štúdie na žiadosť autora 2026-10-18.",
+   "scores": {
+    "protein": 2,
+    "carbs": 2,
+    "prebiotic": 0,
+    "meat": null,
+    "taurine": 2,
+    "complete": 2,
+    "clean": 0
+   },
+   "score_pct": 67,
+   "grade": "C",
+   "superseded_by": null,
+   "is_product": true
+  },
+  {
+   "source_file": "vet_wet_2026_10.json",
+   "brand": "Purina Pro Plan",
+   "name": "PURINA® PRO PLAN® VETERINARY DIETS EN St/Ox Gastrointestinal™ 195g",
+   "url": "https://www.purina.sk/macka/krmivo-pre-macky/produkt-purina-pro-plan-veterinary-diets-en-stox-gastrointestinal-195-g",
+   "market": "SK",
+   "texture": "konzerva",
+   "lifestage": "dospelé a mačiatka",
+   "fetch_status": "ok",
+   "composition_raw": "Mäso a vedľajšie produkty živočíšneho pôvodu, Obilniny, Minerálne látky, Vedľajšie produkty rastlinného pôvodu, Oleje a tuky, Vysokostráviteľné zložky krmiva: Bravčová (pečeň, ľadviny), Vedľajšie produkty z morky, Ryžová múka, Rybí olej",
+   "analytics_raw": "Vlhkosť: 77,0 %, Dusíkaté látky: 10,5 %, Obsah tuku: 6,0 %, Popol: 2,2 %, Vláknina: 0,4 %, Sodík: 0,14 %, Draslík: 0,35 %, Energetická hodnota: 1 062 kcal/kg",
+   "additives_raw": "m.j./kg: Vit. A: 1 315; Vit. D3: 180. mg/kg: 3b103: (Fe: 12); 3b202: (I: 0,48); 3b405: (Cu: 1,2); 3b503: (Mn: 2,2); 3b605: (Zn: 23); Taurín: 1 561.",
+   "analytics": {
+    "protein": 10.5,
+    "fat": 6.0,
+    "fiber": 0.4,
+    "ash": 2.2,
+    "moisture": 77.0
+   },
+   "derived": {
+    "dm": 23.0,
+    "protein_dm": 45.7,
+    "fat_dm": 26.1,
+    "carbs_nfe_dm": 17.0,
+    "ash_dm": 9.6,
+    "dm_unreliable": false
+   },
+   "energy_kcal_100g": 106.2,
+   "taurine_mg_kg": 1561.0,
+   "taurine_mg_kg_dm": 6787,
+   "prebiotic": "žiadne deklarované",
+   "named_meat_max_pct": null,
+   "flags": {
+    "sugar": false,
+    "grain": true
+   },
+   "completeness": "kompletné",
+   "completeness_source": "Kompletné diétne krmivo pre dospelé mačky a mačiatka určené na zníženie porúch črevného vstrebávania a na výživu na zotavenie a rekonvalescenciu.",
+   "notes": "[2026-10-18] Stiahnuté funkciou product() z granule/scrape_proplan.py zo SK stránky výrobcu; konzerva 195 g (balenie 3× 195 g je ten istý produkt). Pridané na žiadosť autora.",
+   "scores": {
+    "protein": 2,
+    "carbs": 1,
+    "prebiotic": 0,
+    "meat": null,
+    "taurine": 2,
+    "complete": 2,
+    "clean": 1
+   },
+   "score_pct": 67,
+   "grade": "C",
    "superseded_by": null,
    "is_product": true
   }

@@ -49,6 +49,14 @@ def parse_taurine(*texts):
         m = re.search(TAURINE + r"(\d[\d ]*[.,]?\d*)\s*mg", t, re.IGNORECASE)
         if m:
             return num(m.group(1).replace(" ", ""))
+        # Royal Canin vet: "Taurín: 1 g" (per kg)
+        m = re.search(r"taur[íi]n\w*\s*:\s*(\d+(?:[.,]\d+)?)\s*g\b", t, re.IGNORECASE)
+        if m:
+            return round(num(m.group(1)) * 1000)
+        # Purina vet: "mg/kg: ... Taurín: 1 561." — unit only in the block heading
+        m = re.search(r"mg/kg:[^|]*?taur[íi]n\w*\s*:\s*(\d[\d ]*)", t, re.IGNORECASE)
+        if m:
+            return num(m.group(1).replace(" ", ""))
         # Ontario declares it inside the composition: "taurin 0,08 %" = 800 mg/kg
         # (number must follow directly, or a neighbouring ingredient's % is read)
         m = re.search(r"taur[íi]n\w*\s+(\d+[.,]\d+)\s*%", t, re.IGNORECASE)
@@ -63,9 +71,9 @@ def parse_energy(text):
     m = re.search(r"(\d+[.,]?\d*)\s*kcal\s*/\s*100\s*g", text, re.IGNORECASE)
     if m:
         return num(m.group(1))
-    m = re.search(r"(\d+[.,]?\d*)\s*kcal\s*/\s*kg", text, re.IGNORECASE)
+    m = re.search(r"(\d[\d ]*[.,]?\d*)\s*%?\s*kcal\s*/\s*kg", text, re.IGNORECASE)   # RC Kitten site typo "997 % kcal/kg"; Purina "1 062 kcal/kg"
     if m:
-        return round(num(m.group(1)) / 10.0, 1)
+        return round(num(m.group(1).replace(" ", "")) / 10.0, 1)
     m = re.search(r"kcal\s*/\s*kg\s*(\d+[.,]?\d*)", text, re.IGNORECASE)   # Farmina: "EM Kcal/Kg 1222"
     if m:
         return round(num(m.group(1)) / 10.0, 1)
@@ -95,7 +103,7 @@ def flags(comp):
         "grain": bool(re.search(GRAIN, t)),
     }
 
-SPECIES = r"(kur[aeäc][\w]*|kuře[\w]*|chicken|hov[äe]dz[\w]*|hověz[\w]*|beef|morčac[\w]*|mork[aayu]\b|kr[uů]t[\w]*|krocan[\w]*|turkey|los[oa]s[\w]*|salmon|tuniak[\w]*|tuň[áa]k[\w]*|tuna|treska[\w]*|cod|kač[aíi][\w]*|kachn[\w]*|duck|jahňac[\w]*|jehněč[\w]*|lamb|kr[áa]l[ií]k[\w]*|rabbit|pstruh[\w]*|trout|makrel[\w]*|mackerel|sleď|herring|okoun[\w]*|perch|krab[\w]*|crab|krevet[\w]*|shrimps?|sob[íi\w]*|reindeer|los[íi][\w]*|elk|j[áa]tra|pečeň[\w]*|peceň[\w]*|liver|šunk[\w]*|ham|srdc[\w]*|diviak[\w]*|diviač[\w]*|boar|bažant[\w]*|pheasant|prepelic[\w]*|quail|perličk[\w]*|guinea|sardinka[\w]*|sardine|b[íi]l[áa]\s+ryba|whitefish|white\s+fish|fresh\s+deboned\s+\w+|fresh\s+salmon)"
+SPECIES = r"(kur[aeäc][\w]*|kuře[\w]*|chicken|hov[äe]dz[\w]*|hověz[\w]*|beef|morčac[\w]*|mork[aayu]\b|kr[uů]t[\w]*|krocan[\w]*|turkey|los[oa]s[\w]*|salmon|tuniak[\w]*|tuň[áa]k[\w]*|tuna|treska[\w]*|cod|kač[aíi][\w]*|kachn[\w]*|duck|jahňac[\w]*|jehněč[\w]*|lamb|kr[áa]l[ií]k[\w]*|rabbit|pstruh[\w]*|trout|makrel[\w]*|mackerel|sleď|herring|okoun[\w]*|perch|krab[\w]*|crab|krevet[\w]*|shrimps?|sob[íi\w]*|reindeer|los[íi][\w]*|\belk\b|j[áa]tra|pečeň[\w]*|peceň[\w]*|liver|šunk[\w]*|ham|srdc[\w]*|diviak[\w]*|diviač[\w]*|boar|bažant[\w]*|pheasant|prepelic[\w]*|quail|perličk[\w]*|guinea|sardinka[\w]*|sardine|b[íi]l[áa]\s+ryba|whitefish|white\s+fish|fresh\s+deboned\s+\w+|fresh\s+salmon)"
 
 def max_named_meat_pct(comp):
     """Highest percentage that is attributable to a *specific named species*.

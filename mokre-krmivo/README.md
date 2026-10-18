@@ -1,6 +1,6 @@
 # Mokré krmivo pre mačky — dátový prieskum
 
-**152 produktov · 16 značiek · dáta priamo zo stránok výrobcov · v4.3, október 2026**
+**156 produktov · 16 značiek · dáta priamo zo stránok výrobcov · v4.4, október 2026**
 
 Nutričné porovnanie kapsičkového mokrého krmiva pre mačky na SK/CZ trhu. Všetky hodnoty
 sú stiahnuté z oficiálnych stránok výrobcov, prepočítané na sušinu a ohodnotené
@@ -33,10 +33,10 @@ jednotným rámcom A–E.
 | Stuzzy | 3 | 69,0 | – | 2 | 1 | – | – |
 | Sheba | 14 | 63,0 | – | 2 | 12 | – | – |
 | Ontario | 9 | 62,2 | – | 2 | 7 | – | – |
-| Royal Canin | 5 | 61,4 | – | 1 | 4 | – | – |
+| Royal Canin | 8 | 60,2 | – | 1 | 7 | – | – |
 | Almo Nature | 1 | 57,0 | – | – | 1 | – | – |
 | Kattovit | 1 | 57,0 | – | – | 1 | – | – |
-| Purina Pro Plan | 16 | 55,8 | – | 1 | 12 | 2 | 1 |
+| Purina Pro Plan | 17 | 56,4 | – | 1 | 13 | 2 | 1 |
 
 Priemer značky s malým počtom položiek nie je spoľahlivý a veterinárne diéty sú v tomto
 rámci systémovo znevýhodnené — vysvetlenie v [časti 5 dokumentu](./Prieskum_mokre_krmivo_macky.md#5).
@@ -107,6 +107,10 @@ bez opätovného sťahovania.
   [časti 1 dokumentu](./Prieskum_mokre_krmivo_macky.md#1).
 - **v4.3 (október 2026):** pridaná Farmina Vet Life Gastrointestinal, konzerva 85 g
   (veterinárna diéta) — B, 75 %.
+- **v4.4 (október 2026):** pridané 4 mokré veterinárne GI diéty (RC Gastrointestinal
+  Fibre Response a Moderate Calorie kapsičky, RC Gastrointestinal Kitten konzerva,
+  Pro Plan VD EN konzerva 195 g) — všetky C; opravený parser podielu mäsa („elk“ v slove
+  „bielkovín“).
 
 Nájdené chyby v parsovaní aj nezrovnalosti priamo na stránkach výrobcov sú
 zdokumentované v [dokumente](./Prieskum_mokre_krmivo_macky.md) a v poliach `fetch_notes`

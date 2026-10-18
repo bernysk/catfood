@@ -1,7 +1,7 @@
 # Mokré krmivo pre mačky (kapsičky): dátový prieskum trhu
 
-**Verzia 4.3 · október 2026** (v4: júl 2026, prepracované od základu; zmeny v4.1–v4.3 v [časti 1](#1))
-**152 produktov · 16 značiek · všetky údaje priamo zo stránok výrobcov**
+**Verzia 4.4 · október 2026** (v4: júl 2026, prepracované od základu; zmeny v4.1–v4.4 v [časti 1](#1))
+**156 produktov · 16 značiek · všetky údaje priamo zo stránok výrobcov**
 
 > **Čo toto je.** Osobný nutričný prieskum kapsičkového mokrého krmiva, zostavený s pomocou AI (Claude, Anthropic). Na rozdiel od predchádzajúcich verzií je **celý postavený výhradne na surových dátach stiahnutých priamo zo stránok výrobcov** — uložených v [`raw_data/`](raw_data/) ako JSON, s doslovným znením etikiet. Žiadne číslo v tomto dokumente nepochádza z e-shopu, blogu ani z pamäte modelu; každé sa dá spätne dohľadať v surovom súbore.
 >
@@ -38,6 +38,19 @@ Podstatné zmeny oproti v3:
 - **Vetvené nutričné údaje.** Namiesto jedného čísla za produkt sa každý parameter člení na *deklarovanú hodnotu* → *prepočet na sušinu* → *čiastkové skóre*. Dá sa filtrovať a triediť podľa ktorejkoľvek vetvy ([`index.html`](https://bernysk.github.io/catfood/mokre-krmivo/)).
 - **Nové štúdie (2024–2026)** vrátane dvoch prác o psylliu, ktoré v predošlej verzii chýbali — a jedna práca, ktorá **spochybňuje** sacharidovú paniku ([časť 3](#3)).
 - **Priznaná neistota.** 19 produktov má vlhkosť ≥ 85 %, kde je prepočet na sušinu matematicky správny, ale krehký. Sú označené a v tabuľkách sa dajú odfiltrovať.
+
+### Zmeny vo v4.4 (18. október 2026)
+
+- **Pridané 4 mokré veterinárne GI diéty** na žiadosť autora, len zo stránok výrobcov (súbor [`raw_data/vet_wet_2026_10.json`](raw_data/vet_wet_2026_10.json)):
+  - Royal Canin VHN Gastrointestinal **Fibre Response** kapsičky — C (58 %), psyllium 1,2 %
+  - Royal Canin VHN Gastrointestinal **Moderate Calorie** kapsičky — C (50 %)
+  - Royal Canin VHN Gastrointestinal **Kitten** konzerva 195 g — C (67 %); stránka uvádza energiu s preklepom „997 % kcal/kg“
+  - Pro Plan Veterinary Diets **EN St/Ox Gastrointestinal** konzerva 195 g (SK stránka; balenie 3× 195 g je ten istý produkt) — C (67 %)
+- Zo zoznamu autora už v datasete boli: Pro Plan VD EN kapsičky (losos, kura) a Royal Canin VHN Gastrointestinal Gravy kapsičky.
+- `build_dataset.py`: taurín zapísaný v gramoch („Taurín: 1 g“) a v bloku „mg/kg: … Taurín: 1 561“; energia s medzerou v tisícoch („1 062 kcal/kg“).
+- **Oprava parsera podielu mäsa:** slovo „elk“ (los) sa nachádzalo vnútri slova „bi**elk**ovín“, takže veta „vysokostráviteľné zdroje bielkovín: 41 %“ sa počítala ako 41 % pomenovaného mäsa. Teraz sa „elk“ hľadá len ako celé slovo. Na doterajších 152 produktoch sa nič nezmenilo (overené porovnaním skóre a známok).
+- Veterinárne diéty sú v rámci A–E systémovo znevýhodnené (obilniny, „rôzne cukry“, chýbajúce % mäsa) — hodnotiť ich treba oddelene ([časť 5](#5)); suché GI diéty sú v [prieskume granúl](../granule/).
+- Počty v texte: deklarovaný fosfor 46 zo 156 produktov, cukry v zložení 30 zo 156. Citlivostné analýzy sa naďalej vzťahujú na 151 produktov z v4.2.
 
 ### Zmeny vo v4.3 (15. október 2026)
 
@@ -190,7 +203,7 @@ Kritérium bielkovín odmeňuje „viac je lepšie" a vysoké hodnoty nikde netr
 - **Obmedzenie bielkovín patrí až do diagnostikovanej CKD** (IRIS 2+ alebo pri proteinúrii) a pod dohľad veterinára — prínos renálnych diét (Ross a kol. 2006) ide z veľkej časti na vrub obmedzenia fosforu.
 - **Kastrované mačky (aj samice) potrebujú bielkovín na kcal viac, nie menej**, lebo zjedia menej kalórií: FEDIAF 2025 dáva pre kastrované/domáce mačky minimum **83,3 g/1000 kcal** (33,3 % sušiny) oproti 62,5 g pre aktívne. Na udržanie svalovej hmoty treba ~5,2 g bielkovín/kg/deň (Laflamme & Hannah 2013), čo pre 4 kg kastrovanú mačku vychádza ~110 g/1000 kcal. Vyššie riziko CKD u kastrovaných samíc doložené nie je (Greene a kol. 2014 našli vyššie riziko u kastrovaných samcov).
 
-**Dôsledok pre rámec:** horná hranica bielkovín sa nezavádza. Fosfor sa **nehodnotí**, lebo ho deklaruje len 46 zo 152 produktov a všetky sú v bezpečnom pásme (0,9–3,1 g/1000 kcal, Ca:P 1,0–1,6) — kritérium by rozlišovalo len „deklaruje" vs. „nedeklaruje". Hodnoty počíta `reanalysis.py`. Odporúčané úrovne bielkovín podľa veku (mačiatko, kastrovaný dospelý, senior, CKD) sú v [`REVIEW_2026-10.md`, časť 4](./REVIEW_2026-10.md#4-what-protein-level-is-best-by-life-stage) — na skóre nemajú vplyv.
+**Dôsledok pre rámec:** horná hranica bielkovín sa nezavádza. Fosfor sa **nehodnotí**, lebo ho deklaruje len 46 zo 156 produktov a všetky sú v bezpečnom pásme (0,9–3,1 g/1000 kcal, Ca:P 1,0–1,6) — kritérium by rozlišovalo len „deklaruje" vs. „nedeklaruje". Hodnoty počíta `reanalysis.py`. Odporúčané úrovne bielkovín podľa veku (mačiatko, kastrovaný dospelý, senior, CKD) sú v [`REVIEW_2026-10.md`, časť 4](./REVIEW_2026-10.md#4-what-protein-level-is-best-by-life-stage) — na skóre nemajú vplyv.
 
 ---
 
@@ -347,7 +360,7 @@ Pripomínam ale [časť 3.1](#3): aj tie „lepšie" produkty majú vlákninu r�
 
 ### 7.6 Pridaný cukor
 
-**28 zo 152 produktov (18 %)** má v zložení deklarované cukry. Koncentrujú sa u masových značiek (Sheba, Purina Pro Plan, Royal Canin OTC rady). Väčšina prémiových a bezobilných rád (Shelma, Calibra, Bozita, CarniLove, Meowing Heads) cukor neobsahuje.
+**30 zo 156 produktov (19 %)** má v zložení deklarované cukry. Koncentrujú sa u masových značiek (Sheba, Purina Pro Plan, Royal Canin OTC rady). Väčšina prémiových a bezobilných rád (Shelma, Calibra, Bozita, CarniLove, Meowing Heads) cukor neobsahuje.
 
 ### 7.7 Doplnkové vs. kompletné
 
@@ -472,4 +485,4 @@ Všetky produktové dáta pochádzajú výhradne odtiaľto a sú uložené v [`r
 
 ---
 
-*Vygenerované z [`dataset.json`](./dataset.json) (152 produktov) skriptom [`build_dataset.py`](./build_dataset.py). Rekonštrukcia: `python build_dataset.py`. Staršie verzie prieskumu sú v [`old/`](old/) a ich údaje sa v tomto dokumente nepoužili.*
+*Vygenerované z [`dataset.json`](./dataset.json) (156 produktov) skriptom [`build_dataset.py`](./build_dataset.py). Rekonštrukcia: `python build_dataset.py`. Staršie verzie prieskumu sú v [`old/`](old/) a ich údaje sa v tomto dokumente nepoužili.*
