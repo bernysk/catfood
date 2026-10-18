@@ -1,6 +1,6 @@
 # Granule pre mačky — veterinárne diéty
 
-**164 granúl · 19 ručne overených (GI diéty) + všetky suché veterinárne diéty Royal Canin, Hill's, Brit, Farmina, Calibra, Virbac HPM, Trovet, Eminent a všetky granule Pro Plan (CZ, SK, UK) · dáta zo stránok výrobcov · v1.3, október 2026**
+**164 granúl · 19 ručne overených (GI diéty) + všetky suché veterinárne diéty Royal Canin, Hill's, Brit, Farmina, Calibra, Virbac HPM, Trovet, Eminent a všetky granule Pro Plan (CZ, SK, UK) · dáta zo stránok výrobcov · v1.4, október 2026**
 
 📄 **[Dokument prieskumu](./Prieskum_granule_GI.md)** — metodika, štúdie, výsledky, kontrola prilepeného zoznamu, Kitten vs. Adult
 📊 **[Interaktívna tabuľka](https://bernysk.github.io/catfood/granule/)** — triedenie, filtre, pôvodný text etikety pri každom produkte
@@ -21,9 +21,12 @@ raw_data/others_vet.json  automaticky stiahnuté diéty Brit, Farmina, Virbac HP
 raw_data/hills_vet.json   diéty Hill's (CZ) – načítané vstavaným prehliadačom (stránka blokuje skripty)
 raw_data/calibra_vet.json diéty Calibra (SK) – načítané vstavaným prehliadačom
 raw_data/eminent_vet.json diéty Eminent (CZ) – stránka + PDF tabuľka výrobcu
+raw_data/feeding_*.json   kŕmne tabuľky (g/deň pre 4 kg mačku)
 scrape_proplan.py         sťahovanie Pro Plan (výpisy ?page=N + produktové stránky)
 scrape_royalcanin.py      sťahovanie Royal Canin (sitemap + produktové stránky)
 scrape_others.py          sťahovanie Brit, Farmina, Virbac HPM, Trovet
+scrape_feeding.py         kŕmne tabuľky Brit, Trovet, Pro Plan (Virbac: HTTP 429 pri opakovaní)
+nutrients_extra.py        omega-3, EPA+DHA, vitamín D3 vs. limit EÚ (aj pre mokré krmivo)
 scraped.py                prevod stiahnutých stránok do tabuľky (kategórie, vláknina)
 build_dataset.py          raw_data → dataset.json + index.html
 index.template.html       šablóna tabuľky (dáta sa vkladajú pri builde)

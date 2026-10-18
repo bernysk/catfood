@@ -1,7 +1,7 @@
 # Mokré krmivo pre mačky (kapsičky): dátový prieskum trhu
 
-**Verzia 4.4 · október 2026** (v4: júl 2026, prepracované od základu; zmeny v4.1–v4.4 v [časti 1](#1))
-**156 produktov · 16 značiek · všetky údaje priamo zo stránok výrobcov**
+**Verzia 4.5 · október 2026** (v4: júl 2026, prepracované od základu; zmeny v4.1–v4.5 v [časti 1](#1))
+**171 produktov · 16 značiek · všetky údaje priamo zo stránok výrobcov**
 
 > **Čo toto je.** Osobný nutričný prieskum kapsičkového mokrého krmiva, zostavený s pomocou AI (Claude, Anthropic). Na rozdiel od predchádzajúcich verzií je **celý postavený výhradne na surových dátach stiahnutých priamo zo stránok výrobcov** — uložených v [`raw_data/`](raw_data/) ako JSON, s doslovným znením etikiet. Žiadne číslo v tomto dokumente nepochádza z e-shopu, blogu ani z pamäte modelu; každé sa dá spätne dohľadať v surovom súbore.
 >
@@ -38,6 +38,14 @@ Podstatné zmeny oproti v3:
 - **Vetvené nutričné údaje.** Namiesto jedného čísla za produkt sa každý parameter člení na *deklarovanú hodnotu* → *prepočet na sušinu* → *čiastkové skóre*. Dá sa filtrovať a triediť podľa ktorejkoľvek vetvy ([`index.html`](https://bernysk.github.io/catfood/mokre-krmivo/)).
 - **Nové štúdie (2024–2026)** vrátane dvoch prác o psylliu, ktoré v predošlej verzii chýbali — a jedna práca, ktorá **spochybňuje** sacharidovú paniku ([časť 3](#3)).
 - **Priznaná neistota.** 19 produktov má vlhkosť ≥ 85 %, kde je prepočet na sušinu matematicky správny, ale krehký. Sú označené a v tabuľkách sa dajú odfiltrovať.
+
+### Zmeny vo v4.5 (18. október 2026)
+
+- **Pridaných 15 ďalších mokrých veterinárnych diét** z už stiahnutých stránok výrobcov (súbor [`raw_data/vet_wet_2026_10.json`](raw_data/vet_wet_2026_10.json)): všetky mokré diéty Royal Canin zo SK stránky, ktoré chýbali (Renal Beef/Chicken/Fish/Loaf, Early Renal, CA Renal – Mobility, Urinary S/O Gravy/Loaf/Moderate Calorie, CA Urinary S/O Bladder Comfort, Satiety, Sensitivity Control, Mature Consult, Neutered Balance) a Farmina Vet Life Struvite Management (konzerva 85 g). Tekutá CA Cat Renal Liquid nie je zaradená (sonda/tekutá výživa, údaje v g na 100 ml).
+- **Renálne kapsičky RC dostali E (17–25 %)**: rámec A–E odmeňuje vysoké bielkoviny, nízke sacharidy a pomenované mäso, renálna diéta má zámerne opak. Nie je to hodnotenie vhodnosti pri ochorení obličiek — veterinárne diéty patria do samostatného porovnania ([časť 5](#5)).
+- **Vitamín D3 a omega-3 (len informatívne, do skóre nevstupujú):** nové polia `vit_d3_iu_kg_12` (prepočet na 12 % vlhkosti podľa nariadenia (EÚ) 2017/1492, maximum pre mačky 2 000 IU/kg), `omega3_pct_dm`, `epa_dha_pct_dm`. D3 uvádza 126 zo 171 produktov; **žiadny neprekračuje limit** — najbližšie je CarniLove (440 IU/kg pri 80 % vlhkosti = 1 936 IU/kg pri 12 %). Pri mokrom krmive sa hodnota na etikete násobí ~4,4, takže „malé“ číslo na kapsičke nie je malé.
+- `build_dataset.py`: tuk zapísaný „Tuky a oleje“, taurín „Taurín (Celkovo): 0.1%“ a taurín uvedený len medzi analytickými zložkami (RC Urinary S/O Loaf). Na doterajších 156 produktoch sa skóre ani známky nezmenili.
+- Počty v texte: deklarovaný fosfor 57 zo 171 produktov, cukry v zložení 37 zo 171 (renálne a S/O kapsičky RC uvádzajú „rôzne cukry“).
 
 ### Zmeny vo v4.4 (18. október 2026)
 
@@ -203,7 +211,7 @@ Kritérium bielkovín odmeňuje „viac je lepšie" a vysoké hodnoty nikde netr
 - **Obmedzenie bielkovín patrí až do diagnostikovanej CKD** (IRIS 2+ alebo pri proteinúrii) a pod dohľad veterinára — prínos renálnych diét (Ross a kol. 2006) ide z veľkej časti na vrub obmedzenia fosforu.
 - **Kastrované mačky (aj samice) potrebujú bielkovín na kcal viac, nie menej**, lebo zjedia menej kalórií: FEDIAF 2025 dáva pre kastrované/domáce mačky minimum **83,3 g/1000 kcal** (33,3 % sušiny) oproti 62,5 g pre aktívne. Na udržanie svalovej hmoty treba ~5,2 g bielkovín/kg/deň (Laflamme & Hannah 2013), čo pre 4 kg kastrovanú mačku vychádza ~110 g/1000 kcal. Vyššie riziko CKD u kastrovaných samíc doložené nie je (Greene a kol. 2014 našli vyššie riziko u kastrovaných samcov).
 
-**Dôsledok pre rámec:** horná hranica bielkovín sa nezavádza. Fosfor sa **nehodnotí**, lebo ho deklaruje len 46 zo 156 produktov a všetky sú v bezpečnom pásme (0,9–3,1 g/1000 kcal, Ca:P 1,0–1,6) — kritérium by rozlišovalo len „deklaruje" vs. „nedeklaruje". Hodnoty počíta `reanalysis.py`. Odporúčané úrovne bielkovín podľa veku (mačiatko, kastrovaný dospelý, senior, CKD) sú v [`REVIEW_2026-10.md`, časť 4](./REVIEW_2026-10.md#4-what-protein-level-is-best-by-life-stage) — na skóre nemajú vplyv.
+**Dôsledok pre rámec:** horná hranica bielkovín sa nezavádza. Fosfor sa **nehodnotí**, lebo ho deklaruje len 57 zo 171 produktov a všetky sú v bezpečnom pásme (0,9–3,1 g/1000 kcal, Ca:P 1,0–1,6) — kritérium by rozlišovalo len „deklaruje" vs. „nedeklaruje". Hodnoty počíta `reanalysis.py`. Odporúčané úrovne bielkovín podľa veku (mačiatko, kastrovaný dospelý, senior, CKD) sú v [`REVIEW_2026-10.md`, časť 4](./REVIEW_2026-10.md#4-what-protein-level-is-best-by-life-stage) — na skóre nemajú vplyv.
 
 ---
 
@@ -360,7 +368,7 @@ Pripomínam ale [časť 3.1](#3): aj tie „lepšie" produkty majú vlákninu r�
 
 ### 7.6 Pridaný cukor
 
-**30 zo 156 produktov (19 %)** má v zložení deklarované cukry. Koncentrujú sa u masových značiek (Sheba, Purina Pro Plan, Royal Canin OTC rady). Väčšina prémiových a bezobilných rád (Shelma, Calibra, Bozita, CarniLove, Meowing Heads) cukor neobsahuje.
+**37 zo 171 produktov (22 %)** má v zložení deklarované cukry. Koncentrujú sa u masových značiek (Sheba, Purina Pro Plan, Royal Canin OTC rady). Väčšina prémiových a bezobilných rád (Shelma, Calibra, Bozita, CarniLove, Meowing Heads) cukor neobsahuje.
 
 ### 7.7 Doplnkové vs. kompletné
 
@@ -485,4 +493,4 @@ Všetky produktové dáta pochádzajú výhradne odtiaľto a sú uložené v [`r
 
 ---
 
-*Vygenerované z [`dataset.json`](./dataset.json) (156 produktov) skriptom [`build_dataset.py`](./build_dataset.py). Rekonštrukcia: `python build_dataset.py`. Staršie verzie prieskumu sú v [`old/`](old/) a ich údaje sa v tomto dokumente nepoužili.*
+*Vygenerované z [`dataset.json`](./dataset.json) (171 produktov) skriptom [`build_dataset.py`](./build_dataset.py). Rekonštrukcia: `python build_dataset.py`. Staršie verzie prieskumu sú v [`old/`](old/) a ich údaje sa v tomto dokumente nepoužili.*

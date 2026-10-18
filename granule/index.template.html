@@ -98,6 +98,10 @@ tr.detail dd{margin:0;white-space:pre-wrap}
         <th class="num" data-k="cap">Ca:P</th>
         <th class="num" data-k="na">Na / K<br>%</th>
         <th class="num" data-k="tau">Taurín<br>mg/kg</th>
+        <th class="num" data-k="o3">Omega-3<br>g/1000 kcal</th>
+        <th class="num" data-k="epa">EPA+DHA<br>g/1000 kcal</th>
+        <th class="num" data-k="d3">Vit. D3<br>IU/kg pri 12 %</th>
+        <th class="num" data-k="kcal4">kcal/deň<br>mačka 4 kg</th>
         <th data-k="feat">Zloženie</th>
         <th data-k="sizes">Balenia</th>
       </tr></thead>
@@ -110,6 +114,8 @@ tr.detail dd{margin:0;white-space:pre-wrap}
     <span class="est">↓</span> bielkoviny pod minimom FEDIAF 2025 pre kastrovanú dospelú mačku (83,3 g/1000 kcal). ·
     <span class="ok">✓</span> sodík a draslík spĺňajú požiadavku EÚ pre diéty na poruchy vstrebávania (nariadenie 2020/354, Na ≥ 0,18 %, K ≥ 0,5 %). ·
     „hydrolyzát“ znamená, že zloženie obsahuje hydrolyzovanú zložku — neznamená to hypoalergénnu diétu. ·
+    Vit. D3: prepočet na 12 % vlhkosti ako v nariadení (EÚ) 2017/1492 (maximum pre mačky 2 000 IU/kg); <span class="est">+</span> = výrobca uvádza len pridaný D3, celkový obsah je vyšší. ·
+    kcal/deň: denná dávka z kŕmnej tabuľky výrobcu pre 4 kg dospelú mačku × energia; v zátvorke % potreby kastrovanej mačky v interiéri podľa FEDIAF 2025 (190 kcal; aktívna 253 kcal). Royal Canin a Farmina tabuľku na stránke nemajú. ·
     Prázdne pole = výrobca údaj nezverejňuje.
   </p>
 </div>
@@ -122,7 +128,9 @@ const kitten=r=>/mačiat|všetky vek/i.test(r.lifestage);
 const rows=DATA.products.map(r=>({r,
   name:r.brand+' '+r.name, me:r.me_kcal_kg, prot:r.per_1000kcal.protein, fat:r.per_1000kcal.fat,
   fatE:r.energy_split_pct&&r.energy_split_pct.fat, fib:r.analytics.fiber, phos:r.per_1000kcal.p,
-  cap:r.ca_p, na:r.analytics.na, tau:r.taurine_mg_kg, feat:r.protein_sources.length, sizes:r.sizes.length}));
+  cap:r.ca_p, na:r.analytics.na, tau:r.taurine_mg_kg, o3:r.omega3_g_1000kcal, epa:r.epa_dha_g_1000kcal,
+  d3:r.vit_d3_iu_kg_12, kcal4:r.feed_kcal_day_4kg, feat:r.protein_sources.length, sizes:r.sizes.length}));
+const MER=DATA.mer_4kg||{neutered_indoor:190,active:253};
 let sortK='name', dir=1; const on=new Set(); let catSel='', mkSel='';
 const mk=r=>r.market.split(' ')[0];
 function chips(id, values, label, onPick){
@@ -146,7 +154,7 @@ function feat(r){
 }
 function detail(r){
   const dd=(k,v)=>v?`<dt>${k}</dt><dd>${esc(v)}</dd>`:'';
-  return `<tr class="detail"><td colspan="12"><dl>
+  return `<tr class="detail"><td colspan="16"><dl>
     <dt>Stránka výrobcu</dt><dd><a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.url)}</a> (${esc(r.market)})</dd>
     ${dd('Vyhlásenie',r.statement_raw)}${dd('Účel / popis',r.purpose_raw)}${dd('Doba podávania',r.period_raw)}
     ${dd('Rovnaké hodnoty aj v',(r.same_values_markets||[]).filter(m=>m!==mk(r)).join(', '))}
@@ -154,6 +162,9 @@ function detail(r){
     ${dd('Zloženie',r.composition_raw)}${dd('Analytické zložky',r.analytical_raw)}${dd('Doplnkové látky',r.additives_raw)}
     ${dd('Priemerný obsah (výrobca)',r.typical_raw)}
     ${dd('Energia',r.me_kcal_kg+' kcal/kg — zdroj: '+r.me_source)}
+    ${dd('Omega-3 / EPA+DHA',[r.omega3_g_1000kcal!=null?'omega-3 '+r.omega3_g_1000kcal+' g/1000 kcal':'',r.epa_dha_g_1000kcal!=null?'EPA+DHA '+r.epa_dha_g_1000kcal+' g/1000 kcal':'',r.epa_dha_declared||''].filter(Boolean).join(' · '))}
+    ${dd('Vitamín D3',r.vit_d3_iu_kg!=null?`${r.vit_d3_iu_kg} IU/kg (${r.vit_d3_kind==='pridaný'?'pridaný – celkový obsah je vyšší':'celkový obsah'}); pri 12 % vlhkosti ${r.vit_d3_iu_kg_12} IU/kg, maximum EÚ 2 000 IU/kg`:'')}
+    ${dd('Kŕmna tabuľka (4 kg)',r.feed_g_day_4kg!=null?`${r.feed_g_day_4kg} g/deň (${r.feed_column}) = ${r.feed_kcal_day_4kg} kcal/deň; FEDIAF: ${MER.neutered_indoor} kcal kastrovaná mačka v interiéri, ${MER.active} kcal aktívna. Tabuľka: ${r.feed_table_raw}`:(r.feed_column||''))}
     ${dd('Chýbajúce údaje',r.missing.join(', '))}${dd('Poznámky',r.notes)}
   </dl></td></tr>`;
 }
@@ -177,6 +188,10 @@ function render(){
       <td class="num">${fmt(r.ca_p,2)}</td>
       <td class="num">${r.analytics.na!=null?fmt(r.analytics.na,2)+' / '+fmt(r.analytics.k,2):fmt(null)}${r.eu20_electrolytes?' <span class="ok">✓</span>':''}</td>
       <td class="num">${fmt(r.taurine_mg_kg)}${r.taurine_source&&r.taurine_source!=='etiketa'?'<span class="est">*</span>':''}</td>
+      <td class="num">${fmt(r.omega3_g_1000kcal,2)}</td>
+      <td class="num">${fmt(r.epa_dha_g_1000kcal,2)}</td>
+      <td class="num">${fmt(r.vit_d3_iu_kg_12)}${r.vit_d3_kind==='pridaný'?'<span class="est" title="len pridaný vitamín D3">+</span>':''}${r.vit_d3_over_eu?' <span class="tag warn">nad limitom EÚ</span>':''}</td>
+      <td class="num">${fmt(r.feed_kcal_day_4kg)}${r.feed_kcal_day_4kg?` <span class="muted">(${Math.round(r.feed_kcal_day_4kg/MER.neutered_indoor*100)} %)</span>`:''}</td>
       <td>${feat(r)}</td>
       <td>${esc(r.sizes.join(', '))}</td></tr>`;}).join('');
 }

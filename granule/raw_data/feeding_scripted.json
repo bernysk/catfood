@@ -1,0 +1,414 @@
+{
+ "fetched_at": "2026-10-18",
+ "not_available": {
+  "Royal Canin": "stránka uvádza len „ODPORÚČANÉ DÁVKOVANIE: uvedené v tabuľke“ (tabuľka je na obale)",
+  "Farmina": "kŕmna tabuľka je na stránke len ako súbor na stiahnutie („Dávkovací tabulka – Stáhnout“)"
+ },
+ "products": {
+  "https://www.purina.cz/kocka/krmivo-pro-kocky/produkt-proplan-renal-plus-kruta-10-2kg": {
+   "table_raw": "Krmný návod ¦ Kolik vaše kočka váží? ¦ Pro dospělé kočky. ¦ Tělesná hmotnost (kg) ¦ g / den ¦ 2 ¦ 25 ¦ 3 ¦ 40 ¦ 4 ¦ 55 ¦ 5 ¦ 65 ¦ 6 ¦ 80 ¦ > 6 ¦ + 15g/kg ¦ Krmný návod: viz tabulka. Krmné dávky pro udržení ideální tělesné kondice se mohou lišit v závislosti na věku, úrovni aktivity a klimatických podmínkách. Kontrolujte tělesnou hmotnost vaší kočky a krmnou dávku přizpůsobte její aktuální tělesné hmotnosti. Čistá čerstvá pitná voda by měla být vždy k dispozici. Doporučujeme pravidelné návštěvy vašeho veterinárního lékaře.",
+   "g_day_4kg": 55.0,
+   "column": "4 kg, granule"
+  },
+  "https://www.purina.cz/kocka/krmivo-pro-kocky/produkt-proplan-adult-7-longevis-granule-pro-kocky-s-vysokym-obsahem-lososa": {
+   "table_raw": "Krmný návod ¦ Kolik vaše kočka váží? ¦ Pro dospělé kočky ¦ Tělesná hmotnost (kg) ¦ g / den ¦ 2 ¦ 25 ¦ 3 ¦ 35 ¦ 4 ¦ 50 ¦ 5 ¦ 60 ¦ 6 ¦ 70 ¦ > 6 ¦ + 15g/kg ¦ Krmný návod: viz tabulka doporučených denních krmných dávek. Krmné dávky pro udržení ideální tělesné kondice se mohou lišit v závislosti na věku, úrovni aktivity a klimatických podmínkách. Kontrolujte tělesnou hmotnost vaší kočky a krmnou dávku přizpůsobte její aktuální tělesné hmotnosti. Čistá čerstvá pitná voda by měla být vždy k dispozici. Doporučujeme pravidelné návštěvy vašeho veterinárního lékaře.",
+   "g_day_4kg": 50.0,
+   "column": "4 kg, granule"
+  },
+  "https://www.purina.cz/kocka/krmivo-pro-kocky/produkt-proplan-dospela-granule-derma-care-losos": {
+   "table_raw": "Krmný návod ¦ Kolik vaše kočka váží? ¦ Pro dospělou kočku. ¦ Tělesná hmotnost (kg) ¦ g / den ¦ 2 ¦ 30 ¦ 3 ¦ 45 ¦ 4 ¦ 60 ¦ 5 ¦ 75 ¦ 6 ¦ 90 ¦ > 6 ¦ + 15g/kg ¦ Krmný návod: viz tabulka doporučených denních krmných dávek. Krmné dávky pro udržení ideální tělesné kondice se mohou lišit v závislosti na věku, úrovni aktivity a klimatických podmínkách. Kontrolujte tělesnou hmotnost vaší kočky a krmnou dávku přizpůsobte její aktuální tělesné hmotnosti. Čistá čerstvá pitná voda by měla být vždy k dispozici. Doporučujeme pravidelné návštěvy vašeho veterinárního lékaře.",
+   "g_day_4kg": 60.0,
+   "column": "4 kg, granule"
+  },
+  "https://www.purina.cz/kocka/krmivo-pro-kocky/produkt-proplan-dospela-granule-renal-plus-kralik": {
+   "table_raw": "Krmný návod ¦ Kolik vaše kočka váží? ¦ Pro dospělé kočky. ¦ Tělesná hmotnost (kg) ¦ g / den ¦ 2 ¦ 25 ¦ 3 ¦ 40 ¦ 4 ¦ 55 ¦ 5 ¦ 65 ¦ 6 ¦ 80 ¦ > 6 ¦ + 15g/kg ¦ Krmný návod: viz tabulka. Krmné dávky pro udržení ideální tělesné kondice se mohou lišit v závislosti na věku, úrovni aktivity a klimatických podmínkách. Kontrolujte tělesnou hmotnost vaší kočky a krmnou dávku přizpůsobte její aktuální tělesné hmotnosti. Čistá čerstvá pitná voda by měla být vždy k dispozici. Doporučujeme pravidelné návštěvy vašeho veterinárního lékaře.",
+   "g_day_4kg": 55.0,
+   "column": "4 kg, granule"
+  },
+  "https://www.purina.cz/kocka/krmivo-pro-kocky/produkt-proplan-sterilizovana-kastrovana-granule-dospela-renal-plus-losos": {
+   "table_raw": "Krmný návod ¦ Kolik vaše kočka váží? ¦ Pro dospělé kočky ¦ Tělesná hmotnost (kg) ¦ g / den ¦ 2 ¦ 25 ¦ 3 ¦ 40 ¦ 4 ¦ 55 ¦ 5 ¦ 65 ¦ 6 ¦ 80 ¦ > 6 ¦ + 15g/kg ¦ Viz tabulka. Krmné dávky pro udržení ideální tělesné kondice se mohou lišit v závislosti na věku, úrovni aktivity a klimatických podmínkách. Kontrolujte tělesnou hmotnost vaší kočky a krmnou dávku přizpůsobte její aktuální tělesné hmotnosti. Čistá čerstvá pitná voda by měla být vždy k dispozici. Doporučujeme pravidelné návštěvy vašeho veterinárního lékaře.",
+   "g_day_4kg": 55.0,
+   "column": "4 kg, granule"
+  },
+  "https://www.purina.cz/kocka/krmivo-pro-kocky/produkt-proplan-sterilizovana-kastrovana-granule-dospela-vital-functions-losos": {
+   "table_raw": "Krmný návod ¦ Kolik vaše kočka váží? ¦ Pro dospělou kočku ¦ Tělesná hmotnost (kg) ¦ g / den ¦ 2-4 ¦ 30-55 ¦ 4-6 ¦ 55-85 ¦ >6 ¦ >85 ¦ viz tabulka doporučených denních krmných dávek. Krmné dávky pro udržení ideální tělesné kondice se mohou lišit v závislosti na věku, úrovni aktivity a klimatických podmínkách. Kontrolujte tělesnou hmotnost vaší kočky a krmnou dávku přizpůsobte její aktuální tělesné hmotnosti. Čistá čerstvá pitná voda by měla být vždy k dispozici. Doporučujeme pravidelné návštěvy vašeho veterinárního lékaře",
+   "g_day_4kg": 55.0,
+   "column": "rozsah 2–4 kg, horná hodnota"
+  },
+  "https://www.purina.cz/kocka/krmivo-pro-kocky/produkt-proplan-citlive-traveni-sterilizovana-kastrovana-granule-dospela-delicate-digestion-kure": {
+   "table_raw": "Krmný návod ¦ Kolik vaše kočka váží? ¦ Pro dospělé kočky. ¦ Tělesná hmotnost (kg) ¦ g / den ¦ 2 ¦ 25 ¦ 3 ¦ 40 ¦ 4 ¦ 55 ¦ 5 ¦ 65 ¦ 6 ¦ 80 ¦ > 6 ¦ + 15g/kg ¦ Krmný návod: viz tabulka doporučených denních krmných dávek. Krmné dávky pro udržení ideální tělesné kondice se mohou lišit v závislosti na věku, úrovni aktivity a klimatických podmínkách. Kontrolujte tělesnou hmotnost vaší kočky a krmnou dávku přizpůsobte její aktuální tělesné hmotnosti. Čistá čerstvá pitná voda by měla být vždy k dispozici. Doporučujeme pravidelné návštěvy vašeho veterinárního lékaře.",
+   "g_day_4kg": 55.0,
+   "column": "4 kg, granule"
+  },
+  "https://www.purina.cz/kocka/krmivo-pro-kocky/produkt-proplan-mocove-cesty-granule-dospela-renal-plus-kure": {
+   "table_raw": "Krmný návod ¦ Kolik vaše kočka váží? ¦ Pro dospělou kočku. ¦ Tělesná hmotnost (kg) ¦ g / den ¦ 2 ¦ 30 ¦ 3 ¦ 40 ¦ 4 ¦ 55 ¦ 5 ¦ 70 ¦ 6 ¦ 85 ¦ > 6 ¦ + 15g/kg ¦ Krmný návod: viz tabulka. Krmné dávky pro udržení ideální tělesné kondice se mohou lišit v závislosti na věku, úrovni aktivity a klimatických podmínkách. Kontrolujte tělesnou hmotnost vaší kočky a krmnou dávku přizpůsobte její aktuální tělesné hmotnosti. ¦ Čistá čerstvá pitná voda by měla být vždy k dispozici. Doporučujeme pravidelné návštěvy vašeho veterinárního lékaře.",
+   "g_day_4kg": 55.0,
+   "column": "4 kg, granule"
+  },
+  "https://www.purina.cz/kocka/krmivo-pro-kocky/produkt-proplan-citlive-traveni-granule-dospela-delicate-digestion-kruta": {
+   "table_raw": "Krmný návod ¦ Kolik vaše kočka váží? ¦ Pro dospělou kočku. ¦ Tělesná hmotnost (kg) ¦ g / den ¦ 2 ¦ 25 ¦ 3 ¦ 40 ¦ 4 ¦ 55 ¦ 5 ¦ 70 ¦ 6 ¦ 80 ¦ > 6 ¦ + 15g/kg ¦ Krmný návod: viz tabulka doporučených denních krmných dávek. Krmné dávky pro udržení ideální tělesné kondice se mohou lišit v závislosti na věku, úrovni aktivity a klimatických podmínkách. Kontrolujte tělesnou hmotnost vaší kočky a krmnou dávku přizpůsobte její aktuální tělesné hmotnosti. Čistá čerstvá pitná voda by měla být vždy k dispozici. Doporučujeme pravidelné návštěvy vašeho veterinárního lékaře.",
+   "g_day_4kg": 55.0,
+   "column": "4 kg, granule"
+  },
+  "https://www.purina.cz/kocka/krmivo-pro-kocky/produkt-proplan-renal-plus-kruta": {
+   "table_raw": "Krmný návod ¦ Kolik vaše kočka váží? ¦ Pro dospělé kočky. ¦ Tělesná hmotnost (kg) ¦ g / den ¦ 2 ¦ 25 ¦ 3 ¦ 40 ¦ 4 ¦ 55 ¦ 5 ¦ 65 ¦ 6 ¦ 80 ¦ > 6 ¦ + 15g/kg ¦ Krmný návod: viz tabulka. Krmné dávky pro udržení ideální tělesné kondice se mohou lišit v závislosti na věku, úrovni aktivity a klimatických podmínkách. Kontrolujte tělesnou hmotnost vaší kočky a krmnou dávku přizpůsobte její aktuální tělesné hmotnosti. Čistá čerstvá pitná voda by měla být vždy k dispozici. Doporučujeme pravidelné návštěvy vašeho veterinárního lékaře.",
+   "g_day_4kg": 55.0,
+   "column": "4 kg, granule"
+  },
+  "https://www.purina.cz/kocka/krmivo-pro-kocky/produkt-proplan-veterinarni-diety-onemocneni-mocovych-cest-granule-morske-ryby": {
+   "table_raw": "Krmný návod ¦ Vezměte prosím na vědomí, že veškeré uvedené údaje o produktech PURINA® PRO PLAN® Veterinary diets jsou určeny pro dietní podporu koček s uvedenými příznaky a nenahrazují vhodné lékařské ošetření. Veterinární diety by měly být podávány pod veterinárním dohledem. ¦ Pro dospělou kočku ¦ Tělesná hmotnost kočky (kg) ¦ Doporučená denní dávka ¦ Granule (g/den) ¦ Konzervy (ks/den) ¦ Kapsičky (ks/den) ¦ Kombinace granule + konzerva ¦ Kombinace granule + kapsička ¦ Granule (g/den) ¦ Plechovka (ks/den) ¦ Granulen (g/den) ¦ Kapsička (ks/den) ¦ 2 ¦ 30 ¦ 2/3 ¦ 1 + 1/2 ¦ 10 ¦ 1/2 ¦ 25 ¦ 1/3 ¦ 3 ¦ 45 ¦ 1 ¦ 2 + 1/3 ¦ 20 ¦ 1/2 ¦ 35 ¦ 1/2 ¦ 4 ¦ 65 ¦ 1 + 1/3 ¦ 3 ¦ 15 ¦ 1 ¦ 40 ¦ 1 ¦ 5 ¦ 75 ¦ 1 + 2/3 ¦ 4 ¦ 30 ¦ 1 ¦ 55 ¦ 1 ¦ 6 ¦ 90 ¦ 2 ¦ 4 + 2/3 ¦ 40 ¦ 1 ¦ 70 ¦ 1 ¦ 7 ¦ 105 ¦ 2 + 1/4 ¦ 5 + 1/2 ¦ 55 ¦ 1 ¦ 85 ¦ 1 ¦ 8 ¦ 120 ¦ 2 + 1/2 ¦ 6 + 1/4 ¦ 70 ¦ 1 ¦ 100 ¦ 1 ¦ Na každý další kg tělesné hmotnosti navyšte krmnou dávku o 15 g granulí, 1/3 konzervy nebo 2/4 kapsičky na den. Při kombinovaném krmení granulemi a vlhkým krmivem Feline UR: na každou 1/4 konzervy vlhkého krmiva snižte dávku granulí o 10 g. ¦ Doporučená doba podávání: pro rozpuštění struvitových urolitů je doporučená doba podávání 5 - 12 týdnů. Pro dlouhodobé užívání je doporučená doba podávání do 6ti měsíců, ale kočka by měla absolvovat pravidelná kontrolní vyšetření s ohledem na její diagnózu.",
+   "g_day_4kg": 65.0,
+   "column": "4 kg, granule"
+  },
+  "https://www.purina.cz/kocka/krmivo-pro-kocky/produkt-proplan-veterinarni-diety-obezita-granule": {
+   "table_raw": "Krmný návod ¦ Vezměte prosím na vědomí, že veškeré uvedené údaje o produktech PURINA® PRO PLAN® VETERINARY DIETS jsou určeny pro dietní podporu koček s uvedenými příznaky a nenahrazují vhodné lékařské ošetření. Veterinární diety by měly být používány pod veterinárním dohledem. ¦ Pro dospělou kočku ¦ Tělesná hmotnost kočky (kg) ¦ Snižování hmotnosti (g/den) ¦ Udržení hmotnosti (g/den) ¦ 4 ¦ 35 ¦ 45 ¦ 6 ¦ 55 ¦ 70 ¦ 8 ¦ 75 ¦ 95 ¦ 10 ¦ 95 ¦ 115 ¦ > 10 ¦ + 10 ¦ + 15 ¦ Snižovaní tělesné hmotnosti: na každý další kg tělesné hmotnosti přidejte 15 g granulí na den. ¦ Udržení tělesné hmotnosti: na každý další kg tělesné hmotnosti přidejte 20 g granulí na den. ¦ Doporučená denní dávka vychází z aktuální hmotnosti kočky, z průměrných požadavků na energii a očekávané ztráty hmotnosti 1 % týdně. Denní dávku krmiva je třeba kontrolovat a upravovat každé 4 týdny. Dietu Feline DM St/Ox je třeba podávat až do dosažení požadované tělesné hmotnosti. Dietou lze krmit i kočky s tendencí přibírat na hmotnosti, a to při dodržení krmného návodu pro zachování hmotnosti. Čerstvá voda by měla být vždy k dispozici.",
+   "g_day_4kg": 45.0,
+   "column": "Udržení hmotnosti (g/den)"
+  },
+  "https://www.purina.cz/kocka/krmivo-pro-kocky/produkt-proplan-veterinarni-diety-onemocneni-jater-granule": {
+   "table_raw": "Krmný návod ¦ Vezměte prosím na vědomí, že veškeré uvedené údaje o produktech PURINA® PRO PLAN® VETERINARY DIETS jsou určeny pro dietní podporu koček s uvedenými příznaky a nenahrazují vhodné lékařské ošetření. Veterinární diety by měly být používány pod veterinárním dohledem. ¦ Pro dospělou kočku ¦ Tělesná hmotnost kočky (kg) ¦ Denní krmná dávka (g/den) ¦ 2 ¦ 25 ¦ 3 ¦ 40 ¦ 4 ¦ 55 ¦ 5 ¦ 65 ¦ > 5 ¦ + 15g ¦ Na každý další kg tělesné hmotnosti přidejte 15 g krmiva ¦ Krmný návod: viz. tabulka. Doporučená doba používání je od počátku do 4 měsíců. Před použitím nebo před prodloužením doby používání se doporučuje vyžádat si stanovisko veterinárního lékaře. Voda musí být vždy k dispozici.",
+   "g_day_4kg": 55.0,
+   "column": "4 kg, granule"
+  },
+  "https://www.purina.cz/kocka/krmivo-pro-kocky/produkt-proplan-veterinarni-diety-alergie-na-krmivo-granule": {
+   "table_raw": "Krmný návod ¦ Vezměte prosím na vědomí, že veškeré uvedené údaje o produktech PURINA® PRO PLAN® VETERINÁRNÍ DIETY jsou určeny pro dietní podporu koček s uvedenými příznaky a nenahrazují vhodné lékařské ošetření. Veterinární diety by měly být používány pod veterinárním dohledem. ¦ Kolik vaše kočka váží? ¦ Pro dospělou kočku: ¦ Tělesná hmotnost (kg) ¦ g/den ¦ 2 ¦ 35 ¦ 3 ¦ 50 ¦ 4 ¦ 65 ¦ 5 ¦ 80 ¦ 6 ¦ 95 ¦ >6 ¦ Na každý další kg tělesné hmotnosti přidejte 15 g krmiva na den. ¦ Pro kotě: ¦ Věk (týdny) ¦ g/den ¦ 6-12 ¦ 25-80 ¦ 12-26 ¦ 50-110 ¦ 26-52 ¦ 110-55 ¦ Eliminační dieta: pokud je to možné, přejděte na novou dietu ihned, případně zkraťte přechodné období na minimum. Dietu HA St/Ox Hypoallergenic™ je nutné podávat jako jediné krmivo po dobu 8-10 týdnů. Ve většině případů lze pozitivní odpověď na podávání diety pozorovat za 3-6 týdnů. Pokud vymizí příznaky intolerance, lze dietou HA St/Ox Hypoallergenic™krmit celoživotně.",
+   "g_day_4kg": 65.0,
+   "column": "4 kg, granule"
+  },
+  "https://www.purina.cz/kocka/krmivo-pro-kocky/produkt-proplan-veterinarni-diety-onemocneni-traviciho-traktu-granule": {
+   "table_raw": "Krmný návod ¦ Vezměte prosím na vědomí, že veškeré uvedené údaje o produktech PURINA® PRO PLAN® VETERINARY DIETS jsou určeny pro dietní podporu koček s uvedenými příznaky a nenahrazují vhodné lékařské ošetření. Veterinární diety by měly být používány pod veterinárním dohledem. ¦ Pro dospělou kočku. ¦ Tělesná hmotnost kočky (kg) ¦ Granule g/den ¦ Konzervy ks/den ¦ Konzervy (ks) + granule (g)/den ¦ Kapsičky (ks) + granule (g)/den ¦ 2 ¦ 30 ¦ 1/2 ¦ 1/4+15 ¦ 1/2+20 ¦ 4 ¦ 60 ¦ 1 ¦ 1/2+30 ¦ 2+10 ¦ 5 ¦ 70 ¦ 1+1/3 ¦ 1+20 ¦ 2+25 ¦ >5 ¦ * ¦ *** ¦ ** ¦ *Na každý další kg tělesné hmotnosti přidejte 15 g granulí při podávání pouze suchého krmiva. ¦ **1/2 konzervy při podávání pouze vlhkého krmiva. ¦ ***Nebo 10 g granulí při podávání kombinace suchého a vlhkého krmiva pro udržení tělesné hmotnosti. ¦ Pro kotě. ¦ Věk kotěte (týdny) ¦ Kapsičky (ks)/den ¦ Konzervy (ks)/den ¦ Granule (g)/den ¦ 6-12 ¦ 20-70 ¦ 1/2-1+1/3 ¦ 1-3+1/4 ¦ 12-26 ¦ 45-95 ¦ 3/4-1+3/4 ¦ 2-4+1/4 ¦ 26-52 ¦ 95-50 ¦ 1+3/4-1 ¦ 4+1/4-2 ¦ K dosažení optimálního trávení a absorbce živin je vhodné doporučenou denní dávku rozdělit do několika menších porcí. Feline EN St/Ox Gastrointestinal poskytuje kompletní a vyváženou výživu koťatům i dospělým kočkám. Koťatům ve věku 6-12 týdnů podávejte 40-80 g granulí, podle potřeby navlhčených vodou, až do úplného odstavení, množství přidané vody postupně snižujte.",
+   "g_day_4kg": 60.0,
+   "column": "4 kg, granule"
+  },
+  "https://www.purina.cz/kocka/krmivo-pro-kocky/produkt-proplan-veterinarni-diety-cukrovka-granule": {
+   "table_raw": "Krmný návod ¦ Vezměte prosím na vědomí, že veškeré uvedené údaje o produktech PURINA® PRO PLAN® VETERINÁRNÍ DIETY jsou určeny pro dietní podporu koček s uvedenými příznaky a nenahrazují vhodné lékařské ošetření. Veterinární diety by měly být používány pod veterinárním dohledem. ¦ Kolik vaše kočka váží? ¦ Pro dospělou kočku. ¦ Tělesná hmotnost (kg) ¦ Snižování hmotnosti - g/den ¦ Granule (g)+kapsička (ks) ¦ 2 ¦ 25 ¦ 15+1/2 ¦ 3 ¦ 35 ¦ 15+1 ¦ 4 ¦ 45 ¦ 5+2 ¦ 5 ¦ 60 ¦ 15+2 ¦ 6 ¦ 70 ¦ 5+3 ¦ 7 ¦ 80 ¦ 15+3 ¦ 8 ¦ 95 ¦ 30+3 ¦ Tělesná hmotnost (kg) ¦ Udržení hmotnosti - g/den ¦ Granule (g)+kapsička (ks) ¦ 2 ¦ 30 ¦ 20+1/2 ¦ 3 ¦ 45 ¦ 20+1 ¦ 4 ¦ 60 ¦ 15+2 ¦ 5 ¦ 75 ¦ 30+2 ¦ 6 ¦ 85 ¦ 25+3 ¦ 7 ¦ 100 ¦ 40+3 ¦ 8 ¦ 115 ¦ 50+3 ¦ Během prvních týdnů podávání diety DM Sr/Ox Diabetes Management je důležité u kočky pečlivě sledovat hladinu glukózy a podle potřeby přizpůsobit dávky inzulinu. Dieta DM Sr/Ox Diabetes Management pomáhá zvyšovat pocit nasycení a proto je vhodná pro snižování hmotnosti. Může být podávána celoživotně, pokud je to nezbytné.",
+   "g_day_4kg": 45.0,
+   "column": "4 kg — tabuľka na chudnutie"
+  },
+  "https://www.purina.cz/kocka/krmivo-pro-kocky/produkt-proplan-veterinarni-diety-onemocneni-mocovych-cest-granule-kure": {
+   "table_raw": "Krmný návod ¦ Vezměte prosím na vědomí, že veškeré uvedené údaje o produktech PURINA® PRO PLAN® VETERINÁRNÍ DIETY jsou určeny pro dietní podporu koček s uvedenými příznaky a nenahrazují vhodné lékařské ošetření. Veterinární diety by měly být podávány pod veterinárním dohledem. ¦ Kolik váš pes váží? ¦ Pro dospělou kočku ¦ Tělesná hmotnost (kg) ¦ Granule (g/den) ¦ Kapsičky (ks/den) ¦ Konzervy (ks) + granule (g)/den ¦ Kapsičky (ks) + granule (g)/den ¦ 2 ¦ 30 ¦ 1 + 1/2 ¦ 1/2 + 10 ¦ 1/2 + 25 ¦ 4 ¦ 65 ¦ 3 + 1/2 ¦ 1 + 15 ¦ 1 + 50 ¦ 6 ¦ 95 ¦ 5 ¦ 1 + 50 ¦ 3 + 50 ¦ 8 ¦ 125 ¦ 6 + 1/2 ¦ 1 + 85 ¦ 3 + 85 ¦ Na každý další kg tělesné hmotnosti přidejte 15 g granulí nebo 1/3 konzervy na den. ¦ Doporučená doba podávání: pro rozpuštění struvitových urolitů je doporučená doba podávání 5 - 12 týdnů. Pro dlouhodobé užívání je doporučená doba podávání do 6ti měsíců, ale kočka by měla absolvovat pravidelná kontrolní vyšetření s ohledem na její diagnózu.",
+   "g_day_4kg": 65.0,
+   "column": "4 kg, granule"
+  },
+  "https://www.purina.cz/kocka/krmivo-pro-kocky/produkt-proplan-veterinarni-diety-onemocneni-ledvin-rana-pece-granule": {
+   "table_raw": "Krmný návod ¦ Vezměte prosím na vědomí, že veškeré uvedené údaje o produktech PURINA® PRO PLAN® VETERINARY DIETS jsou určeny pro dietní podporu koček s uvedenými příznaky a nenahrazují vhodné lékařské ošetření. Veterinární diety by měly být používány pod veterinárním dohledem. ¦ Pro dospělou kočku ¦ Tělesná hmotnost kočky (kg) ¦ Granule g/den ¦ Konzervy (ks) + granule (g)/den ¦ Kapsičky (ks) + granule (g)/den ¦ 2 ¦ 30 ¦ 1/4 + 15 ¦ 1/2 + 20 ¦ 4 ¦ 65 ¦ 1/2 + 30 ¦ 2 + 10 ¦ 5 ¦ 80 ¦ 1 + 15 ¦ 2 + 25 ¦ 6 ¦ 95 ¦ 1 + 35 ¦ 3 + 10 ¦ 7 ¦ 110 ¦ 1 + 50 ¦ 3 + 30 ¦ 8 ¦ 125 ¦ 1 + 65 ¦ 3 + 45 ¦ >8 ¦ + 15 g krmiva na každý další kg tělesné hmotnosti ¦ Postupné zavádění nové diety může být prospěšné zejména u pacientů s CRF. Kočky s chronickou ledvinovou nedostatečností, které vykazují nechutenství nebo anorexii, by měly být vyšetřeny s ohledem na nevolnost a uremickou gastritidu. Ohřátí vlhkého krmiva na pokojovou teplotu může zvýšit jeho chutnost a ochotu přijímat krmivo, zejména u mlsných koček. Pokud kočka nepřijímá dostatek tekutin, je vhodné doporučit dietu NF St/Ox Renal Function v konzervě nebo v kapsičkách. Kočky s CRF by měly dostávat dietu NF St/Ox Renal Function celoživotně.",
+   "g_day_4kg": 65.0,
+   "column": "4 kg, granule"
+  },
+  "https://www.purina.sk/macka/krmivo-pre-macky/produkt-purina-pro-plan-adult-sterilised-renal-plus-suche-krmivo-pre-macky-s-kralikom": {
+   "table_raw": "Návod na kŕmenie: ¦ Odporúčané denné kŕmne dávky (g/deň): ¦ Návod na kŕmenie: pozri tabuľku. Kŕmne dávky, potrebné na udržanie ideálnej telesnej kondície, sa môžu líšiť v závislosti od veku, úrovne aktivity a klimatických podmienok. Kontrolujte hmotnosť vašej mačky a kŕmnu dávku prispôsobte jej aktuálnej telesnej hmotnosti. Čerstvá pitná voda by mala byť neustále k dispozícii. Odporúčame pravidelné návštevy vášho veterinárneho lekára.",
+   "g_day_4kg": null,
+   "column": null
+  },
+  "https://www.purina.sk/macka/krmivo-pre-macky/produkt-pro-plan-cat-adult-sterilised-renal-plus-suche-krmivo-pre-macky-s-lososom": {
+   "table_raw": "Návod na kŕmenie: ¦ Odporúčané denné kŕmne dávky (g/deň). ¦ Návod na kŕmenie: pozri tabuľku. Kŕmne dávky, potrebné na udržanie ideálnej telesnej kondície, sa môžu líšiť v závislosti od veku, úrovne aktivity a klimatických podmienok. Kontrolujte hmotnosť vašej mačky a kŕmnu dávku prispôsobte jej aktuálnej telesnej hmotnosti. Čerstvá pitná voda by mala byť neustále k dispozícii. Odporúčame pravidelné návštevy vášho veterinárneho lekára.",
+   "g_day_4kg": null,
+   "column": null
+  },
+  "https://www.purina.sk/macka/krmivo-pre-macky/produkt-pro-plan-cat-adult-delicate-digestion-suche-krmivo-pre-macky-s-morkou": {
+   "table_raw": "Návod na kŕmenie: ¦ Pozri tabuľku. Kŕmne dávky, potrebné na udržanie ideálnej telesnej kondície, sa môžu líšiť v závislosti od veku, úrovne aktivity a klimatických podmienok. Kontrolujte hmotnosť vašej mačky a kŕmnu dávku prispôsobte jej aktuálnej telesnej hmotnosti. Čerstvá pitná voda by mala byť neustále k dispozícii. Odporúčame pravidelné návštevy vášho veterinárneho lekára.",
+   "g_day_4kg": null,
+   "column": null
+  },
+  "https://www.purina.sk/macka/krmivo-pre-macky/produkt-pro-plan-cat-adult-sterilised-renal-plus-suche-krmivo-pre-macky-s-morkou": {
+   "table_raw": "Návod na kŕmenie: ¦ Odporúčané denné kŕmne dávky (g/deň). ¦ Návod na kŕmenie: pozri tabuľku. Kŕmne dávky, potrebné na udržanie ideálnej telesnej kondície, sa môžu líšiť v závislosti od veku, úrovne aktivity a klimatických podmienok. Kontrolujte hmotnosť vašej mačky a kŕmnu dávku prispôsobte jej aktuálnej telesnej hmotnosti. Čerstvá pitná voda by mala byť neustále k dispozícii. Odporúčame pravidelné návštevy vášho veterinárneho lekára.",
+   "g_day_4kg": null,
+   "column": null
+  },
+  "https://www.purina.sk/macka/krmivo-pre-macky/produkt-purina-pro-plan-veterinary-diets-hp-stox-hepatic": {
+   "table_raw": "Návod na kŕmenie: ¦ pozri tabuľku. Odporúčaný čas používania je prvýkrát do 4 mesiacov. Pred použitím alebo pred predĺžením času použitia sa odporúča vyžiadať si stanovisko veterinárneho lekára. Voda by mala byť vždy dostupná.",
+   "g_day_4kg": null,
+   "column": null
+  },
+  "https://www.purina.sk/macka/krmivo-pre-macky/produkt-purina-pro-planr-veterinary-diets-dm-stox-diabetes-management": {
+   "table_raw": "Návod na kŕmenie: ¦ Pozri tabuľku. Odporúčaný čas používania je prvýkrát do 6 mesiacov. Pred použitím a pred predĺžením času použitia sa odporúča vyžiadať si stanovisko veterinárneho lekára. Voda by mala byť vždy dostupná. Dostupné aj vo forme vlhkého krmiva. Kombinované kŕmenie granulami a vlhkým krmivom Feline DM: na každú 1/4 konzervy vlhkého krmiva znížte dávku granúl o 10g.",
+   "g_day_4kg": null,
+   "column": null
+  },
+  "https://www.purina.sk/macka/krmivo-pre-macky/produkt-purina-pro-plan-veterinary-diets-en-stox-gastrointestinal": {
+   "table_raw": "Návod na kŕmenie: ¦ Návod na kŕmenie pre dospelú mačku: pozri tabuľku. Odporúčaný čas používania je do 12 týždňov pri poruchách črevného vstrebávania. V prípade výživy na zotavenie a rekonvalescenciu, až do zotavenia. Pre optimalizáciu tráviaceho procesu je vhodné odporúčanú dennú kŕmnu dávku rozdeliť na niekoľko menších porcií. Pred použitím a pred predĺžením času použitia sa odporúča vyžiadať si stanovisko veterinárneho lekára. Návod na kŕmenie pre mačiatka nájdete v kalkulačke denných kŕmnych dávok. Čerstvá pitná voda by mala byť neustále k dispozícii. Dostupné aj vo forme vlhkého krmiva. Kombinované kŕmenie granulami a vlhkým krmivom Feline EN: na každú 1/3 konzervy vlhkého krmiva znížte dávku granúl o 15g.",
+   "g_day_4kg": null,
+   "column": null
+  },
+  "https://www.purina.sk/macka/krmivo-pre-macky/produkt-purina-pro-plan-veterinary-diets-nf-advanced-care": {
+   "table_raw": "Návod na kŕmenie: ¦ Pozri tabuľku. Odporúčaný čas používania je prvýkrát do 6 mesiacov. Pred použitím a pred predĺžením času použitia sa odporúča vyžiadať si stanovisko veterinárneho lekára. Vždy by mala byť dostupná voda. Dostupná je aj receptúra Feline NF Renal Function™ Early Care. Kombinované kŕmenie granulami a vlhkým krmivom Feline NF: na každú 1/3 konzervy vlhkého krmiva znížte dávku granúl o 20g.",
+   "g_day_4kg": null,
+   "column": null
+  },
+  "https://www.purina.sk/macka/krmivo-pre-macky/produkt-purina-pro-plan-veterinary-diets-ur-stox-urinary-s-morskou-rybou": {
+   "table_raw": "Návod na kŕmenie: ¦ Pozri tabuľku. Odporúčaný čas používania pre rozpúšťanie struvitových kameňov je 5 až 12 týždňov, pre zníženie opätovnej tvorby struvitových kameňov prvýkrát do 6 mesiacov. Pred použitím a pred predĺžením času použitia sa odporúča vyžiadať si stanovisko veterinárneho lekára. Voda by mala byť vždy dostupná. Kombinované kŕmenie granulami a vlhkým krmivom Feline UR: na každú 1/4 konzervy vlhkého krmiva znížte dávku granúl o 10g.",
+   "g_day_4kg": null,
+   "column": null
+  },
+  "https://www.purina.sk/macka/krmivo-pre-macky/produkt-purina-pro-plan-veterinary-diets-nf-early-caretm": {
+   "table_raw": "Návod na kŕmenie: ¦ Pozri tabuľku. Odporúčaný čas používania je prvýkrát do 6 mesiacov. Pred použitím a pred predĺžením času použitia sa odporúča vyžiadať si stanovisko veterinárneho lekára. Vždy by mala byť dostupná voda. Dostupná je aj receptúra Feline NF Renal Function™ Advanced Care.",
+   "g_day_4kg": null,
+   "column": null
+  },
+  "https://www.purina.sk/macka/krmivo-pre-macky/produkt-purina-pro-plan-veterinary-diets-ha-stox-hypoallergenic": {
+   "table_raw": "Návod na kŕmenie: ¦ Pozri tabuľku. Odporúčaný čas používania je 3 až 8 týždňov. Ak zmiznú príznaky neznášanlivosti, tak toto krmivo možno skrmovať prvýkrát do jedného roka. Pred použitím a pred predĺžením času použitia sa odporúča vyžiadať si stanovisko veterinárneho lekára. Návod na kŕmenie pre mačiatka nájdete v kalkulačke denných kŕmnych dávok. Čerstvá pitná voda by mala byť neustále k dispozícii.",
+   "g_day_4kg": null,
+   "column": null
+  },
+  "https://www.purina.sk/macka/krmivo-pre-macky/produkt-purina-pro-plan-veterinary-diets-ur-stox-urinary-s-kuratom": {
+   "table_raw": "Návod na kŕmenie: ¦ Pozri tabuľku. Odporúčaný čas používania pre rozpúšťanie struvitových kameňov je 5 až 12 týždňov, pre zníženie opätovnej tvorby struvitových kameňov prvýkrát do 6 mesiacov. Pred použitím a pred predĺžením času použitia sa odporúča vyžiadať si stanovisko veterinárneho lekára. Voda by mala byť vždy dostupná. Kombinované kŕmenie granulami a vlhkým krmivom Feline UR: na každú 1/4 konzervy vlhkého krmiva znížte dávku granúl o 10g.",
+   "g_day_4kg": null,
+   "column": null
+  },
+  "https://www.purina.sk/macka/krmivo-pre-macky/produkt-purina-pro-plan-veterinary-diets-om-obesity-management": {
+   "table_raw": "Návod na kŕmenie: ¦ Pozri tabuľku. Do dosiahnutia žiadanej telesnej hmotnosti a naďalej, ak je to nutné na udržanie žiadanej telesnej hmotnosti. U mačiek sa v začiatkoch príjmu tejto stravy odporúča prechodné obdobie. Na efektívne zníženie hmotnosti alebo udržanie ideálnej hmotnosti by sa nemal presiahnuť odporúčaný denný príjem energie. Pred použitím alebo pred predĺžením času použitia sa odporúča vyžiadať si stanovisko veterinárneho lekára. Čerstvá pitná voda by mala byť neustále k dispozícii. Dostupné aj vo forme vlhkého krmiva.",
+   "g_day_4kg": null,
+   "column": null
+  },
+  "https://www.purina.co.uk/cat/cat-food/product-pro-plan-hairball-salmon-dry-cat-food": {
+   "table_raw": "Recommended daily amount (g/day) ¦ Feeding quantities required to maintain ideal body condition will vary, depending on age, activity and environment. Watch your cat's weight and adjust food amounts accordingly. Clean, fresh drinking water should always be available. Consult your veterinarian regularly to support your cat's health. ¦ Cat Weight (kg) ¦ Dry Quantity (g) ¦ Dry + Wet Quantity (g) + 1 POUCH (85g) ¦ 2 ¦ 30 ¦ 10 ¦ 3 ¦ 45 ¦ 25 ¦ 4 ¦ 60 ¦ 35 ¦ 5 ¦ 75 ¦ 50 ¦ 6 ¦ 90 ¦ 65 ¦ >6 ¦ +15 g/kg ¦ +15 g/kg",
+   "g_day_4kg": 60.0,
+   "column": "Dry Quantity (g)"
+  },
+  "https://www.purina.co.uk/cat/cat-food/product-proplan-live-clear-dry-seven-plus-sterilised-turkey": {
+   "table_raw": "Recommended daily amount (g/day) ¦ Cat Weight: 3kg, Total daily amount 7 to 11 yrs: 40g ¦ Cat Weight: 5kg, Total daily amount 7 to 11 yrs: 65g ¦ Cat Weight: 7kg, Total daily amount 7 to 11 yrs: 90g ¦ Cat Weight: 3kg, Total daily amount from 12 yrs: 45g ¦ Cat Weight: 5kg, Total daily amount from 12 yrs: 75g ¦ Cat Weight: 7kg, Total daily amount from 12 yrs: 105g ¦ We recommend introducing LIVECLEAR to your cat's diet gradually by mixing their old food with new over the period of 7 to 10 days to avoid dietary upsets. For sustained benefits, feed daily and store in a cool, dry place. If you stop feeding LIVECLEAR, the allergen-reduction effect will stop. Amounts in the table show total daily requirement which needs to be served as 2-3 separate meals. ¦ While LIVECLEAR should remain as primary diet, supplementing with occasional wet food or a treat is acceptable. Clean, fresh water should always be available. LIVECLEAR is not intended to replace other allergen-reduction strategies but to offer a meaningful extra measure that can help reduce the allergen burden in cat households.",
+   "g_day_4kg": 52.5,
+   "column": "priemer 3 kg a 5 kg (4 kg na stránke nie je)"
+  },
+  "https://www.purina.co.uk/cat/cat-food/product-proplan-original-dry-senior-longevis-salmon": {
+   "table_raw": "Recommended daily amount for cats aged 7-11yrs* (g/day) ¦ Feeding quantities required to maintain ideal body condition will vary, depending on age, activity and environment. Watch your cat's weight and adjust food amounts accordingly. Clean, fresh drinking water should always be available. Consult your veterinarian regularly to support your cat's health. ¦ Cat Weight (kg) ¦ Dry Quantity (g) ¦ Dry + Wet Quantity (g) + 1 POUCH (75g) ¦ 2 ¦ 25 ¦ 5 ¦ 3 ¦ 35 ¦ 15 ¦ 4 ¦ 50 ¦ 25 ¦ 5 ¦ 60 ¦ 40 ¦ 6 ¦ 70 ¦ 50 ¦ >6 ¦ +15 g/kg ¦ +15 g/kg ¦ *For cats ≥ 12yrs the feeding guide should be increased by 20%",
+   "g_day_4kg": 50.0,
+   "column": "Dry Quantity (g)"
+  },
+  "https://www.purina.co.uk/cat/cat-food/product-proplan-sterilised-dry-senior-longevis-turkey": {
+   "table_raw": "Recommended daily amount for cats aged 7-11yrs* (g/day) ¦ Feeding quantities required to maintain ideal body condition will vary, depending on age, activity and environment. Watch your cat's weight and adjust food amounts accordingly. Clean, fresh drinking water should always be available. Consult your veterinarian regularly to support your cat's health. ¦ Cat Weight (kg) ¦ Dry Quantity (g) ¦ Dry + Wet Quantity (g) + 1 POUCH (75g) ¦ 2 ¦ 25 ¦ 5 ¦ 3 ¦ 40 ¦ 15 ¦ 4 ¦ 50 ¦ 30 ¦ 5 ¦ 65 ¦ 40 ¦ 6 ¦ 80 ¦ 55 ¦ >6 ¦ +15 g/kg ¦ +15 g/kg ¦ *For cats ≥ 12yrs the feeding guide should be increased by 20% ¦ **POUCH refers to PRO PLAN(R) Sterilised 7+ Wet Terrine with Turkey",
+   "g_day_4kg": 50.0,
+   "column": "Dry Quantity (g)"
+  },
+  "https://www.purina.co.uk/cat/cat-food/product-proplan-live-clear-dry-sterilised-salmon": {
+   "table_raw": "Feeding guide ¦ Cat Weight: 3kg, Total daily amount: 40g ¦ Cat Weight: 5kg, Total daily amount: 65g ¦ Cat Weight: 7kg, Total daily amount: 90g ¦ We recommend introducing LIVECLEAR to your cat's diet gradually by mixing their old food with new over the period of 7 to 10 days to avoid dietary upsets. For sustained benefits, feed daily and store in a cool, dry place. If you stop feeding LIVECLEAR, the allergen-reduction effect will stop. Amounts in the table show total daily requirement which needs to be served as 2-3 separate meals. ¦ While LIVECLEAR should remain as primary diet, supplementing with occasional wet food or a treat is acceptable. Clean, fresh water should always be available. LIVECLEAR is not intended to replace other allergen-reduction strategies but to offer a meaningful extra measure that can help reduce the allergen burden in cat households.",
+   "g_day_4kg": 52.5,
+   "column": "priemer 3 kg a 5 kg (4 kg na stránke nie je)"
+  },
+  "https://www.purina.co.uk/cat/cat-food/product-proplan-live-clear-dry-sterilised-turkey": {
+   "table_raw": "Feeding Guide ¦ Cat Weight: 3kg, Total daily amount: 40g ¦ Cat Weight: 5kg, Total daily amount: 65g ¦ Cat Weight: 7kg, Total daily amount: 90g ¦ We recommend introducing LIVECLEAR to your cat's diet gradually by mixing their old food with new over the period of 7 to 10 days to avoid dietary upsets. For sustained benefits, feed daily and store in a cool, dry place. If you stop feeding LIVECLEAR, the allergen-reduction effect will stop. Amounts in the table show total daily requirement which needs to be served as 2-3 separate meals. ¦ While LIVECLEAR should remain as primary diet, supplementing with occasional wet food or a treat is acceptable. Clean, fresh water should always be available. LIVECLEAR is not intended to replace other allergen-reduction strategies but to offer a meaningful extra measure that can help reduce the allergen burden in cat households.",
+   "g_day_4kg": 52.5,
+   "column": "priemer 3 kg a 5 kg (4 kg na stránke nie je)"
+  },
+  "https://www.purina.co.uk/cat/cat-food/product-proplan-renal-plus-dry-chicken": {
+   "table_raw": "Recommended daily amount (g/day) ¦ Feeding quantities required to maintain ideal body condition will vary, depending on age, activity and environment. Watch your cat's weight and adjust food amounts accordingly. Clean, fresh drinking water should always be available. Consult your veterinarian regularly to support your cat's health. ¦ Cat Weight (kg) ¦ Dry Quantity (g) ¦ Dry + Wet Quantity (g) + 1 POUCH (85g) ¦ 2 ¦ 30 ¦ 5 ¦ 3 ¦ 40 ¦ 20 ¦ 4 ¦ 55 ¦ 35 ¦ 5 ¦ 70 ¦ 50 ¦ 6 ¦ 85 ¦ 60 ¦ >6 ¦ +15 g/kg ¦ +15 g/kg",
+   "g_day_4kg": 55.0,
+   "column": "Dry Quantity (g)"
+  },
+  "https://www.purina.co.uk/cat/cat-food/product-proplan-light-dry-turkey": {
+   "table_raw": "Recommended daily amount (g/day): ¦ Feeding Guide for Weight Loss: Feeding quantities required to maintain ideal body condition will vary, depending on age, activity and environment. Watch your cat's weight and adjust food amounts accordingly. Dieting in cats should be carried out gradually. Re-evaluate your cat’s weight and body condition after several weeks. Obese cats should be referred to your veterinarian for a supervised weight loss program. Clean, fresh drinking water should always be available. For your cat’s health, consult your veterinarian regularly. ¦ Cat Weight (kg) ¦ Dry Quantity (g) ¦ Dry + Wet Quantity (g) + 1 CAN (85g) ¦ 2 ¦ 20 ¦ 5 ¦ 3 ¦ 35 ¦ 15 ¦ 4 ¦ 45 ¦ 25 ¦ 5 ¦ 55 ¦ 35 ¦ 6 ¦ 65 ¦ 45 ¦ >6 ¦ +10g/kg ¦ +10 g/kg ¦ Feeding Guide for Weight Maintenance: Feeding quantities required to maintain ideal body condition will vary, depending on age, activity and environment. Watch your cat's weight and adjust food amounts accordingly. Dieting in cats should be carried out gradually. Re-evaluate your cat’s weight and body condition after several weeks. Obese cats should be referred to your veterinarian for a supervised weight loss program. Clean, fresh drinking water should always be available. For your cat’s health, consult your veterinarian regularly. ¦ Cat Weight (kg) ¦ Dry Quantity (g) ¦ Dry + Wet Quantity (g) + 1 CAN (85g) ¦ 2 ¦ 25 ¦ 5 ¦ 3 ¦ 40 ¦ 15 ¦ 4 ¦ 55 ¦ 25 ¦ 5 ¦ 70 ¦ 35 ¦ 6 ¦ 80 ¦ 45 ¦ >6 ¦ +10g/kg ¦ +10 g/kg",
+   "g_day_4kg": 45.0,
+   "column": "Dry Quantity (g)"
+  },
+  "https://www.purina.co.uk/cat/cat-food/product-proplan-sterilised-dry-delicate-digestion-chicken": {
+   "table_raw": "Recommended daily amount (g/day): ¦ Feeding quantities required to maintain ideal body condition will vary, depending on age, activity and environment. Watch your cat's weight and adjust food amounts accordingly. Clean, fresh drinking water should always be available. Consult your veterinarian regularly to support your cat's health. ¦ Cat Weight (kg) ¦ Dry Quantity (g) ¦ Dry + Wet Quantity (g) + 1 POUCH (85g) ¦ 2 ¦ 25 ¦ 5 ¦ 3 ¦ 40 ¦ 15 ¦ 4 ¦ 55 ¦ 30 ¦ 5 ¦ 65 ¦ 45 ¦ 6 ¦ 80 ¦ 55 ¦ >6 ¦ +15 g/kg ¦ +15 g/kg",
+   "g_day_4kg": 55.0,
+   "column": "Dry Quantity (g)"
+  },
+  "https://www.purina.co.uk/cat/cat-food/product-proplan-delicate-dry-turkey": {
+   "table_raw": "Recommended daily amount (g/day): ¦ Feeding quantities required to maintain ideal body condition will vary, depending on age, activity and environment. Watch your cat's weight and adjust food amounts accordingly. Clean, fresh drinking water should always be available. Consult your veterinarian regularly to support your cat's health. ¦ Cat Weight (kg) ¦ Dry Quantity (g) ¦ Dry + Wet Quantity (g) + 1 POUCH (85g) ¦ 2 ¦ 25 ¦ 5 ¦ 3 ¦ 40 ¦ 20 ¦ 4 ¦ 55 ¦ 35 ¦ 5 ¦ 70 ¦ 50 ¦ 6 ¦ 80 ¦ 60 ¦ >6 ¦ +15 g/kg ¦ +15 g/kg",
+   "g_day_4kg": 55.0,
+   "column": "Dry Quantity (g)"
+  },
+  "https://www.purina.co.uk/cat/cat-food/product-proplan-dry-vital-functions-salmon": {
+   "table_raw": "Recommended daily amount (g/day) ¦ Feeding quantities required to maintain ideal body condition will vary, depending on age, activity and environment. Watch your cat's weight and adjust food amounts accordingly. Clean, fresh drinking water should always be available. Consult your veterinarian regularly to support your cat's health. ¦ Cat Weight (kg) ¦ Dry Quantity (g) ¦ Dry + Wet Quantity (g) + 1 POUCH (85g) ¦ 2 ¦ 30 ¦ 5 ¦ 3 ¦ 40 ¦ 20 ¦ 4 ¦ 55 ¦ 35 ¦ 5 ¦ 70 ¦ 50 ¦ 6 ¦ 85 ¦ 60 ¦ >6 ¦ +15 g/kg ¦ +15 g/kg",
+   "g_day_4kg": 55.0,
+   "column": "Dry Quantity (g)"
+  },
+  "https://www.purina.co.uk/cat/cat-food/product-proplan-sterilised-dry-vital-functions-salmon": {
+   "table_raw": "Recommended daily amount (g/day) ¦ Feeding quantities required to maintain ideal body condition will vary, depending on age, activity and environment. Watch your cat's weight and adjust food amounts accordingly. Clean, fresh drinking water should always be available. Consult your veterinarian regularly to support your cat's health. ¦ Cat Weight (kg) ¦ Dry Quantity (g) ¦ Dry + Wet Quantity (g) + 1 POUCH (85g) ¦ 2 ¦ 25 ¦ 5 ¦ 3 ¦ 40 ¦ 20 ¦ 4 ¦ 55 ¦ 30 ¦ 5 ¦ 65 ¦ 45 ¦ 6 ¦ 80 ¦ 60 ¦ >6 ¦ +15 g/kg ¦ +15 g/kg",
+   "g_day_4kg": 55.0,
+   "column": "Dry Quantity (g)"
+  },
+  "https://www.purina.co.uk/cat/cat-food/product-proplan-veterinary-diets-diabetes-management-dry": {
+   "table_raw": "Feeding guide ¦ The recommended period of use is initially up to 6 months. It is recommended that a veterinarian’s opinion be sought before use or before extending the period of use. Water should always be available. Wet formula also available. ¦ When feeding dry and wet can, for each addition of ¼ Feline DM Wet can, reduce by 10g dry kibble. ¦ WEIGHT MAINTENANCE ¦ Body weight (kg) Daily feeding quantity ¦ Dry only (g/day) Wet only (can/day) Wet only (pouch/day) Dry + can combined Dry + pouch combined ¦ Dry (g/day) Can/day Dry (g/day) Pouch/day ¦ 2 ¦ 30 ¦ 1/2 ¦ 1+1/3 ¦ 15 ¦ 1/4 ¦ 20 ¦ 1/2 ¦ 3 ¦ 40 ¦ 3/4 ¦ 2 ¦ 15 ¦ 1/2 ¦ 30 ¦ 1/2 ¦ 4 ¦ 55 ¦ 1 ¦ 2+2/3 ¦ 30 ¦ 1/2 ¦ 35 ¦ 1 ¦ 5 ¦ 70 ¦ 1+1/3 ¦ 3+1/3 ¦ 20 ¦ 1 ¦ 50 ¦ 1 ¦ 6 ¦ 80 ¦ 1+2/3 ¦ 4 ¦ 35 ¦ 1 ¦ 60 ¦ 1 ¦ 7 ¦ 95 ¦ 2 ¦ 4+3/4 ¦ 50 ¦ 1 ¦ 75 ¦ 1 ¦ 8 ¦ 105 ¦ 2+1/4 ¦ 5+1/3 ¦ 60 ¦ 1 ¦ 85 ¦ 1 ¦ ADULT WEIGHT LOSS ¦ For weight maintenance, for cats over 8kg, add 2/3 pouch per day, ¼ can or 12g dry PPVD DM™ St/Ox per each additional kg of body weight. ¦ Body weight (kg) Daily feeding quantity ¦ Dry only (g/day) Wet only (can/day) Wet only (pouch/day) Dry + can combined Dry + pouch combined ¦ Dry (g/day) Can/day Dry (g/day) Pouch/day ¦ 2 ¦ 25 ¦ 1/2 ¦ 1+1/4 ¦ 10 ¦ 1/4 ¦ 15 ¦ 1/2 ¦ 3 ¦ 35 ¦ 3/4 ¦ 1+3/4 ¦ 10 ¦ 1/2 ¦ 15 ¦ 1 ¦ 4 ¦ 50 ¦ 1 ¦ 2+1/2 ¦ 25 ¦ 1/2 ¦ 30 ¦ 1 ¦ 5 ¦ 60 ¦ 1+1/4 ¦ 3 ¦ 10 ¦ 1 ¦ 40 ¦ 1 ¦ 6 ¦ 70 ¦ 1+1/2 ¦ 3+2/3 ¦ 25 ¦ 1 ¦ 50 ¦ 1 ¦ 7 ¦ 85 ¦ 1+3/4 ¦ 4+1/4 ¦ 35 ¦ 1 ¦ 65 ¦ 1 ¦ 8 ¦ 98 ¦ 2 ¦ 4+3/4 ¦ 45 ¦ 1 ¦ 75 ¦ 1",
+   "g_day_4kg": 55.0,
+   "column": "4 kg, granule"
+  },
+  "https://www.purina.co.uk/cat/cat-food/product-proplan-veterinary-diets-gastrointestinal-dry": {
+   "table_raw": "Feeding guide ¦ Use Feline EN up to 12 weeks for absorptive intestinal disorders and until restoration is achieved for nutritional restoration and convalescence. In order to optimise digestive function the daily intake should be divided into several small meals. It is recommended that a veterinarian’s opinion be sought before use or before extending the period of use. For kitten feeding guidelines, check the daily portion calculator. Water should always be available. Wet formula also available. ¦ When feeding dry and wet can, for each addition of 1/3 Feline EN Wet can, reduce by 15g dry kibble. ¦ Body weight (kg) Daily feeding quantity ¦ Dry (g/day) Dry + can combined ¦ Dry (g/day) Can/day ¦ 2 ¦ 25 ¦ 20 ¦ 1/3 ¦ 3 ¦ 40 ¦ 30 ¦ 1/2 ¦ 4 ¦ 55 ¦ 30 ¦ 1 ¦ 5 ¦ 65 ¦ 45 ¦ 1 ¦ >5 ¦ +15 ¦ 15 ¦ 1",
+   "g_day_4kg": 55.0,
+   "column": "Dry (g/day) Dry + can combined"
+  },
+  "https://www.purina.co.uk/cat/cat-food/product-proplan-veterinary-diets-hypoallergenic-dry": {
+   "table_raw": "Feeding guide ¦ The recommended period of use is 3 to 8 weeks. If signs of intolerance disappear, this feed can be used initially up to one year. It is recommended that a veterinarian’s opinion be sought before use or before extending the period of use. For kitten feeding guidelines, check the daily portion calculator. Water should always be available. ¦ ADULT ¦ Body weight (kg) Daily feeding quantity (g/day) ¦ 2 ¦ 30 ¦ 3 ¦ 45 ¦ 4 ¦ 60 ¦ 5 ¦ 80 ¦ >5 ¦ +15 g/kg ¦ KITTEN GROWTH ¦ Age (weeks) Daily feeding quantity (g/day) ¦ 6 - 12 ¦ 25 - 80 ¦ 12 - 26 ¦ 50 - 110 ¦ 26 - 52 ¦ 110 - 55",
+   "g_day_4kg": 60.0,
+   "column": "4 kg, granule"
+  },
+  "https://www.purina.co.uk/cat/cat-food/product-proplan-veterinary-diets-hepatic-management-dry": {
+   "table_raw": "Feeding guide ¦ The recommended period of use is initially up to 4 months. It is recommended that a veterinarian’s opinion be sought before use or before extending the period of use. Water should always be available. ¦ It is recommended that a veterinarian’s opinion be sought before use. Water should always be available. ¦ Body weight (kg) Daily feeding quantity (g/day) ¦ 2 ¦ 25 ¦ 3 ¦ 40 ¦ 4 ¦ 55 ¦ 5 ¦ 65 ¦ >5 ¦ +15g",
+   "g_day_4kg": 55.0,
+   "column": "4 kg, granule"
+  },
+  "https://www.purina.co.uk/cat/cat-food/product-proplan-veterinary-diets-renal-function-dry": {
+   "table_raw": "Feeding guide ¦ The recommended period of use is initially up to 6 months, although the product can be used long term. A gradual transition to the new diet may be especially helpful in cats with CRI. Cats with CRI that remain inappetent should be assessed for nausea. Warming the product to room temperature can enhance palatability for cats with a fussy appetite. ¦ Body weight (kg) Daily feeding quantity ¦ Dry only (g/day) Can only (Cans/day) Pouch only (Pouch/day) Dry + can combined Dry + pouch combined ¦ Dry (g/day) Cans/day Dry (g/day) Pouch/day ¦ 2 ¦ 30 ¦ 1/2 ¦ 1 ¦ 10 ¦ 1/3 ¦ 10 ¦ 1/3 ¦ 3 ¦ 40 ¦ 3/4 ¦ 1+2/3 ¦ 10 ¦ 1/2 ¦ 20 ¦ 1/2 ¦ 4 ¦ 55 ¦ 1 ¦ 2+1/4 ¦ 10 ¦ 3/4 ¦ 30 ¦ 1 ¦ 5 ¦ 70 ¦ 1+1/4 ¦ 2+3/4 ¦ 15 ¦ 1 ¦ 45 ¦ 1 ¦ >5 ¦ +15/kg ¦ +1/4 can ¦ +1/2 pouch ¦ +10/kg ¦ 1 ¦ +15/kg ¦ 1",
+   "g_day_4kg": 55.0,
+   "column": "4 kg, granule"
+  },
+  "https://www.purina.co.uk/cat/cat-food/product-proplan-veterinary-diets-renal-function-early-care-dry": {
+   "table_raw": "Feeding guide ¦ The recommended period of use is initially up to 6 months, although the product can be used long term. A gradual transition to the new diet may be especially helpful in cats with CRI. Cats with CRI that remain inappetent should be assessed for nausea. Warming the ¦ product to room temperature can enhance palatability for cats with a fussy appetite. ¦ Body weight (kg) Daily feeding quantity ¦ Dry only (g/day) Dry + pouch combined ¦ Dry (g/day) Pouch/day ¦ 2 ¦ 30 ¦ 20 ¦ 1/3 ¦ 3 ¦ 45 ¦ 30 ¦ 1/2 ¦ 4 ¦ 60 ¦ 35 ¦ 1 ¦ 5 ¦ 75 ¦ 50 ¦ 1 ¦ >5 ¦ +15/kg ¦ +15/kg ¦ 1",
+   "g_day_4kg": 60.0,
+   "column": "Dry only (g/day) Dry + pouch combined"
+  },
+  "https://www.purina.co.uk/cat/cat-food/product-proplan-veterinary-diets-obesity-management-dry": {
+   "table_raw": "Feeding guide ¦ The suggested daily food intake for weight loss is based on the cat’s current weight, average caloric requirements and a desired weight loss of 1% of body weight per week. Daily food intake should be adjusted every 2-4 weeks after reweighing. PURINA PRO PLAN VETERINARY DIETS OM Obesity Management should be fed for the duration of weight loss until target weight is reached, but can also be fed long term for cats prone to weight gain using the maintenance feeding quantities to minimise the risk of rebound weight gain. ¦ It is recommended that a veterinarian’s opinion be sought before use. Clean, fresh drinking water should always be available. ¦ ON MAINTENANCE ¦ Body weight (kg) Dry only (g/day) Dry + wet combined ¦ Dry (g/day) Wet (pouches/day) ¦ 4 ¦ 45 ¦ 30 ¦ 1 ¦ 6 ¦ 70 ¦ 50 ¦ 1 ¦ 8 ¦ 95 ¦ 75 ¦ 1 ¦ 10 ¦ 115 ¦ 80 ¦ 2 ¦ >10 ¦ +15 ¦ +15 ¦ 2 ¦ ON WEIGHT LOSS ¦ Body weight (kg) Dry only (g/day) Dry + wet combined ¦ Dry (g/day) Wet (pouches/day) ¦ 4 ¦ 35 ¦ 20 ¦ 1 ¦ 6 ¦ 55 ¦ 35 ¦ 1 ¦ 8 ¦ 75 ¦ 55 ¦ 1 ¦ 10 ¦ 95 ¦ 55 ¦ 2 ¦ >10 ¦ +10 ¦ +10 ¦ 2",
+   "g_day_4kg": 45.0,
+   "column": "Body weight (kg) Dry only (g/day) Dry + wet combined"
+  },
+  "https://www.purina.co.uk/cat/cat-food/product-proplan-veterinary-diets-urinary-dry-chicken": {
+   "table_raw": "Feeding guide ¦ Recommended length of time for use for: dissolution: 5-12 weeks; reduction of recurrence: up to 6 months. Diet is suitable for long term feeding where appropriate. It is recommended that a veterinarian’s opinion be sought before use or before extending the period of use. Water should always be available. ¦ When feeding dry and wet can, for each addition of ¼ Feline UR Wet can, reduce by 10g dry kibble. ¦ Body weight (kg) Daily feeding quantity ¦ Dry (g/day) Dry + can combined ¦ Dry (g/day) Can/day ¦ 2 ¦ 30 ¦ 25 ¦ 1/3 ¦ 3 ¦ 45 ¦ 35 ¦ 1/2 ¦ 4 ¦ 60 ¦ 40 ¦ 1 ¦ 5 ¦ 75 ¦ 55 ¦ 1 ¦ >5 ¦ +15 ¦ +15 ¦ 1",
+   "g_day_4kg": 60.0,
+   "column": "Dry (g/day) Dry + can combined"
+  },
+  "https://www.purina.co.uk/cat/cat-food/product-proplan-veterinary-diets-urinary-dry-fish": {
+   "table_raw": "Feeding guide ¦ Recommended length of time for use for: dissolution: 5-12 weeks; reduction of recurrence: initially up to 6 months. Diet is suitable for long term feeding where appropriate. It is recommended that a veterinarian’s opinion be sought before use or before extending the period of use. Water should always be available. ¦ When feeding dry and wet can, for each addition of ¼ Feline UR Wet can, reduce by 10g dry kibble. ¦ Body weight (kg) Daily feeding quantity ¦ Dry (g/day) Dry + can combined ¦ Dry (g/day) Can/day ¦ 2 ¦ 30 ¦ 25 ¦ 1/3 ¦ 3 ¦ 45 ¦ 35 ¦ 1/2 ¦ 4 ¦ 60 ¦ 40 ¦ 1 ¦ 5 ¦ 75 ¦ 55 ¦ 1 ¦ >5 ¦ +15 ¦ +15 ¦ 1",
+   "g_day_4kg": 60.0,
+   "column": "Dry (g/day) Dry + can combined"
+  },
+  "https://brit.pet/sk/produkty/brit-gf-veterinary-care-cat-sterilised": {
+   "table_raw": "Hmotnosť mačky (kg) | Denná dávka (g/deň) | 2 | 50 | 3 | 55 | 4 | 60 | 5 | 75 | 6 | 80 | 8 | 90 | 10 | 100 | 12 | 110",
+   "g_day_4kg": 60.0,
+   "column": "denná dávka"
+  },
+  "https://brit.pet/sk/produkty/brit-gf-veterinary-diets-cat-calm-stress-relief": {
+   "table_raw": "Hmotnosť mačky (kg) | Denná dávka (g/deň) | 2 | 40 | 3 | 50 | 4 | 60 | 5 | 70 | 6 | 85 | 8 | 100 | 10 | 110 | 12 | 120",
+   "g_day_4kg": 60.0,
+   "column": "denná dávka"
+  },
+  "https://brit.pet/sk/produkty/brit-gf-veterinary-diets-cat-diabetes": {
+   "table_raw": "Hmotnosť mačky (kg) | Denná dávka (g/deň) | 2 | 55 | 3 | 65 | 4 | 75 | 5 | 85 | 6 | 90 | 8 | 100 | 10 | 110 | 12 | 130",
+   "g_day_4kg": 75.0,
+   "column": "denná dávka"
+  },
+  "https://brit.pet/sk/produkty/brit-gf-veterinary-diets-cat-gastrointestinal": {
+   "table_raw": "Hmotnosť mačky (kg) | Denná dávka (g/deň) | 2 | 55 | 3 | 65 | 4 | 75 | 5 | 80 | 6 | 90 | 8 | 100 | 10 | 110 | 12 | 130",
+   "g_day_4kg": 75.0,
+   "column": "denná dávka"
+  },
+  "https://brit.pet/sk/produkty/brit-gf-veterinary-diets-cat-gastrointestinal-low-fat": {
+   "table_raw": "Hmotnosť mačky (kg) | Denná dávka (g/deň) | 2 | 30 | 3 | 40 | 4 | 45 | 5 | 55 | 6 | 70 | 8 | 80 | 10 | 90 | 12 | 100",
+   "g_day_4kg": 45.0,
+   "column": "denná dávka"
+  },
+  "https://brit.pet/sk/produkty/brit-gf-veterinary-diets-cat-hypoallergenic": {
+   "table_raw": "Hmotnosť mačky (kg) | Denná dávka (g/deň) | 2 | 55 | 3 | 65 | 4 | 70 | 5 | 80 | 6 | 85 | 8 | 95 | 10 | 100 | 12 | 120",
+   "g_day_4kg": 70.0,
+   "column": "denná dávka"
+  },
+  "https://brit.pet/sk/produkty/brit-gf-veterinary-diets-cat-obesity": {
+   "table_raw": "Hmotnosť mačky (kg) | Denná dávka (g/deň) | 2 | 50 | 3 | 60 | 4 | 65 | 5 | 70 | 6 | 80 | 8 | 85 | 10 | 95 | 12 | 110",
+   "g_day_4kg": 65.0,
+   "column": "denná dávka"
+  },
+  "https://brit.pet/sk/produkty/brit-gf-veterinary-diets-cat-renal": {
+   "table_raw": "Hmotnosť mačky (kg) | Denná dávka (g/deň) | 2 | 55 | 3 | 65 | 4 | 75 | 5 | 80 | 6 | 85 | 8 | 95 | 10 | 105 | 12 | 120",
+   "g_day_4kg": 75.0,
+   "column": "denná dávka"
+  },
+  "https://brit.pet/sk/produkty/brit-gf-veterinary-diets-cat-struvite": {
+   "table_raw": "Hmotnosť mačky (kg) | Denná dávka (g/deň) | 2 | 55 | 3 | 65 | 4 | 75 | 5 | 80 | 6 | 90 | 8 | 100 | 10 | 110 | 12 | 130",
+   "g_day_4kg": 75.0,
+   "column": "denná dávka"
+  },
+  "https://brit.pet/sk/produkty/brit-gf-veterinary-diets-cat-ultra-hypoallergenic": {
+   "table_raw": "Hmotnosť mačky (kg) | Denná dávka (g/deň) | 2 | 50 | 3 | 55 | 4 | 60 | 5 | 75 | 6 | 80 | 8 | 90 | 10 | 100 | 12 | 110",
+   "g_day_4kg": 60.0,
+   "column": "denná dávka"
+  },
+  "https://brit.pet/sk/produkty/brit-grain-free-vd-cat-gastrointestinal-high-fibre": {
+   "table_raw": "Hmotnosť mačky (kg) | Denná dávka (g/deň) | 2 | 35 | 3 | 50 | 4 | 60 | 5 | 70 | 6 | 80 | 8 | 95 | 10 | 110 | 12 | 120",
+   "g_day_4kg": 60.0,
+   "column": "denná dávka"
+  },
+  "https://sk.virbac.com/produkty/advanced-kidney-joint-kj3-cat-granule-pre-macky-s-chronickym-zlyhanim-obliciek-a-na-podporu-klbov": {
+   "table_raw": "",
+   "g_day_4kg": null,
+   "column": "tabuľka sa nenašla"
+  },
+  "https://sk.virbac.com/produkty/dermatology-support-d1-cat-granule-pre-macky-na-zdravu-kozu-a-srst": {
+   "table_raw": "",
+   "g_day_4kg": null,
+   "column": "tabuľka sa nenašla"
+  },
+  "https://sk.virbac.com/produkty/early-kidney-joint-kj1-cat-granule-pre-macky-na-podporu-obliciek-a-klbov": {
+   "table_raw": "",
+   "g_day_4kg": null,
+   "column": "tabuľka sa nenašla"
+  },
+  "https://sk.virbac.com/produkty/hpm-diet-cat-w2-weight-loss-control": {
+   "table_raw": "",
+   "g_day_4kg": null,
+   "column": "tabuľka sa nenašla"
+  },
+  "https://sk.virbac.com/produkty/kidney-joint-kj2-cat-granule-pre-macky-s-ochorenim-obliciek-a-na-podporu-klbov": {
+   "table_raw": "",
+   "g_day_4kg": null,
+   "column": "tabuľka sa nenašla"
+  },
+  "https://sk.virbac.com/produkty/urology-dissolution-prevention-u2-cat-granule-pre-macky-na-mocove-kamene-struvity-a-oxalaty": {
+   "table_raw": "",
+   "g_day_4kg": null,
+   "column": "tabuľka sa nenašla"
+  },
+  "https://sk.virbac.com/produkty/urology-struvite-dissolution-u1-cat-granule-pre-macky-na-mocove-kamene-struvity": {
+   "table_raw": "",
+   "g_day_4kg": null,
+   "column": "tabuľka sa nenašla"
+  },
+  "https://sk.virbac.com/produkty/urology-water-intake-behaviour-u3-cat-granule-pre-macky-na-prevenciu-mocovych-kamenov": {
+   "table_raw": "",
+   "g_day_4kg": null,
+   "column": "tabuľka sa nenašla"
+  },
+  "https://sk.virbac.com/produkty/weight-loss-diabetes-w1-cat-granule-pre-macky-s-obezitou-30-a-cukrovkou": {
+   "table_raw": "",
+   "g_day_4kg": null,
+   "column": "tabuľka sa nenašla"
+  },
+  "https://www.trovet.com/en/product/urinary-calm-cat/": {
+   "table_raw": "Body weight (kg) | 2 | 3 | 4 | 5 | 6 | 7 ¦ Grams) | 45 | 55 | 70 | 80 | 90 | 100",
+   "g_day_4kg": 70.0,
+   "column": "Grams)"
+  },
+  "https://www.trovet.com/product/hepatic-cat/": {
+   "table_raw": "Body weight (kg) | 2 | 3 | 4 | 5 | 6 ¦ Min (grams) | 35 | 45 | 50 | 60 | 70 ¦ Max (grams) | 40 | 55 | 60 | 75 | 80",
+   "g_day_4kg": 50.0,
+   "column": "Min (grams)"
+  },
+  "https://www.trovet.com/product/hypoallergenic-insect-cat/": {
+   "table_raw": "Body weight (kg) | 2 | 3 | 4 | 5 | 6 ¦ Min (grams) | 35 | 45 | 55 | 65 | 70 ¦ Max (grams) | 40 | 55 | 65 | 75 | 85",
+   "g_day_4kg": 55.0,
+   "column": "Min (grams)"
+  },
+  "https://www.trovet.com/product/hypoallergenic-lamb-cat/": {
+   "table_raw": "Body weight (kg) | 2 | 3 | 4 | 5 | 6 ¦ Min (grams) | 35 | 45 | 50 | 60 | 70 ¦ Max (grams) | 40 | 55 | 60 | 75 | 80",
+   "g_day_4kg": 50.0,
+   "column": "Min (grams)"
+  },
+  "https://www.trovet.com/product/hypoallergenic-rabbit-cat/": {
+   "table_raw": "Body weight (kg) | 2 | 3 | 4 | 5 | 6 | 7 ¦ Grams | 40 | 50 | 60 | 70 | 80 | 90",
+   "g_day_4kg": 60.0,
+   "column": "Grams"
+  },
+  "https://www.trovet.com/product/intestinal-cat/": {
+   "table_raw": "Body weight (kg) | 2 | 3 | 4 | 5 | 6 | 7 ¦ Grams | 40 | 50 | 60 | 70 | 80 | 90",
+   "g_day_4kg": 60.0,
+   "column": "Grams"
+  },
+  "https://www.trovet.com/product/renal-oxalate-cat/": {
+   "table_raw": "Body weight (kg) | 2 | 3 | 4 | 5 | 6 | 7 ¦ Grams | 40 | 50 | 60 | 70 | 80 | 85",
+   "g_day_4kg": 60.0,
+   "column": "Grams"
+  },
+  "https://www.trovet.com/product/urinary-struvite-cat/": {
+   "table_raw": "Body weight (kg) | 2 | 3 | 4 | 5 | 6 | 7 ¦ Grams | 40 | 50 | 60 | 70 | 80 | 85",
+   "g_day_4kg": 60.0,
+   "column": "Grams"
+  },
+  "https://www.trovet.com/product/weight-diabetic-cat/": {
+   "table_raw": " | 15 - 30% obesity |  |  | >30% obesity |  ¦  | grams per day |  |  | grams per day ¦ Target body weight (kg) | min | max |  | min | max ¦ 2 | 25 | 25 |  | 30 | 35 ¦ 3 | 30 | 35 |  | 40 | 50 ¦ 4 | 35 | 45 |  | 45 | 55 ¦ 5 | 40 | 50 |  | 55 | 65 ¦ 6 | 45 | 55 |  | 60 | 75 ¦ 7 | 50 | 65 |  | 65 | 85",
+   "g_day_4kg": null,
+   "column": ""
+  }
+ }
+}

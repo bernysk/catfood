@@ -283,7 +283,8 @@ def eminent(existing):
                         f"Načítané vstavaným prehliadačom ({d['fetched_at']}): text zo stránky výrobcu; analytické hodnoty "
                         "a energia z PDF tabuľky výrobcu odkázanej z produktovej stránky. Sodík, draslík, horčík a vlhkosť výrobca neuvádza.",
                         statement_raw=r.get("statement_raw", ""), purpose_raw=r.get("purpose_raw", ""),
-                        period_raw=r.get("period_raw", ""), sizes=r.get("sizes", [])))
+                        period_raw=r.get("period_raw", ""), sizes=r.get("sizes", []),
+                        vitamins_total=True))   # PDF "Obsah látek" = content, not added amount
     return out
 
 

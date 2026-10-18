@@ -7,7 +7,7 @@ zo stránok výrobcov a pri každom produkte je uložený pôvodný text etikety
 
 | Prieskum | Priečinok | Stav |
 |---|---|---|
-| **Mokré krmivo (kapsičky)** — 156 produktov, 16 značiek, rámec A–E | [`mokre-krmivo/`](./mokre-krmivo/) · [tabuľka](https://bernysk.github.io/catfood/mokre-krmivo/) | v4.4, október 2026 |
+| **Mokré krmivo (kapsičky)** — 171 produktov, 16 značiek, rámec A–E | [`mokre-krmivo/`](./mokre-krmivo/) · [tabuľka](https://bernysk.github.io/catfood/mokre-krmivo/) | v4.5, október 2026 |
 | **Granule: veterinárne diéty a Pro Plan** — 164 granúl (GI diéty ručne overené; všetky suché veterinárne diéty 9 výrobcov dostupných na SK/CZ a všetky granule Pro Plan CZ/SK/UK), na 1000 kcal, bez známky | [`granule/`](./granule/) · [tabuľka](https://bernysk.github.io/catfood/granule/) | v1.3, október 2026 |
 
 Každý prieskum má vlastné surové dáta, skripty, dokument aj tabuľku, aby sa nepomiešali.

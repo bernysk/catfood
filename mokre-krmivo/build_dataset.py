@@ -8,6 +8,8 @@ import json, re, glob, os, sys
 sys.stdout.reconfigure(encoding="utf-8")
 
 RAW_DIR = os.path.join(os.path.dirname(__file__), "raw_data")
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "granule"))
+import nutrients_extra as nx  # omega-3, EPA+DHA, vitamin D3 vs. EU 2017/1492 maximum (shared with granule/)
 OUT = os.path.join(os.path.dirname(__file__), "dataset.json")
 
 def num(s):
@@ -17,7 +19,7 @@ def num(s):
 MINMAX = r"(?:\((?:min|max)\.?\)\s*)?"
 LABELS = {
     "protein":  r"(?:hrub[ýé]\s+)?(?:prote[ií]n|b[íi]lkoviny|bielkoviny|dus[íi]kat[ée]\s+l[áa]tky|crude\s+protein|rohprotein)",
-    "fat":      r"(?:hrub[ýé]\s+|crude\s+)?(?:tuk\w*|fat(?:\s+content)?|oleje\s+a\s+tuky|obsah\s+tuk\w*|fettgehalt|rohfett)",
+    "fat":      r"(?:hrub[ýé]\s+|crude\s+)?(?:tuky\s+a\s+oleje|tuk\w*|fat(?:\s+content)?|oleje\s+a\s+tuky|obsah\s+tuk\w*|fettgehalt|rohfett)",
     "fiber":    r"(?:hrub[áé]\s+|crude\s+)?(?:vl[áa]knin\w*|fib(?:re|er)s?|rohfaser)",
     "ash":      r"(?:hrub[ýé]\s+|crude\s+)?(?:pop[oe]?l|ash|inorganic\s+matter|anorganick\w+\s+l[áa]t\w*|rohasche)",
     "moisture": r"(?:vlhkos[tť][i]?|moisture(?:\s+content)?|feuchte)",
@@ -59,7 +61,7 @@ def parse_taurine(*texts):
             return num(m.group(1).replace(" ", ""))
         # Ontario declares it inside the composition: "taurin 0,08 %" = 800 mg/kg
         # (number must follow directly, or a neighbouring ingredient's % is read)
-        m = re.search(r"taur[íi]n\w*\s+(\d+[.,]\d+)\s*%", t, re.IGNORECASE)
+        m = re.search(r"taur[íi]n\w*(?:\s*\(celkovo\))?\s*:?\s+(\d+[.,]\d+)\s*%", t, re.IGNORECASE)   # RC S/O Loaf: "Taurín (Celkovo): 0.1%"
         if m:
             return round(num(m.group(1)) * 10000)
     return None
@@ -188,7 +190,7 @@ for path in sorted(glob.glob(os.path.join(RAW_DIR, "*.json"))):
                     "dm_unreliable": dm <= 15.0,
                 }
         energy = parse_energy(p.get("energy_value_raw", "") or an_raw)
-        taur = parse_taurine(add_raw, comp)
+        taur = parse_taurine(add_raw, comp, an_raw)   # RC S/O Loaf declares total taurine only among the analytical constituents
         # FEDIAF taurine minima are expressed on dry matter; as-fed values on a
         # ~80% moisture wet food must be divided by DM to be comparable.
         taur_dm = None
@@ -221,6 +223,19 @@ for path in sorted(glob.glob(os.path.join(RAW_DIR, "*.json"))):
             "completeness_source": compl_stmt,
             "notes": p.get("fetch_notes", ""),
         })
+        # informative only, not scored: vitamin D3 on the regulation's 12 % moisture
+        # basis (a wet food at 80 % moisture is multiplied by 88/20 = 4.4) and omega-3
+        r = rows[-1]
+        d3, kind = nx.vitamin_d3(an_raw, add_raw)
+        r["vit_d3_iu_kg"], r["vit_d3_kind"] = d3, kind
+        r["vit_d3_iu_kg_12"] = nx.d3_at_12(d3, an.get("moisture"))
+        r["vit_d3_over_eu"] = None if r["vit_d3_iu_kg_12"] is None else r["vit_d3_iu_kg_12"] > nx.EU_D3_MAX_12
+        o3 = nx.omega3_pct(an_raw)
+        ed, ed_how = nx.epa_dha_pct(an_raw)
+        dm = derived.get("dm")
+        r["omega3_pct_dm"] = round(o3 / dm * 100, 2) if (o3 is not None and dm) else None
+        r["epa_dha_pct_dm"] = round(ed / dm * 100, 2) if (ed is not None and dm) else None
+        r["epa_dha_declared"] = ed_how
 
 # --- scoring (branched sub-scores 0-2) --------------------------------------
 def score(r):

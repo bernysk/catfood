@@ -103,7 +103,10 @@
     "Kompletné diétne krmivo pre mačky": "kompletné",
     "Kompletné diétne krmivo pre dospelé mačky": "kompletné",
     "Kompletné diétne krmivo pre mačky – špeciálne pre mačatá": "kompletné",
-    "Kompletné diétne krmivo pre dospelé mačky a mačiatka určené na zníženie porúch črevného vstrebávania a na výživu na zotavenie a rekonvalescenciu.": "kompletné"
+    "Kompletné diétne krmivo pre dospelé mačky a mačiatka určené na zníženie porúch črevného vstrebávania a na výživu na zotavenie a rekonvalescenciu.": "kompletné",
+    "Kompletné krmivo pre dospelé stárnúce mačky od 7 rokov veku": "kompletné",
+    "Kompletné krmivo pre dospelé kastrované mačky nebo se sklonom k nadváhe - od kastrácie do 7 let": "kompletné",
+    "kompletní dietetické krmivo pro kočky určené pro rozpouštění a snížení recidivy tvorby struvitových kamenů": "kompletné"
   },
   "_notes": {
     "Complete food for adult cats (not explicitly labeled complementary)": "Negácia — veta hovorí, že produkt NIE JE označený ako doplnkový. Regex tu videl slovo 'complementary' a otočil význam.",

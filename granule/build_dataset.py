@@ -18,6 +18,7 @@ RAW = json.load(open(os.path.join(HERE, "raw_data", "gi_dry.json"), encoding="ut
 ASSUMED_MOISTURE = 8.0
 sys.path.insert(0, HERE)
 import scraped  # Pro Plan, Royal Canin, Hill's, Brit, Farmina, Calibra, Virbac, Trovet pages
+import nutrients_extra as nx  # omega-3, EPA+DHA, vitamin D3 (EU 2017/1492 maximum)
 SCRAPED, SCRAPE_FAILED = scraped.load({p["url"] for p in RAW["products"]})
 PRODUCTS = RAW["products"] + SCRAPED
 
@@ -173,6 +174,7 @@ for p in PRODUCTS:
         "composition_raw": p["composition_raw"], "analytical_raw": p["analytical_raw"],
         "additives_raw": p["additives_raw"], "typical_raw": p.get("typical_raw", ""),
         "notes": p["fetch_notes"], "auto": bool(p.get("auto")),
+        "vitamins_total": bool(p.get("vitamins_total")),
     }
     pk = r["per_1000kcal"]
     r["eu20_electrolytes"] = (None if ("na" not in an or "k" not in an)
@@ -216,10 +218,50 @@ for g in groups.values():
             x["per_1000kcal"] = {k: (round(a[k] * 10 * 1000 / me, 2) if k in a else None)
                                  for k in ("protein", "fat", "fiber", "ash", "ca", "p", "na", "k", "mg")}
 
+# Omega-3 / EPA+DHA per 1000 kcal and vitamin D3 vs. the EU maximum — after the
+# energy borrowing above, so the per-1000-kcal figures use the final energy.
+for x in rows:
+    me = x["me_kcal_kg"]
+    o3 = nx.omega3_pct(x["analytical_raw"])
+    ed, ed_how = nx.epa_dha_pct(x["analytical_raw"])
+    x["omega3_g_1000kcal"] = round(o3 * 10000 / me, 2) if (o3 is not None and me) else None
+    x["epa_dha_g_1000kcal"] = round(ed * 10000 / me, 2) if (ed is not None and me) else None
+    x["epa_dha_declared"] = ed_how
+    d3, kind = nx.vitamin_d3(x["analytical_raw"], x["additives_raw"], x["typical_raw"])
+    if d3 is not None and x.pop("vitamins_total"):
+        kind = "celkový"
+    x.pop("vitamins_total", None)
+    x["vit_d3_iu_kg"], x["vit_d3_kind"] = d3, kind
+    x["vit_d3_iu_kg_12"] = nx.d3_at_12(d3, x["moisture_used"])
+    x["vit_d3_over_eu"] = None if x["vit_d3_iu_kg_12"] is None else x["vit_d3_iu_kg_12"] > nx.EU_D3_MAX_12
+
+# Feeding tables: grams/day for a 4 kg adult cat x energy = kcal/day the manufacturer
+# recommends, compared with FEDIAF 2025 maintenance energy (75 x BW^0.67 kcal for an
+# indoor/neutered cat = 190 kcal; 100 x BW^0.67 for a lean active cat = 253 kcal).
+FEED = {}
+for fn in ("feeding_browser.json", "feeding_scripted.json"):
+    fp = os.path.join(HERE, "raw_data", fn)
+    if os.path.exists(fp):
+        for u, v in json.load(open(fp, encoding="utf-8"))["products"].items():
+            if v.get("g_day_4kg") is not None or u not in FEED:   # a failed re-fetch must not erase a value
+                FEED[u] = v
+MER_NEUTERED_4KG = round(75 * 4 ** 0.67)
+MER_ACTIVE_4KG = round(100 * 4 ** 0.67)
+for x in rows:
+    f = FEED.get(x["url"]) or {}
+    g = f.get("g_day_4kg")
+    x["feed_g_day_4kg"] = g
+    x["feed_column"] = f.get("column")
+    x["feed_table_raw"] = f.get("table_raw", "")
+    x["feed_kcal_day_4kg"] = round(g * x["me_kcal_kg"] / 1000) if (g and x["me_kcal_kg"]) else None
+    x["feed_vs_neutered_pct"] = (round(x["feed_kcal_day_4kg"] / MER_NEUTERED_4KG * 100)
+                                 if x["feed_kcal_day_4kg"] else None)
+
 not_included = dict(RAW.get("not_included", {}))
 for mk, urls in SCRAPE_FAILED.items():
     not_included[f"Pro Plan {mk} ({len(urls)} stránok)"] = "Stránka výrobcu vrátila chybu: " + "; ".join(sorted(set(urls)))
 payload = {"generated": RAW["fetched_at"], "count": len(rows), "products": rows,
+           "mer_4kg": {"neutered_indoor": MER_NEUTERED_4KG, "active": MER_ACTIVE_4KG},
            "not_included": not_included}
 with open(os.path.join(HERE, "dataset.json"), "w", encoding="utf-8") as f:
     json.dump(payload, f, ensure_ascii=False, indent=1)

@@ -1,6 +1,6 @@
 # Mokré krmivo pre mačky — dátový prieskum
 
-**156 produktov · 16 značiek · dáta priamo zo stránok výrobcov · v4.4, október 2026**
+**171 produktov · 16 značiek · dáta priamo zo stránok výrobcov · v4.5, október 2026**
 
 Nutričné porovnanie kapsičkového mokrého krmiva pre mačky na SK/CZ trhu. Všetky hodnoty
 sú stiahnuté z oficiálnych stránok výrobcov, prepočítané na sušinu a ohodnotené
@@ -28,15 +28,15 @@ jednotným rámcom A–E.
 | Meowing Heads | 4 | 79,0 | – | 4 | – | – | – |
 | CarniLove | 12 | 78,7 | 5 | 6 | 1 | – | – |
 | Brit Premium | 23 | 77,4 | 9 | 10 | 4 | – | – |
-| Farmina | 1 | 75,0 | – | 1 | – | – | – |
+| Farmina | 2 | 75,0 | – | 2 | – | – | – |
 | Brit Care | 31 | 71,8 | 5 | 18 | 6 | 2 | – |
 | Stuzzy | 3 | 69,0 | – | 2 | 1 | – | – |
 | Sheba | 14 | 63,0 | – | 2 | 12 | – | – |
 | Ontario | 9 | 62,2 | – | 2 | 7 | – | – |
-| Royal Canin | 8 | 60,2 | – | 1 | 7 | – | – |
 | Almo Nature | 1 | 57,0 | – | – | 1 | – | – |
 | Kattovit | 1 | 57,0 | – | – | 1 | – | – |
 | Purina Pro Plan | 17 | 56,4 | – | 1 | 13 | 2 | 1 |
+| Royal Canin | 22 | 49,9 | – | 1 | 14 | 3 | 4 |
 
 Priemer značky s malým počtom položiek nie je spoľahlivý a veterinárne diéty sú v tomto
 rámci systémovo znevýhodnené — vysvetlenie v [časti 5 dokumentu](./Prieskum_mokre_krmivo_macky.md#5).
@@ -111,6 +111,9 @@ bez opätovného sťahovania.
   Fibre Response a Moderate Calorie kapsičky, RC Gastrointestinal Kitten konzerva,
   Pro Plan VD EN konzerva 195 g) — všetky C; opravený parser podielu mäsa („elk“ v slove
   „bielkovín“).
+- **v4.5 (október 2026):** ďalších 15 mokrých veterinárnych diét (všetky mokré diéty Royal Canin
+  zo SK stránky + Farmina Struvite Management konzerva); informatívne polia vitamín D3 (vs. limit EÚ)
+  a omega-3 — žiadny produkt limit D3 neprekračuje.
 
 Nájdené chyby v parsovaní aj nezrovnalosti priamo na stránkach výrobcov sú
 zdokumentované v [dokumente](./Prieskum_mokre_krmivo_macky.md) a v poliach `fetch_notes`

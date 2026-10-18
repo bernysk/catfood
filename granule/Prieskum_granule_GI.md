@@ -1,6 +1,6 @@
 # Granule pre mačky: gastrointestinálne diéty (SK/CZ)
 
-**Verzia 1.3 · október 2026 · 164 granúl: 19 ručne overených (GI diéty a porovnanie, [časti 4.1–4.2](#4)) + 145 automaticky stiahnutých zo stránok výrobcov — všetky suché veterinárne diéty Royal Canin, Hill's, Brit, Farmina, Calibra, Virbac HPM, Trovet a Eminent a všetky granule Pro Plan / Pro Plan Veterinary Diets z CZ, SK a UK ([časti 4.3–4.4](#4))**
+**Verzia 1.4 · október 2026 · 164 granúl: 19 ručne overených (GI diéty a porovnanie, [časti 4.1–4.2](#4)) + 145 automaticky stiahnutých zo stránok výrobcov — všetky suché veterinárne diéty Royal Canin, Hill's, Brit, Farmina, Calibra, Virbac HPM, Trovet a Eminent a všetky granule Pro Plan / Pro Plan Veterinary Diets z CZ, SK a UK ([časti 4.3–4.4](#4))**
 
 > **Čo toto je.** Osobný prieskum suchých krmív na tráviace problémy, zostavený s pomocou AI (Claude, Anthropic). Všetky údaje sú doslovne prevzaté zo stránok výrobcov a uložené v [`raw_data/`](raw_data/) (ručne overené v `gi_dry.json`); prepočty robí [`build_dataset.py`](build_dataset.py).
 >
@@ -266,6 +266,49 @@ Verzia 1.3 dopĺňa **všetky suché veterinárne diéty pre mačky** ďalších
 - **Hill's** uvádza energiu na etikete len pri 7 z 21 diét; pri ostatných je použitý „priemerný obsah“ z tabuľky výrobcu na tej istej stránke (zdroj je pri každom produkte v detaile). Pri m/d je energia na etikete v MJ/kg (16,5 MJ/kg = 3 944 kcal/kg).
 - Kontrola elektrolytov podľa nariadenia EÚ 2020/354, položky 20 (Na ≥ 0,18 %, K ≥ 0,5 %), platí len pre GI diéty. Pri iných diétach sa v tabuľke zobrazuje iba informatívne — napr. Brit Struvite má draslík 0,45 %, čo pre močovú diétu nie je chyba.
 
+### 4.5 Omega-3, vitamín D3 a odporúčané denné dávky (vydolované z už stiahnutých stránok)
+
+Nové stĺpce tabuľky; čísla sú z etikiet a kŕmnych tabuliek výrobcov, výpočet v [`nutrients_extra.py`](nutrients_extra.py) a [`build_dataset.py`](build_dataset.py).
+
+**Omega-3 a EPA+DHA v renálnych diétach (g/1000 kcal).** Pri chronickom ochorení obličiek sú omega-3 (hlavne EPA+DHA z rybieho oleja) jednou z mála zložiek diéty s podporou v štúdiách. Deklaruje ich 80 zo 164 granúl (EPA+DHA 35).
+
+| Diéta | Omega-3 | EPA+DHA |
+|---|---:|---:|
+| RC Early Renal | – | 2,20 |
+| RC CA Early Renal – Mobility / CA Renal – Mobility | 3,44 / 3,14 | 2,05 / 2,04 (EPA a DHA zvlášť, súčet) |
+| Pro Plan NF Advanced Care | 1,98 | 1,49 |
+| RC Renal / Renal Special / Renal Select / CA Renal-Hypoallergenic | – | 1,00–1,13 |
+| Virbac KJ1 / KJ2 / KJ3 | 3,6–3,9 | len DHA: 0,96–1,04 |
+| Hill's k/d + Mobility | 3,11 | len DHA: 0,77 |
+| Hill's k/d, k/d Early Stage | 1,90 / 2,14 | – |
+| Calibra Renal & Cardiac | 2,81 | – |
+| Brit Renal | 1,88 | – |
+| Farmina Renal | 1,41 | 0,59 (EPA a DHA zvlášť, súčet) |
+| Pro Plan NF Early Care | 0,79 | – |
+| Trovet Renal & Oxalate, Eminent Renal/Urinary | neuvedené | neuvedené |
+
+**Vitamín D3 a limit EÚ.** Nariadenie (EÚ) 2017/1492 (doplnková látka 3a671) povoľuje pre mačky („ostatné druhy“) najviac **2 000 IU vitamínu D3 na kg kompletného krmiva pri 12 % vlhkosti**. Prepočet: IU/kg × 88 / (100 − vlhkosť). D3 uvádza 163 zo 164 granúl; väčšina výrobcov uvádza len **pridaný** D3 (celkový obsah je vyšší), Hill's, Calibra, Trovet a Eminent celkový obsah.
+- **Eminent Diet Cat Gastrointestinal Hypoallergenic/Hepatic: 2 500 IU/kg** (celkový obsah z tabuľky výrobcu) = **≈ 2 390 IU/kg pri 12 % vlhkosti** (vlhkosť výrobca neuvádza, použitý predpoklad 8 %) — **nad limitom**. Eminent Renal/Urinary a Struvite (2 000 IU/kg) a Trovet IRD (2 000 IU/kg) sú tesne pod ním.
+- Ostatné granuly majú 300–1 700 IU/kg; najnižšie Trovet Urinary Struvite (300) a Hill's w/d (467).
+- Hodnota v tabuľke výrobcu je deklarovaná, nie nameraná; zistenie je dôvod overiť si to u výrobcu, nie dôkaz porušenia.
+
+**Odporúčané denné dávky pre 4 kg dospelú mačku.** Gramy z kŕmnej tabuľky výrobcu × energia = kcal/deň. Porovnanie s FEDIAF 2025: kastrovaná mačka v interiéri 75 × 4^0,67 ≈ **190 kcal**, aktívna štíhla 100 × 4^0,67 ≈ **253 kcal**. Do porovnania nevstupujú diéty na chudnutie, Light, rastové tabuľky a stĺpce „úbytek/redukčné“ (84 granúl).
+
+| Výrobca | n | kcal/deň — medián (rozsah) | % z 190 kcal |
+|---|---:|---|---:|
+| Brit | 10 | 252 (157–300) | 133 % |
+| Eminent | 3 | 250 (213–259) | 132 % |
+| Calibra | 4 | 246 (225–270) | 130 % |
+| Trovet | 8 | 245 (184–260) | 129 % |
+| Hill's | 17 | 232 (229–246) | 122 % |
+| Purina Pro Plan | 35 | 220 (192–249) | 116 % |
+| Virbac | 7 | 168 (165–192) | 88 % |
+
+- Medián všetkých je **229 kcal/deň = 120 %** potreby kastrovanej mačky v interiéri; 11 diét (Brit Renal 300 kcal, GI, Struvite, Diabetes, Hypoallergenic, Calibra GI a Diabetes, Trovet RID, ASD a UCD, Eminent Renal) odporúča viac než potrebuje aktívna mačka.
+- Vysoká dávka pri renálnych a GI diétach môže byť zámer (choré mačky často chudnú), no kastrovaná mačka v byte na nej priberie. Tabuľka výrobcu je štartovací bod — dávku treba upravovať podľa hmotnosti a kondície.
+- **Ten istý Pro Plan VD má na CZ stránke o 5 g vyššiu dávku než na UK** pri rovnakých deklarovaných hodnotách: EN 60 vs 55 g, UR 65 vs 60 g, HA 65 vs 60 g, NF Early Care 65 vs 60 g. Pri DM je na CZ stránke len tabuľka na chudnutie (45 g), na UK udržiavacia (55 g).
+- Royal Canin na stránke tabuľku nemá („uvedené v tabuľke“ = na obale), Farmina ju ponúka len ako súbor na stiahnutie; SK stránky Pro Plan VD tabuľku v texte neuvádzajú. Tabuľky: `raw_data/feeding_browser.json` (Hill's, Calibra, Eminent, Virbac) a `raw_data/feeding_scripted.json` ([`scrape_feeding.py`](scrape_feeding.py): Brit, Trovet, Pro Plan).
+
 ---
 
 <a id="5"></a>
@@ -335,6 +378,7 @@ Pre dve adoptované mačky s citlivým trávením (všeobecný postup, nie diagn
 7. **Rozsah:** ručne overené sú GI diéty a porovnanie v časti 4.2; ostatné veterinárne diéty (8 výrobcov) sú automaticky stiahnuté (časti 4.3–4.4). Chýbajú výrobcovia bez stránky s etiketou (Specific, Josera Help, Monge VetSolution) a mokré diéty. Trovet je z anglickej stránky výrobcu — zloženie pre SK/CZ trh sa môže líšiť.
 8. **Automaticky stiahnuté produkty** (štítok „auto“) neprešli čítaním s porozumením: kategória je z názvu, druhy vlákniny z kľúčových slov a zdroje bielkovín nie sú určené. Číselné údaje sú doslovne zo stránky výrobcu (pri Virbac je % doplnené podľa hlavičky stĺpca tabuľky).
 9. **Kontrola elektrolytov EÚ 2020/354 (položka 20)** sa vzťahuje len na GI diéty; pri ostatných kategóriách je v tabuľke len informatívna.
+10. **Vitamín D3** je väčšinou len pridané množstvo (celkový obsah je vyšší) a pri granulách bez deklarovanej vlhkosti sa na 12 % prepočítava s predpokladom 8 %. **Kŕmne dávky** sú pre 4 kg mačku; pri tabuľkách s viacerými stĺpcami sa berie udržiavací stĺpec.
 
 ---
 
